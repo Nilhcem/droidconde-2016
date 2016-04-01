@@ -9,13 +9,17 @@ mainClassName = 'com.nilhcem.devoxxfr.scraper.AppKt'
 defaultTasks 'run'
 
 buildscript {
-    ext.kotlinVersion = '1.0.1'
+    ext.kotlinVersion = '1.0.1-2'
     repositories {
         mavenCentral()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
+}
+
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
 }
 
 dependencies {
