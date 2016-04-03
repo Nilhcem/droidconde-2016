@@ -22,6 +22,12 @@ sourceSets {
     main.java.srcDirs += 'src/main/kotlin'
 }
 
+ext.retrofitVersion = '2.0.1'
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
 }
