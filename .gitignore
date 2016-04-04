@@ -47,3 +47,6 @@ Thumbs.db
 
 # NodeJS modules
 node_modules/
+
+# Output directory
+output
