@@ -29,7 +29,7 @@ interface DevoxxApi {
     fun getScheduleForDay(@Path("day") day: String): Call<ScheduleDay>
 
     @GET("speakers")
-    fun getSpeakersUUID(): Call<MutableList<SpeakerUUID>>
+    fun getSpeakersUUID(): Call<List<SpeakerUUID>>
 
     @GET("speakers/{uuid}")
     fun getSpeakerDetails(@Path("uuid") uuid: String): Call<Speaker>
