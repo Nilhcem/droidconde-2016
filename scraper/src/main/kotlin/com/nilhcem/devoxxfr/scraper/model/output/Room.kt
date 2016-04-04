@@ -1,6 +1,6 @@
 package com.nilhcem.devoxxfr.scraper.model.output
 
-enum class Room(val id: Int, val devoxxid: String, val roomName: String) {
+enum class Room(val id: Int, val devoxxId: String, val roomName: String) {
 
     EXHIBITION_FLOOR(1, "a_hall", "Exhibition floor"),
     OPEN_DATA_CAMP(2, "x_hall_a", "Open Data Camp"),
@@ -19,5 +19,9 @@ enum class Room(val id: Int, val devoxxid: String, val roomName: String) {
     PARIS_221M_222M_LAB(15, "par221M-222M", "Paris 221M-222M Lab"),
     PARIS_224M_225M_LAB(16, "par224M-225M", "Paris 224M-225M Lab"),
     PARIS_204(17, "par204", "Paris 204"),
-    PARIS_201(18, "par201", "Paris 201")
+    PARIS_201(18, "par201", "Paris 201");
+
+    companion object {
+        fun getRoomId(devoxxId: String) = Room.values().filter { devoxxId == it.devoxxId }.map { it.id }.firstOrNull()
+    }
 }
