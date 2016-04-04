@@ -15,12 +15,13 @@ interface DevoxxApi {
 
     companion object {
         private val ENDPOINT = "https://cfp.devoxx.fr/api/conferences/devoxxFR2016/"
-        private val MOSHI = MoshiConverterFactory.create(Moshi.Builder().build())
+
+        val MOSHI = Moshi.Builder().build()
 
         val SERVICE = Retrofit.Builder()
                 .client(OkHttpClient())
                 .baseUrl(ENDPOINT)
-                .addConverterFactory(MOSHI)
+                .addConverterFactory(MoshiConverterFactory.create(MOSHI))
                 .build()
                 .create(DevoxxApi::class.java)
     }
