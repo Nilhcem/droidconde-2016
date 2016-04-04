@@ -19,9 +19,10 @@ enum class Room(val id: Int, val devoxxId: String, val roomName: String) {
     PARIS_221M_222M_LAB(15, "par221M-222M", "Paris 221M-222M Lab"),
     PARIS_224M_225M_LAB(16, "par224M-225M", "Paris 224M-225M Lab"),
     PARIS_204(17, "par204", "Paris 204"),
-    PARIS_201(18, "par201", "Paris 201");
+    PARIS_201(18, "par201", "Paris 201"),
+    UNKNOWN(0, "", "");
 
     companion object {
-        fun getRoomId(devoxxId: String) = Room.values().filter { devoxxId == it.devoxxId }.map { it.id }.firstOrNull()
+        fun getRoomId(devoxxId: String) = Room.values().filter { devoxxId == it.devoxxId }.map { it.id }.getOrElse(0, { UNKNOWN.id })
     }
 }
