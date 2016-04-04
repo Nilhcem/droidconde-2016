@@ -12,3 +12,6 @@ val ScheduleDaySlot.outputRoomId: Int
 
 val ScheduleDaySlot.outputStartAt: String
     get() = dateFormat.format(Date(fromTimeMillis))
+
+val ScheduleDaySlot.outputDuration: Int
+    get() = ((toTimeMillis - fromTimeMillis) / 60000).toInt()
