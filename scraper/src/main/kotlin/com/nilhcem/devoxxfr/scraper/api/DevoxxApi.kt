@@ -2,6 +2,7 @@ package com.nilhcem.devoxxfr.scraper.api
 
 import com.nilhcem.devoxxfr.scraper.model.devoxx.ScheduleDay
 import com.nilhcem.devoxxfr.scraper.model.devoxx.Speaker
+import com.nilhcem.devoxxfr.scraper.model.devoxx.SpeakerUUID
 import com.squareup.moshi.Moshi
 import okhttp3.OkHttpClient
 import retrofit2.Call
@@ -26,6 +27,9 @@ interface DevoxxApi {
 
     @GET("schedules/{day}")
     fun getScheduleForDay(@Path("day") day: String): Call<ScheduleDay>
+
+    @GET("speakers")
+    fun getSpeakersUUID(): Call<MutableList<SpeakerUUID>>
 
     @GET("speakers/{uuid}")
     fun getSpeakerDetails(@Path("uuid") uuid: String): Call<Speaker>
