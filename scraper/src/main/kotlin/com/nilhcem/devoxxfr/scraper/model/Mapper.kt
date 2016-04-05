@@ -37,6 +37,6 @@ object Mapper {
                 .map { speakersMap[it] }
                 .filterNotNull()
 
-        return Session(id + 1, startAt, duration, roomId, speakersId, title, description)
+        return Session(id, startAt, duration, roomId, speakersId, title, description)
     }
 }

@@ -18,9 +18,10 @@ fun main(args: Array<String>) {
 
     val speakersMap = speakers.associateBy({ it.uuid }, { it.id })
 
+    var sessionId = 0
     val sessions = listOf("wednesday", "thursday", "friday").flatMap {
         api.getScheduleForDay(it).execute().body().slots
-                .mapIndexed { id, slot -> convertSession(id, slot, speakersMap) }
+                .map { convertSession(++sessionId, it, speakersMap) }
     }
 
     createJsons(speakers, sessions)
