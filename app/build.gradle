@@ -33,7 +33,7 @@ android {
     buildToolsVersion '23.0.2'
 
     defaultConfig {
-        applicationId 'com.nilhcem.droidconit'
+        applicationId 'com.nilhcem.devoxxfr'
         versionCode 1
         versionName '1.0'
 
