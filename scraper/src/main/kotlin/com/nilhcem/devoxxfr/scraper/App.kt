@@ -1,7 +1,9 @@
 package com.nilhcem.devoxxfr.scraper
 
 import com.nilhcem.devoxxfr.scraper.api.DevoxxApi
-import com.nilhcem.devoxxfr.scraper.model.Mapper
+import com.nilhcem.devoxxfr.scraper.model.Mapper.convertSession
+import com.nilhcem.devoxxfr.scraper.model.Mapper.convertSpeaker
+import com.nilhcem.devoxxfr.scraper.model.output.Session
 import com.nilhcem.devoxxfr.scraper.model.output.Speaker
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Types
@@ -9,22 +11,32 @@ import java.io.File
 
 fun main(args: Array<String>) {
     val api = DevoxxApi.SERVICE
-    val days = listOf("wednesday", "thursday", "friday")
-    File("output").mkdir()
 
     val speakers = api.getSpeakersUUID().execute().body()
             .map { api.getSpeakerDetails(it.uuid).execute().body() }
-            .mapIndexed { id, speaker -> Mapper.convertSpeaker(id + 1, speaker) }
-    saveSpeakers(speakers)
+            .mapIndexed { id, speaker -> convertSpeaker(id, speaker) }
 
     val speakersMap = speakers.associateBy({ it.uuid }, { it.id })
+
+    val sessions = listOf("wednesday", "thursday", "friday").flatMap {
+        api.getScheduleForDay(it).execute().body().slots
+                .mapIndexed { id, slot -> convertSession(id, slot, speakersMap) }
+    }
+
+    createJsons(speakers, sessions)
 }
 
-fun saveSpeakers(speakers: List<Speaker>) {
+fun createJsons(speakers: List<Speaker>, sessions: List<Session>) {
     val moshi = DevoxxApi.MOSHI
+    File("output").mkdir()
 
     File("output/speakers.json").printWriter().use { out ->
         val adapter: JsonAdapter<List<Speaker>> = moshi.adapter(Types.newParameterizedType(List::class.java, Speaker::class.java))
         out.println(adapter.toJson(speakers))
+    }
+
+    File("output/sessions.json").printWriter().use { out ->
+        val adapter: JsonAdapter<List<Session>> = moshi.adapter(Types.newParameterizedType(List::class.java, Session::class.java))
+        out.println(adapter.toJson(sessions))
     }
 }
