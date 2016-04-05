@@ -1,12 +1,17 @@
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0-rc1'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://clojars.org/repo/" }
     }
 }
 
