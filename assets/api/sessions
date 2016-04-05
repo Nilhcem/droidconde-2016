@@ -1,0 +1,1943 @@
+[{
+	"duration": 90,
+	"id": 1,
+	"roomId": 1,
+	"startAt": "2016-04-20 08:00",
+	"title": "Accueil"
+}, {
+	"description": "Doit-on déprécier LinkedList ? Cette question qui a animé Twitter pendant quelques jours ressemblerait à une polémique de plus si elle n'était pas posée par Stuart Marks, expert du sujet, qui travaille (entre autres) sur les évolutions de l'API Collection. On se rend compte que la réponse complète est complexe, touche à l'algorithmique, la gestion de la mémoire, le fonctionnement interne des CPU et notamment de leur système de cache. \r\n\r\nC'est l'objet de cette présentation : expliquer comment on peut prendre en compte tous ces points pour utiliser les structures de données les plus performantes possibles. On balaiera plusieurs questions autour de ce sujet, des méthodes par défaut de l'API Collection, de quelques implémentations alternatives, et de ce qui est en préparation pour Java 9 dans ce domaine. On parlera chasse aux pointeurs, structure des processeurs, performance des algorithmes, mais aussi structures des listes et des tables de hachage, comportement des algorithmes sur ces structures. \r\n\r\nLa présentation est en Java 8, et nous parlerons un peu de ce qui nous attend dans le domaine des collections pour Java 9 et au-delà. ",
+	"duration": 180,
+	"id": 2,
+	"roomId": 3,
+	"speakersId": [121],
+	"startAt": "2016-04-20 09:30",
+	"title": "ArrayList et LinkedList sont dans un bateau"
+}, {
+	"description": "Avec Java 8, le Property-based testing devient enfin naturel et bien outillé ! Inventé pour Haskell et popularisé en Scala, cette technique est puissante pour tester, mais surtout pour découvrir les invariants et symétries qui vont simplifier le design et la modélisation, et contribuer à une Living Documentation\".\r\n\r\nCette université a pour objectif de vous faire découvrir cette technique dans le but de l’utiliser à votre retour au bureau. Nous montrerons de nombreux exemples de propriétés et d’heuristiques pour vous aider à les identifier dans votre contexte, avec un mini atelier en séance pour vous y mettre sans attendre. Nous montrerons les outils et nous ferons le lien avec d’autres outils et techniques tels que le Type System, les Fuzzers, TDD, BDD et bien entendu DDD. Si vous vous intéressez au test et au design sous toutes leurs formes, alors vous aimerez le Property-Based Testing !",
+	"duration": 180,
+	"id": 3,
+	"roomId": 4,
+	"speakersId": [53, 184],
+	"startAt": "2016-04-20 09:30",
+	"title": "Property-Based Testing, enfin pour tout le monde"
+}, {
+	"description": "Depuis maintenant 7 ans que je développe sous Android, ma principale préoccupation a toujours été l'architecture.   \r\n\r\nEt si nous prenions quelques heures pour en discuter ?  \r\nJe vous propose une vision globale et synthétique s'appuyant sur des exemples concrets, sur les principes et conseils de référence des équipes Google et sur des modèles d'architecture (MVP/n-tiers) et leur mises en place.      \r\n**Au programme:**    \r\nLe contexte Android,    \r\nL'objectif utilisateur,    \r\nLa responsabilité du développeur,  \r\nLes bonnes pratiques (celles de Chet Haase, Romain Guy et les miennes),    \r\nLes principes d'architecture (n-tiers, MVP et MVVM),    \r\nLeur application sur Android (services, threads, Application ...),     \r\nLe déploiement continue,   \r\nLes librairies incontournables du moment,    \r\nUn exemple concret d'utilisation d'un service REST (up et download)  \r\net bien sûr un projet github est associé à cette conférence pour que le code soit avec vous !",
+	"duration": 180,
+	"id": 4,
+	"roomId": 6,
+	"speakersId": [143],
+	"startAt": "2016-04-20 09:30",
+	"title": "Architecture Android et bonnes pratiques"
+}, {
+	"description": "Auparavant, les applications se connectaient à une seule base de données. Aujourd’hui, elles doivent communiquer avec un ensemble de base de données et composer avec des services web distants.  Elles ne sont plus des blocs monolithiques, mais distribuées sur différents serveurs sur différentes zones géographiques. Elles sont “scalables” mais elles doivent maintenant attendre les réponses d’autres applications.\r\n\r\n__Comment profiter de ces temps d’attente ? Comment casser ce couplage temporel ? Comment transformer un couplage applicatif fort en couplage lâche ?__\r\n\r\nCette université fera le tour de RxJava et RxJs. Comment les mettre en place sur un projet et dans une équipe. Et surtout comment utiliser ces bibliothèques pour découpler votre architecture.",
+	"duration": 180,
+	"id": 5,
+	"roomId": 5,
+	"speakersId": [66, 34],
+	"startAt": "2016-04-20 09:30",
+	"title": "Architecture découplée grâce aux Reactive Extensions"
+}, {
+	"description": "How does Clever Cloud work? We've been building a PaaS with microservices for 5 years.\r\n\r\nClever Cloud is a well known Platform as a Service. It's built from scratch instead of relying on AWS (or any other IaaS). It uses home made software instead of relying on OpenStack or Cloud Foundry.\r\n\r\nWhy? Why don't we use OpenStack? Why do we use VMs instead of containers? How do we manage security? Many Architecture choices at Clever Cloud are very different from what's done in other companies, Why did we do that? More importantly: is it working?\r\n\r\nClever Cloud is based on microservices, roughly ~100 projects working together to make everything run.\r\n \r\nThis talk goes through our architecture, showing the different protocols we use (not only http). We'll see how we add features, and how we embrace change in this architecture. Our primary pattern is \"write a naive solution, reach its limits, rewrite it\". It allowed us to use new languages and dbs without wasting time upfront.\r\n\r\nThis talk is mix of architecture patterns and return on experience.\r\n\r\n\r\n",
+	"duration": 180,
+	"id": 6,
+	"roomId": 7,
+	"speakersId": [46, 174],
+	"startAt": "2016-04-20 09:30",
+	"title": "How does Clever Cloud work? Radical decisions leads to great design."
+}, {
+	"description": "Cette session permettra de se familiariser avec Kubernetes, une solution open source qui permet de gérer des containers docker dans un environnement clusterisé.\r\nVous découvrirez ainsi les nombreuses possibilités offertes par cet outil développé par Google.\r\n\r\nDéroulement du Hand's on :\r\n- Présentation de Kubernetes et Ansible ;\r\n- installation d'un cluster Kubernetes (sur VM Virtualbox pour ce lab) ;\r\n- découverte des principales commandes d'administration de Kubernetes ;\r\n- utilisation de l'interface d'administration fabric8 ;\r\n- déploiement d'une application \"complexe\" (plusieurs composants) avec Ansible ;\r\n- création depuis zéro d'un role Ansible dédié au déploiement d'un nouveau composant dans l'application.\r\n\r\nCe Hand's on sera basé sur un besoin réel de production.\r\nLes participants devront être munis d'un ordinateur portable avec Virtualbox installé.",
+	"duration": 180,
+	"id": 7,
+	"roomId": 8,
+	"speakersId": [197, 17, 111],
+	"startAt": "2016-04-20 09:30",
+	"title": "Déployez vos applications sur un cluster Kubernetes avec Ansible"
+}, {
+	"description": "De plus en plus d'applications capturent et analysent les données temporelles en temps réel; par exemple les applications qui traitent les données provenant de vos objets connectés.\r\n\r\nCe Hands-On vous permettra de découvrir par la pratique les défis et architectures des application time series. Durant cet atelier vous développerez une application utilisant des données temporelles, en passant par les étapes suivantes\r\n\r\n* Découverte de Apache Spark et de son Shell\r\n* Capture du _stream_ de données avec l'API Kafka et intégration avec Spark Streaming\r\n* Analyse et traitement les données avec Spark (Core, SQL)\r\n* Création d'une application Spark en Java et/ou Scala\r\n* Intégration Spark & Hbase\r\n* Utilisation de Spark ML pour créer un modèle d'analyse automatique des données.\r\n\r\nCet atelier vous permettra donc de comprendre comment les backends d'applications que vous utilisez tous les jours sont développés (analyse de log en temps reel, Web Profiling, IoT, Healthcare, Télémétrie,....)\r\n \r\nCet atelier ne nécessite pas d'experience avec Spark, Hbase ou Kafka, puisque vous découvrirez ces technologies durant les exercices.\r\n",
+	"duration": 180,
+	"id": 8,
+	"roomId": 9,
+	"speakersId": [217, 37],
+	"startAt": "2016-04-20 09:30",
+	"title": "Développez une application \"Time Series\" avec Apache Spark, HBase et l'API Kakfa"
+}, {
+	"description": "Avez-vous déjà entendu parlé de Angular 2 ? Mais bien évidemment. Mais avez-vous eu la chance de jouer avec?  Qui parmis vous a le temps de tester 55 versions alpha ?  Personne je pense. Voici la possibilité de vous rattraper, et de rentrer dans les méandres de cette nouvelle version.  A la fin de ce Hand's on, Angular2 n'aura plus aucun secret pour vous.  Nous vous donnons donc rendez-vous  pour ces trois heures de Hand's on, durant lesquelles vous allez développer votre première application Angular2.",
+	"duration": 180,
+	"id": 9,
+	"roomId": 10,
+	"speakersId": [224, 72, 50],
+	"startAt": "2016-04-20 09:30",
+	"title": "Angular 2 hands on"
+}, {
+	"description": "Depuis un certain temps vous entendez parler de Scala, en particulier pour les plateformes réactives ou Big Data.\r\n\r\nVenez mettre les mains dans le code et vous familiariser avec ce langage !\r\n\r\nLors de cet atelier, nous vous proposons de revenir sur les fondamentaux de Scala, en nous intéressant tout particulièrement aux case class, au Pattern Matching et pour finir aux Collections. L’atelier sera organisé autour d’exercices, mettant en jeu ces différentes notions et leurs subtilités. Pas besoin de connaître les monades, monoïde ou la programmation fonctionnelle, des connaissances en programmation (Java, Python ou Javascript …) vous suffiront !",
+	"duration": 180,
+	"id": 10,
+	"roomId": 12,
+	"speakersId": [118, 218, 88],
+	"startAt": "2016-04-20 09:30",
+	"title": "Introduction à Scala"
+}, {
+	"description": "**Accroche :** Faire du Git plus vite et mieux grâce à cette sélection d’astuces\r\n\r\n**Résumé :** Git est devenu la gestion de sources de référence, mais la très grande majorité s'en sert (très) mal, ou à tout le moins ne fait qu'effleurer ses possibilités. Dans cet atelier, Christophe mettra en lumière toute une série d'astuces dans les commandes Git visant à rendre votre utilisation quotidienne plus agréable et efficace.\r\n\r\n**Objectif :** Gagner quotidiennement en productivité et en souplesse de travail.",
+	"duration": 180,
+	"id": 11,
+	"roomId": 14,
+	"speakersId": [42],
+	"startAt": "2016-04-20 09:30",
+	"title": "Git ProTips (HoL)"
+}, {
+	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\r\n\r\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.\r\n",
+	"duration": 180,
+	"id": 12,
+	"roomId": 15,
+	"speakersId": [45, 127],
+	"startAt": "2016-04-20 09:30",
+	"title": "Vert.x - passez de 0 à (micro-) héros"
+}, {
+	"description": "Pepper is a humanoid robot built by Aldebaran. More than 10.000 units are already in use in Japan. Pepper is also a programmable robot that comes with more than 1.000 APIs and a Java SDK. Wanna play with it?\r\nDuring this workshop, we'll introduce you to both our hardware and software, we'll show you a few tricks and help you create a fun behavior for Pepper.\r\nHave a glimpse of the future, come join us!",
+	"duration": 180,
+	"id": 13,
+	"roomId": 16,
+	"speakersId": [161],
+	"startAt": "2016-04-20 09:30",
+	"title": "Playing with Pepper robot"
+}, {
+	"description": "Pour développer des applications réactives, RxJava est une solution complète, mais des alternatives intéressantes existent. Après une rapide présentation des différentes API de composition réactives disponibles ainsi qu’un aperçu des changements nécessaires pour passer d’un modèle de programmation bloquant à réactif, ce Hands-On proposera une introduction à la programmation Reactive en utilisant Reactor Core 2.5, une alternative légère et performante. Nous apprendrons à utiliser les types réactifs [Flux](http://projectreactor.io/core/docs/api/reactor/core/publisher/Flux.html) (N éléments) et [Mono](http://projectreactor.io/core/docs/api/reactor/core/publisher/Mono.html) (1 élément) qui constituent la nouvelle API lite au coeur de [Reactor](http://projectreactor.io/) 2.5 qui révolutionne le monde des API Rx sur la JVM en offrant une API reprenant le vocabulaire [Reactive eXtensions](http://reactivex.io/) nativement basée sur Java 8 et [Reactive Streams](http://www.reactive-streams.org/) avec un niveau de performance jamais atteint. Vous aurez aussi droit à un aperçu du support réactif qui sera prochainement intégré à Spring Boot ...",
+	"duration": 180,
+	"id": 14,
+	"roomId": 0,
+	"speakersId": [191, 199],
+	"startAt": "2016-04-20 09:30",
+	"title": "A lite Rx API for the JVM"
+}, {
+	"description": "Partez à la découverte des principales apis HTML5 vous permettant de mettre en place une salle de cours virtuelle avec vidéo, text chat et du partage d'écran! \r\n\r\nAu programme : \r\n\r\n* La découverte des apis MediaStream, RTCPeerConnection, RTCDataChannel \r\n* Ajout de l'audio et de la vidéo dans votre page et manipulation de vos webcams et micros ( afficher/masquer la video, augmenter/baisser/muter le volume...) \r\n* Envoi de texte ou de la data via un chat text \r\n* Partage d'écran \r\n* Connexions à plusieurs via un serveur de signalisation \r\n\r\nNous commencerons par utiliser les apis natives de vos navigateurs pour comprendre les principes de bases du WebRTC puis nous utiliserons rapidement la librairie open source SimpleWebRTC pour découvrir toutes les possibilités offertes par les fonctionnalités Real Time Communication de HTML 5.\r\n\r\nA la fin de cette session vous serez en mesure d'intégrer rapidement audio et vidéo à votre application HTML 5 existante.",
+	"duration": 180,
+	"id": 15,
+	"roomId": 0,
+	"speakersId": [96],
+	"startAt": "2016-04-20 09:30",
+	"title": "Web Real Time Communication par la pratique"
+}, {
+	"duration": 60,
+	"id": 16,
+	"roomId": 1,
+	"startAt": "2016-04-20 12:30",
+	"title": "Pause déjeuner"
+}, {
+	"description": "De nos jours, de plus en plus d’entreprises adoptent Docker. Mais comment faire avec des dizaines, des centaines voire des milliers de conteneurs à gérer ?\r\nGoogle s’est posé ces questions et de ses forges une réponse est sortie : le projet Kubernetes.\r\nVenez marcher dans les pas du géant en découvrant Kubernetes dans son intimité. Vous apprendrez à déployer une application, la scaler, la mettre à jour en rolling update et l'isoler des environnements. Entre démonstrations et retours de terrain, vous repartirez avec tous les outils pour conteneuriser la planète.",
+	"duration": 180,
+	"id": 17,
+	"roomId": 3,
+	"speakersId": [110, 99, 55],
+	"startAt": "2016-04-20 13:30",
+	"title": "Kubernetes University, Cap sur l’orchestration Docker !"
+}, {
+	"description": "Pourquoi Google ne respecte t-il pas le protocole TCP ? Qui est Naggle, et pourquoi garde t-il mes données en otage ? UDP est-il un protocole de voyous ? Pourquoi les fichiers ne se transmettent-ils jamais à la vitesse attendue ?\r\n\r\nA travers nos réponses à ces questions, nous verrons ensemble pourquoi la maîtrise de toutes les couches réseaux doit faire partie de la boite à outils de tout bon dev full-stack.\r\n\r\nSur la base de ce constat, nous vous offrirons un panorama du patchwork de technologies constitutives des réseaux,\r\nd'ethernet à HTTP 2.0.\r\n\r\nEnfin, nous verrons ensemble comment ces compétences nous permettent de comprendre et résoudre les problèmes. Que ce soit à la conception, ou au runtime.",
+	"duration": 180,
+	"id": 18,
+	"roomId": 4,
+	"speakersId": [52, 176, 215],
+	"startAt": "2016-04-20 13:30",
+	"title": "Pourquoi il ne suffira pas de faire du HTTP 2.0 pour faire des applications performantes..."
+}, {
+	"description": "C'est la techno \"hype\" du moment. Celle qui aurait le pouvoir de changer le monde comme le Web l'a fait ces dernières décennies.\r\nMais, finalement, sur qu'est-ce que la Blockchain ? Comment ça marche ? que pouvons-nous faire avec ? \r\nCette session University va nous permettre de voir en détail ce qui se cache réellement derrière le Buzz.\r\n\r\nNous reviendrons sur le fonctionnement technique de Bitcoin, première implémentation de la Blockchain, pour ensuite décortiquer les nouvelles possibilités offertes par les plateformes comme Ethereum.\r\nDans une seconde partie, nous détaillerons des exemples de code afin de comprendre précisément ce qu'est un smart-contract.\r\nDans une troisième partie, nous nous intéresserons aux différents cas d'usages qui sont à l'étude où déjà implémentés et nous parlerons des enjeux sociaux que la Blockchain introduit.\r\n\r\nCette session laissera une place importante aux discussions car le sujet soulève bien souvent de nombreuses questions.\r\n\r\nA la fin de cette session, vous pourrez répondre aux questions comme :\r\n* Différence entre Proof-Of-Work et Proof-Of-Stake ?\r\n* Qu'est-ce qu'une DAO ?\r\n* Comment coder sur la Blockchain ?\r\n* Pourquoi s'intéresser à la Blockchain ?",
+	"duration": 180,
+	"id": 19,
+	"roomId": 6,
+	"speakersId": [29],
+	"startAt": "2016-04-20 13:30",
+	"title": "La Blockchain en détail"
+}, {
+	"description": "En 2010, j'étais développeur indépendant, je travaillais pour un fournisseur de logiciels pour les douanes électroniques lorsque j'ai découvert le Lean Startup à l'occasion du premier Startup Weekend de Bruxelles. Après avoir remporté ce Startup Weekend, j'ai pris la décision de quitter mon client et de me lancer dans la création de ma première startup grâce au Lean Startup. Depuis j'ai créé d'autres entreprises, j'ai coaché des entrepreneurs lean à travers l'accélérateur NEST'up, et l'objectif ici est de partager mon expérience et de vous montrer que vous aussi, vous pouvez le faire.",
+	"duration": 180,
+	"id": 20,
+	"roomId": 5,
+	"speakersId": [189],
+	"startAt": "2016-04-20 13:30",
+	"title": "Lean Startup pour les développeurs"
+}, {
+	"description": "Spring Boot est déjà très populaire parmi les développeurs et apporte une approche “convention over configuration” flexible pour la création d’applications. Cette session université va se concentrer sur le développement d’une application web pour la gestion des clés de configuration Spring Boot.\r\n\r\nNous verrons les nouveautés de Spring Boot 1.3, comme les devtools! Nous utiliserons aussi les fonctionnalités de validation, de cache applicatif; nous pourrons aussi configurer notre conteneur de servlet et voir comment gérer au mieux les ressources statiques de nos applications “server-side” classiques ou AngularJS.\r\n\r\nEtape suivante, la production! Nous pourrons déployer notre application en prod dans un serveur d’application, ou comme un service systemd, ou encore dans le cloud.",
+	"duration": 180,
+	"id": 21,
+	"roomId": 7,
+	"speakersId": [33, 202],
+	"startAt": "2016-04-20 13:30",
+	"title": "Spring Boot 1.3 pour le web"
+}, {
+	"description": "Il n’est jamais simple de modéliser efficacement un système. Nous proposons pour y parvenir de supprimer tout vocabulaire technique et de se mettre d'accord sur un langage commun à l'équipe et spécifique au projet.\r\n\r\nLaissez mijoter l'intelligence collective des acteurs d'un projet devant un immense tableau blanc, pour échanger et décrire les évènements pouvant être produit dans le système.\r\n\r\nLe résultat est un modèle, absorbant des commandes et générant des évènements pour communiquer ses décisions. Vous verrez ainsi avec quelle rapidité, la compréhension globale du métier augmente. ",
+	"duration": 180,
+	"id": 22,
+	"roomId": 8,
+	"speakersId": [83, 70, 44],
+	"startAt": "2016-04-20 13:30",
+	"title": "Event Storming : comprendre le métier autrement"
+}, {
+	"description": "The W3C has been working on a Web Components standard for almost three years, but it is still a work in progress. But polyfills like allows current developers to use Web Components today, and incorporate to their apps widgets from any library  of web components. \r\n\r\nThe best known of these libraries is Google's Polymer. In Google IO 2015 conference, Google has at last released the long awaited version 1.0 of Polymer, making it even faster, more stable and at least suitable for \"serious\" applications. In this lab you will use Polymer 1.0 with Material Design Polymer Elements to design and develop a web application using web components.\r\n\r\nYou will learn to use the following technologies:\r\n\r\n- Polymer and Web Components (for mobile and desktop)\r\n- The Paper Elements for Polymer (material design)\r\n- The integration of Polymer components in Angular (1 and 2) applications.\r\n\r\nMandatory Installs prior to lab:\r\n+ npm \r\n+ bower\r\n+ your favorite HTML/CSS/JS IDE (I suggest Sublime Text)",
+	"duration": 180,
+	"id": 23,
+	"roomId": 9,
+	"speakersId": [105, 24],
+	"startAt": "2016-04-20 13:30",
+	"title": "Hand's on Web Components with Polymer"
+}, {
+	"description": "Kafka est un système de messagerie distribué, en mode publish-subscribe, persistant les données qu'il reçoit, conçu pour facilement monter en charge et supporter des débits de données très importants.\r\n\r\nOriginellement développé chez LinkedIn, et maintenu au sein de la fondation Apache depuis 2012, son adoption n'a cessé de croitre pour en faire un quasi de-facto standard dans les pipelines de traitement de données.\r\n\r\nVenez découvrir cet outil durant ce Hand's on de 3h où vous installerez un mini cluster Kafka et explorerez ses différentes API. En bonus, vous aurez la possibilité d'analyser vos données en temps réel avec Spark Streaming.\r\n\r\nMatériel nécessaire : un ordinateur sur lequel vous aurez préalablement installé votre IDE préféré (IntelliJ / Eclipse) ainsi que Maven ou SBT. Le développement sera en Scala ou Java.",
+	"duration": 180,
+	"id": 24,
+	"roomId": 10,
+	"speakersId": [204, 147],
+	"startAt": "2016-04-20 13:30",
+	"title": "Apache Kafka - Stream Data Platform"
+}, {
+	"description": "Pourquoi il y a autant de buzz autour de Docker ? Pendant les deux dernières années Docker est devenu l'un des outils le plus utilisés par devs et ops dans le monde de l'IT.\r\n\r\nLes avantages d'avoir une infrastructure immuable et la portabilité et vitesse au démarrage de ses conteneurs sont quelques de ses points forts. Docker est un outil provenant du monde des développeurs qui va rendre la phase de livraison et la chaine de déploiement continu plus simple.\r\n\r\nDe son côté, Mesos est un manager de clusters : il va abstraire et gérer ses ressources pour vous. Il permet l'utilisation du cluster par des frameworks différents et facilite le partage équitable de ressources ainsi que la localité de données.\r\n\r\nDans cette session, nous vous présenterons quelques points forts d'utiliser Mesos et Docker ensemble. Nous déploierons une application web distribuée sur un cluster Mesos. Nous utiliserons Marathon pour déployer cet app dockerisée utilisant un load balancer et Mesos DNS pour le service discovery.",
+	"duration": 180,
+	"id": 25,
+	"roomId": 12,
+	"speakersId": [122, 30, 51],
+	"startAt": "2016-04-20 13:30",
+	"title": "Déploiement d'une app distribuée sur Mesos avec Docker, Marathon et MesosDNS"
+}, {
+	"description": "Today's technology is moving fast towards using containers and managing a fleet of containers. This session will give hands-on experience with creating containers using Docker and deploy a fleet of containerized Java microservices into Kuberenetes. You'll get to: \r\n - Build a Java microservice\r\n - Build Docker container\r\n - Deploy the container into a private container registry\r\n - Deploy a fleet of containerized microservices\r\n - Learn service discovery\r\n - Perform rolling update, canary, and roll backs\r\n\r\nIn addition, we will also explore advanced features such as:\r\n - Secret - securely give your application the credentials and configurations\r\n - Daemon set - run the same workload across all of the cluster nodes\r\n - Persistent volume / claims - store persistent data using volume mounts in the pods\r\n - Health checks - check to see if your application is alive and ready to serve traffic\r\n - autoscaling - automatic horizontal pod scaling using CPU utilization metric",
+	"duration": 180,
+	"id": 26,
+	"roomId": 14,
+	"speakersId": [178],
+	"startAt": "2016-04-20 13:30",
+	"title": "Hands-on with Kubernetes - from basic to advanced features"
+}, {
+	"description": "Tu aimes la gloire ? Tu veux devenir riche et célèbre ?\r\n\r\nDésolé, mais on ne peut rien pour toi ...\r\n\r\nEn revanche, si tu aimes le JavaScript et que tu veux essayer React, alors viens a notre lab consacré à cette librairie géniale.\r\n\r\nNous verrons ensemble comment prendre en main React et son écosystème, comment démarrer un projet, comment récupérer ses dépendances avec NPM, comment configurer son build Webpack pour fonctionner avec Babel, comment faire du test de composants graphiques et de la qualité de code. \r\n\r\nA la fin de ce lab, tu auras créé une merveilleuse application entièrement écrite avec ES2015, qui utilisera Redux et React-router (entre autres). Et si tu es rapide nous pourront peut-être explorer la création d'application mobile native en utilisant React Native. Et tout ça avec un simple éditeur de texte et un navigateur (et Node ;-)\r\n\r\nAlors n'hésites pas un instant et vient nous voir :-)",
+	"duration": 180,
+	"id": 27,
+	"roomId": 15,
+	"speakersId": [144, 207],
+	"startAt": "2016-04-20 13:30",
+	"title": "Let's React : le lab !!!"
+}, {
+	"description": "3 acteurs se partagent le marché mobile : iOS, Windows Phone et pour finir Android. \r\nOn vous propose un tour d'horizon de la plateforme Android. Lors de cet atelier, nous vous présenterons rapidement l'histoire de la plateforme, les contraintes liés aux mobiles, différentes APIs. On passera ensuite sur l'atelier pratique où VOUS pourrez créer votre première application Android.\r\n\r\n__Preinstallez ceci sur vos ordinateurs__ :  \r\n- Java 7\r\n- Android Studio (http://developer.android.com/sdk/index.html)\r\n- SDK Android (http://developer.android.com/sdk/index.html#Other)\r\n\r\n__Si vous n'avez pas de téléphone Android__ :\r\n- Genymotion (avec une image installé) (https://www.genymotion.com/#!/download)",
+	"duration": 180,
+	"id": 28,
+	"roomId": 16,
+	"speakersId": [66, 123],
+	"startAt": "2016-04-20 13:30",
+	"title": "À la découverte de la plateforme Android"
+}, {
+	"description": "Un grand nombre de solutions techniques sont envisageables pour l'implémentation de services REST aujourd'hui.  Les défis à relever sont la productivité et la maturité des équipes de développement. \r\nSpring a grandement simplifié l'accès à son écosystème après la sortie de SpringBoot, mais cette technologie requiert encore un ticket d'entrée important. \r\nDans certaines situations l'utilisation d'un framework tel que NodeJS est tout à fait justifié de par sa simplicité et sa productivité. C'est ici que \r\nles micro frameworks Java entrent en scène. \r\n\r\nLes **micro frameworks Java** apportent la productivité de NodeJS, la simplicité de SpringBoot aux développeurs Java sans payer de ticket d'entrée.\r\n\r\n**SparkJava** est un micro framework qui permet de développer très facilement des serveurs en Java de façon élégante avec Java 8.\r\n**Feign** est un client REST open-source de Netflix qui est à la fois simple et extensible. \r\n\r\nVous développerez un service RESTfull avec SparkJava et Feign s'intégrant au sein d'une architecture \"microservices\".",
+	"duration": 180,
+	"id": 29,
+	"roomId": 0,
+	"speakersId": [135, 109],
+	"startAt": "2016-04-20 13:30",
+	"title": "3 heures pour développer un microservice avec les micro frameworks Java"
+}, {
+	"description": "Cet atelier vous propose de découvrir par la pratique la plateforme Cloud IBM Bluemix, basée sur les standards ouverts du marché (Cloud Foundry, OpenStack, Docker, OpenWhisk), qui permet de construire, de déployer et de gérer des applications nées pour le Cloud (cognitives Watson, Mobile, Internet des Objets, Web, Big Data, Analytics, API management).\r\n\r\nNous ferons une présentation rapide des capacités de Bluemix et nous vous proposerons deux catégories d'exercices pratiques que vous pourrez réaliser au choix :\r\n\r\n- 7  Mini Labs \"Découverte\" : Premiers Déploiements (DevOps, GIT), Watson, Internet des Objets (Node-RED), Responsive Mobile, MQ Light, Docker et Business Rules\r\n\r\n- 1 Lab \"Smarter City\" intégrant un objet connecté fonctionnel, “ La Lampe Urbaine Cognitive”. Vous découvrirez comment les villes peuvent faire des économies en utilisant l’énergie photovoltaïque et en optimisant de manière Cognitive la production et la consommation d’énergie de leur éclairage urbain en utilisant Bluemix et IBM Analytics. (créé et animé par Benoit Barranco)\r\n\r\nPré-requis : Laptop chargé + suivre [https://ibm.box.com/Devoxx2016-BluemixLab](https://ibm.box.com/Devoxx2016-BluemixLab)",
+	"duration": 180,
+	"id": 30,
+	"roomId": 0,
+	"speakersId": [234],
+	"startAt": "2016-04-20 13:30",
+	"title": "Bluemix en Pratique - Nouveautés 2016"
+}, {
+	"duration": 40,
+	"id": 31,
+	"roomId": 1,
+	"startAt": "2016-04-20 16:30",
+	"title": "Pause café"
+}, {
+	"description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement et permet de les corriger facilement. En quelques semaines, nous avons réduit de 94% les crashs dus aux OutOfMemoryError dans notre app Android.\r\n\r\nCe talk présente les principes généraux puis creuse dans le détail du \"comment ça marche à l'intérieur\". Nous verrons ensembles plusieurs exemples intéressants et les leçons à en tirer. Mario et Luigi n'auront bientôt plus de boulot!",
+	"duration": 30,
+	"id": 32,
+	"roomId": 3,
+	"speakersId": [173],
+	"startAt": "2016-04-20 17:10",
+	"title": "Bouchez vos fuites mémoires avec LeakCanary!"
+}, {
+	"description": "Comment tester en continu le développement de votre provisioning ? Que l'on utilise Salt, Ansible ou Puppet la question reste entière. \r\nVenez découvrir une solution, preuve à l’appui, pour réaliser et automatiser les tests de provisioning dans des conteneurs Docker. Votre infrastructure mérite elle aussi son intégration continue. Ce tools in action démontrera avec SaltStack une solution applicable à tous.",
+	"duration": 30,
+	"id": 33,
+	"roomId": 4,
+	"speakersId": [208],
+	"startAt": "2016-04-20 17:10",
+	"title": "Test Driven Infrastructure avec Docker "
+}, {
+	"description": "Depuis Novembre 2014, Jenkins connait un nouveau type de job: **Pipeline**. Encore peu utilisé, j'essayerai de vous montrer à quoi il correspond et quelles problématiques il résout. Pour cela, je vous montrerai la migration d'un job type Maven classique vers un Pipeline et comment aller encore plus loin avec avec _Pipeline-as-Code_.",
+	"duration": 30,
+	"id": 34,
+	"roomId": 6,
+	"speakersId": [1],
+	"startAt": "2016-04-20 17:10",
+	"title": "De Jenkins Maven/Freestyle à Pipeline"
+}, {
+	"description": "Vous utilisez [Elastic Search] (https://www.elastic.co/products/elasticsearch) et  [MongoDB] (https://docs.mongodb.org/manual/)dans vos projets. A travers un cas pratique, vous verrez dans cette session comment rendre votre code plus robuste en mettant en oeuvre des tests unitaires avec la base embarquée d'Elastic Search et [Fongo] (https://github.com/fakemongo/fongo) (une implémentation in-memory de Mongodb).",
+	"duration": 30,
+	"id": 35,
+	"roomId": 5,
+	"speakersId": [235],
+	"startAt": "2016-04-20 17:10",
+	"title": "Unit test my search"
+}, {
+	"description": "Typescript est un superset de Javascript qui enrichit le langage et apporte du typage. Publié par Microsoft, sélectionné par Google pour Angular 2 et implémentant certaines parties de la spécification supposée d’ES7, il est donc promis à un bel avenir. Il est également assez facilement utilisable dès maintenant pour produire des applications frontend plus robustes.\r\nDans ce Tools in Action, nous mettrons en place Typescript sur une application Javascript classique existante et nous migrerons certaines parties dans ce nouveau langage.",
+	"duration": 30,
+	"id": 36,
+	"roomId": 7,
+	"speakersId": [219],
+	"startAt": "2016-04-20 17:10",
+	"title": "Typescript, typer pour mieux coder"
+}, {
+	"description": "Depuis longtemps on cherche les meilleurs solution pour écrire des serveur RESTful en Java, et on ne ce préoccupe moins du coté client REST. Or devant l'émergence des architecture micro-services on est de plus en plus concerner par l'écriture de cette couche client.\r\nNous avons déjà beaucoup de possibilités en Java (Apache http-client et fluent-http), JAX-RS 2 (souvent avec Jersey), Spring RestTemplate, ...  Mais aujourd'hui il y a l'excellente API de Netflix: **Feign**.\r\nVenez découvrir **Feign** durant une session de live coding qui introduira l'API et montrera la simplicité d'utilisation et l'extensibilité de l'api.\r\n\r\nNote: Java 8 inside.\r\n",
+	"duration": 30,
+	"id": 37,
+	"roomId": 0,
+	"speakersId": [109],
+	"startAt": "2016-04-20 17:10",
+	"title": "Feign(ant) in Action"
+}, {
+	"description": "À travers des démos nous verrons les capacités json de postgresql qui permettent d'amener des avantages des bases orientée document (tel que mongodb) au sein de votre base de donnée relationnelle habituelle. ",
+	"duration": 30,
+	"id": 38,
+	"roomId": 0,
+	"speakersId": [227],
+	"startAt": "2016-04-20 17:10",
+	"title": "Postgresql : la nouvelle base orientée document"
+}, {
+	"description": "Obtenir une documentation vivante, voilà l'une des promesses du BDD. \r\nMais soyons réalistes, les rapports de l'outil le plus utilisé par la communauté Java, Cucumber, sont loin d'être satisfaisants. \r\nPeu lisibles, focalisés sur les statistiques, on comprend aisément que des personnes non-techniques rechignent à abandonner leurs spécifications écrites avec Word.\r\n\r\nCe Tools-In-Action vous propose de découvrir JGiven, un outil permettant de générer des rapports lisibles, sexys et navigables, grâce à une simple DSL Java.\r\n\r\nTalk garanti 100% sans regex ni duplications de steps.",
+	"duration": 30,
+	"id": 39,
+	"roomId": 10,
+	"speakersId": [47, 141],
+	"startAt": "2016-04-20 17:10",
+	"title": "JGiven: enfin une réelle documentation vivante."
+}, {
+	"description": "La grande majorité des outils sont sur le web aujourd'hui, et pourtant les applications desktops restent trés prisées, utilisant au maximum les fonctionnalités de l'OS (notifications, docking, ...). Nous allons découvrir dans cette présentation Electron (l'outil utilisé pour faire Atom et Slack notamment), et voir comment construire et packager facilement une application JS qui permet de profiter de l'OS.",
+	"duration": 30,
+	"id": 40,
+	"roomId": 12,
+	"speakersId": [211],
+	"startAt": "2016-04-20 17:10",
+	"title": "Conquérir le desktop avec Electron"
+}, {
+	"description": "Les data nous submergent, et les solutions pour traiter les gros volumes de données fleurissent jours après jours. Le **streaming** s'impose comme un use-case de plus en plus fréquent, et cet aspect temps réel peut -à juste titre- faire peur.  Le choix de frameworks complets de type **Spark et Flink** peuvent être séduisants, mais il est fort probable qu'ils amènent leurs lots de complexités et de lourdeurs. Quelle solution utiliser pour **faire simple et efficace** ? **AKKA** est devenu le standard de facto en étant au coeur de nombreux écosystèmes de traitement de données comme Spark. Son efficacité en termes de ressources consommées est extraordianaire en comparaison aux solutions traditionnelles de calcul distribué.  Nous découvrirons comment AKKA peut simplifier le traitement de données en temps réel et surtout distribuer celui-ci pour le rendre **résilient et scalable**. Ce talk sera étayé par des **exemples de code** concrets pour que vous puissiez percevoir tout l'intérêt d'utiliser un tel Framework. ",
+	"duration": 30,
+	"id": 41,
+	"roomId": 3,
+	"speakersId": [220],
+	"startAt": "2016-04-20 17:55",
+	"title": "Stream processing avec les acteurs AKKA"
+}, {
+	"description": "Tu penses que CSS c’est trop compliqué et que centrer verticalement un bloc relève de l’exploit, cette session est faite pour toi.\r\n\r\nLes Flexbox sont une nouvelle spécification W3C qui apportent à CSS une nouvelle manière de placer ses blocs sans hack.\r\n\r\nAu menu de cette session, du live-coding pour mieux comprendre comment ça marche, comment les utiliser et dans quels cas il serait compliqué de faire autrement. Nous aborderons également la question du support et l’outil auto-prefixer.",
+	"duration": 30,
+	"id": 42,
+	"roomId": 4,
+	"speakersId": [106],
+	"startAt": "2016-04-20 17:55",
+	"title": "Flexbox, et le CSS redevient fun !"
+}, {
+	"description": "L’automatisation des tests d’acceptance est capitale.   \r\nEn cycle agile, il est crucial de pouvoir intégrer de nouvelles fonctionnalités tout en garantissant la non régression de celles déjà validées.   \r\nCette flexibilité apporte de nombreux avantages mais ne se fait pas sans difficulté:   \r\n- jongler entre différents outils d’automatisation tels que: Selenium, Cucumber..  \r\n- maintenir les tests automatisés à jour  \r\n- impliquer les équipes fonctionnelles dans la réalisation de tests automatiques\r\n\r\nNous avons ressenti ces difficultés sur différents projets agiles et c’est pour ces raisons que nous avons décidé de créer un framework open source: Toast TK, articulé autours de 3 applications:  \r\nToast Engine: framework permettant le parsing, l'execution et le reporting   \r\nToast Studio: pour le capture et le replay d'actions utilisateur   \r\nToast Webapp: Maintenance et édition des scenarios   \r\n\r\nDans cette session, nous verrons comment Toast:  \r\n- facilite la rédaction, la maintenabilité et l’évolutivité des campagnes de tests  \r\n- peut-être pris en main par des Testeurs et des MOA  \r\n- embarque Selenium et Fest  \r\n- améliore la collaboration entre développeurs et non-développeurs  ",
+	"duration": 30,
+	"id": 43,
+	"roomId": 6,
+	"speakersId": [185],
+	"startAt": "2016-04-20 17:55",
+	"title": "Toast Tk : l’automatisation de tests facile, collaborative et open source"
+}, {
+	"description": "Vous avez entendu parler des nouveautés de Java 9 ?\r\nJDeps, Modules, Multi-Release JAR, nouvelle numérotation des versions, compilation pour les anciennes plateformes : venez découvrir ces fonctionnalités par l'exemple et comment Apache Maven va vous aider à les utiliser.",
+	"duration": 30,
+	"id": 44,
+	"roomId": 5,
+	"speakersId": [101, 21],
+	"startAt": "2016-04-20 17:55",
+	"title": "Apache Maven, Java 9 et le projet Jigsaw"
+}, {
+	"description": "Au cours de ces 25 minutes, vous allez voir ce qu'il est possible de faire avec D3.JS pour passer de données brutes à des graphiques vivants ou à des cartes. \r\nJe vous montrerai les fonctionnalités de manipulation des données qui sont embarquées dans D3JS avant de passer à leur affichage.\r\n\r\nQuelques exemples simples seront présentés (bar chart, nuage de points) avant de passer sur des exemples plus intéressants et interactifs.\r\n\r\nAttention, en cas d'erreur, la Terre pourrait s'arrêter de tourner...\r\n",
+	"duration": 30,
+	"id": 45,
+	"roomId": 7,
+	"speakersId": [212],
+	"startAt": "2016-04-20 17:55",
+	"title": "D3.JS en action : des données aux graphiques interactifs"
+}, {
+	"description": "SonarSource développe depuis plusieurs années des analyseurs de code pour la plateforme SonarQube. *SonarLint* est une nouvelle ligne de produits visant à bénéficier de la puissance de ces analyseurs directement dans vos IDEs préférés. Nous partirons à la chasse aux bugs dans une séance de live coding sous *Eclipse* ou *IntelliJ* (au choix du public) . Objectif : vous montrer les détections de bugs les plus avancées de l'analyseur Java parmi les 350+ règles disponibles.",
+	"duration": 30,
+	"id": 46,
+	"roomId": 0,
+	"speakersId": [125, 158],
+	"startAt": "2016-04-20 17:55",
+	"title": "SonarLint in action"
+}, {
+	"description": "On parle beaucoup de \"reactive programming\" ou du \"reactive manifesto\" …​ ça a l’air tellement cool et puissant hein! Mais ça veut dire quoi au juste ?\r\n\r\nDans cette session de live coding, on va ouvrir une boîte à outils nommée Akka. Mais pas de panique, si le Scala vous fait peur, il y aura aussi du Java ! On démarrera tranquillement avec un bon vieux \"Hello World\" pour finir sur des approches plus avancées telles que l’utilisation d’acteurs dit \"distants\". Et soyons fou, tant qu’on y est, parlons tests et monitoring.\r\n\r\nEn sortant, vous aurez compris les principes d’Akka et du Reactive Programming, le tout agrémenté d’un retour d’expérience, ce qui devrait vous donner des idées plein la tête !",
+	"duration": 30,
+	"id": 47,
+	"roomId": 0,
+	"speakersId": [98],
+	"startAt": "2016-04-20 17:55",
+	"title": "Akka: découvrons les bases"
+}, {
+	"description": "Tout développeur JavaScript – même celui qui n'ose pas se l'avouer – a subi un jour le callback hell à cause de l'asynchrone. Aujourd'hui, de nouveaux outils du langage nous permettent de gérer bien plus élégamment nos appels asynchrones, à tel point qu'on en vient à faire de l'asynchrone... synchrone ! \r\n\r\nJe vous propose de découvrir cela au travers d'un live coding en partant de la code base cauchemardesque héritée du stagiaire débutant le JavaScript – si cela ne vous évoque rien, vous faites parti d'une minorité miraculée ! Nous utiliserons les promesses, les générateurs et les coroutines pour l'améliorer progressivement, en notant au passage les pièges auxquels il ne faut pas succomber... ",
+	"duration": 30,
+	"id": 48,
+	"roomId": 10,
+	"speakersId": [119],
+	"startAt": "2016-04-20 17:55",
+	"title": "Oubliez les migraines, faîtes de l'asynchrone... synchrone !"
+}, {
+	"description": "Avec l’essor de l’IoT, le Bluetototh LE a fait son apparition en permettant à des objets de communiquer avec votre smartphone : thermomètres, bracelets d’activité, mais aussi piloter votre cafetière préférée.\r\nEn conséquence, les OS mobiles, mais aussi les constructeurs de smartphones, et nous, développeurs, avons dû nous adapter pour appréhender rapidement ce nouveau protocole radio et ses difficultés. \r\nEn partant d'un exemple concret avec un objet BLE présentant des dysfonctionnements, nous procéderons à un diagnostic et proposerons des solutions pour résoudre les problèmes rencontrés.",
+	"duration": 30,
+	"id": 49,
+	"roomId": 12,
+	"speakersId": [9, 76],
+	"startAt": "2016-04-20 17:55",
+	"title": "Communiquer en Bluetooth LE avec vos objets connectés, les pièges à éviter"
+}, {
+	"description": "Vous avez rêvé de faire une jointure entre un CSV, une collection MongoDB et une table MySQL tout en faisant des agrégats : Drill est fait pour vous!\r\n\r\nDans cette présentation vous découvrirez, avec des démonstrations, les fonctionnalités clés et l’architecture d’Apache Drill. Vous verrez qu'il est possible d'accéder à différentes sources de données: JSON, CSV, XML, RDBMS, NoSQL tout en utilisant un langage que nous connaissons tous : le SQL!\r\n\r\nVous verrez qu'en quelques minutes, il est possible d'installer Drill et commencer à écrire des requêtes SQL sur vos données que ce soit sur votre laptop ou sur plusieurs centaines de noeuds pour traiter vos dizaines tera-octets de données.",
+	"duration": 30,
+	"id": 50,
+	"roomId": 3,
+	"speakersId": [217],
+	"startAt": "2016-04-20 18:40",
+	"title": "\"SQL on Everything\" avec Apache Drill"
+}, {
+	"description": "\"Quoi d'neuf Docker\" est une chaîne youtube qui parle de ... et bien devinez !\r\nSi vous ne connaissez pas il est encore temps => www.quoidneufdocker.xyz\r\n\r\nPour cette session, nous vous proposons un épisode live (qui sera par la suite monté et diffusé sur la chaîne) consacré à Docker sur processeurs ARM.\r\nUn rapide tour 100% démo de l'écosystème Docker donc, mis en oeuvre sur des Raspberry. Le tout avec le ton décalé de la chaîne !\r\n",
+	"duration": 30,
+	"id": 51,
+	"roomId": 4,
+	"speakersId": [162, 41],
+	"startAt": "2016-04-20 18:40",
+	"title": "Quoi d'neuf Docker - live : Docker sur ARM"
+}, {
+	"description": "Bien que la sécurité soit un aspect crucial pour toute application sa mise en oeuvre peut s’avérer laborieuse. \r\nPire, elle sera souvent négligée, mal implémentée et intrusive dans le code. Mais depuis quelques temps, on voit apparaître des serveurs de sécurité qui permettent d'externaliser et de déléguer tous les aspects d'authentification et d'autorisation, comme par exemple https://auth0.com/. Parmi ces serveurs, l'un des plus prometteurs est Keycloak, open-source, flexible et agnostique de toute technologie, il est facilement  déployable/adaptable  au sein sa propre infrastructure, .  \r\nDans cette session, je vous propose de découvrir Keycloak de manière progressive et interactive : 0 slide, 100% live coding. On verra notamment comment sécuriser une appli Java EE \"classique\", un microservice Node.js, une Web App Angular standalone ou bien encore une application mobile. \r\nOn expliquera OAUth2 de manière simple et concrète, on introduira du social login, du SSO (Single Sign On) et on abordera également la manière de se connecter à un système sécurisée existant : SAML, LDAP ...\r\n",
+	"duration": 30,
+	"id": 52,
+	"roomId": 6,
+	"speakersId": [190],
+	"startAt": "2016-04-20 18:40",
+	"title": "Sécuriser ses applications back et front facilement avec Keycloak"
+}, {
+	"description": "Ça fait deux ans que je fais des talks de Polymer à droite et à gauche, et une des questions qu'on m'a le plus posé c'est \"mais, ça marche dans la vraie vie ?\"\r\n\r\nJe répondais toujours oui, je donnais des exemples, mais j'avais toujours la frustration de ne pas pouvoir le monter car les applications que je fais étaient réservées à nous clients.\r\n\r\nMais aujourd'hui notre plateforme Warp 10 est open source, et je peux enfin parler de ce que je fais depuis deux ans, coder des applications web complètement basés sur des composants web Polymer, des applications fonctionnelles, utilisées dans tous les navigateurs y que se combinent avec d'autres technologies. Bref, du Polymer dans la vraie vie.",
+	"duration": 30,
+	"id": 53,
+	"roomId": 5,
+	"speakersId": [105],
+	"startAt": "2016-04-20 18:40",
+	"title": "Polymer dans la vraie vie"
+}, {
+	"description": "Vous avez aimé le livre Continuous Delivery de Jez Humble et David Farley, récompensé d'un Jolt Award ?\r\n\r\nAlors venez découvrir GoCD, leur forge vendu chez Thoughtworks, \r\npuis récemment devenu Open-Source. \r\n\r\nAvec des concepts simples, mais puissants, nous pourrons notamment :\r\n\r\n* visualiser le processus de déploiement facilement grâce aux Value Stream Maps\r\n* réduire notre time to market en lançant des jobs ou des pipelines en parallèle sur différents agents \r\n* faciliter et tracer les processus de validations via des ACL\r\n* manager ses environements de manière centralisée\r\n* automatiser l'ensemble, de l'installation à la configuration via Ansible\r\n\r\nJenkins n'a plus qu'à bien se tenir ?\r\n\r\n",
+	"duration": 30,
+	"id": 54,
+	"roomId": 7,
+	"speakersId": [222],
+	"startAt": "2016-04-20 18:40",
+	"title": "Continuous Delivery avec GoCD"
+}, {
+	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\r\n\r\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\r\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\r\n\r\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
+	"duration": 30,
+	"id": 55,
+	"roomId": 0,
+	"speakersId": [23],
+	"startAt": "2016-04-20 18:40",
+	"title": "Tango, you rock ! La vraie réalité virtuelle"
+}, {
+	"description": "Pour tous ceux qui seraient \"fatigués\" par l'écosystème verbeux de React.js ou qui s'interrogent sur la syntaxe créative d'Angular2, Vue.js est un framework orienté composant qui vous propose une \"expérience développeur\" simplifiée.\r\n\r\nA travers le développement d'une application simple de \"Release Note\", je vous propose de découvrir ce framework et son écosystème. Cela pourra être l'occasion de le comparer aux poids lourds du marché React et Angular, et peut-être de le choisir pour vos prochains projets web.",
+	"duration": 30,
+	"id": 56,
+	"roomId": 0,
+	"speakersId": [168],
+	"startAt": "2016-04-20 18:40",
+	"title": "Vue.js une alternative plus simple que React.js et Angular2 ?"
+}, {
+	"description": "Comment développer rapidement une couche de service Java moderne et prête à partir en production ?\r\n\r\n**Dropwizard** est un framework léger et complet pour créer des services REST, collecter leurs métriques et mettre à disposition des healthchecks pour la supervision, le tout packagé en un JAR autonome propulsé par **Jetty**.\r\n\r\nNous créerons 2 (micro)services en utilisant **Hystrix** comme \"circuit breaker\" et **Feign** pour créer nos clients REST.\r\n\r\nSi le temps le permet, nous publierons les métriques dans **Grafana** et créerons un dashboard pour les suivre.",
+	"duration": 30,
+	"id": 57,
+	"roomId": 10,
+	"speakersId": [4],
+	"startAt": "2016-04-20 18:40",
+	"title": "Dropwizard : création de services REST \"production-ready\" en 25mn"
+}, {
+	"description": "On nous parle Time To Market et boucle de feedback dans les projets agiles, mais qu’en est-il pour vous dans votre travail de tous les jours?\r\nCombien de temps mettez vous pour savoir que la ligne de code Java ou JavaScript que vous avez ajoutée fait bien ce que vous voulez? Que devez-vous faire pour vérifier que votre modification de CSS est la bonne ?\r\nAu cours de cette présentation, nous vous montrerons quelques outils et astuces pour vous permettre de réduire votre boucle de feedback. Nous aborderons les systèmes qui redémarrent automatiquement vos projets ou exécutent vos tests lors des changements de code. Enfin nous vous présenterons des outils permettant de synchroniser vos tests manuels entre plusieurs navigateurs.\r\n",
+	"duration": 30,
+	"id": 58,
+	"roomId": 12,
+	"speakersId": [40, 151],
+	"startAt": "2016-04-20 18:40",
+	"title": "Boucle de feedback pour le développeur"
+}, {
+	"duration": 90,
+	"id": 1,
+	"roomId": 1,
+	"startAt": "2016-04-21 07:30",
+	"title": "Accueil"
+}, {
+	"duration": 15,
+	"id": 2,
+	"roomId": 3,
+	"startAt": "2016-04-21 09:00"
+}, {
+	"duration": 20,
+	"id": 3,
+	"roomId": 3,
+	"startAt": "2016-04-21 09:20"
+}, {
+	"duration": 20,
+	"id": 4,
+	"roomId": 3,
+	"startAt": "2016-04-21 09:40"
+}, {
+	"duration": 20,
+	"id": 5,
+	"roomId": 3,
+	"startAt": "2016-04-21 10:05"
+}, {
+	"duration": 20,
+	"id": 6,
+	"roomId": 3,
+	"startAt": "2016-04-21 10:25"
+}, {
+	"duration": 30,
+	"id": 7,
+	"roomId": 1,
+	"startAt": "2016-04-21 10:45",
+	"title": "Pause courte"
+}, {
+	"description": "ES6 / ES2015 n'est pas un truc \"pour plus tard\", c'est parfaitement utilisable dès maintenant, et même depuis début 2015, justement ! En natif ou via transpiling, dans les navigateurs ou dans Node, ça offre énormément de nouvelles possibilités géniales. Et même ES5 / ES2016 est largement exploitable aujourd'hui.\r\n\r\nAu programme :\r\n\r\n- Rappels sur ES3, ES5, ES6 et ES7\r\n- Prises en charge native / Babel, outillage\r\n- Petits conforts : affectation déstructurée, rest, spread, fonctions fléchées\r\n- Contrôle de portée : let et const \r\n- Syntaxe de classes familière\r\n- Modules \r\n- Asynchrone : promesses, générateurs, async/await\r\n- Proxies et métaprogrammation\r\n- Décorateurs",
+	"duration": 45,
+	"id": 8,
+	"roomId": 3,
+	"speakersId": [42],
+	"startAt": "2016-04-21 11:15",
+	"title": "ES6+ maintenant ! (conférence)"
+}, {
+	"description": "The age old task of racking and stacking in a physical data centre is becoming more and more rare as more companies embrace the public cloud. Having the ability to chose between providers such as AWS, Azure, Digital Ocean and Google Cloud Platform makes creating infrastructure easy. It is better to spend time developing better services for our customers than managing infrastructure\r\n \r\nDuring this talk, Paul will demonstrate how building a scalable infrastructure on AWS becomes easy with Terraform. The talk will demonstrate how using configuration management, pre-baked AMIs and auto-scaling groups it gives the ability for developers to be able to launch their own infrastructure when needed. The demo’s will include the ability to launch instances, databases and manage user access\r\n \r\nBy the end of the talk, Paul will have demonstrated that the creation of infrastructure now becomes part of the development lifecycle and that the old ways of system administration is fast moving to become infrastructure engineering. Paul will also demonstrate that the creation of new ‘environments’ are just a change of parameters in our infrastructure code",
+	"duration": 45,
+	"id": 9,
+	"roomId": 4,
+	"speakersId": [167],
+	"startAt": "2016-04-21 11:15",
+	"title": "The Quest for Infrastructure Management 2.0"
+}, {
+	"description": "Docker se répand à vitesse grand V. En particulier les conteneurs Docker sont utilisés tout au long des pipelines de \"Continuous Delivery\", du développement jusqu'à la production.\r\n\r\nComment alors faire le tri dans la montagne d'images Docker produites, les promouvoir ou les rejeter ? Comment transposer les pratiques connues depuis longtemps avec les packages Java, .Net... aux images Docker ?\r\n\r\nNous allons montrer comment implémenter un modèle de promotion pour les images Docker et comment les distribuer selon les clients.",
+	"duration": 45,
+	"id": 10,
+	"roomId": 0,
+	"speakersId": [89],
+	"startAt": "2016-04-21 11:15",
+	"title": "Cycle de vie des images Docker : problèmes et solutions"
+}, {
+	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\r\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+	"duration": 45,
+	"id": 11,
+	"roomId": 7,
+	"speakersId": [69],
+	"startAt": "2016-04-21 11:15",
+	"title": "Traefik, a modern reverse-proxy"
+}, {
+	"description": "Après 20 ans de Java, vous pensez qu'il est temps de basculer du côté mobile de la force mais vous n'avez pas envie de passer des jours à vous former au développement natif pour toutes les plateformes existantes ? Alors Ionic est fait pour vous ! Ionic c'est un framework mobile hybride basé sur HTML5, qui va rapidement vous rendre accro tellement il facilite le développement d'application pour mobile. Il est open source, il embarque avec lui la simplicité et la puissance d'AngularJS et il ne vous faudra que quelques heures pour développer une application simple mais déjà fonctionnelle qui pourra être déployée sur tous les mobiles ... what else?",
+	"duration": 45,
+	"id": 12,
+	"roomId": 5,
+	"speakersId": [24],
+	"startAt": "2016-04-21 11:15",
+	"title": "Ionic, le framework mobile hybride carrément addictif"
+}, {
+	"description": "Java SE 8 apporte de nombreuses améliorations du JDK : les expressions lambda, une nouvelle API Date, l'API CompletableFuture, les Streams, le Common Fork / Join Pool. L'objet de cette session est de montrer sur du code comment ces nouvelles choses apportées par Java SE 8 peuvent être utilisées dans les API Java EE 7 : Servlet, JAX-RS, WebSocket, CDI, EJB 3, JPA, JMS et Java EE Concurrency Utilities. \r\n\r\nNous montrerons aussi rapidement comment ces nouveautés seront utilisées dans Java EE 8. ",
+	"duration": 45,
+	"id": 13,
+	"roomId": 6,
+	"speakersId": [121, 61],
+	"startAt": "2016-04-21 11:15",
+	"title": "Java SE 8 pour les développeurs Java EE"
+}, {
+	"description": "Quelle est la fonction première d’une entreprise ? L’entreprise libérée, est-ce un mythe ? Comment conserver une culture startup malgré la croissance ? Et d’ailleurs, pourquoi faire de la croissance ? Comment créer une culture de l’innovation ? A quoi sert un manager ? Qu’est ce qu’une entreprise horizontale ? Quelle place pour le plaisir ? Quelle place pour le développement personnel et culturel ?\r\n\r\nConstruire l’entreprise où nous aurions aimé être consultants, telle fut notre motivation à la création de notre structure. Mais cela ne suffit plus ! Nous sommes entrés dans une période disruptive sans précédent. L’innovation est une question de survie, qu’elle soit technologique, managériale ou structurelle. \r\n\r\nDans ce talk nous focaliserons sur l’organisation de l’entreprise, son modèle, la notion de performance et la transformation de ce qu’est l’emploi, de ce qu’est une carrière. De la startup à la société de service l’écart est grand. D’ailleurs les signes de « coolitude » qu’affichent certaines d’entre elles pour tenter de leur ressembler ne trompent plus personne !\r\n\r\nNous répondrons à toutes ces questions par des cas concrets, mais aussi par une présentation de notre vision long ",
+	"duration": 45,
+	"id": 14,
+	"roomId": 11,
+	"speakersId": [35],
+	"startAt": "2016-04-21 11:15",
+	"title": "// TODO Implémenter le modèle de l’entreprise [de service] de demain"
+}, {
+	"description": "Les pratiques DevOps nécessitent des processus automatisés durant l'ensemble du cycle de vie des applications, depuis le design, à travers le développement et le support en production, requérant d'assembler des chaines d'outils hétérogènes. La création de telles chaines d'outils est souvent un exercice difficile et leur évolution, lorsque l'équipe grandit ou que nouveaux outils sont ajoutés, peut s'avérer complexe. La plateforme Cloud d'IBM intègre désormais des fonctionalités natives DevOps, qui permettent de rapidement constituer des chaines d'outils à partir de templates prédéfinis ou customisés, incorporant les meilleurs outils du marché, et offrant aux utilisateurs une expérience consistente en terme d'authentification, de gestion d'évenements, d'analytiques, etc. Ces fonctionalités DevOps sont en outre fondées sur une architecture ouverte, qui permet d'intégrer aisément davantage d'outils dont les vôtres. Cette présentation montrera les fonctionalités DevOps de la plateforme IBM Cloud en action, et expliquera sa vision, son architecture et son extensibilité.",
+	"duration": 45,
+	"id": 15,
+	"roomId": 13,
+	"speakersId": [170, 38],
+	"startAt": "2016-04-21 11:15",
+	"title": "Mise en oeuvre effective de l'IBM Bluemix Garage Method avec DevOps Toolchains"
+}, {
+	"duration": 55,
+	"id": 16,
+	"roomId": 1,
+	"startAt": "2016-04-21 12:00",
+	"title": "Pause déjeuner"
+}, {
+	"description": "La technologie des conteneurs, Docker en tête, a révolutionné la manière de packager, distribuer, déployer et maintenir des systèmes applicatifs complexes. La technologie des Unikernels propose de pousser la logique des conteneurs à sa limite en construisant des applications qui soient directement des VMs, c'est à dire en embarquant un OS minimal, pour produire des systèmes encore plus compacts, plus intégrés mais aussi plus sûrs car offrant une surface d'exposition minimale. Cette présentation en est une illustration par le développement in vivo d'une application simple de type REST.",
+	"duration": 15,
+	"id": 17,
+	"roomId": 0,
+	"speakersId": [20],
+	"startAt": "2016-04-21 12:05",
+	"title": "Unikernel: Le conteneur du futur"
+}, {
+	"description": "Venez découvrir Server Sent Event (aka SSE), une technologie ultra simple, souvent méconnue, permettant de pousser des données depuis un serveur vers un navigateur.\r\nContrairement à WebSocket, SSE repose uniquement sur le protocole HTTP et peut donc être utilisé partout.  \r\nUne implémentation en java ? Là aussi c'est facile, il y l'embarras du choix.  \r\nLors de ce quickie nous verrons ensemble comment cela fonctionne ainsi que les nouvelles possibilités qui s'offrent à nous. Le tout sera illustré par des exemples de code.  ",
+	"duration": 15,
+	"id": 18,
+	"roomId": 7,
+	"speakersId": [8],
+	"startAt": "2016-04-21 12:05",
+	"title": "SSE : le Streaming Simple et Efficace, sans WebSocket"
+}, {
+	"description": "Ever wondered about the technology behind Google Photos? Or wanted to build an app that performs complex image analysis, like detecting objects, faces, emotions, and landmarks? The new Google Cloud Vision API exposes the machine learning models that power Google Photos and Google Image Search. Developers can now access these features with just a simple REST API call. We’ll learn how to make a request to the Vision API to classify images, extract text, and even identify landmarks like Harry Potter World. Then we'll live code an iOS app that implements image detection with the Vision API.",
+	"duration": 15,
+	"id": 19,
+	"roomId": 5,
+	"speakersId": [187],
+	"startAt": "2016-04-21 12:05",
+	"title": "Analyzing Images with Google's Cloud Vision API"
+}, {
+	"description": "En programmation, il y a des structures de données qui s'appellent les types\r\nde données algébriques (ou ADT).\r\n\r\nVous les connaissez, mais pas sous ce nom. Et ce que vous ne connaissez\r\nsûrement pas, c'est leur relation avec ce qu'on a tous appris en maths au\r\ncollège.\r\n\r\nOn va réviser ensemble l'addition et la multiplication; ensuite on verra en\r\nquoi c'est super utile dans vos programmes. Ensuite on verra à quoi correspondent les types exponentiels \r\n\r\n",
+	"duration": 15,
+	"id": 20,
+	"roomId": 6,
+	"speakersId": [46],
+	"startAt": "2016-04-21 12:05",
+	"title": "Les Types de Données Algébriques, c'est fun et utile."
+}, {
+	"description": "Une compilation reproductible est un enjeu important de sécurité. Elle permet en effet de prouver a posteriori et de façon formelle qu'un binaire a bien été généré à partir de sources données, et n'a donc pas été corrompu/contaminé au cours du processus de génération/publication.\r\nMalheureusement, les outils de build comme Maven ne permettent pas de reproduire à l'identique (octet par octet) un binaire.\r\nNous verrons dans cette présentation l'enjeu de la compilation reproductible, les (nombreuses) sources de non-reproductibilité, ainsi qu'un plugin Maven permettant de s'en affranchir.",
+	"duration": 15,
+	"id": 21,
+	"roomId": 11,
+	"speakersId": [213],
+	"startAt": "2016-04-21 12:05",
+	"title": "Des compilations vraiment reproductibles avec Maven"
+}, {
+	"description": "[L'ère des APIs](http://www.3scale.net/2013/06/software-is-eating-the-world-apis-are-eating-software/) est arrivée ! Il y en a partout et notamment dans les architectures micro-services. Comment gérer une API que l'on expose au reste du monde ? Comment la sécuriser ? Comment la contrôler ? Comment enrichir ses appels ? Autant de questions auxquelles [Kong](https://getkong.org/) peut répondre en quelques appels REST !\r\n\r\nNon, ce n'est pas un talk sur les micro-services même si ce buzzword figure sur la tagline de Kong ! :)\r\nIl s'agira de présenter en quoi cet outil open-source peut faciliter la vie dans la gestion  des APIs (rate-limit, log, injection de headers, etc.) et leur sécurisation (token, jwt, etc.). Et de fait, enlever de nos applications tout un pan de problématiques que l'on aurait tendance à implémenter dans celles-ci.",
+	"duration": 15,
+	"id": 22,
+	"roomId": 13,
+	"speakersId": [56],
+	"startAt": "2016-04-21 12:05",
+	"title": "Devenez un King avec Kong"
+}, {
+	"description": "En développant des applications multi-threadées depuis presque une vingtaine d’années dans divers domaines, on se rend compte que les problèmes causés par l’utilisation des Threads sont souvent les mêmes.  Et les solutions permettant d’améliorer la situation, tels les bons vieux Design Patterns, se répètent.\r\n\r\nVenez (re)découvrir certaines de ces recettes de cuisines qui sont, même aujourd’hui, toujours d’actualité.\r\n",
+	"duration": 15,
+	"id": 23,
+	"roomId": 14,
+	"speakersId": [65],
+	"startAt": "2016-04-21 12:05",
+	"title": "Le réveil de la Thread"
+}, {
+	"description": "L'architecture proposée par le framework Redux fait parler d'elle dans le monde du front-end moderne  depuis un an. \r\nPour bien la comprendre, je vous propose un live-coding où nous la ré-implémenterons en RxJS.  \r\n\r\nNous verrons comment transformer un flux d'événements en actions, comment appliquer un \"reducer\" sur chaque action et comment maintenir un état unique. Nous mettrons en pratique la programmation fonctionnelle, le code sera basé sur RxJS et sur le framework YolkJS.",
+	"duration": 15,
+	"id": 24,
+	"roomId": 0,
+	"speakersId": [82],
+	"startAt": "2016-04-21 12:25",
+	"title": "L'architecture Redux en RxJS"
+}, {
+	"description": "I thought it's all about containers now - what are unikernels?  Join this session to learn a bit about unikernels, what it's good at, and how to run a Java application with it!\r\n\r\nWith unikernel, you no longer need to wait for that long OS boot and initialization time, and get better-than-container level of security isolation, and resource isolation.\r\n\r\nIn this session, you'll learn about the different types of unikernels.  We'll pick one, OSv unikernel, and:\r\n - Use its tool to build a Tomcat unikernel image\r\n - Use its tool to build a Spring Boot unikernel image\r\n - Running the unikernel application inside of KVM\r\n - Deploying the unikernel application to the cloud\r\n - Deploying and managing a cluster of them",
+	"duration": 15,
+	"id": 25,
+	"roomId": 7,
+	"speakersId": [178],
+	"startAt": "2016-04-21 12:25",
+	"title": "Building a unikernel Java Application"
+}, {
+	"description": "Dans ce talk nous verrons comment en quinze minutes et en utilisant deux outils d'une simplicité redoutable, nous allons pouvoir réaliser une application mobile affichant la position de l'ISS sur une carte, en temps réel. \r\nD'un côté, Streamdata.io et son SDK qui en moins de dix lignes de code est capable de streamer n'importe quelle API et nous donnera la position de l'ISS comme si nous étions à bord. De l'autre, Ionic, un framework mobile hybride aussi efficace que puissant pour l'afficher et le déployer sur toutes les plateformes en moins de temps qu'il n'en faut pour le dire. \r\nAlors, on parie ?",
+	"duration": 15,
+	"id": 26,
+	"roomId": 5,
+	"speakersId": [24],
+	"startAt": "2016-04-21 12:25",
+	"title": "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !"
+}, {
+	"description": "Vous indexez des milliard de documents, vous faites des requêtes et vous avez les réponses en millisecondes. Magique ?\r\nNon, des juste des algorithmes malins et efficaces. Venez en voir quelques uns.",
+	"duration": 15,
+	"id": 27,
+	"roomId": 6,
+	"speakersId": [84],
+	"startAt": "2016-04-21 12:25",
+	"title": "La magie des structures d'Elasticsearch et de Lucene"
+}, {
+	"description": "Le deuxième conseil de Joshua Bloch, dans Effective Java est : « *Consider a builder when faced with many constructor parameters.* »\r\n\r\nBien que peu utilisé, ce pattern est la clé pour définir des objets complexes immuables en Java. Je vous propose de le revisiter au regard des améliorations apportées par les lambdas.",
+	"duration": 15,
+	"id": 28,
+	"roomId": 11,
+	"speakersId": [132],
+	"startAt": "2016-04-21 12:25",
+	"title": "Le pattern builder à l'heure de Java 8"
+}, {
+	"description": "Truth est un nouveau framework d'assertions réalisé par Google. Je présenterai tout d'abord son API par des exemples concrets. Enfin, nous verrons en détails ses avantages indéniables qui en font un concurrent sérieux à AssertJ.",
+	"duration": 15,
+	"id": 29,
+	"roomId": 13,
+	"speakersId": [117],
+	"startAt": "2016-04-21 12:25",
+	"title": "See the Truth"
+}, {
+	"description": "Du premier commit aux commentaires : les curiosités et les surprises qui se cachent derrière une des plus imprévisibles initiatives Open Source de tous les temps. \r\n\r\nÀ travers 10 points clés, vous revivrez certains des faits marquants de la création du langage Swift par Apple et vous en tirerez (peut-être) quelques enseignements, qui pourraient vous être utiles dans votre travail au quotidien.",
+	"duration": 15,
+	"id": 30,
+	"roomId": 14,
+	"speakersId": [196],
+	"startAt": "2016-04-21 12:25",
+	"title": "Making Swift - 10 enseignements qu'on peut tirer des 31.463 commits qui ont créé le langage"
+}, {
+	"description": "Everybody is now using virtualization, containers are all the rage today, and microkernels start to gain traction… But how is all this working? How did these solutions come to be? What are the differences between containers and virtual machines? Where and why should you use docker, runc, rocket, kvm, xen, virtualbox, includeOS, rancherOS? This talk is a full session providing understanding on how these technologies work, how they compare to each other, and how you can put them to work. So, let’s look under the hood, and understand how your system works (hint: it’s not magic). And yes, it will be understandable even if you are not an OPS or an expert. That’s precisely the point.\r\n",
+	"duration": 45,
+	"id": 31,
+	"roomId": 3,
+	"speakersId": [174],
+	"startAt": "2016-04-21 12:55",
+	"title": "Containers, VMs, Processes… Isolation, performances, I/O… How all of these technologies work and compare to each other? "
+}, {
+	"description": "Stack Overflow serves nearly 100 million unique visitors a month, serving a page in 40ms using 9 web servers and 2 database servers.\r\n\r\nIn this talk I will cover how we develop, build, configure, deploy, monitor and maintain the site.\r\n",
+	"duration": 45,
+	"id": 32,
+	"roomId": 4,
+	"speakersId": [163],
+	"startAt": "2016-04-21 12:55",
+	"title": "Stack Overflow behind the scenes - how it's made"
+}, {
+	"description": "Les progrès de l'intelligence artificielle ont été très rapides ces dernières années notamment dans les domaines de la reconnaissance d'images, du traitement de la parole et de la \"compréhension\" du langage naturel. .\r\nCes technologies sont les fondations d'une nouvelle ère du traitement de l'information, l'ère cognitive, où les grands volumes de données acquis par des capteurs divers deviennent la source de nouveaux progrès. \r\nCette présentation a pour but de faire le point sur les avancées récentes de l'intelligence artificielle et sur les moyens offerts par IBM pour en tirer parti dans des applications avec les microservices Waston accessibles sur la plateform IBM Bluemix. \r\nDans une première partie, je présenterai les concepts clés du domaine de l'intelligence artficielle (Statistiques, Traitement Automatisé du langage naturel (Natural Language Processing), Apprentissage automatique (machine learning),   Deep learning).\r\nLa seconde partie sera consacrée à une présentation / illustration  des principaux services Watson mis à disposition des développeurs avec leur finalité. \r\nEnfin je conclurai par une démonstration / explication du service : Natural Language Classifier.",
+	"duration": 45,
+	"id": 33,
+	"roomId": 0,
+	"speakersId": [169],
+	"startAt": "2016-04-21 12:55",
+	"title": "L'intelligence artificielle avec les services IBM Watson sur la plateforme Bluemix"
+}, {
+	"description": "Cette session sera animée par Julien Dubois, le créateur et principal contributeur de [JHipster](http://jhipster.github.io/).\r\n\r\nNous y détaillerons:\r\n\r\n- Les évolutions dans l'utilisation du projet au cours de l'année passée (statistiques à l'appui)\r\n- Le mode de fonctionnement (très collaboratif) de l'équipe de développement\r\n- Les grandes nouveautés de JHipster: intégration continue, Spring Boot devtools, JHipster devbox, la marketplace...\r\n- La roadmap pour les prochains mois, avec un focus sur les micro-services",
+	"duration": 45,
+	"id": 34,
+	"roomId": 7,
+	"speakersId": [124],
+	"startAt": "2016-04-21 12:55",
+	"title": "Quoi de neuf pour JHipster en 2016"
+}, {
+	"description": "OpenShift est un PaaS qui assemble Kubernetes, Docker et d’autres technologies pour accélérer la livraison de vos applications du dev à la prod.\r\n\r\nDans cette session nous allons introduire l’architecture d’OpenShift et montrer comment elle facilite une démarche DevOps. Nous allons notamment faire une démo d’OpenShift provisionnant un applicatif du dev, à l’intégration et en déploiement continu.\r\n\r\nOpenShift est au cœur de projets majeurs de transformation. Il fournit les fondations pour soutenir le DevOps tant pour les devs microservices que les applicatifs traditionnels de type Java EE.",
+	"duration": 45,
+	"id": 35,
+	"roomId": 5,
+	"speakersId": [90],
+	"startAt": "2016-04-21 12:55",
+	"title": "OpenShift : le PaaS à la sauce Kubernetes et Docker"
+}, {
+	"description": "Au fil des années, Criteo a vu ses besoins en calcul distribué exploser.\r\nNotre investissement dans l'ecosystème Hadoop a été intense, en termes de personnes, de projets et d'infrastructures.\r\nCette conférence va vous dévoiler d'un point de vue infrastructures matérielles et logicielles les choix, les ecueils et les réussites que nous avons rencontrées lors de cette aventure hors normes.\r\nJe vous présenterai notamment l'architecture de notre nouveau datacentre situé à Pantin les solutions retenues pour sa croissance jusqu'à plus de 5 000 serveurs et les solutions en cours de déploiement pour la gestion d'un ecosystème Hadoop multi cluster multi datacentre.",
+	"duration": 45,
+	"id": 36,
+	"roomId": 6,
+	"speakersId": [156],
+	"startAt": "2016-04-21 12:55",
+	"title": "Hadoop à grande échelle : comment croître sur le long terme"
+}, {
+	"description": "De plus en plus d'événements, de plus en plus de données... comment exploiter la puissance du Big Data pour réaliser nos Analytics ?\r\nCette présentation fait un rappel sur les cubes OLAP et vous fait découvrir les solutions de cubes Open Source Big Data: Hive, Spark, Druid, Kylin, Lens, Pulsar...\r\nUn retour d'expérience agrémenté de codes et d'exemples.",
+	"duration": 45,
+	"id": 37,
+	"roomId": 11,
+	"speakersId": [142, 148],
+	"startAt": "2016-04-21 12:55",
+	"title": "Analytics et Big Data, une histoire de cubes..."
+}, {
+	"description": "Ansible permet de gérer le déploiement et la configuration d’un parc de machines. Si vous avez fait d’autres choix pour remplir ce rôle, sachez qu’Ansible peut encore vous faciliter la vie de bien des manières. Venez découvrir ses multiples facettes. Vous apprendrez comment collaborer efficacement avec Puppet, Chef ou SaltStack, traverser des serveurs de rebond, orchestrer une migration et d’autres trucs et astuces qui feront à coup sûr d’Ansible votre nouveau couteau suisse d’administration.",
+	"duration": 45,
+	"id": 38,
+	"roomId": 13,
+	"speakersId": [25],
+	"startAt": "2016-04-21 12:55",
+	"title": "Ansible hors des sentiers battus"
+}, {
+	"description": "\r\nDans cet atelier de 3h, après une courte présentation de l'écosystème Docker, vous allez construire une application distribuée avec les autres participants à l'aide de dernières nouveautés de Docker. L'application est un dictionnaire dont chacun des participants à un sous-ensemble des données. \r\n\r\nCet atelier vous donnera un réel aperçu de ce que docker peut faire dans vos projets et vous repartirez avec un setup et des exemples que vous pourrez re-executer dans votre environnement. \r\n\r\nDocker 1.10, Swarm  et overlay network sans oublier docker-machine bien sûr. \r\n\r\nLe code de l'application est écrit en go, vous allez légèrement modifier le code de l'application est la déployer  dans un cluster formée des machines des autres participants. \r\n\r\nAucune connaissance en go sont requises pour cet atelier, nous vous assisteront, le focus est sur Docker. ",
+	"duration": 180,
+	"id": 39,
+	"roomId": 14,
+	"speakersId": [113, 62],
+	"startAt": "2016-04-21 12:55",
+	"title": "Exploiter les nouveautés de Docker pour déployer un jeu distribué. "
+}, {
+	"description": "Vous en avez assez des graphiques ternes et fades. Marre de voir des tableaux avec des chiffres alignés dans tous les sens mais sans aucune cohérence ? \r\n\r\nAu cours des 3 heures de ce hand's on lab, vous découvrirez quelles sont les règles à respecter pour une dataviz réussie. Vous plongerez ensuite les mains dans le code en développant des datavisualisations avec D3.JS : bargraph, piechart, etc. n'aurons plus de secrets pour vous !\r\n\r\nVenez avec vos données et repartez avec des graphiques interactifs qui rendront jaloux vos collègues.",
+	"duration": 180,
+	"id": 40,
+	"roomId": 15,
+	"speakersId": [212],
+	"startAt": "2016-04-21 12:55",
+	"title": "Rendez vos données vivantes avec D3.JS"
+}, {
+	"description": "Que faut-il pour concevoir une bonne architecture informatique ?  De l’expérience ? C'est une tautologie : pour devenir un architecte expérimenté il faut de l’expérience. Mais comment y parvenir ? Dans cet atelier, nous examinerons les aspects d'une bonne architecture, pris de mes observations comme dév chez Google et Amazon.\r\n\r\nEnsuite, nous introduirons le «kata informatique», un exercise hands-on dans lequel vous tenterez, en équipes, de créer la meilleure architecture pour des entreprises hypothétiques.  C'est un exercise de software-engineering high-level qui vous permet de collaborer et dessiner une système avec votre équipe.  Quel sont les composants de votre solution ?  Les APIs ?  Comment adapte-t-elle ? Face aux autres codeurs - le présentateur comme juge - votre équipe lancera-t-elle ou éclatera-t-elle son architecture ?",
+	"duration": 180,
+	"id": 41,
+	"roomId": 16,
+	"speakersId": [214],
+	"startAt": "2016-04-21 12:55",
+	"title": "Architecture Informatique...hands-on et en direct !"
+}, {
+	"description": "Trois ans après avoir publié Dagger † en Open Source, Square l'utilise dans toutes ses apps Android. Cependant, cette lib d'injection de dépendances a montré ses limites dans des apps complexes comportant un nombre élevé de scopes.\r\n\r\nGoogle a publié Dagger 2, une version full compile time apportant d'énormes gains de performances sur Google Search. Dagger 2 amène aussi une nouvelle manière d'organiser les containers et scopes, qui a de nombreux d'avantages sur une codebase large.\r\n\r\nCe talk montre comment structurer une app Android autour de Dagger 2 ‡ et présente une approche pour migrer progressivement de Dagger 1 à Dagger 2. Accrochez vos cerveaux, ça va injecter!",
+	"duration": 45,
+	"id": 42,
+	"roomId": 3,
+	"speakersId": [173],
+	"startAt": "2016-04-21 13:55",
+	"title": "Sharper Better Faster Dagger ‡"
+}, {
+	"description": "Le but de cette conférence est de partager, à travers les yeux d'un Hacker, sa découverte et son enthousiasme pour le mouvement DevOps. Il y a maintenant 7 ans, GitHub et son approche collaborative a commencé à structurer la communauté Dev open source, et lui a donné une véritable conscience globale. 4 ans plus tard, Docker a créé une passerelle entre ces devs et les Ops, les gardiens du temple, créant le mouvement devops. Il est temps désormais d'inclure la sécurité dans la boucle, et de créer un pont entre les hackers et le devops.\r\n",
+	"duration": 45,
+	"id": 43,
+	"roomId": 4,
+	"speakersId": [79, 104, 103],
+	"startAt": "2016-04-21 13:55",
+	"title": "DevOps vu par un Hacker"
+}, {
+	"description": "Paris a été restructurée dans les années 1860s, en adoptant un style architectural orienté réseau, au sens de Fielding. Pour le bénéfice de ses habitants d'alors et d'aujourd'hui. Avec 3 couches de réseau, des façades normées comme une API Rest, et un protocole (HTTP) en évolution constante, Paris est un système résilient permettant une croissance anarchique, évolutive et hypermedia. D'un enchevêtrement de rues médiévales, Paris est devenu la Ville Lumière en moins de 20 ans, et reste la ville la plus visitée au monde. Haussmann a restructuré la ville et revisité ses protocoles pour la transformer en aggrégat de microservices polyglotes et respectueux des Monuments, ces \"legacy systèmes\" souvent sacrés. Exemple d'urbanisme qui peut inspirer les architectes SIs souhaitant passer en architecture de micorservices. Ode à la beauté d'une ville civilisée et résiliente, au mode de vie hypermedia fruit de la volonté de ses citoyens.",
+	"duration": 45,
+	"id": 44,
+	"roomId": 0,
+	"speakersId": [74],
+	"startAt": "2016-04-21 13:55",
+	"title": "Paris est résilient"
+}, {
+	"description": "Java SE 8 est sûrement la version la plus importante et la plus impactante pour les développeurs. Deux ans après sa sortie, ce talk propose des retours sur les bonnes ou moins bonnes utilisations des principales fonctionnalités de Java 8. Une connaissance de ces fonctionnalités est requise.",
+	"duration": 45,
+	"id": 45,
+	"roomId": 7,
+	"speakersId": [115],
+	"startAt": "2016-04-21 13:55",
+	"title": "Retours sur Java 8"
+}, {
+	"description": "Serge Huber, CTO & Co-founder of Jahia, will talk about digital marketing and present an example of tracking that can respect the customers’ privacy. This presentation will provide an introduction to the new Apache Unomi project, currently in incubation. Unomi is a reference implementation of the OASIS ConteXt Server specification aimed at standardizing personalization technologies while addressing privacy issues at the same time. \r\nHe will simulate a live shopping experience using an iOS device, iBeacons and even an Apple TV to illustrate how Unomi can integrate in real time a wide-variety of devices, ranging from IoT to large web-based applications.",
+	"duration": 45,
+	"id": 46,
+	"roomId": 5,
+	"speakersId": [193],
+	"startAt": "2016-04-21 13:55",
+	"title": "We’re watching you. (Learn what you can do about it.)"
+}, {
+	"description": "Le mobile est maintenant omniprésent et nous nous posons tous la question des choix d'implémentations. Natif, hybride ou webapp chaque solutions a bien sur ces avantages et ces inconvénients. Mais si  il existait une solution intermédiaire, plus progressive pour allier le meilleurs des 3 mondes. Nous verrons comment les progressives webapps se proposent de relever le challenge pour s'imposer comme la solution d'implémentation pour nos projets mobiles.",
+	"duration": 45,
+	"id": 47,
+	"roomId": 6,
+	"speakersId": [50, 85],
+	"startAt": "2016-04-21 13:55",
+	"title": "Progressive Web Apps"
+}, {
+	"description": "La génération de code dynamique sur la JVM est une technique aujourd'hui bien connue. Il suffit de fabriquer du Java ByteCode, et de charger les classes correspondantes à l'exécution.\r\n\r\nCependant j'ai été récemment confronté à un challenge intéressant: serait-il possible générer directement du code natif dynamiquement ? C'est à dire sans passer par du Java ByteCode et l'étape de compilation JIT de Hotspot, et ainsi avoir totalement la main sur le code natif d'une fonction ?\r\n\r\nC'est effectivement possible. Dans cette présentation j'exposerai les différentes étapes qui permettent de réaliser la génération de code natif dynamiquement sur la JVM:\r\n\r\n- Décrire une API minimale permettant de manipuler un langage assembleur directement dans le langage hôte.\r\n- Ecrire un mini-assembleur permettant de le traduire en code natif au runtime.\r\n- Charger ce code natif en mémoire, et le rendre executable.\r\n- Enfin, le rendre interopérable avec le langage hôte et lui assignant un type fonction.\r\n\r\nIci j'utiliserai Scala comme langage hôte, mais les techniques présentées peuvent être facilement appliquées en Java ou un autre langage de la JVM.",
+	"duration": 45,
+	"id": 48,
+	"roomId": 11,
+	"speakersId": [95],
+	"startAt": "2016-04-21 13:55",
+	"title": "Un assembleur dynamique sur la JVM ?"
+}, {
+	"description": "Le développement dirigé par les tests (TDD) est largement considéré comme une\r\nbonne pratique. Mais pouvons-nous faire mieux ? En spécifiant le comportement\r\nattendu d'un programme avec des types, on peut aller très loin, avec plus de\r\nconfiance et moins de complications qu'avec des tests.\r\n\r\nDans ce talk, je montrerai une autre vision des types, en explorant la\r\ndifférence fondamentale entre types et tests au niveau des spécifications.\r\nJ'aborderai la manière dont les types permettent de prouver des propriétés sur\r\nles programmes et pourquoi les génériques sont l'outil le plus puissant à\r\nvotre disposition. Je momnterai des moyens de raisonner basés sur les types et\r\ndécrirai ce qu'ils apportent. Enfin, je montrerai comment complémenter le\r\nType-DD avec le Test-DD pour finir de spécifier avec des tests ce qui n'a pas\r\npu être spécifié par des types",
+	"duration": 45,
+	"id": 49,
+	"roomId": 13,
+	"speakersId": [46],
+	"startAt": "2016-04-21 13:55",
+	"title": "TDD, comme dans Type-Directed Development"
+}, {
+	"description": "Building a modern web (or mobile) application requires a lot of tools, frameworks and techniques. This session shows how JHipster unites popular frameworks like AngularJS, Spring Boot and Bootstrap. Using Yeoman, a scaffolding tool for modern webapps, JHipster will generate a project for you and allow you to use Java 7 or 8, SQL or NoSQL databases, Spring profiles, Maven or Gradle, Grunt or Gulp.js, WebSockets and Browsersync. It also supports a number of different authentication mechanisms: classic session-based auth, OAuth 2.0, or token-based authentication. For cloud deployments, JHipster includes out-of-the-box support for Cloud Foundry, Heroku and Openshift.",
+	"duration": 45,
+	"id": 50,
+	"roomId": 3,
+	"speakersId": [146],
+	"startAt": "2016-04-21 14:55",
+	"title": "Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap"
+}, {
+	"description": "Dans nos architectures REST modernes, les bons vieux cookies de session ne suffisent plus. Il est temps de s’intéresser aux JSON Web Token : une nouvelle approche plus simple, 100% stateless et facilement scalable.\r\n\r\nPlus de stockage de session côté serveur. Plus de réplication de session sur le cluster. La consommation de multiples couches d’APIs avec une seule connexion devient plus simple.\r\n\r\nDans cette présentation, nous aborderons le fonctionnement des JWT, nous verrons comment gérer une session client et bien d'autres usages tout en pesant les avantages et inconvénients.",
+	"duration": 45,
+	"id": 51,
+	"roomId": 4,
+	"speakersId": [106],
+	"startAt": "2016-04-21 14:55",
+	"title": "100% Stateless avec JWT (JSON Web Token)"
+}, {
+	"description": "In 2004 Google published the MapReduce paper, a programming model that kick-started big data as we know it. Ten years later, Google introduced Dataflow - a new paradigm, integrating batch and stream processing in one common abstraction. This time the offer was more than a paper, but also an open source Java SDK and a cloud managed service to run it. In 2016 big data players like Cask, Cloudera, Data Artisans, PayPal, Slack, Talend joined Google to propose Dataflow for incubation at the Apache Software Foundation - Dataflow is here, not only unifying batch and streaming, but also the big data world.\r\n\r\nIn this talk we are going to review Dataflow's differentiating elements and why they matter.  We’ll demonstrate Dataflow’s capabilities through a real-time demo with practical insights on how to manage and visualize streams of data.",
+	"duration": 45,
+	"id": 52,
+	"roomId": 0,
+	"speakersId": [187, 80],
+	"startAt": "2016-04-21 14:55",
+	"title": "Google Dataflow: The new open model for batch and stream processing"
+}, {
+	"description": "le \"Continuous Delivery\" est un sacré buzz word, et \"Docker\" encore plus, mais les blog que j'ai pu lire sur sujet ne proposent qu'un pipelines naif et minimaliste : compile, test, push docker image, et voilà. \r\n\r\nEn 2015 Jenkins adresse clairement plus que de l'Integration Continue, et avec le support récent du workflow plugin nous pouvons orchestrer avec un DSL des pipelines de grande complexité. L'integration avec Docker lui donne encore plus de puissance. \r\n\r\nPendant cette session, je vais construire un pipeline de CD pour montrer l'utilisation du workflow et sa flexibilité, ainsi que l'apport de Docker à votre boite à outils de Continuous Delivery, avant de marier les deux - mais chut, ne spoilons pas. ",
+	"duration": 45,
+	"id": 53,
+	"roomId": 7,
+	"speakersId": [162, 230],
+	"startAt": "2016-04-21 14:55",
+	"title": "(Jenkins, Docker) -> { Orchestrons le Continuous Delivery }"
+}, {
+	"description": " Le nombre des objets connectés ne cessent d'augmenter de jour en jour. Nul ne peut ignorer leur potentiel et surtout l'impact que ces objets pourraient avoir sur notre quotidien.\r\n\r\nJe vais vous présenter un exemple d'objet connecté et comment analyser ses données.\r\nL'objectif est de voir comment collecter les données depuis un capteur du smartphone, stocker ces données dans Cassandra et enfin, analyser ces données pour prédire notre activité avec Spark.\r\n\r\nUne démonstration sera faite pour monter la solution en temps réel.",
+	"duration": 45,
+	"id": 54,
+	"roomId": 5,
+	"speakersId": [12],
+	"startAt": "2016-04-21 14:55",
+	"title": "De l'IOT, des timeseries et de la prédiction avec Android, Cassandra et Spark"
+}, {
+	"description": "Hibernate is the most common JPA provider and knowing its inner-workings can make the difference between a high-performance enterprise application and one that barely crawls. ",
+	"duration": 45,
+	"id": 55,
+	"roomId": 6,
+	"speakersId": [223],
+	"startAt": "2016-04-21 14:55",
+	"title": "High-Performance Hibernate"
+}, {
+	"description": "**« La structure d’un système est à l’image de la structure de communication de l’organisation qui l’a conçu »**. La Loi de Conway a été démontrée à maintes reprises, mais au delà de l’organisation formelle des équipes, **la stratégie de branching** que l’on adopte **décrit et affecte les modes de communications entre collaborateurs**.\r\n\r\nNous parcourrons les différentes stratégies de branching (feature branch, git flow, etc). Nous observerons alors pour chacune d’elles **les impacts et conséquences sur nos modes de communication**.\r\n\r\nA la fin de cette session, vous ne brancherez plus par hasard !",
+	"duration": 45,
+	"id": 56,
+	"roomId": 11,
+	"speakersId": [29, 102],
+	"startAt": "2016-04-21 14:55",
+	"title": "Ce que les stratégies de versioning nous disent des dynamiques d’équipe"
+}, {
+	"description": "In this session we’ll tell you about Microsoft's journey from a product to a services company, and how Java is an important part of that journey.  We'll also share some  real-world examples using Microsoft’s open source SDKs on GitHub, and tools available for non-Microsoft developers, with a drill-down into our Java offerings and how they can enhance your Java applications.",
+	"duration": 45,
+	"id": 57,
+	"roomId": 13,
+	"speakersId": [32],
+	"startAt": "2016-04-21 14:55",
+	"title": "How Microsoft learned to love Java"
+}, {
+	"duration": 20,
+	"id": 58,
+	"roomId": 1,
+	"startAt": "2016-04-21 15:40",
+	"title": "Pause café"
+}, {
+	"description": "La concatenation de chaine de caractère est une des premières choses que l'on montre à un débutant en Java, pourtant même si cela repose sur un ensemble de mécanismes assez simple (+, StringBuilder et toString), la façon de concaténer des chaines de caractères a changé au fil des versions de Java en culminant avec une implantation à base d'invokedynamic recemment introduite dans la version 9.\r\n\r\nEn utilisant le prétexte de la concaténation de chaine de caractères, cette présentation explique le fonctionnement habituel d'une feature en Java, avec le rôle du compilateur, le rôle du JDK, le rôle de la machine virtuelle et de ses JITs.",
+	"duration": 45,
+	"id": 59,
+	"roomId": 3,
+	"speakersId": [179],
+	"startAt": "2016-04-21 16:10",
+	"title": "String Concatenation de 1 à 9"
+}, {
+	"description": "En cinq ans, a Criteo, le volume d'événements métier – transmis, traités et importés dans un dépôt central – est passé de “un peu” à “hein, quoi, tout ça ?” (6 millions de messages/seconde dans 7 datacenters, le tout déversé dans l’un des plus gros clusters Hadoop d’Europe).\r\n\r\nC’est pour nous l’occasion de décrire les choix successifs et l’évolution organique d’un système d’import de logs métier, allant d’une instance de MySQL à une tripotée de clusters Kafka et un peu de Mesos, en passant par du rsyslog et beaucoup de Bash.\r\n\r\nS’occuper d’un système distribué un tantinet sollicité, c’est aussi mille raisons d'être appelé en pleine nuit, de se heurter à des limitations théoriques ou physiques, et de développer un pessimisme serein.\r\n\r\nToutes choses qui seront narrées à deux voix par l’architecte/codeur/barbu des origines et l’un des membres de l’équipe qui a pris la suite.\r\n",
+	"duration": 45,
+	"id": 60,
+	"roomId": 4,
+	"speakersId": [228, 192],
+	"startAt": "2016-04-21 16:10",
+	"title": "Systèmes distribués, scotch, bouts de ficelle et doigts croisés : une histoire du Streaming à Criteo"
+}, {
+	"description": "Criteo has a 26808 core cluster with 39 PB of raw storage and 11 TB RAM that runs up to 90000 jobs per day. Criteo decided to create a cluster with the capacity to temporarily replace, in both storage and compute, the existing cluster while it is upgraded. We will then run both clusters in parallel as part of our disaster recovery program and for extra capacity. The new hardware was chosen after manufacturers were asked to make competing bids to supply the new machines. In this talk we will describe: \r\n\r\n1. the criteria we established for the 800 new computers and our comparison tests between suppliers' hardware and prices\r\n\r\n2. our non-blocking level 3 network infrastructure with 10 Gb endpoints scalable to 5000 machines\r\n\r\n3. the installation and configuration, using Chef, of a new cluster with a new version of Hadoop on new hardware\r\n\r\n4. the problems encountered in moving our jobs and data from the old CDH4 cluster to the new CDH5 cluster\r\n\r\n5. the plans for running the two clusters in parallel and for failing over between them in case of disaster\r\n\r\n6. the operational issues we face running two large clusters and three smaller clusters",
+	"duration": 45,
+	"id": 61,
+	"roomId": 0,
+	"speakersId": [200],
+	"startAt": "2016-04-21 16:10",
+	"title": "Redundancy for a 1117 node Hadoop cluster"
+}, {
+	"description": "Dans un projet avec des composants \"hardwares\" variés (capteurs et actionneurs divers), vous devez gérer de multiples événements en environnement restreint (Raspberry Pi, Beaglebone, ...).\r\nRien de plus logique que d’utiliser un framework \"réactif\" léger comme Vert.x pour ce type de projet quand vous venez du monde Java.\r\n\r\nLes ingrédients \"hardware\" du talk sont :\r\n\r\n* quelques capteurs et d'actionneurs (température, relais, ...)\r\n* des bus de communication (compteur EDF, 1-wire)\r\n* des entrées/sorties numériques\r\n\r\nCoté Vert.x, les ingrédients sont :\r\n\r\n* boucle événementielle distribuée\r\n* API asynchrones (Web, Filesystem, Handler, ...)\r\n* modules Vert.x (Vertx-Unit, client MongoDB, ...)\r\n\r\nVenez découvrir des cas concrets d'utilisation de Vert.x et repartir avec des idées pour vos projets IoT de demain !\r\n",
+	"duration": 45,
+	"id": 62,
+	"roomId": 7,
+	"speakersId": [136],
+	"startAt": "2016-04-21 16:10",
+	"title": "Vert.x pour l'IoT dans l'embarqué"
+}, {
+	"description": "Le choix d'un framework ou d'une librairie peut s'avérer difficile: Angular, Backbone, React... Comment s'y retrouver ? Nous vous aiderons dans votre quête !\r\n \r\nNous souhaitons faire un tour d'horizon de ce qui se fait actuellement sans prendre (trop) de parti pris, avec des retours d'expérience pour trouver les forces et faiblesses du paysage des frameworks JS.\r\n \r\nNous vous inviterons à vous poser les bonnes questions avant de choisir aveuglément un framework pour vos projets.",
+	"duration": 45,
+	"id": 63,
+	"roomId": 5,
+	"speakersId": [194, 183],
+	"startAt": "2016-04-21 16:10",
+	"title": "la-quête-du-graal.js"
+}, {
+	"description": "Il y a en moyenne 40 déploiements par jours en production sur GitHub.com. Pour permettre cela, il nous a fallut construire une chaine d'intégration et de delivery adaptée. Je vous propose de découvrir notre workflow en live et de faire connaissance avec Hubot, le plus prolifique des collaborateurs de GitHub.",
+	"duration": 45,
+	"id": 64,
+	"roomId": 6,
+	"speakersId": [2],
+	"startAt": "2016-04-21 16:10",
+	"title": "Intégration et déploiement en continu @ Github"
+}, {
+	"description": "Vous tenez probablement pour acquis que créer son propre algorithme de chiffrement est une erreur et vous avez raison. Cependant, s’appuyer sur des algorithmes réputés sûrs, tels qu’AES ou SHA, ne vous met pas pour autant à l’abri de failles facilement exploitables. La conception de solutions s’appuyant sur ces algorithmes et leur implémentation sont des choses périlleuses. Même l’usage de SSL/TLS ou PGP/GnuPG comportent des risques.\r\nDurant cette présentation, à travers l’explication d’attaques et leur mise en oeuvre, vous comprendrez les attaques sur TLS de ces dernières années et serez ensuite faire un meilleur usage de la cryptographie.",
+	"duration": 45,
+	"id": 65,
+	"roomId": 11,
+	"speakersId": [210],
+	"startAt": "2016-04-21 16:10",
+	"title": "Apprendre à utiliser la cryptographie par l’attaque"
+}, {
+	"description": "Vous pensez que le streaming et le machine learning ne sont là que pour faire du \"Big Data\". Que nenni ! \r\nJe vous propose un petit détournement de ces technos pour quelque chose de nettement moins big mais tout aussi data et bien plus amusant : faire de la musique ! \r\nJe vous montrerai comment à l’aide de quelques accessoires, des tweets et quelques lignes de code nous pourrons créer de nouvelles façons de créer de la musique !",
+	"duration": 45,
+	"id": 66,
+	"roomId": 13,
+	"speakersId": [88],
+	"startAt": "2016-04-21 16:10",
+	"title": "IOT Streaming and Machine Learning to make Music !!"
+}, {
+	"duration": 180,
+	"id": 67,
+	"roomId": 14,
+	"startAt": "2016-04-21 16:10"
+}, {
+	"duration": 180,
+	"id": 68,
+	"roomId": 15,
+	"startAt": "2016-04-21 16:10"
+}, {
+	"duration": 180,
+	"id": 69,
+	"roomId": 16,
+	"startAt": "2016-04-21 16:10"
+}, {
+	"description": "If you want evidence that the software development industry is susceptible to fashion, just go and take a look at all of the hype around microservices. It's everywhere! For some people microservices is \"the next big thing\", whereas for others it's simply a lightweight evolution of the big service-oriented architectures that we saw 10 years ago \"done right”. Microservices is by no means a silver bullet though, and the design thinking required to create a good microservices architecture is the same as that needed to create a well structured monolith. And this begs the question that if you can’t build a well-structured monolith, what makes you think microservices is the answer?",
+	"duration": 45,
+	"id": 70,
+	"roomId": 3,
+	"speakersId": [195],
+	"startAt": "2016-04-21 17:10",
+	"title": "Modular monoliths"
+}, {
+	"description": "Kubernetes is a powerful, open source, container orchestration / cluster management tool created by Google.  It drew upon all the lessons learned from a near-decade of using containers at Google. In this session, we'll look beyond container orchestration with Kubernetes, but also taking a deep dive into more advanced feature such as autoscaling.  But its most powerful feature is its versatile REST API which you can use to tailor Kubernetes to your needs.\r\n\r\nIn addition to the Kubernetes Autoscaler, We'll look at:\r\n - How to access the Kubernetes API securely\r\n - The different Kubernetes resources, such as Pod, Replication Controller, Service, etc.\r\n - How to update/manage your entire cluster using the API \r\n\r\nWe'll demonstrate all of the concepts via a custom autoscaler that scales a stateful application using custom metrics, such as Infinispan!",
+	"duration": 45,
+	"id": 71,
+	"roomId": 4,
+	"speakersId": [178],
+	"startAt": "2016-04-21 17:10",
+	"title": "Scaling with Kubernetes, Automatically!  Learn Kubernetes API through writing a visualizer to an autoscaler"
+}, {
+	"description": "De plus en plus de monde commence à réaliser qu'il est important d'enseigner la programmation dès le plus jeune âge.\r\nLe but de Devoxx4Kids est d'initier les enfants à la programmation, l'électronique et la robotique de manière amusante au travers de différents ateliers où les enfants peuvent preuve de créativité. ",
+	"duration": 45,
+	"id": 72,
+	"roomId": 0,
+	"speakersId": [58, 24, 73, 225],
+	"startAt": "2016-04-21 17:10",
+	"title": "Faire découvrir la programmation aux enfants, un atelier à la fois"
+}, {
+	"description": "React est une librairie JavaScript développée par Facebook pour créer facilement des interfaces graphiques. La particularité de React vient de son modèle de programmation orienté composant et de sa façon de décrire les vues de ces composants. Contrairement à d'autres librairies, ici pas de templates et de pseudo code, React permet d'utiliser la pleine expressivité de JavaScript et de bénéficier de toutes les features du langage, notamment tous les goodies apportés par ES2015.\r\n\r\nDurant cette session orientée live coding, nous verrons comment utiliser React pour créer des composants graphiques dans le cadre d'applications web et d'applications mobiles natives grâce à React Native.",
+	"duration": 45,
+	"id": 73,
+	"roomId": 7,
+	"speakersId": [144],
+	"startAt": "2016-04-21 17:10",
+	"title": "Let's React"
+}, {
+	"description": "Installer Docker sur Mac ou Windows c'est pas compliqué. Il faut quand même jongler avec VirtualBox, les variables d'environnement, le `/etc/hosts` et les certificats.\r\n\r\nCa c'était avant Docker for Windows et Docker for Mac, la réécriture complète des outils desktop de Docker. Venez plonger dans leurs entrailles pour comprendre pourquoi c'est si compliqué de faire si simple. Xhyve, Hyper-V, Fuse fs, LLMNR, mdns, Moby... Le but est simple: `docker run` et ça fonctionne.\r\n",
+	"duration": 45,
+	"id": 74,
+	"roomId": 5,
+	"speakersId": [62],
+	"startAt": "2016-04-21 17:10",
+	"title": "Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?"
+}, {
+	"description": "Websphere ou Weblogic sont-ils appropriés pour votre projet ? Trop \"gros\" ? \r\nJetty, Tomcat, suffisent-ils à répondre à vos besoins ? Trop \"petits\" ? \r\n\r\nNi trop, ni trop peu. Ce qu'il vous faut c'est \"juste assez de serveur\" pour supporter uniquement le sous-ensemble d'APIs et de services dont votre application a besoin. \r\n\r\nDans cette session je ferai l'état des lieux des serveurs d'applications Java EE (Weblogic, Websphere, JBoss, GlassFish), Profile Web (TomEE, Payara, Siwpass) et Servlet (Tomcat, Jetty, Undertow). Et pour vos besoins de microservices, je vous présenterai des solutions plus modulaires comme WildFly Swarm, KumuluzEE, Spring Boot ou Dropwizard. Je vous parlerai de performance, de war, de jar executable, de monitoring, d'administration, d'optimisation, de cas d'utilisation et de retour d'experience... tout ça en vous montrant du code et en faisant tourner plusieurs types d'applications (de la plus simple à la plus complexe) dans plusieurs sortes de containers... et peut-être même sur un Raspberry Pi.",
+	"duration": 45,
+	"id": 75,
+	"roomId": 6,
+	"speakersId": [19],
+	"startAt": "2016-04-21 17:10",
+	"title": "Just enough app server"
+}, {
+	"description": "A l'heure des infrastructures immuables, de la scalabilité horizontale et des micro services, maintenir à jour un annuaire de service peut s'avérer fastidieux. Une simple migration de machine peut impliquer un changement de son adresse IP et donc la mise à jour manuel d'un serveur DNS.\r\n\r\nDe même, le rajout ou la suppression d'un serveur web pour gérer votre charge va nécessiter la mise à jour manuel de votre configuration.\r\n\r\nAu cours de cette conférence, je vous introduirai la problématique du service discovery, puis je vous présenterai consul, un outil de la société Hashicorp. ",
+	"duration": 45,
+	"id": 76,
+	"roomId": 11,
+	"speakersId": [112],
+	"startAt": "2016-04-21 17:10",
+	"title": "A la découverte du service discovery"
+}, {
+	"description": "Open source licenses provide the basic legal tools used by developers to overcome barriers to collaboration and improvement imposed by copyright law. This talk will give an overview of some of the more interesting legal issues around the current state of open source licensing.\r\n\r\nWe will address the purported decline of the GPL and copyleft, the apparent trend of 'post-open source software' (public source repositories with no explicit license), the use of open source licenses to deal with software patents, and the controversy over projects requiring contributions to be made under non-open-source CLAs.",
+	"duration": 45,
+	"id": 77,
+	"roomId": 13,
+	"speakersId": [181],
+	"startAt": "2016-04-21 17:10",
+	"title": "The State of Open Source Licensing"
+}, {
+	"description": "**Elasticsearch** est le moteur de recherche, hautement scalable et simple à déployer.\r\n\r\nUn des défis est de garder la source de données (RDBMS) et l'index Elasticsearch toujours **synchronisés**.\r\n\r\n**Hibernate ORM** est l'outil par excellence pour persister dans les bases de données.\r\n\r\nÇa serait bien si Hiberrnate ORM pouvait automatiquement pousser tous les changements vers Elasticsearch. \r\nÇa serait bien si les requêtes Elasticsearch ramenaient des objects du modèle métier comme une requête HQL le fait. \r\n\r\nEntre la dernière évolution **d'Hibernate Search**, venez découvrir par la pratique comment les univers Elasticsearch et Hibernate se rejoignent.",
+	"duration": 30,
+	"id": 78,
+	"roomId": 3,
+	"speakersId": [71, 63],
+	"startAt": "2016-04-21 18:10",
+	"title": "Elasticsearch et Hibernate sont sur un bateau..."
+}, {
+	"description": "Dashing a changé notre équipe, et si il changeait la votre?\r\nNous avons mis en place Dashing (outils de dashboard gratuit et open source) il y a 6 mois et nous pourrions difficilement vivre sans.\r\n\r\nDans ce Tools In Action je vais vous montrer :\r\n\r\n * Qu’est-ce que Dashing et qu’est-ce que l’on peut faire avec ?\r\n\r\n * Que mettre sur son dashboard (KPI qualité du code, vie de l’équipe, santé des projets, indicateurs agiles, …)\r\n\r\n * Comment coder un dashboard : l’essentiel de la présentation sera un livecode où nous allons initier un dashboard et créer nos deux premiers widget.\r\n\r\nSi vous voulez comprendre pourquoi Dashing se répand comme une trainée de poudre (quasiment toutes les équipes agiles de l’open space ont désormais leur dashing) et si vous voulez être prêt à le mettre en place dès demain chez vous, c’est ici qu’il faut venir!",
+	"duration": 30,
+	"id": 79,
+	"roomId": 4,
+	"speakersId": [153],
+	"startAt": "2016-04-21 18:10",
+	"title": "Dashing deux en un, pour un dashboard étincelant!"
+}, {
+	"description": " JSPM et SystemJs sont des outils à destination des développeurs front-end qui souhaitent simplifier leur code en le modularisant. \r\n \r\n JSPM est un *package manager* permettant de télécharger des dépendances, et SystemJS est le *module loader* permettant d'utiliser le futur standard EcmaScript 6 pour charger des modules dans votre navigateur. \r\n \r\n Cette session sera l'occasion de découvrir comment utiliser dès aujourd'hui JSPM et SystemJS, et de comprendre pourquoi les futurs frameworks front-end tel qu'Angular2 ou Aurelia parient sur ces outils.\r\n ",
+	"duration": 30,
+	"id": 80,
+	"roomId": 6,
+	"speakersId": [28, 186],
+	"startAt": "2016-04-21 18:10",
+	"title": "Modulariser votre JavaScript avec JSPM et SystemJs"
+}, {
+	"description": "Nouvelles librairies, nouveau frameworks, nouveau langages... le front de nos applications n'a cessé de se complexifier au cours des 10 dernières années.\r\nCe Tool-in-Action va vous montrer comment GruntJs et ses nombreux plugins permettent de simplifier et d'automatiser le build de la partie front de vos applications Web Java.\r\n\r\nAccessible à tous.",
+	"duration": 30,
+	"id": 81,
+	"roomId": 5,
+	"speakersId": [188],
+	"startAt": "2016-04-21 18:10",
+	"title": "GruntJs in Action"
+}, {
+	"description": "**Spark** et **Cassandra** sont des projets très populaires, mais avez vous entendu parler d'**Apache Zeppelin** ? **Zeppelin** propose un système de notebook pour pouvoir manipuler les données de manière interactive. **Zeppelin** repose sur un système de plugins qui permet de traiter des tâches **Spark**, des requêtes **Spark SQL** mais aussi des requêtes **CQL** de **Cassandra**. \r\n\r\n Je montrerai comment construire un pipeline de transformation BigData en mélangeant du Spark, du Cassandra, du Shell, du Markdown, du _ce-que-vous-voulez_ etc.\r\n\r\n**Votre framework préféré n'a pas encore de plugin pour Zeppelin ? Ecrivez-en un et partager le avec la communauté!**",
+	"duration": 30,
+	"id": 82,
+	"roomId": 7,
+	"speakersId": [68],
+	"startAt": "2016-04-21 18:10",
+	"title": "Apache Zeppelin, un notebook d'avenir pour l'éco-système Big Data"
+}, {
+	"description": "Ehcache 3 offre des changements majeurs d’API. Outre la compatibilité JSR-107, tout a été revu pour en faire une librairie de cache qui sert au mieux les utilisateurs tout en continuant d’offrir des options de configuration très avancées.\r\n\r\nEt un des changements majeurs est la disparition de la classe `Element`!\r\n\r\nEn partant du support JSR-107 dans des frameworks bien connus tels que Spring, nous verrons comment il est facile d’intégrer Ehcache 3 dans une application.\r\n\r\nEnsuite, simplement par configuration, nous verrons comment bénéficier des fonctionnalités supplémentaires qu’apporte Ehcache. Pour cela nous illustrerons les extensions au niveau de la configuration. Cela permettra de démontrer les patterns choisis dans Ehcache 3 pour simplifier cette dernière. \r\n\r\nEt nous terminerons par l’obligatoire XML qui permet de s’affranchir de la dépendance applicative vers Ehcache 3 dans un contexte JSR-107 tout en bénéficiant des fonctionnalités ajoutées.",
+	"duration": 30,
+	"id": 83,
+	"roomId": 0,
+	"speakersId": [137],
+	"startAt": "2016-04-21 18:10",
+	"title": "Ehcache hors de son Element"
+}, {
+	"description": "Partager simplement ses données entre processus exécutés sur la même machine ou sur des machines distantes, sans compromettre les performances n’est pas une chose aisée. La gestion et la persistance d’un grand nombre d’objet en mémoire peut dégrader sensiblement les performances des applications\r\n \r\nComment obtenir une latence minimale (autour d'une micro-seconde) avec un débit de dizaines de millions d' événements / d'opérations par seconde, sans affecter les performance de votre système ?\r\nVenez découvrir Chronicle Queue, une librairie 100% java de messagerie adaptés à vos besoins (latence, débit, persistance et garantie de livraison) et comprendre avec nous ses apports et ses limitations.",
+	"duration": 30,
+	"id": 84,
+	"roomId": 11,
+	"speakersId": [210, 180],
+	"startAt": "2016-04-21 18:10",
+	"title": "Débridez les performances de vos applications avec Chronicle Queue"
+}, {
+	"description": "Au quotidien tout développeur est confronté aux process sécurité, votre temps perdu avec eux est directement lié à l'architecture et à la qualité de votre application. Dans cette présentation nous ferons un focus sur le concept des end-points : les véritables portes d'entrée de votre application et comment les lister. \r\n\r\nA partir d'exemples remplis de faille de \"sécurité\" basés sur JSF, Spring ou Jax-RS nous présenterons une façon de refactoriser le code au mieux pour supprimer les failles. L'objectif est de transformer votre application en paladin pour tanker au mieux les attaques des rogues !",
+	"duration": 30,
+	"id": 85,
+	"roomId": 13,
+	"speakersId": [114, 160],
+	"startAt": "2016-04-21 18:10",
+	"title": "Mon appli est secure ! Enfin je crois..."
+}, {
+	"description": "Vous souhaitez configurer SSL/TLS gratuitement et simplement sur votre serveur Web pour HTTP/2 ? Let's Encrypt est faite pour vous !\r\n\r\nAprès un rapide rappel du fonctionnement du Web sécurisé par SSL/TLS et de ce qu'est Let's Encrypt, nous utiliserons ses outils pour générer/renouveler des certificats et paramétrer le SSL/TLS dans un serveur Web NGinx, le tout gratuitement, simplement et en quelques minutes.",
+	"duration": 30,
+	"id": 86,
+	"roomId": 3,
+	"speakersId": [57],
+	"startAt": "2016-04-21 18:55",
+	"title": "Sécurisez vos applications Web gratuitement en quelques minutes avec Let's Encrypt"
+}, {
+	"description": "Tu viens d'acheter l'watch, et maintenant tu te demandes ce que tu vas en faire?\r\n* mesurer tes battements cardiaques, ou combien de km parcourus\r\n* répondre au téléphone sur ta montre (eh oui M. Bush, c'est possible)\r\n* recevoir des notifications, ou encore mieux y répondre par dictation ou avec un emoji\r\n \r\nPeut être simplement lire l'heure? Bah, mais non! Toi tu es plutôt un codeur, donc, amusons nous ensemble à construire une app et à explorer les possibilités du SDK WatchOS2 avec un peu de live coding.\r\n\r\nOn commencera par une petite description de comment définir une UI dans un Storyboard (la représentation visuelle de l'interface utilisateur dans Xcode): le layout simplifié de watchOS, les notifications vs les glances et les complications (qui ne sont pas aussi compliquées que ça). On regardera comment ta montre interagît avec ton iPhone. Et pour finir, bien sûr que nous allons explorer le HealthKit pour mesurer tes battements cardiaques.",
+	"duration": 30,
+	"id": 87,
+	"roomId": 4,
+	"speakersId": [48],
+	"startAt": "2016-04-21 18:55",
+	"title": "Hackons une app AppleWatch"
+}, {
+	"description": "Vous utilisez Git, mais connaissez-vous les mécanismes internes qui se cachent derrière chaque commit ?\r\n\r\nPourtant Git est construit de manière extrêmement simple et à travers cette présentation vous allez découvrir ses entrailles et enfin comprendre ce qui se cache derrière les termes tels que blob et tree.\r\n\r\nLes principes sur lesquels repose Git sont même tellement élémentaires que vous apprendrez comment faire un commit sans taper la moindre commande Git !",
+	"duration": 30,
+	"id": 88,
+	"roomId": 6,
+	"speakersId": [5],
+	"startAt": "2016-04-21 18:55",
+	"title": "Entrer dans les entrailles de Git, ou comment faire un commit sans faire du Git"
+}, {
+	"description": "L’introduction de docker en production se fait souvent petit à petit, en mode *nouveau format de packaging* plutôt qu’avec un *orchestrateur* docker.\r\nLes orchestrateurs comme *Kubernetes* ou *Mesos* peuvent faire peur de part leur potentielle complexité à être mis en oeuvre et intégrés dans une infrastructure existante.\r\nNous découvrirons ensemble **Rancher**, un autre orchestrateur docker, plus facile à intégrer, mais tout aussi puissant.\r\nNous verrons comment l'installer sans révolutionner son infrastructure, comment  l'utiliser et bénéficier de son utilisation dans des cas d'usage avancés comme le “rolling upgrade” d'un service.",
+	"duration": 30,
+	"id": 89,
+	"roomId": 5,
+	"speakersId": [39, 232],
+	"startAt": "2016-04-21 18:55",
+	"title": "Rancher, le (petit) orchestrateur docker qui vous veut du bien"
+}, {
+	"description": "Est-ce que votre chat ressemble à Garfield, vous ne savez pas si votre chien  fait suffisamment d'exercices. On vous propose de construire un objet connecté, récupérer l'information et l'exploiter pour faire vous même le fitbit de votre compagnon à quatre pattes.\r\n\r\nPendant cette conférence vous verrez \r\n- Quelles sont les questions à se poser pour concevoir un objet\r\n- Quelles sont les medium de communication (GSM, Sigfox, Lora) et comment choisir le bon\r\n- Comment exploiter cette information",
+	"duration": 30,
+	"id": 90,
+	"roomId": 7,
+	"speakersId": [59, 166],
+	"startAt": "2016-04-21 18:55",
+	"title": "Construire un Fitbit-like pour chien et chat"
+}, {
+	"description": "Les FlameGraph sont une représentation de l’activité de votre CPU. \r\n\r\nIls sont régulièrement utilisés par Brendan Gregg l’expert performance de Netflix. \r\n\r\nNous vous expliquerons comment les générer, les interpréter et les utiliser dans une démarche de performance.",
+	"duration": 30,
+	"id": 91,
+	"roomId": 0,
+	"speakersId": [219, 159],
+	"startAt": "2016-04-21 18:55",
+	"title": "Performance: Java vous déclare sa flamme"
+}, {
+	"description": "H2O est un outil d'analyse de données écrit en Java principalement axé sur l'analyse prédictive et le machine learning. Il tourne sur Hadoop et sur des clusters Spark ou natifs. Nous allons utiiser un exemple simple de classification et voir comment utiliser le notebook H2O sans coder. Puis nous utiliserons l'API REST depuis un code classique.",
+	"duration": 30,
+	"id": 92,
+	"roomId": 11,
+	"speakersId": [43],
+	"startAt": "2016-04-21 18:55",
+	"title": "H2O, l'analyse prédictive sans coder ... ou presque"
+}, {
+	"description": "RAML est le langage de description des API RESTful qui monte et qui gagne à être connu. Ce langage favorise la réutilisation : Don't Repeat Yourself ! Avec le nombre d'APIs qui augmente constamment, RAML est donc le bienvenu.\r\n\r\nNous verrons donc comment décrire très simplement et rapidement une API, factoriser la description et générer une description interactive à publier en ligne !",
+	"duration": 30,
+	"id": 93,
+	"roomId": 13,
+	"speakersId": [206],
+	"startAt": "2016-04-21 18:55",
+	"title": "RAML une autre façon de concevoir vos APIs RESTful"
+}, {
+	"description": "Ceci n'est n'est **pas** un épisode.\r\n\r\nC'est une heure d'échange entre les cast codeurs et leurs auditeurs:\r\n\r\n* qu'est-ce que vous préférez ? Le moins ?\r\n* quelle rubriques pourraient être créées ou améliorer ?\r\n* comment augmenter le nombre de crowdcasts ?\r\n* discuter matériel, flux de travail et logiciel pour l'enregistrement et la diffusion du podcast\r\n* qui sait, trouver des bonnes âmes pour aider à la production\r\n* et bien sûr tous les sujets qui vous intéressent sur l'envers du décors des cast codeurs",
+	"duration": 50,
+	"id": 94,
+	"roomId": 0,
+	"speakersId": [71, 21, 19, 97, 221],
+	"startAt": "2016-04-21 19:45",
+	"title": "La BoF des Cast Codeurs"
+}, {
+	"description": "Une BOF pour tous les développeurs qui s’intéressent à Spring. Au programme: discussion libre avec l’équipe Spring sur tous les projets du portfolio, et bien plus encore!",
+	"duration": 50,
+	"id": 95,
+	"roomId": 7,
+	"speakersId": [202, 33, 81, 231],
+	"startAt": "2016-04-21 19:45",
+	"title": "The Spring BOF"
+}, {
+	"description": "Meetup mensuel Paris.js, qui aura lieu au Devoxx. Merci Devoxx !\r\n\r\nProgramme à définir en avril.",
+	"duration": 50,
+	"id": 96,
+	"roomId": 5,
+	"speakersId": [134],
+	"startAt": "2016-04-21 19:45",
+	"title": "Paris.js #55 au Devoxx"
+}, {
+	"description": "In this session we will have an open discussion of the various legal issues faced by developers starting a new open source project or contributing to an existing project. Depending on interest, we may talk about copyright, license selection, license compatibility, trademarks, patents, CLAs, \"work for hire\", data protection, and perhaps other topics.",
+	"duration": 50,
+	"id": 97,
+	"roomId": 6,
+	"speakersId": [181],
+	"startAt": "2016-04-21 19:45",
+	"title": "Legal issues in open source project development"
+}, {
+	"description": "Série de flash-talk sur le thème des passerelles entre le monde de la sécurité informatique et le mouvement DevOps, avec en filigrane le changement de paradigme introduit par Docker. Quatre hackers et un dev viendrons partager leur experience et éclairer un aspect du mouvement DevOpSec qui reste à construire. Ces discussions seront essentiellement basées sur un échange avec les participants et ponctués d'exemples concrets et pratiques.\r\n\r\nBluetouff viendra nous parler des contraintes geopolitiques dans le déploiement d'une infrastructure. Il nous expliquera comment contruire en anticipant les évolutions à venir.\r\n\r\nZak passera en revue les scans automatique et outils automatiques destinées à renforcer la sécurité des développements dans un environement Docker.",
+	"duration": 50,
+	"id": 98,
+	"roomId": 11,
+	"speakersId": [79, 103, 104],
+	"startAt": "2016-04-21 19:45",
+	"title": "BOF Sécurité et DevOps partie 1"
+}, {
+	"description": "En mode \"thérapie de groupe\" nous vous proposons un BOF pour les speakers. L'idée et que chacun puisse partager ses expériences, bonnes pratiques et idées qui n'ont pas bien marché sur les différentes étapes d'un talk :\r\n\r\n* Soumission du CFP\r\n* Préparation du discours et du support\r\n* Répétitions\r\n* Le jour de la conf\r\n* L'après...\r\n\r\nCette thérapie de groupe est aussi l'occasion d'échanger sur ce que ça veut dire d'être speaker. Pourquoi nous faisons ça ? Pourquoi nous passons autant de temps sur nos présentations etc...",
+	"duration": 50,
+	"id": 99,
+	"roomId": 13,
+	"speakersId": [106],
+	"startAt": "2016-04-21 19:45",
+	"title": "BOF speakers : Thérapie de groupe"
+}, {
+	"description": "Les meetups data sont réunis pour un grand meetup commun sur la DATA:  \r\n-http://www.meetup.com/Paris-Spark-Meetup/  \r\n-http://www.meetup.com/Paris-Datageeks/  \r\n-http://www.meetup.com/Hadoop-User-Group-France/",
+	"duration": 50,
+	"id": 100,
+	"roomId": 14,
+	"speakersId": [],
+	"startAt": "2016-04-21 19:45",
+	"title": "Data Meetup: Hadoop User Group, Paris Data Geek et Spark Meetup"
+}, {
+	"duration": 50,
+	"id": 101,
+	"roomId": 15,
+	"startAt": "2016-04-21 19:45"
+}, {
+	"duration": 50,
+	"id": 102,
+	"roomId": 16,
+	"startAt": "2016-04-21 19:45"
+}, {
+	"description": "Vous êtes curieux de savoir comment se prépare un événement pour 2500 personnes sur 3 Jours ? Vous avez envie que Devoxx France soit encore meilleur l'année prochaine ?\r\nAlors venez échanger avec ceux qui préparent et gèrent l'événement.\r\n\r\nQuelques idées de sujets que nous pourrons aborder ensembles: \r\n\r\n* La préparation de l'événement \r\n* La préparation/selection du programme et l'expérience Golden Tickets \r\n* L'événement une fois sur place\r\n",
+	"duration": 50,
+	"id": 103,
+	"roomId": 0,
+	"speakersId": [157, 19, 21, 235],
+	"startAt": "2016-04-21 20:40",
+	"title": "DevoxxFR - Les coulisses"
+}, {
+	"description": "BOF des GDG Francais.\r\nLes Google Developer Groups (GDGs) sont des groupes de dévelopeurs intéressés par les technologies Google: Android, Chrome, Cloud, Golang, Dart, GWT, AngularJS, Firebase... ainsi que les API telles que Maps API, Cast API, YouTube API...\r\n\r\nCe BOF présentera les GDGs ainsi que plusieurs technologies nouvelles du monde Google et sera co-organisé par plusieurs GDGs.\r\n\r\n\r\n",
+	"duration": 50,
+	"id": 104,
+	"roomId": 7,
+	"speakersId": [3, 209],
+	"startAt": "2016-04-21 20:40",
+	"title": "BOF des Google Developer Group francais"
+}, {
+	"description": "Cette rencontre BOF sera l'occasion de découvrir ce qui se cache derrière le Software Craftsmanship, dans le cadre même de Devoxx. Dans un format de discussion libre, rejoignez-nous avec vos questions, retours et opinions sur les techniques de code et de tests, sur les façons de collaborer en pair programming ou en mob programming, ou encore sur l'attitude en entreprise et sur la notion de professionalisme dans notre métier.\r\n\r\nComme à notre habitude le choix des sujets de discussion et / ou d'exercice de code sera laissé librement aux participants en début de session.",
+	"duration": 50,
+	"id": 105,
+	"roomId": 5,
+	"speakersId": [53],
+	"startAt": "2016-04-21 20:40",
+	"title": "BoF Communautés Software Craftsmanship"
+}, {
+	"description": "The subject of Machine Learning is getting more and more attention these days. Meetups around the subject enable that community to stay in touch technically with the latest information in the field. \r\n\r\nThis Paris Machine Learning and Data Science Bird of a Feather will provide an overview of the diverse meetups around Machine Learning and Data Science in Paris.  The presentation will be made by organizers of these meetups (Machine Learning, Deep Learning,...). ",
+	"duration": 50,
+	"id": 106,
+	"roomId": 6,
+	"speakersId": [108],
+	"startAt": "2016-04-21 20:40",
+	"title": "Paris Machine Learning and Data Science Community (BOF)"
+}, {
+	"description": "Suite de la BOF organisée par Fabrice Epelboin.\r\n\r\nSérie de flash-talk sur le thème des passerelles entre le monde de la sécurité informatique et le mouvement DevOps, avec en filigrane le changement de paradigme introduit par Docker. Quatre hackers et un dev viendrons partager leur experience et éclairer un aspect du mouvement DevOpSec qui reste à construire. Ces discussions seront essentiellement basées sur un échange avec les participants et ponctués d'exemples concrets et pratiques.\r\n\r\nToufik partagera avec nous les retour d'experience d'un chasseur de bug dans un ecosystème hacker où les bug bounty prennent une place de plus en plus importante.\r\n\r\nKevin nous parlera de son expérience en matière de developpement sécurisé, afin de comprendre comment un dev sécurise son environnement aujourd'hui.\r\n\r\nHitch nous expliquera les concepts de Continuous Security et de Continuous Developpement,  et sa vision d'une sécurité qui se retrouve au cœur du mouvement DevOps.",
+	"duration": 50,
+	"id": 107,
+	"roomId": 11,
+	"speakersId": [79, 103, 104],
+	"startAt": "2016-04-21 20:40",
+	"title": "BOF Sécurité et DevOps partie 2"
+}, {
+	"description": "BOF Devoxx4Kids pour permettre à tous de connaître le statut actuel de l'organisation et de venir poser des questions, rencontrer les différentes équipes.",
+	"duration": 50,
+	"id": 108,
+	"roomId": 13,
+	"speakersId": [58, 24, 73, 225],
+	"startAt": "2016-04-21 20:40",
+	"title": "Devoxx4Kids BOF: Qui, quoi, comment"
+}, {
+	"description": "Pendant cette session, nous passerons en revue les grosses nouveautés (du **très très lourd**) qui vont arriver bientôt cette année dans **Cassandra**, en vrac:\r\n\r\n- des index secondaires pour faire du **Full Text Search** et qui scalent (enfin !). Vous allez pouvoir faire l'équivalent du SQL _like %xxx%_ avec Cassandra, sans compter des clauses OR/AND pour donner plus de flexibilité à vos requêtes\r\n\r\n- de l'arrivée de la clause **GROUP BY**, qui, combiné avec les user-defined-aggregates, va offrir des perspectives intéressantes pour le use-case timeseries\r\n\r\n- de la mise en place d'un **système de notification** bas niveau sur les INSERT/UPDATE/DELETE. On aura enfin une primitive pour faire du push vers Spark/Kafka ou autre sans passer par les triggers. \r\n\r\n- de **Achilles 4.x**, un object mapper avec génération de code à la compilation pour vous fournir un DSL clé en main\r\n\r\n- un peu plus lointain, vers la fin de l'année 2016, peut-être verra t-on l'implémentation de RAMP Transaction pour offrir des mutations **multi-partitions** avec du **read atomic**\r\n\r\nVenez nous voir pour posez vos questions sur Cassandra.",
+	"duration": 50,
+	"id": 109,
+	"roomId": 14,
+	"speakersId": [68],
+	"startAt": "2016-04-21 20:40",
+	"title": "BOF Apache Cassandra"
+}, {
+	"duration": 50,
+	"id": 110,
+	"roomId": 15,
+	"startAt": "2016-04-21 20:40"
+}, {
+	"duration": 50,
+	"id": 111,
+	"roomId": 16,
+	"startAt": "2016-04-21 20:40"
+}, {
+	"description": " En 10 ans Jenkins est devenu la référence des serveurs d'intégration continue. Aujourd'hui, avec plus de 1300 plugins il adresse des besoins de plus en plus variés pour la livraison, le déploiement continue et tellement d'autres usages. Jenkins évolue avec la une version 2.0 prévue pour cette année et de nombreux plugins comme Pipeline, Docker, ...\r\n\r\nUtilisateur, contributeur ou simplement intéressé par Jenkins rejoignez-nous!\r\n\r\n![](http://mirrors.jenkins-ci.org/art/jenkins-logo/128x128/logo.png)",
+	"duration": 50,
+	"id": 112,
+	"roomId": 0,
+	"speakersId": [1, 162, 21, 230],
+	"startAt": "2016-04-21 21:35",
+	"title": "BOF Jenkins"
+}, {
+	"description": "C'est l'occasion pour tout les JUG leader de se retrouver autour d'un verre et d'une passion commun pour la technologie JAVA",
+	"duration": 50,
+	"id": 113,
+	"roomId": 7,
+	"speakersId": [],
+	"startAt": "2016-04-21 21:35",
+	"title": "BOF des Jugleaders"
+}, {
+	"description": "Duchess France, avant tout une communauté de technique passionné-e-s,  organise des événements techniques destinés à tous sur diverses technologies pour apprendre et partager des connaissances. Ces événements s’adressent principalement à des développeurs ou profil technique, débutant ou confirmés.\r\n\r\nD’autre part, l’une des mission de Duchess est de voir plus de femmes animer des conférences. Pour cela nous organisons d’une part des ateliers de préparation aux Call For Papers, et d’autre part des sessions de coaching pour répéter les présentations.",
+	"duration": 50,
+	"id": 114,
+	"roomId": 5,
+	"speakersId": [12, 145],
+	"startAt": "2016-04-21 21:35",
+	"title": "BoF Duchess France"
+}, {
+	"description": "Let's have a look at what have been announced during Elastic{ON}'16.\r\n\r\nIt's a great occasion to come and chat with elasticsearch and Kibana team and ask any question !\r\n",
+	"duration": 50,
+	"id": 115,
+	"roomId": 6,
+	"speakersId": [63, 177, 27],
+	"startAt": "2016-04-21 21:35",
+	"title": "BOF Elasticsearch / Kibana"
+}, {
+	"description": "Rapid introduction to the Riak product Family, focus on newest member Riak TS (Time Series).\r\n\r\nSet up Riak TS Cluster (on 6x Raspberry Pi's)\r\nPerformance benchmarks for parallelised \"smart\" data input and ways of improving \r\n\r\nReal time analytics via \r\n- WarpScript (ex. Einstein) with Cityzen Data \r\n- Spark with Lateral Thoughts \r\n\r\n\r\n\r\n\r\n\r\n",
+	"duration": 50,
+	"id": 116,
+	"roomId": 11,
+	"speakersId": [149],
+	"startAt": "2016-04-21 21:35",
+	"title": "Real Time Analytics on Time Series @ Scale with Riak / WarpScript / Spark "
+}, {
+	"description": "Comme l'année dernière nous vous proposons de venir nous rejoindre au \"BarCamp Scala\" .\r\n\r\nLe principe reste le même : Vous êtes tous participants !\r\n\r\nVous avez envie de créer un Scala user Groupe dans votre ville ? Vous avez des questions sur l'écosystème et/ou la communauté ? Vous voulez des conseils pour mieux vendre Scala à votre boss ? Ou vous voulez juste rencontrer d'autre utilisateur de Scala ?\r\nVos êtes les bienvenues ! ",
+	"duration": 50,
+	"id": 117,
+	"roomId": 13,
+	"speakersId": [88],
+	"startAt": "2016-04-21 21:35",
+	"title": "BarCamp Scala"
+}, {
+	"duration": 50,
+	"id": 118,
+	"roomId": 14,
+	"startAt": "2016-04-21 21:35"
+}, {
+	"duration": 50,
+	"id": 119,
+	"roomId": 15,
+	"startAt": "2016-04-21 21:35"
+}, {
+	"duration": 50,
+	"id": 120,
+	"roomId": 16,
+	"startAt": "2016-04-21 21:35"
+}, {
+	"duration": 60,
+	"id": 1,
+	"roomId": 1,
+	"startAt": "2016-04-22 08:00",
+	"title": "Accueil et petit-déjeuner"
+}, {
+	"duration": 20,
+	"id": 2,
+	"roomId": 3,
+	"startAt": "2016-04-22 09:00"
+}, {
+	"duration": 20,
+	"id": 3,
+	"roomId": 3,
+	"startAt": "2016-04-22 09:25"
+}, {
+	"duration": 20,
+	"id": 4,
+	"roomId": 3,
+	"startAt": "2016-04-22 09:50"
+}, {
+	"duration": 20,
+	"id": 5,
+	"roomId": 3,
+	"startAt": "2016-04-22 10:15"
+}, {
+	"duration": 30,
+	"id": 6,
+	"roomId": 1,
+	"startAt": "2016-04-22 10:45",
+	"title": "Pause café"
+}, {
+	"description": "Le Hands on \"Cassandra/Spark Lan Party\" consiste à rassembler le plus grand nombre de participants pour créer le plus grand cluster Cassandra/Spark possible.\r\n\r\nMunissez vous de votre ordinateur portable et si possible d'un cable RJ45 de quelques mètres.\r\n\r\nNous allons tous ensemble : \r\n\r\n  * créer un réseau local de machines avec vos ordinateurs\r\n  * Installer et configurer Cassandra et Spark\r\n  * Insérer des données dans le cluster\r\n  * Jouer avec le Cluster\r\n  * Créer et soumettre des Jobs Spark sur le cluster\r\n  * Battre le record du nombre de noeuds connectés lors d'une Cassandra Lan party\r\n",
+	"duration": 160,
+	"id": 7,
+	"roomId": 14,
+	"speakersId": [130, 216],
+	"startAt": "2016-04-22 11:00",
+	"title": "Cassandra/Spark Lan Party"
+}, {
+	"description": "Intimidé par la programmation fonctionnelle réactive,  RxJava/Js  et ses nombreux opérateurs ? Ce hands on est fait pour vous !  \r\nLors de cette session, vous développerez une application constituée d'un serveur java basé sur RxNetty et d'un client basé sur RxJs, le tout inspiré de vrais cas d'utilisations du monde de la finance.  \r\nCe sera l'occasion de manipuler les fonctionnalités les plus souvent utilisées au quotidien avec Rx. Cela vous permettra aussi de démystifier certains concepts, pas forcément accessibles au premier abord,  comme les flux chaux et froids, les schedulers, les flux de flux ou bien encore les jointures.  ",
+	"duration": 160,
+	"id": 8,
+	"roomId": 15,
+	"speakersId": [8, 82],
+	"startAt": "2016-04-22 11:00",
+	"title": "Baptême du feu avec Rx"
+}, {
+	"description": "Open Data :\r\nOpen Data is the idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control. The goals of the open data movement are similar to those of other \"open\" movements such as open source, open hardware, open content, and open access. \r\n\r\nDX : \t\t \t \t \t\t\r\nDigital Experience Manager can be many things to many people. Most projects will use it as a Web Content Management (WCM) solution, or whatever the moniker is at the time of reading, while others will use it as a portal server, a web integration platform, or even a full-fledged content integration solution.\r\n\r\nHands in Labs idea : \r\nThe idea of this hand in Lab is to :  \r\n- Create a platform of an open data using Digital Experience Manager Software\r\n- Create specific views for public data entries\r\n- Use the Jahia JCR Rest Api to store, update and get Data https://github.com/Jahia/jcrestapi\r\n- Use of Jahia templates to get data in different formats (CSV, JSON, ….)\r\n\r\nExamples will be inspired from http://opendata.paris.fr/page/home/\r\n\r\nPrerequisites for this Hands in Labs attendees : \r\n- Laptop\r\n- Oracle Java SE 1.7, 1.8 installed",
+	"duration": 160,
+	"id": 9,
+	"roomId": 16,
+	"speakersId": [36],
+	"startAt": "2016-04-22 11:00",
+	"title": "Create an OpenData Platform using Jahia Digital Experience Manager "
+}, {
+	"description": "Ce lab permettra a tous les participants de pouvoir rapidement utiliser 10 outils open-sources nécessaires à la sécurisation de leur application. \r\n\r\nQuelques un des exercices que nous ferons lors de ce labs : \r\n- Simulation des tests d'intrusions via l'outil OWASP Zap \r\n- Injections SQL et NoSQL  \r\n- Vérification de  la sécurité du code source d'une application Java  avec Sonar et d'autres outils.\r\n- Demonstration de l'impact  d'un XSS; vol d'éléments, prise de phots, lecture de contenu de la page\r\n\r\nNous finirons par l'automatisation lors du build (dans, un jenkins) des tests sécurité. ",
+	"duration": 160,
+	"id": 10,
+	"roomId": 0,
+	"speakersId": [205, 26],
+	"startAt": "2016-04-22 11:00",
+	"title": "Securiser son développement avec 10 outils open-source"
+}, {
+	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \r\nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge. \r\n",
+	"duration": 160,
+	"id": 11,
+	"roomId": 0,
+	"speakersId": [203],
+	"startAt": "2016-04-22 11:00",
+	"title": "TinkerForge Live Hacking"
+}, {
+	"duration": 160,
+	"id": 12,
+	"roomId": 0,
+	"startAt": "2016-04-22 11:00"
+}, {
+	"description": "La migration d'Angular 1 à Angular 2 s'annonce d'ores et déjà difficile tant les concepts sous-tendant les 2 versions du framework web sont différents. Pourtant, Angular 1 permet d'utiliser dès aujourd'hui certaines de ces nouveautés, tel qu'une architecture orientée composant ou TypeScript. Cette session sera l'occasion pour vous de découvrir comment se préparer dès maintenant à l'arrivée d'Angular 2 en étudiant un ensemble de bonnes pratiques applicables à Angular 1.",
+	"duration": 45,
+	"id": 13,
+	"roomId": 3,
+	"speakersId": [28],
+	"startAt": "2016-04-22 11:15",
+	"title": "D'Angular 1 à Angular 2 : Préparez vous dès maintenant à la migration"
+}, {
+	"description": "Are you someone who is constantly searching the globe, looking for clues on how to get maven to do your bidding? Or perhaps you just toss a coin and hope to strike it lucky this time? Maven works OK, but there's a new tool in town that goes beyond maven: Gradle. It's fresh, almost aerodynamic. Once you discover it, you'll feel like your'e 'doin' it right' when building a project. We kid you not, it's an instant crush for those that have been following the path of Maven. You are in your prime as a developer, so make the most out of it by leveraging the best tools. Oh Yeah.",
+	"duration": 45,
+	"id": 14,
+	"roomId": 4,
+	"speakersId": [13],
+	"startAt": "2016-04-22 11:15",
+	"title": "Gradle: Harder, Better, Stronger, Faster "
+}, {
+	"description": "Quelle est la taille maximale d'une machine virtuelle Java? Les utilisateurs de la JVM hotspot s'aventurent rarement au delà des 100Go de heap. Pourtant l'éditeur Quartet FS dévelope ActivePivot, une solution de In-Memory Computing écrite en pur Java, régulièrement utilisée sur plus d'un téraoctet de mémoire.\r\n\r\nCe n'est que le début: en partenariat avec Oracle, Quartet FS a récemment déployé une application de risque de crédit sur un serveur SPARC avec 384 coeurs et ... 16 To de mémoire. Oui c'est possible, si on met en place une gestion de la mémoire proche du hardware, qu'on aborde la programmation multi-coeur sous un nouvel angle, et qu'on configure le garbage collector avec ceux qui l'écrivent. Cette session dévoile les secrets derrière chacune de ces étapes.",
+	"duration": 45,
+	"id": 15,
+	"roomId": 0,
+	"speakersId": [16, 182],
+	"startAt": "2016-04-22 11:15",
+	"title": "Comment faire tourner une JVM de 16 To, par ceux qui l'ont fait"
+}, {
+	"description": "Hibernate tu connais, tu l'utilises depuis des années.\r\nMoi je paris que tu ne connais pas si bien que ça en fait.\r\nTu sais faire des recherches full-text et géospatiales, tu sais faire de l'audit de changements, persister dans une base NoSQL, faire du faceting, cacher les données dites de référence ?\r\n\r\nPas tout ? Cette présentation est pour toi, viens découvrir les nouveautés d'Hibernate ORM 5 ainsi que sur les autres projets de la famille Hibernate. En sortant, tu devrais avoir une liste de fonctionnalités à envisager pour ton application voire de nouveaux outils à utiliser.",
+	"duration": 45,
+	"id": 16,
+	"roomId": 7,
+	"speakersId": [71],
+	"startAt": "2016-04-22 11:15",
+	"title": "Hibernate tu connais... mais en fait tu connais pas"
+}, {
+	"description": "A Ullink, nos Heaps sont habituellement plutôt large (jusqu'à 256 Go) et nous gérons un important volume de données. Mais nous avons observé que la majorité de l'espace occupé dans la Heap ne l'est pas par les données business mais par les structures ! Dans cette présentation il sera montré quel est le coût des objets, quels sont les suspects idéals dans nos structures de données habituelles (Lists, Maps, Strings) et ce que nous pouvons faire pour réduire l'empreinte mémoire de l'application.",
+	"duration": 45,
+	"id": 17,
+	"roomId": 5,
+	"speakersId": [116],
+	"startAt": "2016-04-22 11:15",
+	"title": "OutOfMemoryException : Quel est le coût des objets en Java ?"
+}, {
+	"description": "\"Feature gluttony is a common sin among IT projects. Customers deliver never ending wish list of features they want. However, the key is not to build everything, but only things that are really needed. Learn how to defeat feature gluttony by... saying NO ;) And support this by:\r\n- setting common aim \r\n- finding relation: feature <-> value\r\n- defining most important use cases\r\n- defining critical process from the business perspective\r\n- decide what should be delivered first\r\n… and build excellent piece of software :) \"",
+	"duration": 45,
+	"id": 18,
+	"roomId": 6,
+	"speakersId": [133],
+	"startAt": "2016-04-22 11:15",
+	"title": "How to defeat feature gluttony?"
+}, {
+	"description": "Haskell est un langage qui paraît encore très abstrait, réservé aux mathématiciens et aux fans d'abstractions absconses et de systèmes de types tendance \"bondage\", ou encore confiné à certains cercles académiques... Après deux années passées à développer une plate-forme de crowdfunding exclusivement en Haskell, cette présentation vise à montrer qu'il n'en est rien et qu'Haskell est un choix pertinent pour développer et maintenir une plate-forme complexe aussi bien pour le coeur applicatif que pour l'infrastructure.",
+	"duration": 45,
+	"id": 19,
+	"roomId": 11,
+	"speakersId": [20],
+	"startAt": "2016-04-22 11:15",
+	"title": "Real Real World Haskell"
+}, {
+	"description": "Grâce à la mise en œuvre d’une gestion des performances applicatives (APM) de nouvelle génération, Groupama a lancé une démarche DevOps dont les objectifs premiers étaient : intégrer la Qualité de Service en amont sur les projets, pour une bonne performance délivrée en prod, optimiser les ressources, casser la guerre des clans dev-prod. Découvrez les résultats concrets et bénéfices associés. Suivra un tour d‘horizon des bonnes pratiques et outils pour intégrer, dans une démarche DevOps, la performance de vos applications et la satisfaction de vos utilisateurs dès le développement et le suivi en prod. ",
+	"duration": 45,
+	"id": 20,
+	"roomId": 13,
+	"speakersId": [92],
+	"startAt": "2016-04-22 11:15",
+	"title": "L'Application Performance Management : facilitateur de DevOps. Groupama témoigne"
+}, {
+	"duration": 55,
+	"id": 21,
+	"roomId": 1,
+	"startAt": "2016-04-22 12:00",
+	"title": "Pause déjeuner"
+}, {
+	"description": "Travailler un framework Web full-stack comme Play ou Rails permet un workflow de développement productif: les changements apportés au code entraine automatiquement le rechargement de l'application, et un pipeline dédié de compilation des assets (JS, CSS, ...) est intégré au build principal.\r\n\r\nMais lorsque l'on doit travailler avec des micro-frameworks ou des système de build hétérogènes, tout ça se complique. \r\n\r\nLaissez moi vous présenter Loop. \r\n\r\nLoop gère vos différents système de build, redémarre votre serveur au besoin, bloque l'accès à l'application tant qu'elle n'est pas prête, affiche directement les erreurs de compilation dans le navigateur.\r\n\r\nLoop est indépendant de la technologie et saura gérer vos build Maven, SBT, Gradle, grunt, gulp, make, cargo, (etc.) pour améliorer votre workflow de développement d'application Web en Javascript, Java, Scala, Python, Rust, Go, (etc.).",
+	"duration": 15,
+	"id": 22,
+	"roomId": 0,
+	"speakersId": [95],
+	"startAt": "2016-04-22 12:05",
+	"title": "Loop, améliorez votre workflow de développement d'application Web"
+}, {
+	"description": "Learn how to use Asciidoctor and Gradle to write a book that can be published as HTML, PDF, EPUB and MOBI. This session leverages my \"infoq-mini-book\" project on GitHub and shows how you can easily write a short technical book and have it published by InfoQ.",
+	"duration": 15,
+	"id": 23,
+	"roomId": 7,
+	"speakersId": [146],
+	"startAt": "2016-04-22 12:05",
+	"title": "Writing an InfoQ Mini Book with Asciidoctor"
+}, {
+	"description": "Si les mots suivants : HttpOnly, XSS, CSRF ou CORS ne vous disent rien, rejoignez-moi dans cette présentation générale de la sécurité applicative.\r\n\r\nSur une trame de fond “OWASP top 10”, nous ferons un rapide tour des techniques d’attaque et de protection des applications web.",
+	"duration": 15,
+	"id": 24,
+	"roomId": 5,
+	"speakersId": [131],
+	"startAt": "2016-04-22 12:05",
+	"title": "La sécurité applicative pour les nuls (et les autres aussi)"
+}, {
+	"description": "Embark est un framework qui nous propose de simplifier le développement d'applications décentralisées s'appuyant sur la blockchain d'Ethereum.\r\n\r\nJe vous propose de développer une première application très simple pour comprendre les mécanismes de la blockchain, et je terminerai sur quelques cas d'utilisations pour lesquels ce type d'application peut être adapté.",
+	"duration": 15,
+	"id": 25,
+	"roomId": 6,
+	"speakersId": [168],
+	"startAt": "2016-04-22 12:05",
+	"title": "Développez votre première application décentralisée sur la blockchain avec Ethereum et Embark"
+}, {
+	"description": "La revue de code, tout le monde connait, bien sûr. C'est d'ailleurs une des plus vieilles pratiques de développement, dont l'efficacité est prouvée depuis longtemps pour détecter des défauts au plus tôt. \r\nAlors pourquoi tant d'équipes n'utilisent elles pas la revue de code, ou n'en tirent pas les bénéfices qu'évoquent de nombreuses études ? \r\nAu cours de cette session, on explorera quelques uns des nombreux écueils à éviter, au travers de situations de revue de code qui se passent mal, et on proposera des pistes pour corriger le tir.",
+	"duration": 15,
+	"id": 26,
+	"roomId": 11,
+	"speakersId": [150],
+	"startAt": "2016-04-22 12:05",
+	"title": "Ratez vos revues de code en 5 leçons !"
+}, {
+	"description": "Popcorn Flow est une démarche d'amélioration continue basée sur l'expérimentation. \r\nElle repose sur 3 principes biens connus des agilistes :\r\n\r\n *  « If change is hard, make it continuous. »\r\n *  « Everybody is entitled to their own opinion, but a shared opinion is a fact »\r\n * « FAIL = First Attempt In Learning »\r\n\r\nPopcorn Flow propose une approche ludique et visuelle visant à vous permettre :\r\n\r\n *  d'identifier vos problèmes\r\n * d'en prioriser le traitement\r\n * de lister les pistes de résolution\r\n * de les explorer rapidement afin d'en tirer un plan d'actions.\r\n\r\nLoin d'être réservée aux contextes agiles et simple à mettre en œuvre, cette démarche a fait ses preuves dans différents contextes, y compris hors IT.\r\n\r\nVenez en découvrir les principes et la mécanique., et ajoutez une pincée de Popcorn à votre quotidien !",
+	"duration": 15,
+	"id": 27,
+	"roomId": 13,
+	"speakersId": [15],
+	"startAt": "2016-04-22 12:05",
+	"title": "Boostez votre amélioration continue avec Popcorn Flow !"
+}, {
+	"description": "Venez découvrir pourquoi et comment nous avons migré notre application sur Amazon en utilisant toute la puissance des services managés. Kafka est devenu Kinesis, Couchbase est devenu DynamoDB et en plus de ces mutations nos serveurs ont disparu !",
+	"duration": 15,
+	"id": 28,
+	"roomId": 0,
+	"speakersId": [99],
+	"startAt": "2016-04-22 12:25",
+	"title": "Où sont passés mes serveurs ?"
+}, {
+	"description": "Votre client vous demande des dashboards...\r\n\r\nVous êtes fan de votre terminal, allergique au CSS, et encore plus aux outils de reporting du monde de la business intelligence.\r\n\r\nCe quickie est fait pour vous!\r\n\r\nVenez découvrir un framework Node.js (blessed-contrib) qui vous permet de créer des dashboards en ASCII Art et donc de répondre aux besoins de votre client tout en vous amusant. ",
+	"duration": 15,
+	"id": 29,
+	"roomId": 7,
+	"speakersId": [217],
+	"startAt": "2016-04-22 12:25",
+	"title": "Construire des Dashboards ASCII avec Javascript"
+}, {
+	"description": "Hypermedia, REST, SOAP... On ne se demande plus pourquoi on devrait implémenter une API, mais plutôt comment l'implémenter. Toujours est-il qu'une fois notre API en place, réussir à séduire les développeurs est un vrai challenge. C'est pourtant un point critique puisque votre API peut être un canal d'adoption de votre produit à part entière.\r\n\r\nComment faire en sorte que les développeurs aient envie d'utiliser votre API, qu'ils l'utilisent efficacement et surtout, qu'ils aiment l'utiliser. ",
+	"duration": 15,
+	"id": 30,
+	"roomId": 5,
+	"speakersId": [155],
+	"startAt": "2016-04-22 12:25",
+	"title": "L'Expérience Développeur et votre API"
+}, {
+	"description": "Les agents java permettent d’observer et de modifier des programmes exécutés sur une JVM. Bien que présents depuis le JDK 1.5 ils sont très peu utilisés hormis par des outils avancés comme New Relic ou JRebel. \r\n\r\nA travers un exemple concret, on verra sur quels principes les agents se reposent et qu’en créer un est à la portée de tous, surtout lorsqu’on utilise Byte Buddy.\r\n\r\nL'exemple est un agent java qui permet de visualiser dans un navigateur web le conteneur d'injection de dépendances (Spring, CDI, Dagger et Guice) de votre application.",
+	"duration": 15,
+	"id": 31,
+	"roomId": 6,
+	"speakersId": [229],
+	"startAt": "2016-04-22 12:25",
+	"title": "Java Agent en Action - Révéler la face cachée de vos applications"
+}, {
+	"description": "Asciidoctor est une suite d’outils complets et intuitifs de publication pour le format AsciiDoc (un langage de balisage léger au format texte semblable à Markdown ou Textile). Cette plateforme est open-source et simple à utiliser. De nombreux projets open-source (petits ou grands) l’ont adopté pour réduire les difficultés rencontrées lors de la rédaction ou la maintenance de leur documentation.\r\n\r\nAprès un rapide aperçu du langage AsciiDoc, cette présentation se concentre sur les patterns qui permettent de résoudre les problèmes liés à la documentation:\r\n\r\n* Comment gérer les extraits de code source et s’assurer qu’ils restent à jour\r\n* Comment produire plusieurs documents à partir des mêmes sources ? (en partageant des blocs de texte)\r\n* Quels sont les outils nécessaires et pourquoi cela a-t-il de l’importance ?\r\n* Comment s’assurer d’avoir des builds reproductibles pour ses documents ?\r\n* Comment obtenir du feedback de sa communauté, de ses utilisateurs ?\r\n\r\nCette présentation est basée sur des exemples provenant de l’utilisation quotidienne d’Asciidoctor par le projet Eclipse Scout et est illustré par des démonstrations.\r\n",
+	"duration": 15,
+	"id": 32,
+	"roomId": 11,
+	"speakersId": [128],
+	"startAt": "2016-04-22 12:25",
+	"title": "Comment Asciidoctor peut vous aider pour votre doc"
+}, {
+	"description": "Vous avez peut être déjà entendu parlé de Li-FI ? Cette technologie émergente utilise la lumière visible pour communiquer avec vos objets, ou transmettre des données, à l’instar du Wi-fi. \r\nCe quickie présentera les grandes lignes du VLC (pour Visible Light Communication), à travers un exemple concret montrant comment une ampoule LED peut communiquer avec un smartphone.",
+	"duration": 15,
+	"id": 33,
+	"roomId": 13,
+	"speakersId": [9],
+	"startAt": "2016-04-22 12:25",
+	"title": "Des LEDs pour remplacer votre routeur WIFI ?"
+}, {
+	"description": "Comment Maurice qui est habitué à faire du .net/Java où sa liberté de décision est assez grande ne doit surtout pas apprendre Go, un des langages récents les plus dogmatique aujourd'hui.\r\n\r\nAprès 15 ans de Java, 5 ans de JavaScript, Go est devenu mon langage de tous les jours. Pourtant habitué à changer de langage le choc est rude.\r\n\r\nJe vous fait découvrir le langage Go a travers une série de points en le comparant à des langages plus courants, afin que vous puissiez faire la bascule vers Go en connaissance de cause.",
+	"duration": 45,
+	"id": 34,
+	"roomId": 3,
+	"speakersId": [113],
+	"startAt": "2016-04-22 12:55",
+	"title": "Pourquoi Maurice ne doit surtout pas coder en go."
+}, {
+	"description": "A quoi devrait ressembler une bonne API REST ?\r\nEst-ce qu'on doit utiliser des verbes ou des noms pour nos ressources ?\r\nComment gérer le versionnage d'une API ?\r\nQuid des réponses partielles ou de la pagination ?\r\nQuel status code doit-on utiliser et quand ?\r\nEt le tri, le filtre, ou la recherche ?\r\nSi nous avons le temps également, qu'est-ce que la négociation de contenu, l'access cross-domain, les API hypermedia, et l'authentification ?\r\n\r\nGuillaume naviguera sur ces sujets, offrant ses conseils sur les meilleurs réponses à ces questions, et ouvrant le débat sur les différentes options possible, afin d'améliorer ensemble la qualité de nos APIs REST, pour les rendre aussi élégantes que possible.",
+	"duration": 45,
+	"id": 35,
+	"roomId": 4,
+	"speakersId": [97],
+	"startAt": "2016-04-22 12:55",
+	"title": "Le design d'API REST, un débat sans fin ?"
+}, {
+	"description": "Many teams are adopting code review now, and then find themselves struggling to make it work. Do you feel that it takes too much time? Do you think the issues that reviewers find are not really deal-breakers? Are you afraid that instead of improved collaboration you are creating a battlefield over the code base? There are a number of things that you can do to make code reviews go smoothly and bring meaningful, useful results. We’ll talk about how we can make code reviews transparent and efficient. We’ll outline what things we should be looking for when reviewing someone else's code, and how not to lose focus hunting extra spaces. And more importantly, we’ll talk about the human factor, and how while it’s not always possible to separate a code from its authors, there are ways to communicate messages effectively. ",
+	"duration": 45,
+	"id": 36,
+	"roomId": 0,
+	"speakersId": [140],
+	"startAt": "2016-04-22 12:55",
+	"title": "How to stop wasting your time and start performing useful code reviews"
+}, {
+	"description": "Pas de cloud. Pas de conteneurs. Pas de langage moderne, mais du bon vieux PHP. Un business très compétitif : la pub sur mobile. Et des gros chiffres :\r\n\r\n* 3 milliards de requêstes traitées par jour, 50k requêtes par secondes\r\n* 2000 coeurs, quelques téras de RAM (qui ne servent à rien), 2 data-centers\r\n* plus de 600k opérations secondes sur le cache distribué\r\n* plus de 4 millions d'incrémentations de compteurs par secondes\r\n\r\nQuelles ont été les différentes étapes de la mise en place de cette architecture ?  \r\nComment avons nous contournés certaines limitations de PHP avec du NodeJS et du Go ?  \r\nQuelles solutions ont été utilisées pour le monitoring et le déploiement ?  \r\nQuelles sont les prochaines étapes ?  \r\nComment le facteur € influe sur les architectures ?  \r\n",
+	"duration": 45,
+	"id": 37,
+	"roomId": 7,
+	"speakersId": [31],
+	"startAt": "2016-04-22 12:55",
+	"title": "Traiter 3 milliards de requêtes par jour. Qu'avons nous appris ?"
+}, {
+	"description": "SQL is the winning language of Big Data. Whether you’re running a classic relational database, a column store (“NewSQL”), or a non-relational storage system (“NoSQL”), a powerful, declarative, SQL-based query language makes the difference. The SQL standard has evolved drastically in the past decades, and so have its commercial and open source implementations. In this fast-paced talk, we’re going to look at very peculiar and interesting data problems and how we can solve them with SQL. We’ll explore common table expressions, hierarchical SQL, table-valued functions, lateral joins, row value expressions, window functions, and advanced data types, such as XML and JSON. And we’ll look at Oracle’s mysterious MODEL and MATCH_RECOGNIZE clauses, devices whose mystery is only exceeded by their power. Most importantly, however, we’re going to learn that everyone can write advanced SQL. Once you learn the basics in these tricks, you’re going to love SQL even more.",
+	"duration": 45,
+	"id": 38,
+	"roomId": 5,
+	"speakersId": [139],
+	"startAt": "2016-04-22 12:55",
+	"title": "Ten SQL Tricks that You Didn’t Think Were Possible"
+}, {
+	"description": "What is Spring Cloud? What types of problems does it solve? What can you choose to solve those problems? In this session we will discuss the Spring Cloud abstractions and interfaces that may be  implemented: DiscoveryClient, LoadBalancerClient, Configuration, Bus and Tracing.  We will compare and contrast some target technologies and discus the tradeoffs and nuances of each, such as: netflix, consul, etcd, zookeeper and zipkin. Join Spring Cloud co-lead Spencer Gibb for discussion and demonstration of Spring Cloud implementations of these technologies.\r\n",
+	"duration": 45,
+	"id": 39,
+	"roomId": 6,
+	"speakersId": [198],
+	"startAt": "2016-04-22 12:55",
+	"title": "Spring Cloud *: Exploring Spring Cloud Implementations"
+}, {
+	"description": "Apple a sorti en grande pompe Swift l'année dernière. Depuis, le projet draine une communauté active, avec des milliers de bibliothèques publiées chaque mois et la récente publication de son code source. Mais qu'en est il de son application au delà du simple POC, dans une perspective plus industrielle ? Soyons francs : il faut que votre prochaine application iOS soit développée en Swift. En nous basant sur deux projets grand public en production développés à partir du début 2015, en surmontant les obstacles dûs à la jeunesse du langage, en étudiant les embellissements apportés à notre base de code, nous sommes sûrs de pouvoir vous convaincre. Ne ratez pas le train et adoptez Swift en 2016 !",
+	"duration": 45,
+	"id": 40,
+	"roomId": 11,
+	"speakersId": [196, 77],
+	"startAt": "2016-04-22 12:55",
+	"title": "Swift : nouvelles du front"
+}, {
+	"description": "Un vent de renouveau souffle sur la plate forme Eclipse. Ce nouvel élan apporte bien sûr de nouvelles fonctionnalités mais pas seulement. En effet, l'arrivée de nombreux nouveaux contributeurs est aussi l'occasion de réfléchir sur l'expérience utilisateur de manière plus globale. Cette présentation vous le montrera en faisant un tour d'horizon des nouveautés de la dernière version sortie en Mars et de celles à venir pour ce mois de Juin.\r\n\r\n> There has been an awakening. Have you felt it?\r\n> Supreme Leader Snoke - Star Wars: Episode VII - Le réveil de la Force",
+	"duration": 45,
+	"id": 41,
+	"roomId": 13,
+	"speakersId": [152],
+	"startAt": "2016-04-22 12:55",
+	"title": "The Eclipse IDE: The Force Awakens"
+}, {
+	"description": "We get it already! Microservices help you build smaller,\r\nsingly-focused services, quicker. They scale out. They’re more agile\r\nbecause individual teams can deliver them at their own pace. They work\r\nwell in the cloud because they’re smaller, and benefit from elastic,\r\nhorizontal scaling. But what about the complexity? There’s a cost\r\nassociated with adding services and coordinating the interactions\r\nbetween them. In this talk, we’ll look at Spring Cloud, which builds\r\natop Spring Boot and the Netflix OSS stack, and see how it lets you\r\neasily integrate service-discovery, security, reliability patterns\r\nlike the circuit breaker, and centralized and journaled property\r\nconfiguration (and more) to more quickly build microservices that\r\nscale. \r\n\r\nJoin Spring Developer Advocate Josh Long to find out what Netflix, Alibaba, \r\nTicketmaster, and countless other organizations already know: Spring Cloud \r\nhandles the non-functional requirements associated with adopting microservices to\r\nenable them to progress quickly.",
+	"duration": 45,
+	"id": 42,
+	"roomId": 3,
+	"speakersId": [120],
+	"startAt": "2016-04-22 13:55",
+	"title": "The Bootiful Microservice"
+}, {
+	"description": "Passer votre webapp en HTTPS en respectant les bonnes pratiques est un chemin semé d’embûches. Pour vous aider, je vous propose, à travers cette présentation, de vous démontrer l’intérêt de passer à HTTPS, de détailler l’établissement d’une connexion sécurisée, d’expliquer les failles de sécurité ayant défrayé les journaux et de vous présenter l’écosystème autour de HTTPS.\r\nA l’issue de cette présentation, les acronymes tels que TLS, MITM, CA, RSA, PFS, HSTS, CSP, BEAST, CRIME, BREACH et bien d’autres n’auront plus de secrets pour vous.",
+	"duration": 45,
+	"id": 43,
+	"roomId": 4,
+	"speakersId": [93],
+	"startAt": "2016-04-22 13:55",
+	"title": "HTTPS n’aura plus de secret pour vous"
+}, {
+	"description": "Vous avez aimé la première saison des algorithmes pour le Big Data avec **HyperLogLog** et **Paxos** ? La saison 2 est là et vous propose au menu 1 structure de donnée et un algorithme tout frais sorti des publications universitaires.\r\n\r\nCréer une structure de données qui supporte des opérations distribuées sans coordination relève d'une gageure. Mais **Marc Shapiro** a relevé le défi avec les **CRDT**! Nous allons voir comment, sous réserve de respecter quelques propriétés, on peut obtenir une convergence des données distribuées sans besoin de recourir à un lock global.\r\n\r\nExécuter des opérations de manière _atomique_ sur des architectures distribuées est  théoriquement impossible sans coordination globale (donc quelque part un lock global). Par contre, il est possible d'obtenir une **visibilité atomique** sans coordination avec l'algorithme **RAMP Transaction** présenté par **Peter Bailis** en 2014. Cet algorithme ouvre la porte à des perspectives intéressantes pour des besoins comme des indexes distribués etc..\r\n\r\n Comme toujours, chaque structure/algorithme sera présenté avec une implémentation concrète pour mieux illustrer les cas d'utilisation.",
+	"duration": 45,
+	"id": 44,
+	"roomId": 0,
+	"speakersId": [68],
+	"startAt": "2016-04-22 13:55",
+	"title": "Algorithmes distribués pour le Big Data, saison 2"
+}, {
+	"description": "Dans cette présentation, je vous propose de découvrir ensemble d’autre façon de développer en Java et Java 8 en particulier, mais que peu ont testé. Est-il possible de limiter le nombre de sous-classes pour une classe ? Si on peut désormais mettre un comportement dans une interface, peut-on y mettre un état ? Et peut-on sécuriser la grammaire de ses DSL internes ? Live coding à l’appui, voici certaines des questions auxquelles nous allons essayer de répondre ou qu’on ne devrait jamais aborder.",
+	"duration": 45,
+	"id": 45,
+	"roomId": 7,
+	"speakersId": [87],
+	"startAt": "2016-04-22 13:55",
+	"title": "Java (8) eXperiments"
+}, {
+	"description": "Certaines fonctions de nos programmes peuvent échouer à calculer une valeur de retour. Plutôt que d'utiliser des exceptions, il est possible de tirer partie du système de types de Scala pour gérer les erreurs de manière plus fiable et lisible.\r\n\r\nNous verrons comment utiliser des ADT (Algebraic Data Type) comme `Option`, `Try` et `Either`, ainsi que `disjunction` et `validation` de [Scalaz](https://github.com/scalaz/scalaz). On regardera aussi la bibliothèque [Rapture](http://rapture.io/) et ses \"modes\" qui offrent la possibilité *à l'appelant* de choisir de quelle manière il veut encapsuler les éventuelles erreurs.\r\n\r\nLa gestion des erreurs est bien moins compliquée lorsque le compilateur peut nous aider !",
+	"duration": 45,
+	"id": 46,
+	"roomId": 5,
+	"speakersId": [64],
+	"startAt": "2016-04-22 13:55",
+	"title": "Gérer les erreurs avec l'aide du système de types de Scala !"
+}, {
+	"description": "CTO, je suis un CTO, enfin! ... Entre la course technologique, le juridique, la levée de fonds, le recrutement, le management, la gestion de la roadmap, les comités d'administration, les avant ventes et les 30 mn de code hebdomadaire, ce talk aidera les développeurs à mieux comprendre les CTOs et aux futurs CTOs à mieux appréhender ce nouveau role.",
+	"duration": 45,
+	"id": 47,
+	"roomId": 6,
+	"speakersId": [233],
+	"startAt": "2016-04-22 13:55",
+	"title": "I'm a CTO bitch! ou Pérégrination d'un CTO"
+}, {
+	"description": "Tout comme Facebook, Netflix a présenté sa propre technologie qui pourrait sonner le glas des API REST, Falcor. Elle déclare avoir réduit la taille de son code serveur de 90% grâce à un unique end-point qui sert toutes les données. Deux entreprises de cette envergure qui implémentent ainsi des concepts très proches, cela mérite que l'on s'y intéresse. Après vous avoir expliqué le pourquoi et le comment, je vous propose que l'on explore ce que l'on peut construire avec Falcor. Et si on développait une API pour développer des API ?\r\n\r\n(Leonardo Dicaprio ne fera pas d'apparition lors de cette conférence.)",
+	"duration": 45,
+	"id": 48,
+	"roomId": 11,
+	"speakersId": [107],
+	"startAt": "2016-04-22 13:55",
+	"title": "Kill all the REST with the Falcor"
+}, {
+	"description": "Depuis quelques années d'influents architectes sous la férule de James Lewis et Martin Fowler promeuvent l'architecture de \"micro-services\". \r\nCeci est un retour d'expérience sur la mise en place des micro services chez un grand acteur du e-commerce français.\r\nNous évoquerons les bases de cette architecture, ses avantages et montrerons une première implémentation construite à l'aide des frameworks Spring Boot, Curator et Zookeeper, le tout déployé à l'aide de playbooks Ansible. \r\nNous présenterons ensuite les dernières évolutions de notre architecture qui s'appuie sur une partie de la stack Netflix en mixant composants Netflix (Hystrix, Feign, Zuul, ...) et composants Spring (Retry, Cloud, ...).",
+	"duration": 45,
+	"id": 49,
+	"roomId": 13,
+	"speakersId": [201, 165],
+	"startAt": "2016-04-22 13:55",
+	"title": "Microservices IRL: ça fonctionne chez un client, on vous dit comment!"
+}, {
+	"description": "CDI est le framework d'injection de dépendances de la plateforme Java EE. Il offre également un bus d'événements, un framework AOP et expose un SPI pour créer ses propres extensions de manière portable. \r\nL'objet de cette présentation est de faire le point sur le travail du groupe d'experts de la JSR 365, à 2 mois de la publication de CDI 2.0. Nous en profiterons pour faire un appel à la communauté : que souhaitez-vous voir en tant qu'utilisateur dans CDI 2.0 ? Il est encore temps de soumettre ses idées au groupe d'experts et d'apporter votre contribution. ",
+	"duration": 45,
+	"id": 50,
+	"roomId": 3,
+	"speakersId": [18, 121],
+	"startAt": "2016-04-22 14:55",
+	"title": "Les nouveautés de CDI 2.0"
+}, {
+	"description": "The financial sector is an exciting mix of challenges regarding throughput, high availability as well as specific constraints regarding latency and consistency.\r\n\r\nIn the continuous evolution of its platform, Murex relies on open source technologies like *Apache Storm* and *Apache Geode (Pivotal GemFire)* in a \"kind of\" lambda architecture to ensure storage, near-real time (around the milliseconds) aggregation of thousands of events per second, advanced notification mechanisms and straight forward and on-demand deployments.\r\n\r\nThis talk will focus on the technical architecture, the underlying principles as well as technologies used to support this mix of functional and non functional requirements. \r\n",
+	"duration": 45,
+	"id": 51,
+	"roomId": 4,
+	"speakersId": [164, 7, 49],
+	"startAt": "2016-04-22 14:55",
+	"title": "Combining stream processing and in-memory datagrids for near-real time aggregation & notifications"
+}, {
+	"description": "Java does not provide an API to directly support the expressiveness and power of SQL. All attention is given to object-relational mapping and abstractions on a higher level, such as OQL, HQL, JPQL, CriteriaQuery. \r\n\r\njOOQ is a dual-licensed Open Source product filling this gap. It implements SQL itself as a type safe domain-specific language in Java.\r\n\r\njOOQ is a good choice in a Java application where SQL and its proprietary features of the database in use are important. It shows, how a modern domain-specific language can greatly increase developer productivity, internalising SQL into Java.",
+	"duration": 45,
+	"id": 52,
+	"roomId": 0,
+	"speakersId": [139],
+	"startAt": "2016-04-22 14:55",
+	"title": "Get Back in Control of Your SQL with jOOQ"
+}, {
+	"description": "With microservices, polyglot and DevOps on the rise, where are we at with testing? Does it bring more complexity and make our testing effort harder or maybe in contrary; it actually helps us write better tests easier?\r\n\r\nIn this session, we will be exploring not only how we can do our testing in this new world, but also how the new world can help us test better.\r\n\r\nMeet Arquillian Cube and Q.\r\n\r\nWe will take a close look at topics varying from polyglot services, orchestrated microservices to system scale testing. All are within reach.\r\n\r\nAnd with full control; Let's add a dash of chaos!",
+	"duration": 45,
+	"id": 53,
+	"roomId": 7,
+	"speakersId": [22],
+	"startAt": "2016-04-22 14:55",
+	"title": "Dockerized system testing, with a dash of chaos"
+}, {
+	"description": "\"Software is eating the world!\" Super! Génial! Vive La Commune! fini le temps des développeur-mineurs, voici venus les développeur-acteurs. Mais tout pouvoir vient avec une responsabilité, pour notre société d'aujourd'hui et de demain. Seule une minorité de personnes -un français sur 100- a la chance de comprendre ce qui se passe vraiment. Le reste de la société ne s'en rend pas compte, et ne se forme pas pour. Certes, nous pourrions créer 100,000 emplois de développeurs en France, mais c'est une goutte d'eau face au 3m de chômeurs actuels et aux futurs victimes du tsunami numérique: après les medias, les petits&grands magasins,que deviendront les X00000 conseillers d'agence bancaires remplacés par nos chers applis&robots? De l'importance de toujours se former, c'est un devoir pour soi et la société. A plus long terme, l'informatique semble la seule solution pour adresser le  changement climatique par le partage de ressources, encore faut il que l'empreinte CO2 de l'IT n'explose pas (40 réacteurs nucléaires en 2014). Pour que tout cela dure, assurons-nous également que nos enfants acquièrent les repères informatiques qui en feront des citoyens de ce monde programmable.",
+	"duration": 45,
+	"id": 54,
+	"roomId": 5,
+	"speakersId": [74],
+	"startAt": "2016-04-22 14:55",
+	"title": "Société programmable : développeurs citoyens"
+}, {
+	"description": "Tout le monde parle du DevOps, et maintenant même les développeurs Android. Dans cette présentation, nous allons voir comment il est possible d'adapter cette méthodologie au monde Android avec différents outils. Nous commencerons par une rapide présentation d'une bonne intégration continue Android. Nous verrons ensuite quels outils nous permettent de mettre en place cette intégration continue avec un focus tout particulier sur les tests. Enfin, nous explorerons  l'API mise en place par Google pour permettre aux développeurs d'interagir avec la console du Play Store et ainsi automatiser les livraisons Android. ",
+	"duration": 45,
+	"id": 55,
+	"roomId": 6,
+	"speakersId": [117],
+	"startAt": "2016-04-22 14:55",
+	"title": "DevOps sur Android : D'un git push à une release sur le Play Store"
+}, {
+	"description": "Elasticsearch. Graphite. Public data APIs. Some garbage someone invented to torture you. There's interfaces to unify them, but they require you learn each and every backend's special  language. And you have to hope they all have the same functions which, tip, they do not. Who's got time for that? Timelion operates at a higher level. Not only can it display time series from multiple data source types, it can perform computations across them. Timelion expressions are chainable, groupable, reusable and source agnostic, and every function and feature works with every data source. ",
+	"duration": 45,
+	"id": 56,
+	"roomId": 11,
+	"speakersId": [177],
+	"startAt": "2016-04-22 14:55",
+	"title": "Rawr. Unified time series expressions with Timelion"
+}, {
+	"description": "Le cloud computing offre de nombreux avantages, comme la possibilité de scaler à la demande votre application ou votre site web. Si vous vous lancez dans un nouveau projet et que vous voulez utiliser le cloud, peut-être vous demandez vous par où commencer. Le but de cette session est précisément de vous présenter les bonnes pratiques pour scaler vos ressources de zéro à plusieurs millions d'utilisateurs. Nous vous montrerons comment combiner au mieux les différents services AWS, comment prendre de meilleurs décisions pour architecturer votre application et comment scaler votre infrastructure dans le cloud.\r\n",
+	"duration": 45,
+	"id": 57,
+	"roomId": 13,
+	"speakersId": [126],
+	"startAt": "2016-04-22 14:55",
+	"title": "Scalez de 0 à 10 millions d'utilisateurs avec AWS"
+}, {
+	"duration": 30,
+	"id": 58,
+	"roomId": 1,
+	"startAt": "2016-04-22 15:40",
+	"title": "Pause café"
+}, {
+	"description": "Certaines questions merittent d'être posées:\r\n - pourquoi on se retrouve avec des bibilothèques de plusieurs mégas en Java ?\r\n - pourquoi mon application est lente au démarrage ? \r\n - pourquoi mon appli qui tourne depuis 15 jours vient de planter avec un NoClassDefFound ?\r\n - pourquoi la moitié des fix de sécurité de Java ont un CVSS de 10 ?\r\n\r\n En vérité mes fréres, je vous le dit, jigsaw est là pour vous sauver, pour nous sauver,\r\n entrez dans mon eglise, voyez la lumière, venez apprendre la parole de jigsaw notre sauveur.",
+	"duration": 45,
+	"id": 59,
+	"roomId": 3,
+	"speakersId": [179],
+	"startAt": "2016-04-22 16:10",
+	"title": "Jigsaw est là pour nous sauver"
+}, {
+	"description": "Et si la documentation pouvait être aussi fun qu'écrire du code ? Ca vous parait insensé, tant ce sujet est ennuyeux, mais ce n'est pas une fatalité !\r\n\r\nComment documenter votre compréhension du métier ? Comment documenter votre design ? Le tout sans écrire de doc ? Dans ce talk rythmé nous montrerons des techniques concrètes pour tout cela et plus, qui vous donneront envie de vous y mettre.\r\n\r\nEt au-delà des recettes, nous verrons comment la démarche Living Documentation est aussi une opportunité d'améliorer votre code, votre design et vos processus !",
+	"duration": 45,
+	"id": 60,
+	"roomId": 4,
+	"speakersId": [53],
+	"startAt": "2016-04-22 16:10",
+	"title": "Living Documentation : vous allez aimer la documentation !"
+}, {
+	"description": "Depuis Java 1.4 il est possible d’accéder aux zones de mémoire off-heap non gérées par le garbage collector. Le gros intérêt de ces zones étant de ne pas subir les limitations engendrées par les différents garbage collectors.\r\n\r\nTerracotta a développé une librairie pour gérer la mémoire off-heap à la fois stable et fiable en se basant sur des concepts théoriques bien connus. La librairie est disponible en open source et peut gérer jusqu'à 6 To de mémoire par JVM et jusqu'à 1 To par map. Elle permet ainsi :\r\n\r\n - de créer des maps et des caches avec une consommation du heap minimale\r\n - d’utiliser pleinement les énormes quantités de mémoire - de l’ordre de plusieurs To - disponibles sur les serveurs actuels à très bon marché, contrairement au garbage collector qui devient contraignant avec une taille de heap de quelques dizaines de Go\r\n\r\nNous allons tout d’abord voir dans la présentation qu’est-ce que le off-heap par rapport au heap. Nous nous pencherons ensuite sur quelques classes clés, afin de vous aider à en comprendre l’implémentation que nous avons réalisé.\r\nEnfin, nous vous montrerons comment en tirer profit pour vos propres applications.\r\n",
+	"duration": 45,
+	"id": 61,
+	"roomId": 0,
+	"speakersId": [138],
+	"startAt": "2016-04-22 16:10",
+	"title": "Terracotta Off-Heap pour les nuls"
+}, {
+	"description": "L'introduction du système de modules Jigsaw dans Java 9 va indubitablement être l'ajout le plus disruptif au langage depuis sa création. Jusqu'ici, tous les ajouts (génériques, invokedynamic, lambdas) se sont fait sans trop de douleur. Jigsaw, en revanche, va probablement casser votre application. Rassurez-vous, pas uniquement la vôtre. Toutes. Et ça ne sera pas beau à voir. Mais il y a de l'espoir...\r\n\r\nDans cette session, nous parlerons des challenges que Jigsaw relève, et comment avec Gradle, vous pouvez vous préparez dès aujourd'hui à une migration. Nous montrerons quels sont les avantages de déclarer une API dès aujourd'hui, en utilisant Java 8 (ou antérieur), et comment vous pourrez passer à Java 9 simplement. \r\n\r\nPerformances de compilation améliorées, encapsulation forte, gestion de dépendances fine, cache distribué, autant de fonctionnalités qui viendront gratuitement avec le modèle logiciel de Gradle 3. Venez découvrir comment Gradle va vous aider, tout de suite, à modéliser vos applications et bénéfier d'une partie des avantages de Jigsaw tout de suite, sur Java 8 !",
+	"duration": 45,
+	"id": 62,
+	"roomId": 7,
+	"speakersId": [54],
+	"startAt": "2016-04-22 16:10",
+	"title": "Résoudre le puzzle Jigsaw avec Gradle"
+}, {
+	"description": "Data Science, a buzz word we've seen popping everywhere in 2015\r\n\r\nWhy? It turns out engineers explored the Big Data's value and the way to deal it, that is, digging the gold, Data Science, covering mathematics, statistics, machine learning, data preparation, software development and more\r\n\r\nData science came to the front because data is accumulating and exploiting the value is a key to competitivity.\r\nData Science and Machine Learning in particular had traditionally been the smart and helpful tool mostly designed and developed in academia, the enterprise could only grasp at high premium\r\n\r\nNow the game is changing drastically, methods have matured, libraries are available and more data scientists are entering the market\r\n\r\nStill, there are many friction points in the development process of services exploiting data. It's true that Data Scientists are developers, but usually they are not software developers and even less devops which leads to a disrupted organization and a lack of efficiency\r\n\r\nWe present here some solutions providing a unifying environment, helping different people with different tasks and background to develop a data service pipeline with minimal friction and maximal agility",
+	"duration": 45,
+	"id": 63,
+	"roomId": 5,
+	"speakersId": [14],
+	"startAt": "2016-04-22 16:10",
+	"title": "New Data Science: Functional, Distributed, JVM... and Agile"
+}, {
+	"description": "Pressés, interrompus, distraits… les utilisateurs mobiles ne peuvent certainement pas se payer le luxe d’écrans inutiles, de parcours trop longs, et encore moins de se perdre. Que pouvons-nous faire pour leur faciliter la vie ? Pour qu’ils accèdent aux contenus qu’ils souhaitent, le plus rapidement possible ?\r\n\r\nNous verrons quelles options peuvent être envisagées, mais surtout comment les choisir selon votre contexte : menu visible ou menu caché, hamburger, onglets, navigation par gestes... Nous verrons aussi comment optimiser la navigation peut passer par supprimer la nécessité de naviguer : travailler l’efficience au maximum, cela peut être salvateur !",
+	"duration": 45,
+	"id": 64,
+	"roomId": 6,
+	"speakersId": [11],
+	"startAt": "2016-04-22 16:10",
+	"title": "Comment concevoir la navigation sur mobile ?"
+}, {
+	"description": "Bitcoin et sa blockchain apparaissaient épisodiquement à la une depuis 2008: lorsque le bloc initial était miné, lorsque MtGox faisait faillite, lorsque SilkRoad était fermé, ou lorsque Satoshi Nakamoto était (une fois encore) supposément identifié. Folklore cypherpunk...\r\n\r\nMais ces derniers mois, les annonces sont quasi quotidiennes de la part d'acteurs financiers majeurs : Microsoft commercialise  BaaS dans Azure (Blockchain as a Service), des financements en centaines de millions pour des FinTech offerts par les plus grandes banques, les NYSE, Visa, Mastercard, American-Express, Swift... tous mènent leur initiative.\r\n\r\nAu delà du débat sur l'aspect politico-social-économique du Bitcoin, une révolution est en marche : celle de l'\"économie programmable\". Bitcoin et sa blockchain constituent une sorte de \"grammaire universelle\", de \"machine de Turing\" dans cet univers et permettent d'en décrypter les principes fondamentaux.\r\n\r\nSur la base du code officiel de Bitcoin core, nous verons pratiquement comment la blockchain fonctionne, et implémenterons un embryon d'économie programmable qui permet à tout objet connecté de devenir un acteur économique autonome et à part entière.",
+	"duration": 45,
+	"id": 65,
+	"roomId": 11,
+	"speakersId": [86],
+	"startAt": "2016-04-22 16:10",
+	"title": "Blockchain as a Trust Machine ? Vers une économie programmable "
+}, {
+	"description": "Le développement pour Android a bien changé ces dernières années.\r\nNous disposons à présent d'une boîte à outils gigantesque nous permettant d'améliorer notre productivité et de construire des applications de qualité.\r\n\r\nLors de cette présentation, venez découvrir quelques-uns des outils que nous manipulons quotidiennement lors du développement de l'application Android happn nous permettant de :\r\n\r\n- Simuler une connexion HTTP(s) lente ou instable\r\n- Interagir en temps réel avec notre application pour analyser les logs, vues, ou modifier les données sans breakpoint\r\n- Changer instantanément de backend serveur, sans recompilation\r\n- Mieux comprendre et réduire la dette technique de notre application\r\n- Anticiper le développement d'une application client alors que le backend n'a pas encore été déployé\r\n- Mesurer efficacement l'empreinte mémoire / cpu\r\n- Décompiler notre application pour mieux analyser sa sécurité\r\n- Altérer une réponse serveur et vérifier le comportement de l'application...\r\n- ... et bien plus encore\r\n\r\nNiveau prérequis : savoir développer une application (simple) native pour Android",
+	"duration": 45,
+	"id": 66,
+	"roomId": 13,
+	"speakersId": [91],
+	"startAt": "2016-04-22 16:10",
+	"title": "La boîte à outils du développeur Android de 2016"
+}, {
+	"description": "AngularJS is one of today's hottest JavaScript MVC Frameworks. In this session, we'll explore many concepts it brings to the world of client-side development: dependency injection, directives, filters, routing and two-way data binding. We'll also look at its recommended testing tools and build systems. Finally, you'll learn about my experience developing several real-world applications using AngularJS, HTML5 and Bootstrap.",
+	"duration": 45,
+	"id": 67,
+	"roomId": 3,
+	"speakersId": [146],
+	"startAt": "2016-04-22 17:10",
+	"title": "The Art of Angular in 2016"
+}, {
+	"description": "RabbitMQ, Kafka et NSQ. 3 Message-oriented Middleware (MoM) pour distribuer des événements en asynchrone.  3 modèles très différents de distribution, de consommation et de persistance. Dans quel cas je dois utiliser une de ces solutions plutôt que les autres ?\r\n\r\nA travers l'étude de ces 3 MoM (il en existe plein d'autres), nous définirons les bons critères pour choisir le bon serveur de messages pour nos applications. La résilience, la garantie de réception ou le mode de distribution seront autant d'axes d'analyse. \r\n",
+	"duration": 45,
+	"id": 68,
+	"roomId": 4,
+	"speakersId": [94],
+	"startAt": "2016-04-22 17:10",
+	"title": "3 nuances de MoM"
+}, {
+	"description": "Après maints périples, vous avez progressivement amélioré votre capacité à gérer des environnements au travers d'Infra as Code. Votre code initialement simple a pris de l'embonpoint et vous sentez la réalité vous rattraper implacablement : vous êtes en train de créer de la complexité, voire même de la dette. \r\n\r\nLoin d'être une fatalité, à partir de notre expérience de développeur (Fabien) et d'ops (Alexandre), nous vous proposons un road trip dans des\r\npratiques de développement déclinées sur l'Infra as Code (Bash, Puppet et Ansible).\r\n\r\nNous présentons des pratiques, des plus simples activables immédiatement à des démarches plus complexes pour dessiner une big picture de l'Infra as Code, de ses contraintes, de ses forces et de ses pièges.\r\n\r\n* Comment mettre en place des boucles de feedback les plus courtes possibles ? \r\n* Comment faire du test driven development sur l'infrastructure ?\r\n* Quels patterns et outils pour tester une configuration sans tirer toute votre infra et itérer plus rapidement ? \r\n* Quel est le rapport entre Tetris, un ascenceur et l'Infra as Code ?",
+	"duration": 45,
+	"id": 69,
+	"roomId": 0,
+	"speakersId": [6, 75],
+	"startAt": "2016-04-22 17:10",
+	"title": "Infra as Code, choisissez vous la pilule rouge ou la pilule bleue ?"
+}, {
+	"description": "L'année 2015 a été une année avec de profonds changements et de défis pour la DSI de GBIS et pour le domaine des financements plus particulièrement. Nous avons pris un grand virage vers le Continuous Delivery et nous nous sommes \"refactorés\" de fond en comble. Au menu : passage en Feature Teams, mise en place du Trunk Based Development, livraisons gérées grâce à des Release Trains, Toggle Feature, adoption en masse du TDD, BDD. Nous avons connu un grand succès avec notre virage Agile. Voulez-vous connaître nos difficultés, victoires, ce qui a bien marché ou non ? Venez à notre Rex.",
+	"duration": 45,
+	"id": 70,
+	"roomId": 7,
+	"speakersId": [67, 60, 154],
+	"startAt": "2016-04-22 17:10",
+	"title": "L'odyssée du Continuous Delivery"
+}, {
+	"description": "Introduit en 2004 par Eric Evans via son \"Blue Book\", le Domain Driven Design (DDD) a reçu depuis un gros succès d'estime au sein de diverses communautés. A l'inverse, on ne peut pas dire qu'il se soit largement imposé sur le terrain ni dans nos projets. Comment expliquer un tel échec dans sa diffusion ? Est-ce le DDD en lui même qui est difficile, ou tout simplement la façon dont il est présenté qui le rends indigeste ?\r\n\r\nA travers nos propres histoires de mises en oeuvre plus ou moins réussies, nous tâcherons de revisiter le DDD avec une approche beaucoup plus accessible. Nous nous attacherons notamment à vous montrer tout ce que le DDD peut vous apporter au quotidien pour réussir vos projets.",
+	"duration": 45,
+	"id": 71,
+	"roomId": 5,
+	"speakersId": [215, 129],
+	"startAt": "2016-04-22 17:10",
+	"title": "DDD: et si on reprenait l'histoire par le bon bout ?"
+}, {
+	"description": "IoT, open data, giga-, péta- : le Big Data, c’est parfois un Big Problème!  Comment pouvons nous interroger ces données et comprendre leur signification?  MySQL? Souvent trop lent. Hadoop? Parfois trop compliqué.  Vertica? Clairement trop cher!\r\n\r\nDans cette conférence nous allons explorer quelques bases de données ouvertes - pourquoi sont-elles intéressantes et pourquoi devrons-nous nous en soucier?\r\n\r\nHeureusement, notre trousse à outils s’enrichit.  Nous allons tenter de voir comment utiliser BigQuery pour analyser et CartoDB pour cartographier les réponses à ces questions : où se trouve l'intersection la plus dangereuse à Paris?  Quelle corrélation entre le football et les grèves en Italie? Et enfin, quel rapport entre stations de métro et sexe?",
+	"duration": 45,
+	"id": 72,
+	"roomId": 6,
+	"speakersId": [214],
+	"startAt": "2016-04-22 17:10",
+	"title": "Big Data : Compréhension et Cartographie avec Google BigQuery et CartoDB"
+}, {
+	"description": "Pas la peine d'attendre Java 9 pour réduire le JRE à peau de chagrin et utiliser votre langage préféré dans des situations où la taille ça compte !\r\nNous verrons lors de cette présentation l'envers du décor de Java au travers de son implémentation libre OpenJDK : organisation des sources, compilation et optimisations, présentation des différentes VM disponibles et de leur performance, profiles compacts...",
+	"duration": 45,
+	"id": 73,
+	"roomId": 11,
+	"speakersId": [213],
+	"startAt": "2016-04-22 17:10",
+	"title": "La modularisation avant l'heure : compiler OpenJDK 8 en 10Mo !"
+}, {
+	"description": "La **voiture connectée** est l'un des **IoT** les plus originaux : *complexe et sans aucun standard*, elle est capable de fournir une variété énorme de données et de générer des usages *hyper innovants* !\r\n\r\nVenez découvrir [Xee](https://www.xee.com), la plateforme qui connecte n'importe quelle voiture et vous en fournit les données pour créer vos propres applications! Participez au [premier store d'applications de la voiture connectée](http://store.xee.com), universel et sans limite.\r\n\r\nXee, [ses principes, ses APIs, ses data](https://developer.xee.com), tout vous sera présenté par Quentin Klein notre API Manager",
+	"duration": 45,
+	"id": 74,
+	"roomId": 13,
+	"speakersId": [175],
+	"startAt": "2016-04-22 17:10",
+	"title": "La voiture connectée - un IoT au potentiel immense"
+}, {
+	"description": "Venez rejoindre Les Cast Codeurs en chair, en os et en bières pour clôturer cette édition de Devoxx France ! La fine équipe discutera avec certains intervenants pour répondre à la question: mais où va le monde... informatique ?\r\n\r\nLes Cast Codeurs est un podcast en français sur Java et la JVM de, par et pour les développeurs. Mais ils sortent de leur cast-cave de temps en temps pour faire des émissions endiablées, en direct devant une foule en délire. C'est notre perspective en tous cas.",
+	"duration": 45,
+	"id": 75,
+	"roomId": 7,
+	"speakersId": [71, 21, 19, 97, 221],
+	"startAt": "2016-04-22 18:10",
+	"title": "Les Cast Codeurs font la fermeture"
+}]
