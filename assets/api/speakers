@@ -273,7 +273,7 @@
 	"twitter": "cazoury",
 	"website": "http://www.zenika.com"
 }, {
-	"bio": "Jahia is a leading open source User eXperience Platform (UXP) vendor, relentlessly working at transforming a siloed industry into a user driven one, beyond technology constraints. Each solution provided by Jahia stems from Jahia’s Digital Industrialization vision: to streamline Enterprise digital projects across all channels and truly accelerate corporate-wide deployments, by bridging the IT/Marketing lifecycle gap.",
+	"bio": "Java Software Developer at Jahia Solutions Group.",
 	"id": 36,
 	"name": "Chaabni Ahmed",
 	"photo": "https://media.licdn.com/mpr/mprx/0_-Jr6pA_EH3KrHEMgAjkH-63wuQaSaVIrNjkeskgwDnp2wEIrZJHHAQ6Ea1tSmZbgqjQe4zdoXL7uHYtgUEzVqLH6TL7DHY7y4EzL0XjIEXsTGeNhNR_wxK1V3KvjTY4SldloZsGoVmL",
@@ -1009,6 +1009,7 @@
 	"id": 130,
 	"name": "Jérémy Sevellec",
 	"photo": "http://www.gravatar.com/avatar/1b8c23fe49fcca0b3d38f09ccb60d3f3",
+	"title": "Olisa Conseil",
 	"twitter": "jsevellec",
 	"website": "http://www.unchticafe.fr/"
 }, {
@@ -1564,7 +1565,7 @@
 	"photo": "https://lh5.googleusercontent.com/-Z-fY5u0ZtX8/AAAAAAAAAAI/AAAAAAAAAEk/XrzcHQMl1sU/photo.jpg",
 	"title": "Pivotal",
 	"twitter": "snicoll",
-	"website": "https://plus.google.com/112031298195302956603"
+	"website": "https://spring.io/blog"
 }, {
 	"bio": "Sven Ruppert has been coding Java since 1996. He is a Fellow for reply based in Munich. \r\nIn his free time he is regularly speaking at Conferences like JavaOne/Jfokus/Devoxx/JavaZone/JavaLand and many more  and contributes to IT periodicals, as well as tech portals.\r\n\r\nBlog: www.rapidpm.org\r\nWeb: www.sven-ruppert.de\r\nTwitter: @SvenRuppert\r\nLandry: http://lanyrd.com/profile/svenruppert/\r\nPublications: http://www.rapidpm.org/publications/index.html\r\nTalks: http://www.rapidpm.org/conferences/index.html\r\nLinkedin: https://www.linkedin.com/in/svenruppert",
 	"id": 203,
@@ -1741,13 +1742,13 @@
 	"twitter": "manekinekko",
 	"website": "https://plus.google.com/+WassimCheghamJavaScript"
 }, {
-	"bio": "Xavier est CTO/Développeur Java/Javascript pour Community Factory, petite société suisse spécialisée dans la création de réseaux sociaux et de solutions fintech, notamment E-MERGING, le réseau social des indépendants de la finance.\r\n\r\nSa passion c'est le développement et c'est aussi et surtout apprendre et faire apprendre, c'est pour cela qu'il a fondé le GenevaJUG et organiser les premiers Coding Dojos sur Genève.\r\n\r\nEt c'est pour aller jusqu'au bout de cette démarche qu'il organise Devoxx4KidsCH et intervient dans l'école de son village depuis 2 ans pour donner quelques bases de programmation aux enfants.",
+	"bio": "Xavier est CTO/Développeur Java/Javascript pour Community Factory, petite société suisse spécialisée dans la création de réseaux sociaux et de solutions fintech, notamment E-MERGING, le réseau social des indépendants de la finance.\r\n\r\nSa passion c'est le développement et c'est aussi et surtout apprendre et faire apprendre, c'est pour cela qu'il a fondé le GenevaJUG et organisé les premiers Coding Dojos sur Genève.\r\n\r\nEt c'est pour aller jusqu'au bout de cette démarche qu'il organise Devoxx4KidsCH et intervient dans l'école de son village depuis 2 ans pour donner quelques bases de programmation aux enfants.",
 	"id": 225,
 	"name": "Xavier Bourguignon",
 	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAXFAAAAJDEwZjEyNTQwLTRjM2ItNDUzMC1hNGUxLWE3NGI0NDgxZGU0Ng.jpg",
 	"title": "community Factory",
 	"twitter": "xbourguignon",
-	"website": "https://www.e-merging.com"
+	"website": "https://ch.linkedin.com/in/xavierbourguignon"
 }, {
 	"bio": "Xavier est un développeur passionné Java/Scala chez Xebia. Il développe avec Java depuis bientôt 10 ans. Puis, il a découvert Akka et Scala en conférence il y a deux ans. Depuis, il ne cesse de creuser le sujet et de partager son enthousiasme sur cet écosystème, aussi bien en interne qu'en conférence. Cela lui permet notamment d'apporter de nouvelles solutions aux défis techniques qui lui sont posés aujourd'hui.\r\n\r\nAdepte des méthodes agiles, il est aussi un fervent défenseur des pratiques XP.",
 	"id": 226,

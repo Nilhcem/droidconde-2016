@@ -700,13 +700,13 @@
 	"startAt": "2016-04-21 12:55",
 	"title": "L'intelligence artificielle avec les services IBM Watson sur la plateforme Bluemix"
 }, {
-	"description": "Cette session sera animée par Julien Dubois, le créateur et principal contributeur de [JHipster](http://jhipster.github.io/).\r\n\r\nNous y détaillerons:\r\n\r\n- Les évolutions dans l'utilisation du projet au cours de l'année passée (statistiques à l'appui)\r\n- Le mode de fonctionnement (très collaboratif) de l'équipe de développement\r\n- Les grandes nouveautés de JHipster: intégration continue, Spring Boot devtools, JHipster devbox, la marketplace...\r\n- La roadmap pour les prochains mois, avec un focus sur les micro-services",
+	"description": "Websphere ou Weblogic sont-ils appropriés pour votre projet ? Trop \"gros\" ? \r\nJetty, Tomcat, suffisent-ils à répondre à vos besoins ? Trop \"petits\" ? \r\n\r\nNi trop, ni trop peu. Ce qu'il vous faut c'est \"juste assez de serveur\" pour supporter uniquement le sous-ensemble d'APIs et de services dont votre application a besoin. \r\n\r\nDans cette session je ferai l'état des lieux des serveurs d'applications Java EE (Weblogic, Websphere, JBoss, GlassFish), Profile Web (TomEE, Payara, Siwpass) et Servlet (Tomcat, Jetty, Undertow). Et pour vos besoins de microservices, je vous présenterai des solutions plus modulaires comme WildFly Swarm, KumuluzEE, Spring Boot ou Dropwizard. Je vous parlerai de performance, de war, de jar executable, de monitoring, d'administration, d'optimisation, de cas d'utilisation et de retour d'experience... tout ça en vous montrant du code et en faisant tourner plusieurs types d'applications (de la plus simple à la plus complexe) dans plusieurs sortes de containers... et peut-être même sur un Raspberry Pi.",
 	"duration": 45,
 	"id": 92,
 	"roomId": 7,
-	"speakersId": [124],
+	"speakersId": [19],
 	"startAt": "2016-04-21 12:55",
-	"title": "Quoi de neuf pour JHipster en 2016"
+	"title": "Just enough app server"
 }, {
 	"description": "OpenShift est un PaaS qui assemble Kubernetes, Docker et d’autres technologies pour accélérer la livraison de vos applications du dev à la prod.\r\n\r\nDans cette session nous allons introduire l’architecture d’OpenShift et montrer comment elle facilite une démarche DevOps. Nous allons notamment faire une démo d’OpenShift provisionnant un applicatif du dev, à l’intégration et en déploiement continu.\r\n\r\nOpenShift est au cœur de projets majeurs de transformation. Il fournit les fondations pour soutenir le DevOps tant pour les devs microservices que les applicatifs traditionnels de type Java EE.",
 	"duration": 45,
@@ -1017,13 +1017,13 @@
 	"startAt": "2016-04-21 17:10",
 	"title": "Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?"
 }, {
-	"description": "Websphere ou Weblogic sont-ils appropriés pour votre projet ? Trop \"gros\" ? \r\nJetty, Tomcat, suffisent-ils à répondre à vos besoins ? Trop \"petits\" ? \r\n\r\nNi trop, ni trop peu. Ce qu'il vous faut c'est \"juste assez de serveur\" pour supporter uniquement le sous-ensemble d'APIs et de services dont votre application a besoin. \r\n\r\nDans cette session je ferai l'état des lieux des serveurs d'applications Java EE (Weblogic, Websphere, JBoss, GlassFish), Profile Web (TomEE, Payara, Siwpass) et Servlet (Tomcat, Jetty, Undertow). Et pour vos besoins de microservices, je vous présenterai des solutions plus modulaires comme WildFly Swarm, KumuluzEE, Spring Boot ou Dropwizard. Je vous parlerai de performance, de war, de jar executable, de monitoring, d'administration, d'optimisation, de cas d'utilisation et de retour d'experience... tout ça en vous montrant du code et en faisant tourner plusieurs types d'applications (de la plus simple à la plus complexe) dans plusieurs sortes de containers... et peut-être même sur un Raspberry Pi.",
+	"description": "Cette session sera animée par Julien Dubois, le créateur et principal contributeur de [JHipster](http://jhipster.github.io/).\r\n\r\nNous y détaillerons:\r\n\r\n- Les évolutions dans l'utilisation du projet au cours de l'année passée (statistiques à l'appui)\r\n- Le mode de fonctionnement (très collaboratif) de l'équipe de développement\r\n- Les grandes nouveautés de JHipster: intégration continue, Spring Boot devtools, JHipster devbox, la marketplace...\r\n- La roadmap pour les prochains mois, avec un focus sur les micro-services",
 	"duration": 45,
 	"id": 133,
 	"roomId": 6,
-	"speakersId": [19],
+	"speakersId": [124],
 	"startAt": "2016-04-21 17:10",
-	"title": "Just enough app server"
+	"title": "Quoi de neuf pour JHipster en 2016"
 }, {
 	"description": "A l'heure des infrastructures immuables, de la scalabilité horizontale et des micro services, maintenir à jour un annuaire de service peut s'avérer fastidieux. Une simple migration de machine peut impliquer un changement de son adresse IP et donc la mise à jour manuel d'un serveur DNS.\r\n\r\nDe même, le rajout ou la suppression d'un serveur web pour gérer votre charge va nécessiter la mise à jour manuel de votre configuration.\r\n\r\nAu cours de cette conférence, je vous introduirai la problématique du service discovery, puis je vous présenterai consul, un outil de la société Hashicorp. ",
 	"duration": 45,
