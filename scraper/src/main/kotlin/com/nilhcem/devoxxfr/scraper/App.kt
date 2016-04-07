@@ -22,6 +22,7 @@ fun main(args: Array<String>) {
     val sessions = listOf("wednesday", "thursday", "friday").flatMap {
         api.getScheduleForDay(it).execute().body().slots
                 .map { convertSession(++sessionId, it, speakersMap) }
+                .filter { (it.title?.length ?: 0) != 0 }
     }
 
     createJsons(speakers, sessions)
