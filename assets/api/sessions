@@ -85,7 +85,7 @@
 	"startAt": "2016-04-20 09:30",
 	"title": "Git ProTips (HoL)"
 }, {
-	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\r\n\r\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.\r\n",
+	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\r\n\r\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.\r\n",
 	"duration": 180,
 	"id": 12,
 	"roomId": 15,
@@ -425,7 +425,7 @@
 	"startAt": "2016-04-20 18:40",
 	"title": "Continuous Delivery avec GoCD"
 }, {
-	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\r\n\r\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\r\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\r\n\r\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
+	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\r\n\r\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\r\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\r\n\r\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
 	"duration": 30,
 	"id": 55,
 	"roomId": 0,
@@ -463,31 +463,6 @@
 	"startAt": "2016-04-21 07:30",
 	"title": "Accueil"
 }, {
-	"duration": 15,
-	"id": 60,
-	"roomId": 3,
-	"startAt": "2016-04-21 09:00"
-}, {
-	"duration": 20,
-	"id": 61,
-	"roomId": 3,
-	"startAt": "2016-04-21 09:20"
-}, {
-	"duration": 20,
-	"id": 62,
-	"roomId": 3,
-	"startAt": "2016-04-21 09:40"
-}, {
-	"duration": 20,
-	"id": 63,
-	"roomId": 3,
-	"startAt": "2016-04-21 10:05"
-}, {
-	"duration": 20,
-	"id": 64,
-	"roomId": 3,
-	"startAt": "2016-04-21 10:25"
-}, {
 	"duration": 30,
 	"id": 65,
 	"roomId": 1,
@@ -518,7 +493,7 @@
 	"startAt": "2016-04-21 11:15",
 	"title": "Cycle de vie des images Docker : problèmes et solutions"
 }, {
-	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\r\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\r\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
 	"duration": 45,
 	"id": 69,
 	"roomId": 7,
@@ -962,21 +937,6 @@
 	"startAt": "2016-04-21 16:10",
 	"title": "IOT Streaming and Machine Learning to make Music !!"
 }, {
-	"duration": 180,
-	"id": 125,
-	"roomId": 14,
-	"startAt": "2016-04-21 16:10"
-}, {
-	"duration": 180,
-	"id": 126,
-	"roomId": 15,
-	"startAt": "2016-04-21 16:10"
-}, {
-	"duration": 180,
-	"id": 127,
-	"roomId": 16,
-	"startAt": "2016-04-21 16:10"
-}, {
 	"description": "If you want evidence that the software development industry is susceptible to fashion, just go and take a look at all of the hype around microservices. It's everywhere! For some people microservices is \"the next big thing\", whereas for others it's simply a lightweight evolution of the big service-oriented architectures that we saw 10 years ago \"done right”. Microservices is by no means a silver bullet though, and the design thinking required to create a good microservices architecture is the same as that needed to create a well structured monolith. And this begs the question that if you can’t build a well-structured monolith, what makes you think microservices is the answer?",
 	"duration": 45,
 	"id": 128,
@@ -1225,16 +1185,6 @@
 	"startAt": "2016-04-21 19:45",
 	"title": "Data Meetup: Hadoop User Group, Paris Data Geek et Spark Meetup"
 }, {
-	"duration": 50,
-	"id": 159,
-	"roomId": 15,
-	"startAt": "2016-04-21 19:45"
-}, {
-	"duration": 50,
-	"id": 160,
-	"roomId": 16,
-	"startAt": "2016-04-21 19:45"
-}, {
 	"description": "Vous êtes curieux de savoir comment se prépare un événement pour 2500 personnes sur 3 Jours ? Vous avez envie que Devoxx France soit encore meilleur l'année prochaine ?\r\nAlors venez échanger avec ceux qui préparent et gèrent l'événement.\r\n\r\nQuelques idées de sujets que nous pourrons aborder ensembles: \r\n\r\n* La préparation de l'événement \r\n* La préparation/selection du programme et l'expérience Golden Tickets \r\n* L'événement une fois sur place\r\n",
 	"duration": 50,
 	"id": 161,
@@ -1291,16 +1241,6 @@
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Apache Cassandra"
 }, {
-	"duration": 50,
-	"id": 168,
-	"roomId": 15,
-	"startAt": "2016-04-21 20:40"
-}, {
-	"duration": 50,
-	"id": 169,
-	"roomId": 16,
-	"startAt": "2016-04-21 20:40"
-}, {
 	"description": " En 10 ans Jenkins est devenu la référence des serveurs d'intégration continue. Aujourd'hui, avec plus de 1300 plugins il adresse des besoins de plus en plus variés pour la livraison, le déploiement continue et tellement d'autres usages. Jenkins évolue avec la une version 2.0 prévue pour cette année et de nombreux plugins comme Pipeline, Docker, ...\r\n\r\nUtilisateur, contributeur ou simplement intéressé par Jenkins rejoignez-nous!\r\n\r\n![](http://mirrors.jenkins-ci.org/art/jenkins-logo/128x128/logo.png)",
 	"duration": 50,
 	"id": 170,
@@ -1349,46 +1289,11 @@
 	"startAt": "2016-04-21 21:35",
 	"title": "BarCamp Scala"
 }, {
-	"duration": 50,
-	"id": 176,
-	"roomId": 14,
-	"startAt": "2016-04-21 21:35"
-}, {
-	"duration": 50,
-	"id": 177,
-	"roomId": 15,
-	"startAt": "2016-04-21 21:35"
-}, {
-	"duration": 50,
-	"id": 178,
-	"roomId": 16,
-	"startAt": "2016-04-21 21:35"
-}, {
 	"duration": 60,
 	"id": 179,
 	"roomId": 1,
 	"startAt": "2016-04-22 08:00",
 	"title": "Accueil et petit-déjeuner"
-}, {
-	"duration": 20,
-	"id": 180,
-	"roomId": 3,
-	"startAt": "2016-04-22 09:00"
-}, {
-	"duration": 20,
-	"id": 181,
-	"roomId": 3,
-	"startAt": "2016-04-22 09:25"
-}, {
-	"duration": 20,
-	"id": 182,
-	"roomId": 3,
-	"startAt": "2016-04-22 09:50"
-}, {
-	"duration": 20,
-	"id": 183,
-	"roomId": 3,
-	"startAt": "2016-04-22 10:15"
 }, {
 	"duration": 30,
 	"id": 184,
@@ -1428,18 +1333,13 @@
 	"startAt": "2016-04-22 11:00",
 	"title": "Securiser son développement avec 10 outils open-source"
 }, {
-	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \r\nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge. \r\n",
+	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \r\nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge. \r\n",
 	"duration": 160,
 	"id": 189,
 	"roomId": 0,
 	"speakersId": [203],
 	"startAt": "2016-04-22 11:00",
 	"title": "TinkerForge Live Hacking"
-}, {
-	"duration": 160,
-	"id": 190,
-	"roomId": 0,
-	"startAt": "2016-04-22 11:00"
 }, {
 	"description": "La migration d'Angular 1 à Angular 2 s'annonce d'ores et déjà difficile tant les concepts sous-tendant les 2 versions du framework web sont différents. Pourtant, Angular 1 permet d'utiliser dès aujourd'hui certaines de ces nouveautés, tel qu'une architecture orientée composant ou TypeScript. Cette session sera l'occasion pour vous de découvrir comment se préparer dès maintenant à l'arrivée d'Angular 2 en étudiant un ensemble de bonnes pratiques applicables à Angular 1.",
 	"duration": 45,
