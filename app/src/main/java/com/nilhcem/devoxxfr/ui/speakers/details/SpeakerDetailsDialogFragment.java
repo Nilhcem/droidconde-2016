@@ -78,7 +78,12 @@ public class SpeakerDetailsDialogFragment extends AppCompatDialogFragment {
         name.setText(speaker.getName());
         title.setText(speaker.getTitle());
         bio.setText(speaker.getBio());
-        picasso.load(speaker.getPhoto()).transform(new CircleTransformation()).into(photo);
+
+        String photoUrl = speaker.getPhoto();
+        if (!TextUtils.isEmpty(photoUrl)) {
+            picasso.load(photoUrl).transform(new CircleTransformation()).into(photo);
+        }
+
         bindLinks(speaker);
     }
 

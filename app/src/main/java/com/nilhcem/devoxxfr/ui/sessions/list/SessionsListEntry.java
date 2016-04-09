@@ -31,9 +31,11 @@ public class SessionsListEntry extends BaseViewHolder {
     }
 
     public void bindSession(Session session, boolean isSelected) {
-        String url = App.getPhotoUrl(session);
-        if (!TextUtils.isEmpty(url)) {
-            picasso.load(url).transform(new CircleTransformation()).into(photo);
+        String photoUrl = App.getPhotoUrl(session);
+        if (TextUtils.isEmpty(photoUrl)) {
+            photo.setImageDrawable(null);
+        } else {
+            picasso.load(photoUrl).transform(new CircleTransformation()).into(photo);
         }
 
         title.setText(session.getTitle());

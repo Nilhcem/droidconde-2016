@@ -36,9 +36,11 @@ public class SessionDetailsSpeaker extends FrameLayout {
     }
 
     private void bind(Speaker speaker, Picasso picasso) {
-        if (!TextUtils.isEmpty(speaker.getPhoto())) {
-            picasso.load(speaker.getPhoto()).transform(new CircleTransformation()).into(photo);
+        String photoUrl = speaker.getPhoto();
+        if (!TextUtils.isEmpty(photoUrl)) {
+            picasso.load(photoUrl).transform(new CircleTransformation()).into(photo);
         }
+
         name.setText(speaker.getName());
         title.setText(speaker.getTitle());
     }

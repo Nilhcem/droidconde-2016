@@ -147,9 +147,9 @@ public class SessionDetailsActivity extends BaseActivity<SessionDetailsPresenter
     }
 
     private void bindHeaderPhoto(Session session, int headerWidth) {
-        String url = App.getPhotoUrl(session);
-        if (!TextUtils.isEmpty(url)) {
-            picasso.load(url).resize(headerWidth, 0).into(photo);
+        String photoUrl = App.getPhotoUrl(session);
+        if (!TextUtils.isEmpty(photoUrl)) {
+            picasso.load(photoUrl).resize(headerWidth, 0).into(photo);
         }
     }
 

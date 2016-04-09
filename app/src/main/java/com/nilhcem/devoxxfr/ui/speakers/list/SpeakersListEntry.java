@@ -1,5 +1,6 @@
 package com.nilhcem.devoxxfr.ui.speakers.list;
 
+import android.text.TextUtils;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,7 +25,12 @@ public class SpeakersListEntry extends BaseViewHolder {
     }
 
     public void bindSpeaker(Speaker speaker) {
-        picasso.load(speaker.getPhoto()).into(photo);
+        String photoUrl = speaker.getPhoto();
+        if (TextUtils.isEmpty(photoUrl)) {
+            photo.setImageDrawable(null);
+        } else {
+            picasso.load(photoUrl).into(photo);
+        }
         name.setText(speaker.getName());
     }
 }
