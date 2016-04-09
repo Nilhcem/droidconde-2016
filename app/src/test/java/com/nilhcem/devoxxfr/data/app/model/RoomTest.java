@@ -9,13 +9,13 @@ public class RoomTest {
     @Test
     public void should_get_room_for_a_given_id() {
         // Given
-        int id = Room.EXHIBITION_FLOOR.id;
+        int id = Room.MAILLOT.id;
 
         // When
         Room result = Room.getFromId(id);
 
         // Then
-        assertThat(result).isEqualTo(Room.EXHIBITION_FLOOR);
+        assertThat(result).isEqualTo(Room.MAILLOT);
     }
 
     @Test
@@ -27,19 +27,19 @@ public class RoomTest {
         Room result = Room.getFromId(id);
 
         // Then
-        assertThat(result).isEqualTo(Room.NONE);
+        assertThat(result).isEqualTo(Room.EXHIBITION_FLOOR);
     }
 
     @Test
     public void should_get_room_for_a_given_name() {
         // Given
-        String name = Room.EXHIBITION_FLOOR.name;
+        String name = Room.MAILLOT.name;
 
         // When
         Room result = Room.getFromName(name);
 
         // Then
-        assertThat(result).isEqualTo(Room.EXHIBITION_FLOOR);
+        assertThat(result).isEqualTo(Room.MAILLOT);
     }
 
     @Test
@@ -51,6 +51,6 @@ public class RoomTest {
         Room result = Room.getFromName(name);
 
         // Then
-        assertThat(result).isEqualTo(Room.NONE);
+        assertThat(result).isEqualTo(Room.EXHIBITION_FLOOR);
     }
 }
