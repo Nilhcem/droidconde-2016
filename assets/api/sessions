@@ -9,7 +9,7 @@
 	"duration": 180,
 	"id": 2,
 	"roomId": 3,
-	"speakersId": [121],
+	"speakersId": [176],
 	"startAt": "2016-04-20 09:30",
 	"title": "ArrayList et LinkedList sont dans un bateau"
 }, {
@@ -17,7 +17,7 @@
 	"duration": 180,
 	"id": 3,
 	"roomId": 4,
-	"speakersId": [53, 184],
+	"speakersId": [156, 149],
 	"startAt": "2016-04-20 09:30",
 	"title": "Property-Based Testing, enfin pour tout le monde"
 }, {
@@ -25,7 +25,7 @@
 	"duration": 180,
 	"id": 4,
 	"roomId": 6,
-	"speakersId": [143],
+	"speakersId": [237],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture Android et bonnes pratiques"
 }, {
@@ -33,7 +33,7 @@
 	"duration": 180,
 	"id": 5,
 	"roomId": 5,
-	"speakersId": [66, 34],
+	"speakersId": [232, 75],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture découplée grâce aux Reactive Extensions"
 }, {
@@ -41,7 +41,7 @@
 	"duration": 180,
 	"id": 6,
 	"roomId": 7,
-	"speakersId": [46, 174],
+	"speakersId": [67, 3],
 	"startAt": "2016-04-20 09:30",
 	"title": "How does Clever Cloud work? Radical decisions leads to great design."
 }, {
@@ -49,7 +49,7 @@
 	"duration": 180,
 	"id": 7,
 	"roomId": 8,
-	"speakersId": [197, 17, 111],
+	"speakersId": [117, 139, 215],
 	"startAt": "2016-04-20 09:30",
 	"title": "Déployez vos applications sur un cluster Kubernetes avec Ansible"
 }, {
@@ -57,7 +57,7 @@
 	"duration": 180,
 	"id": 8,
 	"roomId": 9,
-	"speakersId": [217, 37],
+	"speakersId": [97, 231],
 	"startAt": "2016-04-20 09:30",
 	"title": "Développez une application \"Time Series\" avec Apache Spark, HBase et l'API Kakfa"
 }, {
@@ -65,7 +65,7 @@
 	"duration": 180,
 	"id": 9,
 	"roomId": 10,
-	"speakersId": [224, 72, 50],
+	"speakersId": [49, 61, 15],
 	"startAt": "2016-04-20 09:30",
 	"title": "Angular 2 hands on"
 }, {
@@ -73,7 +73,7 @@
 	"duration": 180,
 	"id": 10,
 	"roomId": 12,
-	"speakersId": [118, 218, 88],
+	"speakersId": [229, 118, 41],
 	"startAt": "2016-04-20 09:30",
 	"title": "Introduction à Scala"
 }, {
@@ -81,7 +81,7 @@
 	"duration": 180,
 	"id": 11,
 	"roomId": 14,
-	"speakersId": [42],
+	"speakersId": [187],
 	"startAt": "2016-04-20 09:30",
 	"title": "Git ProTips (HoL)"
 }, {
@@ -89,7 +89,7 @@
 	"duration": 180,
 	"id": 12,
 	"roomId": 15,
-	"speakersId": [45, 127],
+	"speakersId": [81, 228],
 	"startAt": "2016-04-20 09:30",
 	"title": "Vert.x - passez de 0 à (micro-) héros"
 }, {
@@ -97,7 +97,7 @@
 	"duration": 180,
 	"id": 13,
 	"roomId": 16,
-	"speakersId": [161],
+	"speakersId": [200],
 	"startAt": "2016-04-20 09:30",
 	"title": "Playing with Pepper robot"
 }, {
@@ -105,7 +105,7 @@
 	"duration": 180,
 	"id": 14,
 	"roomId": 0,
-	"speakersId": [191, 199],
+	"speakersId": [68, 151],
 	"startAt": "2016-04-20 09:30",
 	"title": "A lite Rx API for the JVM"
 }, {
@@ -113,7 +113,7 @@
 	"duration": 180,
 	"id": 15,
 	"roomId": 0,
-	"speakersId": [96],
+	"speakersId": [129],
 	"startAt": "2016-04-20 09:30",
 	"title": "Web Real Time Communication par la pratique"
 }, {
@@ -127,7 +127,7 @@
 	"duration": 180,
 	"id": 17,
 	"roomId": 3,
-	"speakersId": [110, 99, 55],
+	"speakersId": [54, 77, 105],
 	"startAt": "2016-04-20 13:30",
 	"title": "Kubernetes University, Cap sur l’orchestration Docker !"
 }, {
@@ -135,7 +135,7 @@
 	"duration": 180,
 	"id": 18,
 	"roomId": 4,
-	"speakersId": [52, 176, 215],
+	"speakersId": [63, 147, 182],
 	"startAt": "2016-04-20 13:30",
 	"title": "Pourquoi il ne suffira pas de faire du HTTP 2.0 pour faire des applications performantes..."
 }, {
@@ -143,7 +143,7 @@
 	"duration": 180,
 	"id": 19,
 	"roomId": 6,
-	"speakersId": [29],
+	"speakersId": [132],
 	"startAt": "2016-04-20 13:30",
 	"title": "La Blockchain en détail"
 }, {
@@ -151,7 +151,7 @@
 	"duration": 180,
 	"id": 20,
 	"roomId": 5,
-	"speakersId": [189],
+	"speakersId": [7],
 	"startAt": "2016-04-20 13:30",
 	"title": "Lean Startup pour les développeurs"
 }, {
@@ -159,7 +159,7 @@
 	"duration": 180,
 	"id": 21,
 	"roomId": 7,
-	"speakersId": [33, 202],
+	"speakersId": [55, 167],
 	"startAt": "2016-04-20 13:30",
 	"title": "Spring Boot 1.3 pour le web"
 }, {
@@ -167,7 +167,7 @@
 	"duration": 180,
 	"id": 22,
 	"roomId": 8,
-	"speakersId": [83, 70, 44],
+	"speakersId": [178, 177, 32],
 	"startAt": "2016-04-20 13:30",
 	"title": "Event Storming : comprendre le métier autrement"
 }, {
@@ -175,7 +175,7 @@
 	"duration": 180,
 	"id": 23,
 	"roomId": 9,
-	"speakersId": [105, 24],
+	"speakersId": [96, 166],
 	"startAt": "2016-04-20 13:30",
 	"title": "Hand's on Web Components with Polymer"
 }, {
@@ -183,7 +183,7 @@
 	"duration": 180,
 	"id": 24,
 	"roomId": 10,
-	"speakersId": [204, 147],
+	"speakersId": [143, 27],
 	"startAt": "2016-04-20 13:30",
 	"title": "Apache Kafka - Stream Data Platform"
 }, {
@@ -191,7 +191,7 @@
 	"duration": 180,
 	"id": 25,
 	"roomId": 12,
-	"speakersId": [122, 30, 51],
+	"speakersId": [158, 69, 57],
 	"startAt": "2016-04-20 13:30",
 	"title": "Déploiement d'une app distribuée sur Mesos avec Docker, Marathon et MesosDNS"
 }, {
@@ -199,7 +199,7 @@
 	"duration": 180,
 	"id": 26,
 	"roomId": 14,
-	"speakersId": [178],
+	"speakersId": [223],
 	"startAt": "2016-04-20 13:30",
 	"title": "Hands-on with Kubernetes - from basic to advanced features"
 }, {
@@ -207,7 +207,7 @@
 	"duration": 180,
 	"id": 27,
 	"roomId": 15,
-	"speakersId": [144, 207],
+	"speakersId": [1, 172],
 	"startAt": "2016-04-20 13:30",
 	"title": "Let's React : le lab !!!"
 }, {
@@ -215,7 +215,7 @@
 	"duration": 180,
 	"id": 28,
 	"roomId": 16,
-	"speakersId": [66, 123],
+	"speakersId": [232, 180],
 	"startAt": "2016-04-20 13:30",
 	"title": "À la découverte de la plateforme Android"
 }, {
@@ -223,7 +223,7 @@
 	"duration": 180,
 	"id": 29,
 	"roomId": 0,
-	"speakersId": [135, 109],
+	"speakersId": [17, 130],
 	"startAt": "2016-04-20 13:30",
 	"title": "3 heures pour développer un microservice avec les micro frameworks Java"
 }, {
@@ -231,7 +231,7 @@
 	"duration": 180,
 	"id": 30,
 	"roomId": 0,
-	"speakersId": [234],
+	"speakersId": [126],
 	"startAt": "2016-04-20 13:30",
 	"title": "Bluemix en Pratique - Nouveautés 2016"
 }, {
@@ -245,7 +245,7 @@
 	"duration": 30,
 	"id": 32,
 	"roomId": 3,
-	"speakersId": [173],
+	"speakersId": [198],
 	"startAt": "2016-04-20 17:10",
 	"title": "Bouchez vos fuites mémoires avec LeakCanary!"
 }, {
@@ -253,7 +253,7 @@
 	"duration": 30,
 	"id": 33,
 	"roomId": 4,
-	"speakersId": [208],
+	"speakersId": [136],
 	"startAt": "2016-04-20 17:10",
 	"title": "Test Driven Infrastructure avec Docker "
 }, {
@@ -261,7 +261,7 @@
 	"duration": 30,
 	"id": 34,
 	"roomId": 6,
-	"speakersId": [1],
+	"speakersId": [138],
 	"startAt": "2016-04-20 17:10",
 	"title": "De Jenkins Maven/Freestyle à Pipeline"
 }, {
@@ -269,7 +269,7 @@
 	"duration": 30,
 	"id": 35,
 	"roomId": 5,
-	"speakersId": [235],
+	"speakersId": [43],
 	"startAt": "2016-04-20 17:10",
 	"title": "Unit test my search"
 }, {
@@ -277,7 +277,7 @@
 	"duration": 30,
 	"id": 36,
 	"roomId": 7,
-	"speakersId": [219],
+	"speakersId": [21],
 	"startAt": "2016-04-20 17:10",
 	"title": "Typescript, typer pour mieux coder"
 }, {
@@ -285,7 +285,7 @@
 	"duration": 30,
 	"id": 37,
 	"roomId": 0,
-	"speakersId": [109],
+	"speakersId": [130],
 	"startAt": "2016-04-20 17:10",
 	"title": "Feign(ant) in Action"
 }, {
@@ -293,7 +293,7 @@
 	"duration": 30,
 	"id": 38,
 	"roomId": 0,
-	"speakersId": [227],
+	"speakersId": [28],
 	"startAt": "2016-04-20 17:10",
 	"title": "Postgresql : la nouvelle base orientée document"
 }, {
@@ -301,7 +301,7 @@
 	"duration": 30,
 	"id": 39,
 	"roomId": 10,
-	"speakersId": [47, 141],
+	"speakersId": [106, 219],
 	"startAt": "2016-04-20 17:10",
 	"title": "JGiven: enfin une réelle documentation vivante."
 }, {
@@ -309,7 +309,7 @@
 	"duration": 30,
 	"id": 40,
 	"roomId": 12,
-	"speakersId": [211],
+	"speakersId": [13],
 	"startAt": "2016-04-20 17:10",
 	"title": "Conquérir le desktop avec Electron"
 }, {
@@ -317,7 +317,7 @@
 	"duration": 30,
 	"id": 41,
 	"roomId": 3,
-	"speakersId": [220],
+	"speakersId": [108],
 	"startAt": "2016-04-20 17:55",
 	"title": "Stream processing avec les acteurs AKKA"
 }, {
@@ -325,7 +325,7 @@
 	"duration": 30,
 	"id": 42,
 	"roomId": 4,
-	"speakersId": [106],
+	"speakersId": [203],
 	"startAt": "2016-04-20 17:55",
 	"title": "Flexbox, et le CSS redevient fun !"
 }, {
@@ -333,7 +333,7 @@
 	"duration": 30,
 	"id": 43,
 	"roomId": 6,
-	"speakersId": [185],
+	"speakersId": [123],
 	"startAt": "2016-04-20 17:55",
 	"title": "Toast Tk : l’automatisation de tests facile, collaborative et open source"
 }, {
@@ -341,7 +341,7 @@
 	"duration": 30,
 	"id": 44,
 	"roomId": 5,
-	"speakersId": [101, 21],
+	"speakersId": [35, 113],
 	"startAt": "2016-04-20 17:55",
 	"title": "Apache Maven, Java 9 et le projet Jigsaw"
 }, {
@@ -349,7 +349,7 @@
 	"duration": 30,
 	"id": 45,
 	"roomId": 7,
-	"speakersId": [212],
+	"speakersId": [86],
 	"startAt": "2016-04-20 17:55",
 	"title": "D3.JS en action : des données aux graphiques interactifs"
 }, {
@@ -357,7 +357,7 @@
 	"duration": 30,
 	"id": 46,
 	"roomId": 0,
-	"speakersId": [125, 158],
+	"speakersId": [101, 170],
 	"startAt": "2016-04-20 17:55",
 	"title": "SonarLint in action"
 }, {
@@ -365,7 +365,7 @@
 	"duration": 30,
 	"id": 47,
 	"roomId": 0,
-	"speakersId": [98],
+	"speakersId": [208],
 	"startAt": "2016-04-20 17:55",
 	"title": "Akka: découvrons les bases"
 }, {
@@ -373,7 +373,7 @@
 	"duration": 30,
 	"id": 48,
 	"roomId": 10,
-	"speakersId": [119],
+	"speakersId": [98],
 	"startAt": "2016-04-20 17:55",
 	"title": "Oubliez les migraines, faîtes de l'asynchrone... synchrone !"
 }, {
@@ -381,7 +381,7 @@
 	"duration": 30,
 	"id": 49,
 	"roomId": 12,
-	"speakersId": [9, 76],
+	"speakersId": [74, 99],
 	"startAt": "2016-04-20 17:55",
 	"title": "Communiquer en Bluetooth LE avec vos objets connectés, les pièges à éviter"
 }, {
@@ -389,7 +389,7 @@
 	"duration": 30,
 	"id": 50,
 	"roomId": 3,
-	"speakersId": [217],
+	"speakersId": [97],
 	"startAt": "2016-04-20 18:40",
 	"title": "\"SQL on Everything\" avec Apache Drill"
 }, {
@@ -397,7 +397,7 @@
 	"duration": 30,
 	"id": 51,
 	"roomId": 4,
-	"speakersId": [162, 41],
+	"speakersId": [234, 131],
 	"startAt": "2016-04-20 18:40",
 	"title": "Quoi d'neuf Docker - live : Docker sur ARM"
 }, {
@@ -405,7 +405,7 @@
 	"duration": 30,
 	"id": 52,
 	"roomId": 6,
-	"speakersId": [190],
+	"speakersId": [26],
 	"startAt": "2016-04-20 18:40",
 	"title": "Sécuriser ses applications back et front facilement avec Keycloak"
 }, {
@@ -413,7 +413,7 @@
 	"duration": 30,
 	"id": 53,
 	"roomId": 5,
-	"speakersId": [105],
+	"speakersId": [96],
 	"startAt": "2016-04-20 18:40",
 	"title": "Polymer dans la vraie vie"
 }, {
@@ -421,7 +421,7 @@
 	"duration": 30,
 	"id": 54,
 	"roomId": 7,
-	"speakersId": [222],
+	"speakersId": [216],
 	"startAt": "2016-04-20 18:40",
 	"title": "Continuous Delivery avec GoCD"
 }, {
@@ -429,7 +429,7 @@
 	"duration": 30,
 	"id": 55,
 	"roomId": 0,
-	"speakersId": [23],
+	"speakersId": [104],
 	"startAt": "2016-04-20 18:40",
 	"title": "Tango, you rock ! La vraie réalité virtuelle"
 }, {
@@ -437,7 +437,7 @@
 	"duration": 30,
 	"id": 56,
 	"roomId": 0,
-	"speakersId": [168],
+	"speakersId": [6],
 	"startAt": "2016-04-20 18:40",
 	"title": "Vue.js une alternative plus simple que React.js et Angular2 ?"
 }, {
@@ -445,7 +445,7 @@
 	"duration": 30,
 	"id": 57,
 	"roomId": 10,
-	"speakersId": [4],
+	"speakersId": [60],
 	"startAt": "2016-04-20 18:40",
 	"title": "Dropwizard : création de services REST \"production-ready\" en 25mn"
 }, {
@@ -453,7 +453,7 @@
 	"duration": 30,
 	"id": 58,
 	"roomId": 12,
-	"speakersId": [40, 151],
+	"speakersId": [116, 76],
 	"startAt": "2016-04-20 18:40",
 	"title": "Boucle de feedback pour le développeur"
 }, {
@@ -463,73 +463,97 @@
 	"startAt": "2016-04-21 07:30",
 	"title": "Accueil"
 }, {
+	"description": "Natacha Quester-Séméon va presenter comment la révolution digitale et le Girl Power changent notre société.",
+	"duration": 20,
+	"id": 61,
+	"roomId": 3,
+	"speakersId": [190],
+	"startAt": "2016-04-21 09:20",
+	"title": "L'entrepreunariat au feminin"
+}, {
+	"description": "Joel Spolsky va nous présenter les nouveau mode de travail et l'impact du partage dans l'acquisition des connaissances",
+	"duration": 20,
+	"id": 62,
+	"roomId": 3,
+	"speakersId": [217],
+	"startAt": "2016-04-21 09:40",
+	"title": "Crow*ing change la société"
+}, {
+	"description": "Jean-Michel Billaut va nous parler de ce que les progresse en médecine va changer sur notre société.",
+	"duration": 20,
+	"id": 63,
+	"roomId": 3,
+	"speakersId": [24],
+	"startAt": "2016-04-21 10:05",
+	"title": "La médecine de demain"
+}, {
 	"duration": 30,
 	"id": 65,
 	"roomId": 1,
 	"startAt": "2016-04-21 10:45",
 	"title": "Pause courte"
 }, {
-	"description": "ES6 / ES2015 n'est pas un truc \"pour plus tard\", c'est parfaitement utilisable dès maintenant, et même depuis début 2015, justement ! En natif ou via transpiling, dans les navigateurs ou dans Node, ça offre énormément de nouvelles possibilités géniales. Et même ES5 / ES2016 est largement exploitable aujourd'hui.\r\n\r\nAu programme :\r\n\r\n- Rappels sur ES3, ES5, ES6 et ES7\r\n- Prises en charge native / Babel, outillage\r\n- Petits conforts : affectation déstructurée, rest, spread, fonctions fléchées\r\n- Contrôle de portée : let et const \r\n- Syntaxe de classes familière\r\n- Modules \r\n- Asynchrone : promesses, générateurs, async/await\r\n- Proxies et métaprogrammation\r\n- Décorateurs",
+	"description": "Docker se répand à vitesse grand V. En particulier les conteneurs Docker sont utilisés tout au long des pipelines de \"Continuous Delivery\", du développement jusqu'à la production.\r\n\r\nComment alors faire le tri dans la montagne d'images Docker produites, les promouvoir ou les rejeter ? Comment transposer les pratiques connues depuis longtemps avec les packages Java, .Net... aux images Docker ?\r\n\r\nNous allons montrer comment implémenter un modèle de promotion pour les images Docker et comment les distribuer selon les clients.",
 	"duration": 45,
 	"id": 66,
 	"roomId": 3,
-	"speakersId": [42],
-	"startAt": "2016-04-21 11:15",
-	"title": "ES6+ maintenant ! (conférence)"
-}, {
-	"description": "The age old task of racking and stacking in a physical data centre is becoming more and more rare as more companies embrace the public cloud. Having the ability to chose between providers such as AWS, Azure, Digital Ocean and Google Cloud Platform makes creating infrastructure easy. It is better to spend time developing better services for our customers than managing infrastructure\r\n \r\nDuring this talk, Paul will demonstrate how building a scalable infrastructure on AWS becomes easy with Terraform. The talk will demonstrate how using configuration management, pre-baked AMIs and auto-scaling groups it gives the ability for developers to be able to launch their own infrastructure when needed. The demo’s will include the ability to launch instances, databases and manage user access\r\n \r\nBy the end of the talk, Paul will have demonstrated that the creation of infrastructure now becomes part of the development lifecycle and that the old ways of system administration is fast moving to become infrastructure engineering. Paul will also demonstrate that the creation of new ‘environments’ are just a change of parameters in our infrastructure code",
-	"duration": 45,
-	"id": 67,
-	"roomId": 4,
-	"speakersId": [167],
-	"startAt": "2016-04-21 11:15",
-	"title": "The Quest for Infrastructure Management 2.0"
-}, {
-	"description": "Docker se répand à vitesse grand V. En particulier les conteneurs Docker sont utilisés tout au long des pipelines de \"Continuous Delivery\", du développement jusqu'à la production.\r\n\r\nComment alors faire le tri dans la montagne d'images Docker produites, les promouvoir ou les rejeter ? Comment transposer les pratiques connues depuis longtemps avec les packages Java, .Net... aux images Docker ?\r\n\r\nNous allons montrer comment implémenter un modèle de promotion pour les images Docker et comment les distribuer selon les clients.",
-	"duration": 45,
-	"id": 68,
-	"roomId": 0,
-	"speakersId": [89],
+	"speakersId": [214],
 	"startAt": "2016-04-21 11:15",
 	"title": "Cycle de vie des images Docker : problèmes et solutions"
 }, {
-	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\r\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+	"description": "Java SE 8 apporte de nombreuses améliorations du JDK : les expressions lambda, une nouvelle API Date, l'API CompletableFuture, les Streams, le Common Fork / Join Pool. L'objet de cette session est de montrer sur du code comment ces nouvelles choses apportées par Java SE 8 peuvent être utilisées dans les API Java EE 7 : Servlet, JAX-RS, WebSocket, CDI, EJB 3, JPA, JMS et Java EE Concurrency Utilities. \r\n\r\nNous montrerons aussi rapidement comment ces nouveautés seront utilisées dans Java EE 8. ",
+	"duration": 45,
+	"id": 67,
+	"roomId": 4,
+	"speakersId": [176, 66],
+	"startAt": "2016-04-21 11:15",
+	"title": "Java SE 8 pour les développeurs Java EE"
+}, {
+	"description": "Comment Maurice qui est habitué à faire du .net/Java où sa liberté de décision est assez grande ne doit surtout pas apprendre Go, un des langages récents les plus dogmatique aujourd'hui.\r\n\r\nAprès 15 ans de Java, 5 ans de JavaScript, Go est devenu mon langage de tous les jours. Pourtant habitué à changer de langage le choc est rude.\r\n\r\nJe vous fait découvrir le langage Go a travers une série de points en le comparant à des langages plus courants, afin que vous puissiez faire la bascule vers Go en connaissance de cause.",
+	"duration": 45,
+	"id": 68,
+	"roomId": 0,
+	"speakersId": [235],
+	"startAt": "2016-04-21 11:15",
+	"title": "Pourquoi Maurice ne doit surtout pas coder en go."
+}, {
+	"description": "ES6 / ES2015 n'est pas un truc \"pour plus tard\", c'est parfaitement utilisable dès maintenant, et même depuis début 2015, justement ! En natif ou via transpiling, dans les navigateurs ou dans Node, ça offre énormément de nouvelles possibilités géniales. Et même ES5 / ES2016 est largement exploitable aujourd'hui.\r\n\r\nAu programme :\r\n\r\n- Rappels sur ES3, ES5, ES6 et ES7\r\n- Prises en charge native / Babel, outillage\r\n- Petits conforts : affectation déstructurée, rest, spread, fonctions fléchées\r\n- Contrôle de portée : let et const \r\n- Syntaxe de classes familière\r\n- Modules \r\n- Asynchrone : promesses, générateurs, async/await\r\n- Proxies et métaprogrammation\r\n- Décorateurs",
 	"duration": 45,
 	"id": 69,
 	"roomId": 7,
-	"speakersId": [69],
+	"speakersId": [187],
 	"startAt": "2016-04-21 11:15",
-	"title": "Traefik, a modern reverse-proxy"
+	"title": "ES6+ maintenant ! (conférence)"
 }, {
 	"description": "Après 20 ans de Java, vous pensez qu'il est temps de basculer du côté mobile de la force mais vous n'avez pas envie de passer des jours à vous former au développement natif pour toutes les plateformes existantes ? Alors Ionic est fait pour vous ! Ionic c'est un framework mobile hybride basé sur HTML5, qui va rapidement vous rendre accro tellement il facilite le développement d'application pour mobile. Il est open source, il embarque avec lui la simplicité et la puissance d'AngularJS et il ne vous faudra que quelques heures pour développer une application simple mais déjà fonctionnelle qui pourra être déployée sur tous les mobiles ... what else?",
 	"duration": 45,
 	"id": 70,
 	"roomId": 5,
-	"speakersId": [24],
+	"speakersId": [166],
 	"startAt": "2016-04-21 11:15",
 	"title": "Ionic, le framework mobile hybride carrément addictif"
 }, {
-	"description": "Java SE 8 apporte de nombreuses améliorations du JDK : les expressions lambda, une nouvelle API Date, l'API CompletableFuture, les Streams, le Common Fork / Join Pool. L'objet de cette session est de montrer sur du code comment ces nouvelles choses apportées par Java SE 8 peuvent être utilisées dans les API Java EE 7 : Servlet, JAX-RS, WebSocket, CDI, EJB 3, JPA, JMS et Java EE Concurrency Utilities. \r\n\r\nNous montrerons aussi rapidement comment ces nouveautés seront utilisées dans Java EE 8. ",
+	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\r\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
 	"duration": 45,
 	"id": 71,
 	"roomId": 6,
-	"speakersId": [121, 61],
+	"speakersId": [224],
 	"startAt": "2016-04-21 11:15",
-	"title": "Java SE 8 pour les développeurs Java EE"
+	"title": "Traefik, a modern reverse-proxy"
 }, {
-	"description": "Quelle est la fonction première d’une entreprise ? L’entreprise libérée, est-ce un mythe ? Comment conserver une culture startup malgré la croissance ? Et d’ailleurs, pourquoi faire de la croissance ? Comment créer une culture de l’innovation ? A quoi sert un manager ? Qu’est ce qu’une entreprise horizontale ? Quelle place pour le plaisir ? Quelle place pour le développement personnel et culturel ?\r\n\r\nConstruire l’entreprise où nous aurions aimé être consultants, telle fut notre motivation à la création de notre structure. Mais cela ne suffit plus ! Nous sommes entrés dans une période disruptive sans précédent. L’innovation est une question de survie, qu’elle soit technologique, managériale ou structurelle. \r\n\r\nDans ce talk nous focaliserons sur l’organisation de l’entreprise, son modèle, la notion de performance et la transformation de ce qu’est l’emploi, de ce qu’est une carrière. De la startup à la société de service l’écart est grand. D’ailleurs les signes de « coolitude » qu’affichent certaines d’entre elles pour tenter de leur ressembler ne trompent plus personne !\r\n\r\nNous répondrons à toutes ces questions par des cas concrets, mais aussi par une présentation de notre vision long ",
+	"description": "The age old task of racking and stacking in a physical data centre is becoming more and more rare as more companies embrace the public cloud. Having the ability to chose between providers such as AWS, Azure, Digital Ocean and Google Cloud Platform makes creating infrastructure easy. It is better to spend time developing better services for our customers than managing infrastructure\r\n \r\nDuring this talk, Paul will demonstrate how building a scalable infrastructure on AWS becomes easy with Terraform. The talk will demonstrate how using configuration management, pre-baked AMIs and auto-scaling groups it gives the ability for developers to be able to launch their own infrastructure when needed. The demo’s will include the ability to launch instances, databases and manage user access\r\n \r\nBy the end of the talk, Paul will have demonstrated that the creation of infrastructure now becomes part of the development lifecycle and that the old ways of system administration is fast moving to become infrastructure engineering. Paul will also demonstrate that the creation of new ‘environments’ are just a change of parameters in our infrastructure code",
 	"duration": 45,
 	"id": 72,
 	"roomId": 11,
-	"speakersId": [35],
+	"speakersId": [218],
 	"startAt": "2016-04-21 11:15",
-	"title": "// TODO Implémenter le modèle de l’entreprise [de service] de demain"
+	"title": "The Quest for Infrastructure Management 2.0"
 }, {
 	"description": "Les pratiques DevOps nécessitent des processus automatisés durant l'ensemble du cycle de vie des applications, depuis le design, à travers le développement et le support en production, requérant d'assembler des chaines d'outils hétérogènes. La création de telles chaines d'outils est souvent un exercice difficile et leur évolution, lorsque l'équipe grandit ou que nouveaux outils sont ajoutés, peut s'avérer complexe. La plateforme Cloud d'IBM intègre désormais des fonctionalités natives DevOps, qui permettent de rapidement constituer des chaines d'outils à partir de templates prédéfinis ou customisés, incorporant les meilleurs outils du marché, et offrant aux utilisateurs une expérience consistente en terme d'authentification, de gestion d'évenements, d'analytiques, etc. Ces fonctionalités DevOps sont en outre fondées sur une architecture ouverte, qui permet d'intégrer aisément davantage d'outils dont les vôtres. Cette présentation montrera les fonctionalités DevOps de la plateforme IBM Cloud en action, et expliquera sa vision, son architecture et son extensibilité.",
 	"duration": 45,
 	"id": 73,
 	"roomId": 13,
-	"speakersId": [170, 38],
+	"speakersId": [165, 50],
 	"startAt": "2016-04-21 11:15",
 	"title": "Mise en oeuvre effective de l'IBM Bluemix Garage Method avec DevOps Toolchains"
 }, {
@@ -543,7 +567,7 @@
 	"duration": 15,
 	"id": 75,
 	"roomId": 0,
-	"speakersId": [20],
+	"speakersId": [14],
 	"startAt": "2016-04-21 12:05",
 	"title": "Unikernel: Le conteneur du futur"
 }, {
@@ -551,7 +575,7 @@
 	"duration": 15,
 	"id": 76,
 	"roomId": 7,
-	"speakersId": [8],
+	"speakersId": [227],
 	"startAt": "2016-04-21 12:05",
 	"title": "SSE : le Streaming Simple et Efficace, sans WebSocket"
 }, {
@@ -559,7 +583,7 @@
 	"duration": 15,
 	"id": 77,
 	"roomId": 5,
-	"speakersId": [187],
+	"speakersId": [201],
 	"startAt": "2016-04-21 12:05",
 	"title": "Analyzing Images with Google's Cloud Vision API"
 }, {
@@ -567,7 +591,7 @@
 	"duration": 15,
 	"id": 78,
 	"roomId": 6,
-	"speakersId": [46],
+	"speakersId": [67],
 	"startAt": "2016-04-21 12:05",
 	"title": "Les Types de Données Algébriques, c'est fun et utile."
 }, {
@@ -575,7 +599,7 @@
 	"duration": 15,
 	"id": 79,
 	"roomId": 11,
-	"speakersId": [213],
+	"speakersId": [145],
 	"startAt": "2016-04-21 12:05",
 	"title": "Des compilations vraiment reproductibles avec Maven"
 }, {
@@ -583,7 +607,7 @@
 	"duration": 15,
 	"id": 80,
 	"roomId": 13,
-	"speakersId": [56],
+	"speakersId": [222],
 	"startAt": "2016-04-21 12:05",
 	"title": "Devenez un King avec Kong"
 }, {
@@ -591,7 +615,7 @@
 	"duration": 15,
 	"id": 81,
 	"roomId": 14,
-	"speakersId": [65],
+	"speakersId": [213],
 	"startAt": "2016-04-21 12:05",
 	"title": "Le réveil de la Thread"
 }, {
@@ -599,7 +623,7 @@
 	"duration": 15,
 	"id": 82,
 	"roomId": 0,
-	"speakersId": [82],
+	"speakersId": [135],
 	"startAt": "2016-04-21 12:25",
 	"title": "L'architecture Redux en RxJS"
 }, {
@@ -607,7 +631,7 @@
 	"duration": 15,
 	"id": 83,
 	"roomId": 7,
-	"speakersId": [178],
+	"speakersId": [223],
 	"startAt": "2016-04-21 12:25",
 	"title": "Building a unikernel Java Application"
 }, {
@@ -615,7 +639,7 @@
 	"duration": 15,
 	"id": 84,
 	"roomId": 5,
-	"speakersId": [24],
+	"speakersId": [166],
 	"startAt": "2016-04-21 12:25",
 	"title": "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !"
 }, {
@@ -623,7 +647,7 @@
 	"duration": 15,
 	"id": 85,
 	"roomId": 6,
-	"speakersId": [84],
+	"speakersId": [193],
 	"startAt": "2016-04-21 12:25",
 	"title": "La magie des structures d'Elasticsearch et de Lucene"
 }, {
@@ -631,7 +655,7 @@
 	"duration": 15,
 	"id": 86,
 	"roomId": 11,
-	"speakersId": [132],
+	"speakersId": [150],
 	"startAt": "2016-04-21 12:25",
 	"title": "Le pattern builder à l'heure de Java 8"
 }, {
@@ -639,7 +663,7 @@
 	"duration": 15,
 	"id": 87,
 	"roomId": 13,
-	"speakersId": [117],
+	"speakersId": [155],
 	"startAt": "2016-04-21 12:25",
 	"title": "See the Truth"
 }, {
@@ -647,7 +671,7 @@
 	"duration": 15,
 	"id": 88,
 	"roomId": 14,
-	"speakersId": [196],
+	"speakersId": [52],
 	"startAt": "2016-04-21 12:25",
 	"title": "Making Swift - 10 enseignements qu'on peut tirer des 31.463 commits qui ont créé le langage"
 }, {
@@ -655,7 +679,7 @@
 	"duration": 45,
 	"id": 89,
 	"roomId": 3,
-	"speakersId": [174],
+	"speakersId": [3],
 	"startAt": "2016-04-21 12:55",
 	"title": "Containers, VMs, Processes… Isolation, performances, I/O… How all of these technologies work and compare to each other? "
 }, {
@@ -663,7 +687,7 @@
 	"duration": 45,
 	"id": 90,
 	"roomId": 4,
-	"speakersId": [163],
+	"speakersId": [58],
 	"startAt": "2016-04-21 12:55",
 	"title": "Stack Overflow behind the scenes - how it's made"
 }, {
@@ -671,7 +695,7 @@
 	"duration": 45,
 	"id": 91,
 	"roomId": 0,
-	"speakersId": [169],
+	"speakersId": [42],
 	"startAt": "2016-04-21 12:55",
 	"title": "L'intelligence artificielle avec les services IBM Watson sur la plateforme Bluemix"
 }, {
@@ -679,7 +703,7 @@
 	"duration": 45,
 	"id": 92,
 	"roomId": 7,
-	"speakersId": [19],
+	"speakersId": [95],
 	"startAt": "2016-04-21 12:55",
 	"title": "Just enough app server"
 }, {
@@ -687,7 +711,7 @@
 	"duration": 45,
 	"id": 93,
 	"roomId": 5,
-	"speakersId": [90],
+	"speakersId": [18],
 	"startAt": "2016-04-21 12:55",
 	"title": "OpenShift : le PaaS à la sauce Kubernetes et Docker"
 }, {
@@ -695,7 +719,7 @@
 	"duration": 45,
 	"id": 94,
 	"roomId": 6,
-	"speakersId": [156],
+	"speakersId": [107],
 	"startAt": "2016-04-21 12:55",
 	"title": "Hadoop à grande échelle : comment croître sur le long terme"
 }, {
@@ -703,7 +727,7 @@
 	"duration": 45,
 	"id": 95,
 	"roomId": 11,
-	"speakersId": [142, 148],
+	"speakersId": [236, 12],
 	"startAt": "2016-04-21 12:55",
 	"title": "Analytics et Big Data, une histoire de cubes..."
 }, {
@@ -711,7 +735,7 @@
 	"duration": 45,
 	"id": 96,
 	"roomId": 13,
-	"speakersId": [25],
+	"speakersId": [160],
 	"startAt": "2016-04-21 12:55",
 	"title": "Ansible hors des sentiers battus"
 }, {
@@ -719,7 +743,7 @@
 	"duration": 180,
 	"id": 97,
 	"roomId": 14,
-	"speakersId": [113, 62],
+	"speakersId": [235, 89],
 	"startAt": "2016-04-21 12:55",
 	"title": "Exploiter les nouveautés de Docker pour déployer un jeu distribué. "
 }, {
@@ -727,7 +751,7 @@
 	"duration": 180,
 	"id": 98,
 	"roomId": 15,
-	"speakersId": [212],
+	"speakersId": [86],
 	"startAt": "2016-04-21 12:55",
 	"title": "Rendez vos données vivantes avec D3.JS"
 }, {
@@ -735,7 +759,7 @@
 	"duration": 180,
 	"id": 99,
 	"roomId": 16,
-	"speakersId": [214],
+	"speakersId": [174],
 	"startAt": "2016-04-21 12:55",
 	"title": "Architecture Informatique...hands-on et en direct !"
 }, {
@@ -743,7 +767,7 @@
 	"duration": 45,
 	"id": 100,
 	"roomId": 3,
-	"speakersId": [173],
+	"speakersId": [198],
 	"startAt": "2016-04-21 13:55",
 	"title": "Sharper Better Faster Dagger ‡"
 }, {
@@ -751,7 +775,7 @@
 	"duration": 45,
 	"id": 101,
 	"roomId": 4,
-	"speakersId": [79, 104, 103],
+	"speakersId": [80, 220, 221],
 	"startAt": "2016-04-21 13:55",
 	"title": "DevOps vu par un Hacker"
 }, {
@@ -759,7 +783,7 @@
 	"duration": 45,
 	"id": 102,
 	"roomId": 0,
-	"speakersId": [74],
+	"speakersId": [110],
 	"startAt": "2016-04-21 13:55",
 	"title": "Paris est résilient"
 }, {
@@ -767,7 +791,7 @@
 	"duration": 45,
 	"id": 103,
 	"roomId": 7,
-	"speakersId": [115],
+	"speakersId": [71],
 	"startAt": "2016-04-21 13:55",
 	"title": "Retours sur Java 8"
 }, {
@@ -775,7 +799,7 @@
 	"duration": 45,
 	"id": 104,
 	"roomId": 5,
-	"speakersId": [193],
+	"speakersId": [111],
 	"startAt": "2016-04-21 13:55",
 	"title": "We’re watching you. (Learn what you can do about it.)"
 }, {
@@ -783,7 +807,7 @@
 	"duration": 45,
 	"id": 105,
 	"roomId": 6,
-	"speakersId": [50, 85],
+	"speakersId": [15, 169],
 	"startAt": "2016-04-21 13:55",
 	"title": "Progressive Web Apps"
 }, {
@@ -791,7 +815,7 @@
 	"duration": 45,
 	"id": 106,
 	"roomId": 11,
-	"speakersId": [95],
+	"speakersId": [29],
 	"startAt": "2016-04-21 13:55",
 	"title": "Un assembleur dynamique sur la JVM ?"
 }, {
@@ -799,7 +823,7 @@
 	"duration": 45,
 	"id": 107,
 	"roomId": 13,
-	"speakersId": [46],
+	"speakersId": [67],
 	"startAt": "2016-04-21 13:55",
 	"title": "TDD, comme dans Type-Directed Development"
 }, {
@@ -807,7 +831,7 @@
 	"duration": 45,
 	"id": 108,
 	"roomId": 3,
-	"speakersId": [146],
+	"speakersId": [192],
 	"startAt": "2016-04-21 14:55",
 	"title": "Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap"
 }, {
@@ -815,7 +839,7 @@
 	"duration": 45,
 	"id": 109,
 	"roomId": 4,
-	"speakersId": [106],
+	"speakersId": [203],
 	"startAt": "2016-04-21 14:55",
 	"title": "100% Stateless avec JWT (JSON Web Token)"
 }, {
@@ -823,7 +847,7 @@
 	"duration": 45,
 	"id": 110,
 	"roomId": 0,
-	"speakersId": [187, 80],
+	"speakersId": [201, 109],
 	"startAt": "2016-04-21 14:55",
 	"title": "Google Dataflow: The new open model for batch and stream processing"
 }, {
@@ -831,7 +855,7 @@
 	"duration": 45,
 	"id": 111,
 	"roomId": 7,
-	"speakersId": [162, 230],
+	"speakersId": [234, 73],
 	"startAt": "2016-04-21 14:55",
 	"title": "(Jenkins, Docker) -> { Orchestrons le Continuous Delivery }"
 }, {
@@ -839,7 +863,7 @@
 	"duration": 45,
 	"id": 112,
 	"roomId": 5,
-	"speakersId": [12],
+	"speakersId": [125],
 	"startAt": "2016-04-21 14:55",
 	"title": "De l'IOT, des timeseries et de la prédiction avec Android, Cassandra et Spark"
 }, {
@@ -847,7 +871,7 @@
 	"duration": 45,
 	"id": 113,
 	"roomId": 6,
-	"speakersId": [223],
+	"speakersId": [161],
 	"startAt": "2016-04-21 14:55",
 	"title": "High-Performance Hibernate"
 }, {
@@ -855,7 +879,7 @@
 	"duration": 45,
 	"id": 114,
 	"roomId": 11,
-	"speakersId": [29, 102],
+	"speakersId": [132, 146],
 	"startAt": "2016-04-21 14:55",
 	"title": "Ce que les stratégies de versioning nous disent des dynamiques d’équipe"
 }, {
@@ -863,7 +887,7 @@
 	"duration": 45,
 	"id": 115,
 	"roomId": 13,
-	"speakersId": [32],
+	"speakersId": [20],
 	"startAt": "2016-04-21 14:55",
 	"title": "How Microsoft learned to love Java"
 }, {
@@ -877,7 +901,7 @@
 	"duration": 45,
 	"id": 117,
 	"roomId": 3,
-	"speakersId": [179],
+	"speakersId": [85],
 	"startAt": "2016-04-21 16:10",
 	"title": "String Concatenation de 1 à 9"
 }, {
@@ -885,7 +909,7 @@
 	"duration": 45,
 	"id": 118,
 	"roomId": 4,
-	"speakersId": [228, 192],
+	"speakersId": [210, 64],
 	"startAt": "2016-04-21 16:10",
 	"title": "Systèmes distribués, scotch, bouts de ficelle et doigts croisés : une histoire du Streaming à Criteo"
 }, {
@@ -893,7 +917,7 @@
 	"duration": 45,
 	"id": 119,
 	"roomId": 0,
-	"speakersId": [200],
+	"speakersId": [186],
 	"startAt": "2016-04-21 16:10",
 	"title": "Redundancy for a 1117 node Hadoop cluster"
 }, {
@@ -901,7 +925,7 @@
 	"duration": 45,
 	"id": 120,
 	"roomId": 7,
-	"speakersId": [136],
+	"speakersId": [103],
 	"startAt": "2016-04-21 16:10",
 	"title": "Vert.x pour l'IoT dans l'embarqué"
 }, {
@@ -909,7 +933,7 @@
 	"duration": 45,
 	"id": 121,
 	"roomId": 5,
-	"speakersId": [194, 183],
+	"speakersId": [79, 159],
 	"startAt": "2016-04-21 16:10",
 	"title": "la-quête-du-graal.js"
 }, {
@@ -917,7 +941,7 @@
 	"duration": 45,
 	"id": 122,
 	"roomId": 6,
-	"speakersId": [2],
+	"speakersId": [112],
 	"startAt": "2016-04-21 16:10",
 	"title": "Intégration et déploiement en continu @ Github"
 }, {
@@ -925,7 +949,7 @@
 	"duration": 45,
 	"id": 123,
 	"roomId": 11,
-	"speakersId": [210],
+	"speakersId": [2],
 	"startAt": "2016-04-21 16:10",
 	"title": "Apprendre à utiliser la cryptographie par l’attaque"
 }, {
@@ -933,7 +957,7 @@
 	"duration": 45,
 	"id": 124,
 	"roomId": 13,
-	"speakersId": [88],
+	"speakersId": [41],
 	"startAt": "2016-04-21 16:10",
 	"title": "IOT Streaming and Machine Learning to make Music !!"
 }, {
@@ -941,7 +965,7 @@
 	"duration": 45,
 	"id": 128,
 	"roomId": 3,
-	"speakersId": [195],
+	"speakersId": [38],
 	"startAt": "2016-04-21 17:10",
 	"title": "Modular monoliths"
 }, {
@@ -949,7 +973,7 @@
 	"duration": 45,
 	"id": 129,
 	"roomId": 4,
-	"speakersId": [178],
+	"speakersId": [223],
 	"startAt": "2016-04-21 17:10",
 	"title": "Scaling with Kubernetes, Automatically!  Learn Kubernetes API through writing a visualizer to an autoscaler"
 }, {
@@ -957,7 +981,7 @@
 	"duration": 45,
 	"id": 130,
 	"roomId": 0,
-	"speakersId": [58, 24, 73, 225],
+	"speakersId": [65, 166, 83, 34],
 	"startAt": "2016-04-21 17:10",
 	"title": "Faire découvrir la programmation aux enfants, un atelier à la fois"
 }, {
@@ -965,7 +989,7 @@
 	"duration": 45,
 	"id": 131,
 	"roomId": 7,
-	"speakersId": [144],
+	"speakersId": [1],
 	"startAt": "2016-04-21 17:10",
 	"title": "Let's React"
 }, {
@@ -973,7 +997,7 @@
 	"duration": 45,
 	"id": 132,
 	"roomId": 5,
-	"speakersId": [62],
+	"speakersId": [89],
 	"startAt": "2016-04-21 17:10",
 	"title": "Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?"
 }, {
@@ -981,7 +1005,7 @@
 	"duration": 45,
 	"id": 133,
 	"roomId": 6,
-	"speakersId": [124],
+	"speakersId": [72],
 	"startAt": "2016-04-21 17:10",
 	"title": "Quoi de neuf pour JHipster en 2016"
 }, {
@@ -989,7 +1013,7 @@
 	"duration": 45,
 	"id": 134,
 	"roomId": 11,
-	"speakersId": [112],
+	"speakersId": [59],
 	"startAt": "2016-04-21 17:10",
 	"title": "A la découverte du service discovery"
 }, {
@@ -997,7 +1021,7 @@
 	"duration": 45,
 	"id": 135,
 	"roomId": 13,
-	"speakersId": [181],
+	"speakersId": [84],
 	"startAt": "2016-04-21 17:10",
 	"title": "The State of Open Source Licensing"
 }, {
@@ -1005,7 +1029,7 @@
 	"duration": 30,
 	"id": 136,
 	"roomId": 3,
-	"speakersId": [71, 63],
+	"speakersId": [22, 183],
 	"startAt": "2016-04-21 18:10",
 	"title": "Elasticsearch et Hibernate sont sur un bateau..."
 }, {
@@ -1013,7 +1037,7 @@
 	"duration": 30,
 	"id": 137,
 	"roomId": 4,
-	"speakersId": [153],
+	"speakersId": [199],
 	"startAt": "2016-04-21 18:10",
 	"title": "Dashing deux en un, pour un dashboard étincelant!"
 }, {
@@ -1021,7 +1045,7 @@
 	"duration": 30,
 	"id": 138,
 	"roomId": 6,
-	"speakersId": [28, 186],
+	"speakersId": [140, 225],
 	"startAt": "2016-04-21 18:10",
 	"title": "Modulariser votre JavaScript avec JSPM et SystemJs"
 }, {
@@ -1029,7 +1053,7 @@
 	"duration": 30,
 	"id": 139,
 	"roomId": 5,
-	"speakersId": [188],
+	"speakersId": [40],
 	"startAt": "2016-04-21 18:10",
 	"title": "GruntJs in Action"
 }, {
@@ -1037,7 +1061,7 @@
 	"duration": 30,
 	"id": 140,
 	"roomId": 7,
-	"speakersId": [68],
+	"speakersId": [62],
 	"startAt": "2016-04-21 18:10",
 	"title": "Apache Zeppelin, un notebook d'avenir pour l'éco-système Big Data"
 }, {
@@ -1045,7 +1069,7 @@
 	"duration": 30,
 	"id": 141,
 	"roomId": 0,
-	"speakersId": [137],
+	"speakersId": [114],
 	"startAt": "2016-04-21 18:10",
 	"title": "Ehcache hors de son Element"
 }, {
@@ -1053,7 +1077,7 @@
 	"duration": 30,
 	"id": 142,
 	"roomId": 11,
-	"speakersId": [210, 180],
+	"speakersId": [2, 153],
 	"startAt": "2016-04-21 18:10",
 	"title": "Débridez les performances de vos applications avec Chronicle Queue"
 }, {
@@ -1061,7 +1085,7 @@
 	"duration": 30,
 	"id": 143,
 	"roomId": 13,
-	"speakersId": [114, 160],
+	"speakersId": [31, 185],
 	"startAt": "2016-04-21 18:10",
 	"title": "Mon appli est secure ! Enfin je crois..."
 }, {
@@ -1069,7 +1093,7 @@
 	"duration": 30,
 	"id": 144,
 	"roomId": 3,
-	"speakersId": [57],
+	"speakersId": [137],
 	"startAt": "2016-04-21 18:55",
 	"title": "Sécurisez vos applications Web gratuitement en quelques minutes avec Let's Encrypt"
 }, {
@@ -1077,7 +1101,7 @@
 	"duration": 30,
 	"id": 145,
 	"roomId": 4,
-	"speakersId": [48],
+	"speakersId": [124],
 	"startAt": "2016-04-21 18:55",
 	"title": "Hackons une app AppleWatch"
 }, {
@@ -1085,7 +1109,7 @@
 	"duration": 30,
 	"id": 146,
 	"roomId": 6,
-	"speakersId": [5],
+	"speakersId": [92],
 	"startAt": "2016-04-21 18:55",
 	"title": "Entrer dans les entrailles de Git, ou comment faire un commit sans faire du Git"
 }, {
@@ -1093,7 +1117,7 @@
 	"duration": 30,
 	"id": 147,
 	"roomId": 5,
-	"speakersId": [39, 232],
+	"speakersId": [87, 233],
 	"startAt": "2016-04-21 18:55",
 	"title": "Rancher, le (petit) orchestrateur docker qui vous veut du bien"
 }, {
@@ -1101,7 +1125,7 @@
 	"duration": 30,
 	"id": 148,
 	"roomId": 7,
-	"speakersId": [59, 166],
+	"speakersId": [171, 184],
 	"startAt": "2016-04-21 18:55",
 	"title": "Construire un Fitbit-like pour chien et chat"
 }, {
@@ -1109,7 +1133,7 @@
 	"duration": 30,
 	"id": 149,
 	"roomId": 0,
-	"speakersId": [219, 159],
+	"speakersId": [21, 179],
 	"startAt": "2016-04-21 18:55",
 	"title": "Performance: Java vous déclare sa flamme"
 }, {
@@ -1117,7 +1141,7 @@
 	"duration": 30,
 	"id": 150,
 	"roomId": 11,
-	"speakersId": [43],
+	"speakersId": [82],
 	"startAt": "2016-04-21 18:55",
 	"title": "H2O, l'analyse prédictive sans coder ... ou presque"
 }, {
@@ -1125,7 +1149,7 @@
 	"duration": 30,
 	"id": 151,
 	"roomId": 13,
-	"speakersId": [206],
+	"speakersId": [127],
 	"startAt": "2016-04-21 18:55",
 	"title": "RAML une autre façon de concevoir vos APIs RESTful"
 }, {
@@ -1133,7 +1157,7 @@
 	"duration": 50,
 	"id": 152,
 	"roomId": 0,
-	"speakersId": [71, 21, 19, 97, 221],
+	"speakersId": [22, 113, 95, 133, 157],
 	"startAt": "2016-04-21 19:45",
 	"title": "La BoF des Cast Codeurs"
 }, {
@@ -1141,7 +1165,7 @@
 	"duration": 50,
 	"id": 153,
 	"roomId": 7,
-	"speakersId": [202, 33, 81, 231],
+	"speakersId": [55, 167, 25, 144, 93, 102],
 	"startAt": "2016-04-21 19:45",
 	"title": "The Spring BOF"
 }, {
@@ -1149,7 +1173,7 @@
 	"duration": 50,
 	"id": 154,
 	"roomId": 5,
-	"speakersId": [134],
+	"speakersId": [115],
 	"startAt": "2016-04-21 19:45",
 	"title": "Paris.js #55 au Devoxx"
 }, {
@@ -1157,7 +1181,7 @@
 	"duration": 50,
 	"id": 155,
 	"roomId": 6,
-	"speakersId": [181],
+	"speakersId": [84],
 	"startAt": "2016-04-21 19:45",
 	"title": "Legal issues in open source project development"
 }, {
@@ -1165,7 +1189,7 @@
 	"duration": 50,
 	"id": 156,
 	"roomId": 11,
-	"speakersId": [79, 103, 104],
+	"speakersId": [80, 221, 220],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF Sécurité et DevOps partie 1"
 }, {
@@ -1173,7 +1197,7 @@
 	"duration": 50,
 	"id": 157,
 	"roomId": 13,
-	"speakersId": [106],
+	"speakersId": [203],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF speakers : Thérapie de groupe"
 }, {
@@ -1181,7 +1205,7 @@
 	"duration": 50,
 	"id": 158,
 	"roomId": 14,
-	"speakersId": [],
+	"speakersId": [53, 23],
 	"startAt": "2016-04-21 19:45",
 	"title": "Data Meetup: Hadoop User Group, Paris Data Geek et Spark Meetup"
 }, {
@@ -1189,7 +1213,7 @@
 	"duration": 50,
 	"id": 161,
 	"roomId": 0,
-	"speakersId": [157, 19, 21, 235],
+	"speakersId": [154, 95, 113, 43],
 	"startAt": "2016-04-21 20:40",
 	"title": "DevoxxFR - Les coulisses"
 }, {
@@ -1197,7 +1221,7 @@
 	"duration": 50,
 	"id": 162,
 	"roomId": 7,
-	"speakersId": [3, 209],
+	"speakersId": [196, 189],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF des Google Developer Group francais"
 }, {
@@ -1205,7 +1229,7 @@
 	"duration": 50,
 	"id": 163,
 	"roomId": 5,
-	"speakersId": [53],
+	"speakersId": [156],
 	"startAt": "2016-04-21 20:40",
 	"title": "BoF Communautés Software Craftsmanship"
 }, {
@@ -1213,7 +1237,7 @@
 	"duration": 50,
 	"id": 164,
 	"roomId": 6,
-	"speakersId": [108],
+	"speakersId": [46],
 	"startAt": "2016-04-21 20:40",
 	"title": "Paris Machine Learning and Data Science Community (BOF)"
 }, {
@@ -1221,7 +1245,7 @@
 	"duration": 50,
 	"id": 165,
 	"roomId": 11,
-	"speakersId": [79, 103, 104],
+	"speakersId": [80, 221, 220],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Sécurité et DevOps partie 2"
 }, {
@@ -1229,7 +1253,7 @@
 	"duration": 50,
 	"id": 166,
 	"roomId": 13,
-	"speakersId": [58, 24, 73, 225],
+	"speakersId": [65, 166, 83, 34],
 	"startAt": "2016-04-21 20:40",
 	"title": "Devoxx4Kids BOF: Qui, quoi, comment"
 }, {
@@ -1237,7 +1261,7 @@
 	"duration": 50,
 	"id": 167,
 	"roomId": 14,
-	"speakersId": [68],
+	"speakersId": [62],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Apache Cassandra"
 }, {
@@ -1245,7 +1269,7 @@
 	"duration": 50,
 	"id": 170,
 	"roomId": 0,
-	"speakersId": [1, 162, 21, 230],
+	"speakersId": [138, 234, 113, 73],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF Jenkins"
 }, {
@@ -1253,7 +1277,7 @@
 	"duration": 50,
 	"id": 171,
 	"roomId": 7,
-	"speakersId": [],
+	"speakersId": [206],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF des Jugleaders"
 }, {
@@ -1261,7 +1285,7 @@
 	"duration": 50,
 	"id": 172,
 	"roomId": 5,
-	"speakersId": [12, 145],
+	"speakersId": [125, 142],
 	"startAt": "2016-04-21 21:35",
 	"title": "BoF Duchess France"
 }, {
@@ -1269,7 +1293,7 @@
 	"duration": 50,
 	"id": 173,
 	"roomId": 6,
-	"speakersId": [63, 177, 27],
+	"speakersId": [183, 120, 10],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF Elasticsearch / Kibana"
 }, {
@@ -1277,7 +1301,7 @@
 	"duration": 50,
 	"id": 174,
 	"roomId": 11,
-	"speakersId": [149],
+	"speakersId": [45],
 	"startAt": "2016-04-21 21:35",
 	"title": "Real Time Analytics on Time Series @ Scale with Riak / WarpScript / Spark "
 }, {
@@ -1285,15 +1309,55 @@
 	"duration": 50,
 	"id": 175,
 	"roomId": 13,
-	"speakersId": [88],
+	"speakersId": [41],
 	"startAt": "2016-04-21 21:35",
 	"title": "BarCamp Scala"
+}, {
+	"description": "Que s'est-il passé pour Maven depuis l'année dernière ? Que voulez vous qu'il\r\nse passe d'ici l'année prochaine ?\r\n\r\nVenez discuter avec différents membres de l’équipe (Hervé Boutemy, Arnaud\r\nHéritier, ...) mais aussi les contributeurs et acteurs du projet pour partager\r\nvotre point de vue, vos douleurs, vos envies d’évolutions, pour qu’Apache\r\nMaven continue au quotidien à vous rendre service, à vous rendre plus\r\nproductif.",
+	"duration": 50,
+	"id": 176,
+	"roomId": 14,
+	"speakersId": [35],
+	"startAt": "2016-04-21 21:35",
+	"title": "BOF Apache Maven"
 }, {
 	"duration": 60,
 	"id": 179,
 	"roomId": 1,
 	"startAt": "2016-04-22 08:00",
 	"title": "Accueil et petit-déjeuner"
+}, {
+	"description": "As we the transition to an internet of things society where software pervades all aspects of our lives, the consequences of faulty software are becoming more critical. There will be growing attention on who should be held accountable for harm caused by badly-designed code.\r\n\r\nWe will take a look at the near future of legal responsibility in software development. Will we see new, restrictive liability regimes imposed on IT vendors? Will individual developers be held criminally responsible for introducing bugs? Or can developers seize the initiative through codes of ethics and through technical solutions?",
+	"duration": 20,
+	"id": 180,
+	"roomId": 3,
+	"speakersId": [84],
+	"startAt": "2016-04-22 09:00",
+	"title": "Software development, responsibility and ethics: the coming crisis"
+}, {
+	"description": "Sebastien Broca va nous parler de la transformation des relations sociales à travers internet",
+	"duration": 20,
+	"id": 181,
+	"roomId": 3,
+	"speakersId": [37],
+	"startAt": "2016-04-22 09:25",
+	"title": "Des groupes interconnecter, qu'est-ce que cela peux changer a notre société"
+}, {
+	"description": "De Google, qui enferme ses utilisateurs dans des \"filter bubbles\" en leur livrant des résultats sélectionnés pour leur faire plaisir plus que pour leur pertinence, à Facebook, qui importe dans la société française des logiques communautaires exogènes au contrat social qui a structuré la république depuis sa fondation, les algorithmes façonnent, plus encore que la loi, la société de demain.\r\nLes devs, qui écrivent ces algorithmes, ont aujourd'hui plus d'impact sur notre avenir que ceux qui votent les législations censées le réguler. Avec de grands pouvoirs, viennent de grandes responsabilités, et c'est désormais aux devs de créer et de renouveller les utopies que nos politiques sont incapables d'imaginer. ",
+	"duration": 20,
+	"id": 182,
+	"roomId": 3,
+	"speakersId": [80],
+	"startAt": "2016-04-22 09:50",
+	"title": "Algorithmes, les nouveaux pouvoirs du développeur"
+}, {
+	"description": "Matti Schneider va présenter les star-up d'état et les évolutions de l'État face à l'internet",
+	"duration": 20,
+	"id": 183,
+	"roomId": 3,
+	"speakersId": [209],
+	"startAt": "2016-04-22 10:15",
+	"title": "Le service publique @ l'heure d'internet"
 }, {
 	"duration": 30,
 	"id": 184,
@@ -1305,7 +1369,7 @@
 	"duration": 160,
 	"id": 185,
 	"roomId": 14,
-	"speakersId": [130, 216],
+	"speakersId": [211, 195],
 	"startAt": "2016-04-22 11:00",
 	"title": "Cassandra/Spark Lan Party"
 }, {
@@ -1313,7 +1377,7 @@
 	"duration": 160,
 	"id": 186,
 	"roomId": 15,
-	"speakersId": [8, 82],
+	"speakersId": [227, 135],
 	"startAt": "2016-04-22 11:00",
 	"title": "Baptême du feu avec Rx"
 }, {
@@ -1321,7 +1385,7 @@
 	"duration": 160,
 	"id": 187,
 	"roomId": 16,
-	"speakersId": [36],
+	"speakersId": [4],
 	"startAt": "2016-04-22 11:00",
 	"title": "Create an OpenData Platform using Jahia Digital Experience Manager "
 }, {
@@ -1329,7 +1393,7 @@
 	"duration": 160,
 	"id": 188,
 	"roomId": 0,
-	"speakersId": [205, 26],
+	"speakersId": [94, 191],
 	"startAt": "2016-04-22 11:00",
 	"title": "Securiser son développement avec 10 outils open-source"
 }, {
@@ -1337,7 +1401,7 @@
 	"duration": 160,
 	"id": 189,
 	"roomId": 0,
-	"speakersId": [203],
+	"speakersId": [202],
 	"startAt": "2016-04-22 11:00",
 	"title": "TinkerForge Live Hacking"
 }, {
@@ -1345,7 +1409,7 @@
 	"duration": 45,
 	"id": 191,
 	"roomId": 3,
-	"speakersId": [28],
+	"speakersId": [140],
 	"startAt": "2016-04-22 11:15",
 	"title": "D'Angular 1 à Angular 2 : Préparez vous dès maintenant à la migration"
 }, {
@@ -1353,7 +1417,7 @@
 	"duration": 45,
 	"id": 192,
 	"roomId": 4,
-	"speakersId": [13],
+	"speakersId": [5],
 	"startAt": "2016-04-22 11:15",
 	"title": "Gradle: Harder, Better, Stronger, Faster "
 }, {
@@ -1361,7 +1425,7 @@
 	"duration": 45,
 	"id": 193,
 	"roomId": 0,
-	"speakersId": [16, 182],
+	"speakersId": [47, 56],
 	"startAt": "2016-04-22 11:15",
 	"title": "Comment faire tourner une JVM de 16 To, par ceux qui l'ont fait"
 }, {
@@ -1369,7 +1433,7 @@
 	"duration": 45,
 	"id": 194,
 	"roomId": 7,
-	"speakersId": [71],
+	"speakersId": [22],
 	"startAt": "2016-04-22 11:15",
 	"title": "Hibernate tu connais... mais en fait tu connais pas"
 }, {
@@ -1377,7 +1441,7 @@
 	"duration": 45,
 	"id": 195,
 	"roomId": 5,
-	"speakersId": [116],
+	"speakersId": [19],
 	"startAt": "2016-04-22 11:15",
 	"title": "OutOfMemoryException : Quel est le coût des objets en Java ?"
 }, {
@@ -1385,7 +1449,7 @@
 	"duration": 45,
 	"id": 196,
 	"roomId": 6,
-	"speakersId": [133],
+	"speakersId": [164],
 	"startAt": "2016-04-22 11:15",
 	"title": "How to defeat feature gluttony?"
 }, {
@@ -1393,7 +1457,7 @@
 	"duration": 45,
 	"id": 197,
 	"roomId": 11,
-	"speakersId": [20],
+	"speakersId": [14],
 	"startAt": "2016-04-22 11:15",
 	"title": "Real Real World Haskell"
 }, {
@@ -1401,7 +1465,7 @@
 	"duration": 45,
 	"id": 198,
 	"roomId": 13,
-	"speakersId": [92],
+	"speakersId": [188],
 	"startAt": "2016-04-22 11:15",
 	"title": "L'Application Performance Management : facilitateur de DevOps. Groupama témoigne"
 }, {
@@ -1415,7 +1479,7 @@
 	"duration": 15,
 	"id": 200,
 	"roomId": 0,
-	"speakersId": [95],
+	"speakersId": [29],
 	"startAt": "2016-04-22 12:05",
 	"title": "Loop, améliorez votre workflow de développement d'application Web"
 }, {
@@ -1423,7 +1487,7 @@
 	"duration": 15,
 	"id": 201,
 	"roomId": 7,
-	"speakersId": [146],
+	"speakersId": [192],
 	"startAt": "2016-04-22 12:05",
 	"title": "Writing an InfoQ Mini Book with Asciidoctor"
 }, {
@@ -1431,7 +1495,7 @@
 	"duration": 15,
 	"id": 202,
 	"roomId": 5,
-	"speakersId": [131],
+	"speakersId": [128],
 	"startAt": "2016-04-22 12:05",
 	"title": "La sécurité applicative pour les nuls (et les autres aussi)"
 }, {
@@ -1439,7 +1503,7 @@
 	"duration": 15,
 	"id": 203,
 	"roomId": 6,
-	"speakersId": [168],
+	"speakersId": [6],
 	"startAt": "2016-04-22 12:05",
 	"title": "Développez votre première application décentralisée sur la blockchain avec Ethereum et Embark"
 }, {
@@ -1447,7 +1511,7 @@
 	"duration": 15,
 	"id": 204,
 	"roomId": 11,
-	"speakersId": [150],
+	"speakersId": [70],
 	"startAt": "2016-04-22 12:05",
 	"title": "Ratez vos revues de code en 5 leçons !"
 }, {
@@ -1455,7 +1519,7 @@
 	"duration": 15,
 	"id": 205,
 	"roomId": 13,
-	"speakersId": [15],
+	"speakersId": [88],
 	"startAt": "2016-04-22 12:05",
 	"title": "Boostez votre amélioration continue avec Popcorn Flow !"
 }, {
@@ -1463,7 +1527,7 @@
 	"duration": 15,
 	"id": 206,
 	"roomId": 0,
-	"speakersId": [99],
+	"speakersId": [77],
 	"startAt": "2016-04-22 12:25",
 	"title": "Où sont passés mes serveurs ?"
 }, {
@@ -1471,7 +1535,7 @@
 	"duration": 15,
 	"id": 207,
 	"roomId": 7,
-	"speakersId": [217],
+	"speakersId": [97],
 	"startAt": "2016-04-22 12:25",
 	"title": "Construire des Dashboards ASCII avec Javascript"
 }, {
@@ -1479,7 +1543,7 @@
 	"duration": 15,
 	"id": 208,
 	"roomId": 5,
-	"speakersId": [155],
+	"speakersId": [91],
 	"startAt": "2016-04-22 12:25",
 	"title": "L'Expérience Développeur et votre API"
 }, {
@@ -1487,7 +1551,7 @@
 	"duration": 15,
 	"id": 209,
 	"roomId": 6,
-	"speakersId": [229],
+	"speakersId": [39],
 	"startAt": "2016-04-22 12:25",
 	"title": "Java Agent en Action - Révéler la face cachée de vos applications"
 }, {
@@ -1495,7 +1559,7 @@
 	"duration": 15,
 	"id": 210,
 	"roomId": 11,
-	"speakersId": [128],
+	"speakersId": [36],
 	"startAt": "2016-04-22 12:25",
 	"title": "Comment Asciidoctor peut vous aider pour votre doc"
 }, {
@@ -1503,23 +1567,23 @@
 	"duration": 15,
 	"id": 211,
 	"roomId": 13,
-	"speakersId": [9],
+	"speakersId": [74],
 	"startAt": "2016-04-22 12:25",
 	"title": "Des LEDs pour remplacer votre routeur WIFI ?"
 }, {
-	"description": "Comment Maurice qui est habitué à faire du .net/Java où sa liberté de décision est assez grande ne doit surtout pas apprendre Go, un des langages récents les plus dogmatique aujourd'hui.\r\n\r\nAprès 15 ans de Java, 5 ans de JavaScript, Go est devenu mon langage de tous les jours. Pourtant habitué à changer de langage le choc est rude.\r\n\r\nJe vous fait découvrir le langage Go a travers une série de points en le comparant à des langages plus courants, afin que vous puissiez faire la bascule vers Go en connaissance de cause.",
+	"description": "Quelle est la fonction première d’une entreprise ? L’entreprise libérée, est-ce un mythe ? Comment conserver une culture startup malgré la croissance ? Et d’ailleurs, pourquoi faire de la croissance ? Comment créer une culture de l’innovation ? A quoi sert un manager ? Qu’est ce qu’une entreprise horizontale ? Quelle place pour le plaisir ? Quelle place pour le développement personnel et culturel ?\r\n\r\nConstruire l’entreprise où nous aurions aimé être consultants, telle fut notre motivation à la création de notre structure. Mais cela ne suffit plus ! Nous sommes entrés dans une période disruptive sans précédent. L’innovation est une question de survie, qu’elle soit technologique, managériale ou structurelle. \r\n\r\nDans ce talk nous focaliserons sur l’organisation de l’entreprise, son modèle, la notion de performance et la transformation de ce qu’est l’emploi, de ce qu’est une carrière. De la startup à la société de service l’écart est grand. D’ailleurs les signes de « coolitude » qu’affichent certaines d’entre elles pour tenter de leur ressembler ne trompent plus personne !\r\n\r\nNous répondrons à toutes ces questions par des cas concrets, mais aussi par une présentation de notre vision long ",
 	"duration": 45,
 	"id": 212,
 	"roomId": 3,
-	"speakersId": [113],
+	"speakersId": [11],
 	"startAt": "2016-04-22 12:55",
-	"title": "Pourquoi Maurice ne doit surtout pas coder en go."
+	"title": "// TODO Implémenter le modèle de l’entreprise [de service] de demain"
 }, {
 	"description": "A quoi devrait ressembler une bonne API REST ?\r\nEst-ce qu'on doit utiliser des verbes ou des noms pour nos ressources ?\r\nComment gérer le versionnage d'une API ?\r\nQuid des réponses partielles ou de la pagination ?\r\nQuel status code doit-on utiliser et quand ?\r\nEt le tri, le filtre, ou la recherche ?\r\nSi nous avons le temps également, qu'est-ce que la négociation de contenu, l'access cross-domain, les API hypermedia, et l'authentification ?\r\n\r\nGuillaume naviguera sur ces sujets, offrant ses conseils sur les meilleurs réponses à ces questions, et ouvrant le débat sur les différentes options possible, afin d'améliorer ensemble la qualité de nos APIs REST, pour les rendre aussi élégantes que possible.",
 	"duration": 45,
 	"id": 213,
 	"roomId": 4,
-	"speakersId": [97],
+	"speakersId": [133],
 	"startAt": "2016-04-22 12:55",
 	"title": "Le design d'API REST, un débat sans fin ?"
 }, {
@@ -1527,7 +1591,7 @@
 	"duration": 45,
 	"id": 214,
 	"roomId": 0,
-	"speakersId": [140],
+	"speakersId": [119],
 	"startAt": "2016-04-22 12:55",
 	"title": "How to stop wasting your time and start performing useful code reviews"
 }, {
@@ -1535,7 +1599,7 @@
 	"duration": 45,
 	"id": 215,
 	"roomId": 7,
-	"speakersId": [31],
+	"speakersId": [173],
 	"startAt": "2016-04-22 12:55",
 	"title": "Traiter 3 milliards de requêtes par jour. Qu'avons nous appris ?"
 }, {
@@ -1543,7 +1607,7 @@
 	"duration": 45,
 	"id": 216,
 	"roomId": 5,
-	"speakersId": [139],
+	"speakersId": [78],
 	"startAt": "2016-04-22 12:55",
 	"title": "Ten SQL Tricks that You Didn’t Think Were Possible"
 }, {
@@ -1551,7 +1615,7 @@
 	"duration": 45,
 	"id": 217,
 	"roomId": 6,
-	"speakersId": [198],
+	"speakersId": [93],
 	"startAt": "2016-04-22 12:55",
 	"title": "Spring Cloud *: Exploring Spring Cloud Implementations"
 }, {
@@ -1559,7 +1623,7 @@
 	"duration": 45,
 	"id": 218,
 	"roomId": 11,
-	"speakersId": [196, 77],
+	"speakersId": [52, 162],
 	"startAt": "2016-04-22 12:55",
 	"title": "Swift : nouvelles du front"
 }, {
@@ -1567,7 +1631,7 @@
 	"duration": 45,
 	"id": 219,
 	"roomId": 13,
-	"speakersId": [152],
+	"speakersId": [16],
 	"startAt": "2016-04-22 12:55",
 	"title": "The Eclipse IDE: The Force Awakens"
 }, {
@@ -1575,7 +1639,7 @@
 	"duration": 45,
 	"id": 220,
 	"roomId": 3,
-	"speakersId": [120],
+	"speakersId": [144],
 	"startAt": "2016-04-22 13:55",
 	"title": "The Bootiful Microservice"
 }, {
@@ -1583,7 +1647,7 @@
 	"duration": 45,
 	"id": 221,
 	"roomId": 4,
-	"speakersId": [93],
+	"speakersId": [175],
 	"startAt": "2016-04-22 13:55",
 	"title": "HTTPS n’aura plus de secret pour vous"
 }, {
@@ -1591,7 +1655,7 @@
 	"duration": 45,
 	"id": 222,
 	"roomId": 0,
-	"speakersId": [68],
+	"speakersId": [62],
 	"startAt": "2016-04-22 13:55",
 	"title": "Algorithmes distribués pour le Big Data, saison 2"
 }, {
@@ -1599,7 +1663,7 @@
 	"duration": 45,
 	"id": 223,
 	"roomId": 7,
-	"speakersId": [87],
+	"speakersId": [207],
 	"startAt": "2016-04-22 13:55",
 	"title": "Java (8) eXperiments"
 }, {
@@ -1607,7 +1671,7 @@
 	"duration": 45,
 	"id": 224,
 	"roomId": 5,
-	"speakersId": [64],
+	"speakersId": [212],
 	"startAt": "2016-04-22 13:55",
 	"title": "Gérer les erreurs avec l'aide du système de types de Scala !"
 }, {
@@ -1615,7 +1679,7 @@
 	"duration": 45,
 	"id": 225,
 	"roomId": 6,
-	"speakersId": [233],
+	"speakersId": [51],
 	"startAt": "2016-04-22 13:55",
 	"title": "I'm a CTO bitch! ou Pérégrination d'un CTO"
 }, {
@@ -1623,7 +1687,7 @@
 	"duration": 45,
 	"id": 226,
 	"roomId": 11,
-	"speakersId": [107],
+	"speakersId": [230],
 	"startAt": "2016-04-22 13:55",
 	"title": "Kill all the REST with the Falcor"
 }, {
@@ -1631,7 +1695,7 @@
 	"duration": 45,
 	"id": 227,
 	"roomId": 13,
-	"speakersId": [201, 165],
+	"speakersId": [134, 197],
 	"startAt": "2016-04-22 13:55",
 	"title": "Microservices IRL: ça fonctionne chez un client, on vous dit comment!"
 }, {
@@ -1639,7 +1703,7 @@
 	"duration": 45,
 	"id": 228,
 	"roomId": 3,
-	"speakersId": [18, 121],
+	"speakersId": [205, 176],
 	"startAt": "2016-04-22 14:55",
 	"title": "Les nouveautés de CDI 2.0"
 }, {
@@ -1647,7 +1711,7 @@
 	"duration": 45,
 	"id": 229,
 	"roomId": 4,
-	"speakersId": [164, 7, 49],
+	"speakersId": [152, 226, 163],
 	"startAt": "2016-04-22 14:55",
 	"title": "Combining stream processing and in-memory datagrids for near-real time aggregation & notifications"
 }, {
@@ -1655,7 +1719,7 @@
 	"duration": 45,
 	"id": 230,
 	"roomId": 0,
-	"speakersId": [139],
+	"speakersId": [78],
 	"startAt": "2016-04-22 14:55",
 	"title": "Get Back in Control of Your SQL with jOOQ"
 }, {
@@ -1663,7 +1727,7 @@
 	"duration": 45,
 	"id": 231,
 	"roomId": 7,
-	"speakersId": [22],
+	"speakersId": [122],
 	"startAt": "2016-04-22 14:55",
 	"title": "Dockerized system testing, with a dash of chaos"
 }, {
@@ -1671,7 +1735,7 @@
 	"duration": 45,
 	"id": 232,
 	"roomId": 5,
-	"speakersId": [74],
+	"speakersId": [110],
 	"startAt": "2016-04-22 14:55",
 	"title": "Société programmable : développeurs citoyens"
 }, {
@@ -1679,7 +1743,7 @@
 	"duration": 45,
 	"id": 233,
 	"roomId": 6,
-	"speakersId": [117],
+	"speakersId": [155],
 	"startAt": "2016-04-22 14:55",
 	"title": "DevOps sur Android : D'un git push à une release sur le Play Store"
 }, {
@@ -1687,7 +1751,7 @@
 	"duration": 45,
 	"id": 234,
 	"roomId": 11,
-	"speakersId": [177],
+	"speakersId": [120],
 	"startAt": "2016-04-22 14:55",
 	"title": "Rawr. Unified time series expressions with Timelion"
 }, {
@@ -1695,7 +1759,7 @@
 	"duration": 45,
 	"id": 235,
 	"roomId": 13,
-	"speakersId": [126],
+	"speakersId": [204],
 	"startAt": "2016-04-22 14:55",
 	"title": "Scalez de 0 à 10 millions d'utilisateurs avec AWS"
 }, {
@@ -1709,7 +1773,7 @@
 	"duration": 45,
 	"id": 237,
 	"roomId": 3,
-	"speakersId": [179],
+	"speakersId": [85],
 	"startAt": "2016-04-22 16:10",
 	"title": "Jigsaw est là pour nous sauver"
 }, {
@@ -1717,7 +1781,7 @@
 	"duration": 45,
 	"id": 238,
 	"roomId": 4,
-	"speakersId": [53],
+	"speakersId": [156],
 	"startAt": "2016-04-22 16:10",
 	"title": "Living Documentation : vous allez aimer la documentation !"
 }, {
@@ -1725,7 +1789,7 @@
 	"duration": 45,
 	"id": 239,
 	"roomId": 0,
-	"speakersId": [138],
+	"speakersId": [168],
 	"startAt": "2016-04-22 16:10",
 	"title": "Terracotta Off-Heap pour les nuls"
 }, {
@@ -1733,7 +1797,7 @@
 	"duration": 45,
 	"id": 240,
 	"roomId": 7,
-	"speakersId": [54],
+	"speakersId": [48],
 	"startAt": "2016-04-22 16:10",
 	"title": "Résoudre le puzzle Jigsaw avec Gradle"
 }, {
@@ -1741,7 +1805,7 @@
 	"duration": 45,
 	"id": 241,
 	"roomId": 5,
-	"speakersId": [14],
+	"speakersId": [181],
 	"startAt": "2016-04-22 16:10",
 	"title": "New Data Science: Functional, Distributed, JVM... and Agile"
 }, {
@@ -1749,7 +1813,7 @@
 	"duration": 45,
 	"id": 242,
 	"roomId": 6,
-	"speakersId": [11],
+	"speakersId": [30],
 	"startAt": "2016-04-22 16:10",
 	"title": "Comment concevoir la navigation sur mobile ?"
 }, {
@@ -1757,7 +1821,7 @@
 	"duration": 45,
 	"id": 243,
 	"roomId": 11,
-	"speakersId": [86],
+	"speakersId": [90],
 	"startAt": "2016-04-22 16:10",
 	"title": "Blockchain as a Trust Machine ? Vers une économie programmable "
 }, {
@@ -1765,7 +1829,7 @@
 	"duration": 45,
 	"id": 244,
 	"roomId": 13,
-	"speakersId": [91],
+	"speakersId": [148],
 	"startAt": "2016-04-22 16:10",
 	"title": "La boîte à outils du développeur Android de 2016"
 }, {
@@ -1773,7 +1837,7 @@
 	"duration": 45,
 	"id": 245,
 	"roomId": 3,
-	"speakersId": [146],
+	"speakersId": [192],
 	"startAt": "2016-04-22 17:10",
 	"title": "The Art of Angular in 2016"
 }, {
@@ -1781,7 +1845,7 @@
 	"duration": 45,
 	"id": 246,
 	"roomId": 4,
-	"speakersId": [94],
+	"speakersId": [9],
 	"startAt": "2016-04-22 17:10",
 	"title": "3 nuances de MoM"
 }, {
@@ -1789,7 +1853,7 @@
 	"duration": 45,
 	"id": 247,
 	"roomId": 0,
-	"speakersId": [6, 75],
+	"speakersId": [194, 8],
 	"startAt": "2016-04-22 17:10",
 	"title": "Infra as Code, choisissez vous la pilule rouge ou la pilule bleue ?"
 }, {
@@ -1797,7 +1861,7 @@
 	"duration": 45,
 	"id": 248,
 	"roomId": 7,
-	"speakersId": [67, 60, 154],
+	"speakersId": [141, 44, 33],
 	"startAt": "2016-04-22 17:10",
 	"title": "L'odyssée du Continuous Delivery"
 }, {
@@ -1805,7 +1869,7 @@
 	"duration": 45,
 	"id": 249,
 	"roomId": 5,
-	"speakersId": [215, 129],
+	"speakersId": [182, 100],
 	"startAt": "2016-04-22 17:10",
 	"title": "DDD: et si on reprenait l'histoire par le bon bout ?"
 }, {
@@ -1813,7 +1877,7 @@
 	"duration": 45,
 	"id": 250,
 	"roomId": 6,
-	"speakersId": [214],
+	"speakersId": [174],
 	"startAt": "2016-04-22 17:10",
 	"title": "Big Data : Compréhension et Cartographie avec Google BigQuery et CartoDB"
 }, {
@@ -1821,7 +1885,7 @@
 	"duration": 45,
 	"id": 251,
 	"roomId": 11,
-	"speakersId": [213],
+	"speakersId": [145],
 	"startAt": "2016-04-22 17:10",
 	"title": "La modularisation avant l'heure : compiler OpenJDK 8 en 10Mo !"
 }, {
@@ -1829,7 +1893,7 @@
 	"duration": 45,
 	"id": 252,
 	"roomId": 13,
-	"speakersId": [175],
+	"speakersId": [121],
 	"startAt": "2016-04-22 17:10",
 	"title": "La voiture connectée - un IoT au potentiel immense"
 }, {
@@ -1837,7 +1901,7 @@
 	"duration": 45,
 	"id": 253,
 	"roomId": 7,
-	"speakersId": [71, 21, 19, 97, 221],
+	"speakersId": [22, 113, 95, 133, 157],
 	"startAt": "2016-04-22 18:10",
 	"title": "Les Cast Codeurs font la fermeture"
 }]
