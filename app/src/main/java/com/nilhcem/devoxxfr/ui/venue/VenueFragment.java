@@ -4,14 +4,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.nilhcem.devoxxfr.R;
 import com.nilhcem.devoxxfr.ui.BaseFragment;
@@ -25,10 +22,9 @@ import butterknife.OnClick;
 public class VenueFragment extends BaseFragment {
 
     @Bind(R.id.venue_image) ImageView photo;
-    @Bind(R.id.venue_directions) TextView directions;
 
     private static final float PHOTO_RATIO = 0.413f;
-    private static final String COORDINATES_URI = "geo:45.032432,7.658514?q=" + Uri.encode("Auditorium Centro Congressi");
+    private static final String COORDINATES_URI = "geo:48.8781456,2.2831654?q=" + Uri.encode("Le Palais des Congrès de Paris");
 
     @Override
     protected BaseFragmentPresenter newPresenter() {
@@ -44,7 +40,16 @@ public class VenueFragment extends BaseFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         initPhotoSize();
-        initDirections();
+    }
+
+    @OnClick(R.id.venue_rooms)
+    void openRoomsPlan() {
+        startActivity(new ZoomableImageActivityIntentBuilder(ZoomableImageActivity.TYPE_ROOMS).build(getContext()));
+    }
+
+    @OnClick(R.id.venue_exhibitors)
+    void openExhibitorsPlan() {
+        startActivity(new ZoomableImageActivityIntentBuilder(ZoomableImageActivity.TYPE_EXHIBITORS).build(getContext()));
     }
 
     @OnClick(R.id.venue_locate)
@@ -69,10 +74,5 @@ public class VenueFragment extends BaseFragment {
                 }
             }
         });
-    }
-
-    private void initDirections() {
-        directions.setText(Html.fromHtml(getString(R.string.venue_information_content)));
-        directions.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

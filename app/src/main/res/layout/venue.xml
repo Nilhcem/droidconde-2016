@@ -33,35 +33,45 @@
                 style="@style/Venue.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/venue_lingotto_title"/>
+                android:text="@string/venue_congres_title"/>
 
             <TextView
                 style="@style/Venue.Content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/venue_lingotto_content"/>
-
-            <TextView
-                style="@style/Venue.Title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/venue_information_title"/>
-
-            <TextView
-                android:id="@+id/venue_directions"
-                style="@style/Venue.Content"
-                android:layout_width="match_parent"
-                android:linksClickable="true"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="2dp"
-                tools:text="@string/venue_information_content"/>
+                android:text="@string/venue_congres_address"/>
         </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/venue_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/venue_see_rooms"
+            android:textColor="@android:color/white"
+            app:backgroundTint="?attr/colorAccent"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/venue_exhibitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_fourth"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin_fourth"
+            android:text="@string/venue_see_exhibitors"
+            android:textColor="@android:color/white"
+            app:backgroundTint="?attr/colorAccent"/>
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/venue_locate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
             android:text="@string/venue_see_location"
             android:textColor="@android:color/white"
             app:backgroundTint="?attr/colorAccent"/>

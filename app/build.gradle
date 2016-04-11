@@ -151,6 +151,8 @@ dependencies {
     compile "com.hannesdorfmann.fragmentargs:annotation:$fragmentargsVersion"
     apt "com.hannesdorfmann.fragmentargs:processor:$fragmentargsVersion"
 
+    compile 'com.commit451:PhotoView:1.2.5'
+
     compile 'com.squareup.sqlbrite:sqlbrite:0.6.2'
 
     compile 'com.jakewharton.threetenabp:threetenabp:1.0.3'

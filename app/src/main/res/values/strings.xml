@@ -41,10 +41,10 @@
     <!-- Venue -->
     <string name="venue_see_location">Locate on map</string>
     <string name="venue_see_location_error">Error opening map.\nDo you have Google Maps installed?</string>
-    <string name="venue_lingotto_title">Centro Congressi Lingotto, Turin</string>
-    <string name="venue_lingotto_content">8Gallery, Via Nizza, 230, 10126 Torino\n\n\nBuilt between 1917 and 1922, Lingotto was designed by architect Giacomo Mattè Trucco in a rationalist, innovative style. The building symbolized a turning point in the development of Italian industry, marking the end of one era and the start of another.\n\nIn 1989 an international competition was launched to transform the Lingotto industrial area into a modern multifunctional centre.\nThese were years of frenetic activity, as the winning project by Genoese architect Renzo Piano– designer of the Beaubourg in Paris in the 1970s – was turned into reality, earning acclaim from architects and engineers around the world.\n\nHistory is part of Lingotto. A unique post-industrial monument in a welcoming setting of rare natural beauty.\n</string>
-    <string name="venue_information_title">More information</string>
-    <string name="venue_information_content"><![CDATA[<b>Centro Congressi Lingotto</b><br /><a href="http://www.centrocongressilingotto.it/EN/DoveSiamo/Pages/ComeArrivare.aspx">How to reach Centro Congressi</a><br />See more at: <a href="http://www.centrocongressilingotto.it/EN/Pages/Home.aspx">Centro Congressi Lingotto</a><br /><br /><b>About Turin</b><br /><a href="http://www.turismotorino.org/torino/EN/home">Turismo Torino</a><br /><a href="http://www.turismotorino.org/docs/EN/A20/getting_here">How to get to Turin</a><br />Video: <a href="http://www.torinoincontra.org/pages/Omaggio_a_Torino_en/176">Homage to Turin</a><br /><br /><b>Hotels & Restaurants</b><br />See our page for <a href="http://it.droidcon.com/2016/accomodation-agreement/">accomodation</a>!]]></string>
+    <string name="venue_congres_title">Le Palais des Congrès de Paris</string>
+    <string name="venue_congres_address">2 Place de la Porte Maillot\n75017 Paris</string>
+    <string name="venue_see_rooms">Rooms Plans</string>
+    <string name="venue_see_exhibitors">Exhibitors Plans</string>
 
     <!-- Settings -->
     <string name="settings_notifications">Notifications</string>

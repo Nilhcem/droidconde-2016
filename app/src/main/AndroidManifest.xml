@@ -40,6 +40,14 @@
                 android:value="com.nilhcem.devoxxfr.ui.drawer.DrawerActivity"/>
         </activity>
 
+        <activity
+            android:name="com.nilhcem.devoxxfr.ui.venue.ZoomableImageActivity"
+            android:parentActivityName="com.nilhcem.devoxxfr.ui.drawer.DrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nilhcem.devoxxfr.ui.drawer.DrawerActivity"/>
+        </activity>
+
         <receiver
             android:name="com.nilhcem.devoxxfr.receiver.BootReceiver"
             android:enabled="false">
