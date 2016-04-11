@@ -51,7 +51,7 @@ public class SpeakersListPresenter extends BaseFragmentPresenter<SpeakersListVie
         speakersSubscription = dataProvider.getSpeakers()
                 .doOnNext(speakers -> {
                     if (speakers != null) {
-                        Collections.shuffle(speakers);
+                        Collections.sort(speakers, (lhs, rhs) -> lhs.getName().compareTo(rhs.getName()));
                     }
                 })
                 .subscribeOn(Schedulers.io())
