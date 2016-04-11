@@ -14,7 +14,7 @@ object Mapper {
     fun convertSpeaker(id: Int, speaker: com.nilhcem.devoxxfr.scraper.model.devoxx.Speaker): Speaker {
         val name = "${speaker.firstName} ${speaker.lastName}".trim()
         val company = speaker.company?.trim()
-        val bio = speaker.bio.trim()
+        val bio = speaker.bio.clean()
         val blog = speaker.blog?.trim()
         val twitter = speaker.twitter?.trim()?.replace("@", "")
 
@@ -29,7 +29,7 @@ object Mapper {
         val duration = ((slot.toTimeMillis - slot.fromTimeMillis) / 60000).toInt()
         val roomId = Room.getRoomId(slot.roomId)
         val title = if (slot.talk != null) slot.talk.title else slot.breakData?.nameFR
-        val description = slot.talk?.summary
+        val description = slot.talk?.summary?.clean()
 
         val speakersId = if (slot.talk == null) null else slot.talk.speakers
                 .map { it.link.href }
@@ -39,4 +39,6 @@ object Mapper {
 
         return Session(id, startAt, duration, roomId, speakersId, title, description)
     }
+
+    fun String.clean() = trim().replace("\r", "")
 }
