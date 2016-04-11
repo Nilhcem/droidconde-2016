@@ -155,8 +155,6 @@ dependencies {
 
     compile 'com.jakewharton.threetenabp:threetenabp:1.0.3'
 
-    compile 'klogi.com:rtlviewpager:1.0.0'
-
     internalCompile 'jp.wasabeef:takt:1.0.2'
     internalCompile 'com.jakewharton:process-phoenix:1.0.2'
     internalCompile "com.facebook.stetho:stetho:$stethoVersion"
