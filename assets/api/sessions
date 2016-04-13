@@ -775,7 +775,7 @@
 	"duration": 45,
 	"id": 101,
 	"roomId": 2,
-	"speakersId": [80, 220, 221],
+	"speakersId": [80, 220],
 	"startAt": "2016-04-21 13:55",
 	"title": "DevOps vu par un Hacker"
 }, {
@@ -1001,7 +1001,7 @@
 	"startAt": "2016-04-21 17:10",
 	"title": "Docker for Windows & Mac : mais pourquoi on n'a pas eu ça dès le début ?"
 }, {
-	"description": "Cette session sera animée par Julien Dubois, le créateur et principal contributeur de [JHipster](http://jhipster.github.io/).\n\nNous y détaillerons:\n\n- Les évolutions dans l'utilisation du projet au cours de l'année passée (statistiques à l'appui)\n- Le mode de fonctionnement (très collaboratif) de l'équipe de développement\n- Les grandes nouveautés de JHipster: intégration continue, Spring Boot devtools, JHipster devbox, la marketplace...\n- La roadmap pour les prochains mois, avec un focus sur les micro-services",
+	"description": "Avec ses 200,000 downloads et ses plus de 200 contributeurs, [JHipster](http://jhipster.github.io/) est un générateur d'applications Spring Boot + AngularJS très populaire.\n\nCette session sera animée par Julien Dubois, le créateur et principal contributeur de JHipster.\n\nNous verrons les grandes nouveautés proposées en 2016:\n\n- [les microservices](http://jhipster.github.io/microservices-architecture/) dans JHipster 3.0, basés sur la stack Netflix\n- [le JDL Studio](http://jhipster.github.io/jdl-studio/) pour générer graphiquement ses entités\n- les outils de développement (hot reload avec Spring Boot DevTools et BrowserSync, JHipster DevBox) pour être toujours plus productif!\n- le déploiement facile avec Docker Compose, et la scalabilité associée\n- le monitoring avec la JHipster Console\n- la sécurité avec JWT\n- la production avec Docker Swarm, Cloud Foundry et Heroku\n\nEt nous terminerons avec la roadmap pour les prochains mois!",
 	"duration": 45,
 	"id": 133,
 	"roomId": 3,
@@ -1659,13 +1659,13 @@
 	"startAt": "2016-04-22 13:55",
 	"title": "Algorithmes distribués pour le Big Data, saison 2"
 }, {
-	"description": "Dans cette présentation, je vous propose de découvrir ensemble d’autre façon de développer en Java et Java 8 en particulier, mais que peu ont testé. Est-il possible de limiter le nombre de sous-classes pour une classe ? Si on peut désormais mettre un comportement dans une interface, peut-on y mettre un état ? Et peut-on sécuriser la grammaire de ses DSL internes ? Live coding à l’appui, voici certaines des questions auxquelles nous allons essayer de répondre ou qu’on ne devrait jamais aborder.",
+	"description": "L'introduction du système de modules Jigsaw dans Java 9 va indubitablement être l'ajout le plus disruptif au langage depuis sa création. Jusqu'ici, tous les ajouts (génériques, invokedynamic, lambdas) se sont fait sans trop de douleur. Jigsaw, en revanche, va probablement casser votre application. Rassurez-vous, pas uniquement la vôtre. Toutes. Et ça ne sera pas beau à voir. Mais il y a de l'espoir...\n\nDans cette session, nous parlerons des challenges que Jigsaw relève, et comment avec Gradle, vous pouvez vous préparez dès aujourd'hui à une migration. Nous montrerons quels sont les avantages de déclarer une API dès aujourd'hui, en utilisant Java 8 (ou antérieur), et comment vous pourrez passer à Java 9 simplement. \n\nPerformances de compilation améliorées, encapsulation forte, gestion de dépendances fine, cache distribué, autant de fonctionnalités qui viendront gratuitement avec le modèle logiciel de Gradle 3. Venez découvrir comment Gradle va vous aider, tout de suite, à modéliser vos applications et bénéfier d'une partie des avantages de Jigsaw tout de suite, sur Java 8 !",
 	"duration": 45,
 	"id": 223,
 	"roomId": 4,
-	"speakersId": [207],
+	"speakersId": [48],
 	"startAt": "2016-04-22 13:55",
-	"title": "Java (8) eXperiments"
+	"title": "Résoudre le puzzle Jigsaw avec Gradle"
 }, {
 	"description": "Certaines fonctions de nos programmes peuvent échouer à calculer une valeur de retour. Plutôt que d'utiliser des exceptions, il est possible de tirer partie du système de types de Scala pour gérer les erreurs de manière plus fiable et lisible.\n\nNous verrons comment utiliser des ADT (Algebraic Data Type) comme `Option`, `Try` et `Either`, ainsi que `disjunction` et `validation` de [Scalaz](https://github.com/scalaz/scalaz). On regardera aussi la bibliothèque [Rapture](http://rapture.io/) et ses \"modes\" qui offrent la possibilité *à l'appelant* de choisir de quelle manière il veut encapsuler les éventuelles erreurs.\n\nLa gestion des erreurs est bien moins compliquée lorsque le compilateur peut nous aider !",
 	"duration": 45,
@@ -1793,13 +1793,13 @@
 	"startAt": "2016-04-22 16:10",
 	"title": "Terracotta Off-Heap pour les nuls"
 }, {
-	"description": "L'introduction du système de modules Jigsaw dans Java 9 va indubitablement être l'ajout le plus disruptif au langage depuis sa création. Jusqu'ici, tous les ajouts (génériques, invokedynamic, lambdas) se sont fait sans trop de douleur. Jigsaw, en revanche, va probablement casser votre application. Rassurez-vous, pas uniquement la vôtre. Toutes. Et ça ne sera pas beau à voir. Mais il y a de l'espoir...\n\nDans cette session, nous parlerons des challenges que Jigsaw relève, et comment avec Gradle, vous pouvez vous préparez dès aujourd'hui à une migration. Nous montrerons quels sont les avantages de déclarer une API dès aujourd'hui, en utilisant Java 8 (ou antérieur), et comment vous pourrez passer à Java 9 simplement. \n\nPerformances de compilation améliorées, encapsulation forte, gestion de dépendances fine, cache distribué, autant de fonctionnalités qui viendront gratuitement avec le modèle logiciel de Gradle 3. Venez découvrir comment Gradle va vous aider, tout de suite, à modéliser vos applications et bénéfier d'une partie des avantages de Jigsaw tout de suite, sur Java 8 !",
+	"description": "Dans cette présentation, je vous propose de découvrir ensemble d’autre façon de développer en Java et Java 8 en particulier, mais que peu ont testé. Est-il possible de limiter le nombre de sous-classes pour une classe ? Si on peut désormais mettre un comportement dans une interface, peut-on y mettre un état ? Et peut-on sécuriser la grammaire de ses DSL internes ? Live coding à l’appui, voici certaines des questions auxquelles nous allons essayer de répondre ou qu’on ne devrait jamais aborder.",
 	"duration": 45,
 	"id": 240,
 	"roomId": 4,
-	"speakersId": [48],
+	"speakersId": [207],
 	"startAt": "2016-04-22 16:10",
-	"title": "Résoudre le puzzle Jigsaw avec Gradle"
+	"title": "Java (8) eXperiments"
 }, {
 	"description": "Data Science, a buzz word we've seen popping everywhere in 2015\n\nWhy? It turns out engineers explored the Big Data's value and the way to deal it, that is, digging the gold, Data Science, covering mathematics, statistics, machine learning, data preparation, software development and more\n\nData science came to the front because data is accumulating and exploiting the value is a key to competitivity.\nData Science and Machine Learning in particular had traditionally been the smart and helpful tool mostly designed and developed in academia, the enterprise could only grasp at high premium\n\nNow the game is changing drastically, methods have matured, libraries are available and more data scientists are entering the market\n\nStill, there are many friction points in the development process of services exploiting data. It's true that Data Scientists are developers, but usually they are not software developers and even less devops which leads to a disrupted organization and a lack of efficiency\n\nWe present here some solutions providing a unifying environment, helping different people with different tasks and background to develop a data service pipeline with minimal friction and maximal agility",
 	"duration": 45,
