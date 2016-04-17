@@ -2,16 +2,17 @@ package com.nilhcem.devoxxfr.scraper.model
 
 import com.nilhcem.devoxxfr.scraper.model.devoxx.ScheduleDaySlot
 import com.nilhcem.devoxxfr.scraper.model.output.Room
-import com.nilhcem.devoxxfr.scraper.model.output.Session
-import com.nilhcem.devoxxfr.scraper.model.output.Speaker
 import java.text.SimpleDateFormat
 import java.util.*
+import com.nilhcem.devoxxfr.scraper.model.devoxx.Speaker as DevoxxSpeaker
+import com.nilhcem.devoxxfr.scraper.model.output.Session as AppSession
+import com.nilhcem.devoxxfr.scraper.model.output.Speaker as AppSpeaker
 
 object Mapper {
 
     private val DATE_FORMAT = SimpleDateFormat("yyyy-MM-dd HH:mm")
 
-    fun convertSpeaker(id: Int, speaker: com.nilhcem.devoxxfr.scraper.model.devoxx.Speaker): Speaker {
+    fun convertSpeaker(id: Int, speaker: DevoxxSpeaker): AppSpeaker {
         val name = "${speaker.firstName} ${speaker.lastName}".trim()
         val company = speaker.company?.trim()
         val bio = speaker.bio.clean()
@@ -21,10 +22,10 @@ object Mapper {
         val avatarURL = speaker.avatarURL?.trim()
         val picture = if (avatarURL == null || avatarURL.length == 0 || avatarURL.startsWith("data:image")) null else avatarURL
 
-        return Speaker(id + 1, speaker.uuid, name, company, bio, blog, twitter, picture)
+        return AppSpeaker(id + 1, speaker.uuid, name, company, bio, blog, twitter, picture)
     }
 
-    fun convertSession(id: Int, slot: ScheduleDaySlot, speakersMap: Map<String, Int>): Session {
+    fun convertSession(id: Int, slot: ScheduleDaySlot, speakersMap: Map<String, Int>): AppSession {
         val startAt = DATE_FORMAT.format(Date(slot.fromTimeMillis))
         val duration = ((slot.toTimeMillis - slot.fromTimeMillis) / 60000).toInt()
         val roomId = Room.getRoomId(slot.roomId)
@@ -37,7 +38,7 @@ object Mapper {
                 .map { speakersMap[it] }
                 .filterNotNull()
 
-        return Session(id, startAt, duration, roomId, speakersId, title, description)
+        return AppSession(id, startAt, duration, roomId, speakersId, title, description)
     }
 
     fun String.clean() = trim().replace("\r", "")
