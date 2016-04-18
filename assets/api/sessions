@@ -77,7 +77,7 @@
 	"startAt": "2016-04-20 09:30",
 	"title": "Web Real Time Communication par la pratique"
 }, {
-	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\n\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.",
+	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\n\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.",
 	"duration": 180,
 	"id": 11,
 	"roomId": 12,
@@ -449,7 +449,7 @@
 	"startAt": "2016-04-20 18:40",
 	"title": "Dropwizard : création de services REST \"production-ready\" en 25mn"
 }, {
-	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\n\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\n\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
+	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\n\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\n\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
 	"duration": 30,
 	"id": 58,
 	"roomId": 5,
@@ -549,7 +549,7 @@
 	"startAt": "2016-04-21 11:15",
 	"title": "ES6+ maintenant ! (conférence)"
 }, {
-	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
 	"duration": 45,
 	"id": 71,
 	"roomId": 23,
@@ -1405,7 +1405,7 @@
 	"startAt": "2016-04-22 11:00",
 	"title": "Cassandra/Spark Lan Party"
 }, {
-	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge.",
+	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge.",
 	"duration": 160,
 	"id": 189,
 	"roomId": 9,

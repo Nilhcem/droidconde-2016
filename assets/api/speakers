@@ -63,7 +63,7 @@
 	"twitter": "sarbogast",
 	"website": "http://sebastien-arbogast.com"
 }, {
-	"bio": "Je suis consultant chez Octo Technology.  J'interviens sur des développements qui mêlent des contraintes métiers (qualité produit, tech leading) et des fortes contraintes opérationnels (SLA, ...). J'interviens également en tant que formateur sur les pratiques DevOps dans le PaaS  et sur les bases de données relationnels et nouvelles architectures de données.",
+	"bio": "Je suis consultant chez Octo Technology. J'interviens sur les développements qui mêlent contraintes métiers (qualité produit, ...) et contraintes opérationnelles (tech leading, SLA, ...). J'interviens également en tant que formateur sur les pratiques DevOps dans le PaaS  et sur les nouvelles architectures de données.",
 	"id": 9,
 	"name": "Fabien Arcellier",
 	"photo": "https://lh6.googleusercontent.com/-GGvUfKV49w0/AAAAAAAAAAI/AAAAAAAAAB0/M0l9VhTtVdM/photo.jpg",
@@ -74,7 +74,7 @@
 	"bio": "Développeur passionné par les architectures distribuées et les problèmes de performance",
 	"id": 10,
 	"name": "Guillaume Arnaud",
-	"photo": "https://drive.google.com/file/d/0ByfrQK9Lt7ffV0NmNWdNWDhLVG8/view?usp=sharing",
+	"photo": "https://plus.google.com/photos/103091652697013268470/albums/profile/6274476622635396722",
 	"title": "VSCT",
 	"twitter": "guillarnaud",
 	"website": "https://plus.google.com/103091652697013268470"
@@ -609,7 +609,7 @@
 	"twitter": "lukaseder",
 	"website": "http://blog.jooq.org"
 }, {
-	"bio": "Je suis développeur et team leader chez Sfeir. J'ai fait du java quand j'étais petit, puis je me suis orienté vers le front et je suis actuellement développeur Node.js. Je suis également co-organisateur du meetup CSS Paris.",
+	"bio": "Je suis développeur et team leader chez Sfeir. J'ai fait du java quand j'étais petit, puis je me suis orienté vers le front et je suis actuellement développeur Node.js. Je suis également co-organisateur du meetup CSS Paris.",
 	"id": 80,
 	"name": "Siegfried Ehret",
 	"photo": "http://www.gravatar.com/avatar/cd14e89234c1368b5079bcf8fc23eb8a",
@@ -1356,11 +1356,11 @@
 	"twitter": "sebprunier",
 	"website": "http://blog.sebprunier.com"
 }, {
-	"bio": "Après avoir longtemps été consultant chez Octo, s'occupant plus particulièrement d'architecture, d'infra, de performances et de déploiement, Bertrand est maintenant dans une petite startup, Doctolib, pour faire la même chose :)\n\nDoctolib est le leader français de la prise de rendez-vous en ligne pour les médecins, et est en très forte croissance.",
+	"bio": "Après avoir longtemps été consultant chez Octo, s'occupant plus particulièrement d'architecture, d'infra, de performances et de déploiement, Bertrand travaille maintenant dans deux startups pour faire la même chose :)\n\nLe jour chez Doctolib, le leader français de la prise de rendez-vous en ligne pour les médecins.\nLa nuite chez Madgic, plateforme de médiation mobile.\n\nDoctolib est",
 	"id": 175,
 	"name": "Bertrand Paquet",
 	"photo": "http://qph.is.quoracdn.net/main-thumb-1013532-200-Kj6eELiUh8qpHNqhGfbXg0UjT8qCwyzU.jpeg",
-	"title": "Doctolib",
+	"title": "Doctolib / Madgic",
 	"twitter": "_bpaquet"
 }, {
 	"bio": "Thomas est développeur chez Google depuis Seattle.  Il travaille sur BigQuery, la système Big Data de Google Cloud Platform, pour donner toute la pouvoir analytique de Google aux codeurs du monde.\n\nAvant Google, il bossait à quelques start-ups, et aussi chez Amazon sur des projects contre-fraude et machine-learning.",
@@ -1575,7 +1575,7 @@
 	"title": "Google",
 	"twitter": "SRobTweets"
 }, {
-	"bio": "Sven Ruppert has been coding Java since 1996. He is a Fellow for reply based in Munich. \nIn his free time he is regularly speaking at Conferences like JavaOne/Jfokus/Devoxx/JavaZone/JavaLand and many more  and contributes to IT periodicals, as well as tech portals.\n\nBlog: www.rapidpm.org\nWeb: www.sven-ruppert.de\nTwitter: @SvenRuppert\nLandry: http://lanyrd.com/profile/svenruppert/\nPublications: http://www.rapidpm.org/publications/index.html\nTalks: http://www.rapidpm.org/conferences/index.html\nLinkedin: https://www.linkedin.com/in/svenruppert",
+	"bio": "Sven Ruppert has been coding Java since 1996. He is a Fellow for reply based in Munich. \nIn his free time he is regularly speaking at Conferences like JavaOne/Jfokus/Devoxx/JavaZone/JavaLand and many more  and contributes to IT periodicals, as well as tech portals.\n\nBlog: www.rapidpm.org\nWeb: www.sven-ruppert.de\nTwitter: @SvenRuppert\nLandry: http://lanyrd.com/profile/svenruppert/\nPublications: http://www.rapidpm.org/publications/index.html\nTalks: http://www.rapidpm.org/conferences/index.html\nLinkedin: https://www.linkedin.com/in/svenruppert",
 	"id": 204,
 	"name": "Sven Ruppert",
 	"photo": "https://lh6.googleusercontent.com/-jsBwHKafsOc/AAAAAAAAAAI/AAAAAAACJW8/6v0dRCp05H0/photo.jpg",
@@ -1784,7 +1784,7 @@
 	"twitter": "julienviet",
 	"website": "http://blog.julienviet.com"
 }, {
-	"bio": "Jonathan est ingénieur Data.\n \nIl a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données. \n\nIl présente régulièrement des sujets d’actualité lors de conférences.",
+	"bio": "Jonathan est ingénieur Data.\n \nIl a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données. \n\nIl présente régulièrement des sujets d’actualité lors de conférences.",
 	"id": 231,
 	"name": "Jonathan Winandy",
 	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZwAAAAJGE5ZGVkNTQzLWE0ZGQtNDRkZi04NzgwLTcyZWQxNjQ2N2EwYQ.jpg",
