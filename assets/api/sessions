@@ -9,7 +9,7 @@
 	"duration": 180,
 	"id": 2,
 	"roomId": 1,
-	"speakersId": [235, 76],
+	"speakersId": [236, 76],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture découplée grâce aux Reactive Extensions"
 }, {
@@ -25,7 +25,7 @@
 	"duration": 180,
 	"id": 4,
 	"roomId": 3,
-	"speakersId": [214],
+	"speakersId": [215],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture Android et bonnes pratiques"
 }, {
@@ -65,7 +65,7 @@
 	"duration": 180,
 	"id": 9,
 	"roomId": 22,
-	"speakersId": [120, 142, 219],
+	"speakersId": [120, 142, 220],
 	"startAt": "2016-04-20 09:30",
 	"title": "Déployez vos applications sur un cluster Kubernetes avec Ansible"
 }, {
@@ -81,7 +81,7 @@
 	"duration": 180,
 	"id": 11,
 	"roomId": 12,
-	"speakersId": [82, 231],
+	"speakersId": [82, 232],
 	"startAt": "2016-04-20 09:30",
 	"title": "Vert.x - passez de 0 à (micro-) héros"
 }, {
@@ -89,7 +89,7 @@
 	"duration": 180,
 	"id": 12,
 	"roomId": 14,
-	"speakersId": [99, 234],
+	"speakersId": [99, 235],
 	"startAt": "2016-04-20 09:30",
 	"title": "Développez une application \"Time Series\" avec Apache Spark, HBase et l'API Kakfa"
 }, {
@@ -113,7 +113,7 @@
 	"duration": 180,
 	"id": 15,
 	"roomId": 9,
-	"speakersId": [232, 121, 42],
+	"speakersId": [233, 121, 42],
 	"startAt": "2016-04-20 09:30",
 	"title": "Introduction à Scala"
 }, {
@@ -159,7 +159,7 @@
 	"duration": 180,
 	"id": 21,
 	"roomId": 4,
-	"speakersId": [135],
+	"speakersId": [135, 205],
 	"startAt": "2016-04-20 13:30",
 	"title": "La Blockchain en détail"
 }, {
@@ -223,7 +223,7 @@
 	"duration": 180,
 	"id": 29,
 	"roomId": 8,
-	"speakersId": [226],
+	"speakersId": [227],
 	"startAt": "2016-04-20 13:30",
 	"title": "Hands-on with Kubernetes - from basic to advanced features"
 }, {
@@ -231,7 +231,7 @@
 	"duration": 180,
 	"id": 30,
 	"roomId": 9,
-	"speakersId": [235, 183],
+	"speakersId": [236, 183],
 	"startAt": "2016-04-20 13:30",
 	"title": "À la découverte de la plateforme Android"
 }, {
@@ -293,7 +293,7 @@
 	"duration": 30,
 	"id": 38,
 	"roomId": 18,
-	"speakersId": [108, 223],
+	"speakersId": [108, 224],
 	"startAt": "2016-04-20 17:10",
 	"title": "JGiven: enfin une réelle documentation vivante."
 }, {
@@ -325,7 +325,7 @@
 	"duration": 30,
 	"id": 42,
 	"roomId": 2,
-	"speakersId": [206],
+	"speakersId": [207],
 	"startAt": "2016-04-20 17:55",
 	"title": "Flexbox, et le CSS redevient fun !"
 }, {
@@ -373,7 +373,7 @@
 	"duration": 30,
 	"id": 48,
 	"roomId": 22,
-	"speakersId": [211],
+	"speakersId": [212],
 	"startAt": "2016-04-20 17:55",
 	"title": "Akka: découvrons les bases"
 }, {
@@ -405,7 +405,7 @@
 	"duration": 30,
 	"id": 52,
 	"roomId": 3,
-	"speakersId": [220],
+	"speakersId": [221],
 	"startAt": "2016-04-20 18:40",
 	"title": "Continuous Delivery avec GoCD"
 }, {
@@ -413,7 +413,7 @@
 	"duration": 30,
 	"id": 53,
 	"roomId": 16,
-	"speakersId": [237, 134],
+	"speakersId": [238, 134],
 	"startAt": "2016-04-20 18:40",
 	"title": "Quoi d'neuf Docker - live : Docker sur ARM"
 }, {
@@ -483,7 +483,7 @@
 	"duration": 20,
 	"id": 62,
 	"roomId": 1,
-	"speakersId": [221],
+	"speakersId": [222],
 	"startAt": "2016-04-21 09:45",
 	"title": "The impact of code in society"
 }, {
@@ -505,7 +505,7 @@
 	"duration": 45,
 	"id": 65,
 	"roomId": 1,
-	"speakersId": [238],
+	"speakersId": [239],
 	"startAt": "2016-04-21 11:15",
 	"title": "Pourquoi Maurice ne doit surtout pas coder en go."
 }, {
@@ -513,7 +513,7 @@
 	"duration": 45,
 	"id": 66,
 	"roomId": 2,
-	"speakersId": [218],
+	"speakersId": [219],
 	"startAt": "2016-04-21 11:15",
 	"title": "Cycle de vie des images Docker : problèmes et solutions"
 }, {
@@ -537,7 +537,7 @@
 	"duration": 45,
 	"id": 69,
 	"roomId": 16,
-	"speakersId": [222],
+	"speakersId": [223],
 	"startAt": "2016-04-21 11:15",
 	"title": "The Quest for Infrastructure Management 2.0"
 }, {
@@ -553,7 +553,7 @@
 	"duration": 45,
 	"id": 71,
 	"roomId": 23,
-	"speakersId": [227],
+	"speakersId": [228],
 	"startAt": "2016-04-21 11:15",
 	"title": "Traefik, a modern reverse-proxy"
 }, {
@@ -583,7 +583,7 @@
 	"duration": 15,
 	"id": 75,
 	"roomId": 4,
-	"speakersId": [230],
+	"speakersId": [231],
 	"startAt": "2016-04-21 12:05",
 	"title": "SSE : le Streaming Simple et Efficace, sans WebSocket"
 }, {
@@ -591,7 +591,7 @@
 	"duration": 15,
 	"id": 76,
 	"roomId": 16,
-	"speakersId": [225],
+	"speakersId": [226],
 	"startAt": "2016-04-21 12:05",
 	"title": "Devenez un King avec Kong"
 }, {
@@ -599,7 +599,7 @@
 	"duration": 15,
 	"id": 77,
 	"roomId": 3,
-	"speakersId": [217],
+	"speakersId": [218],
 	"startAt": "2016-04-21 12:05",
 	"title": "Le réveil de la Thread"
 }, {
@@ -663,7 +663,7 @@
 	"duration": 15,
 	"id": 85,
 	"roomId": 23,
-	"speakersId": [226],
+	"speakersId": [227],
 	"startAt": "2016-04-21 12:25",
 	"title": "Building a unikernel Java Application"
 }, {
@@ -743,7 +743,7 @@
 	"duration": 45,
 	"id": 95,
 	"roomId": 6,
-	"speakersId": [239, 13],
+	"speakersId": [240, 13],
 	"startAt": "2016-04-21 12:55",
 	"title": "Analytics et Big Data, une histoire de cubes..."
 }, {
@@ -751,7 +751,7 @@
 	"duration": 180,
 	"id": 96,
 	"roomId": 12,
-	"speakersId": [238, 91],
+	"speakersId": [239, 91],
 	"startAt": "2016-04-21 12:55",
 	"title": "Exploiter les nouveautés de Docker pour déployer un jeu distribué. "
 }, {
@@ -799,7 +799,7 @@
 	"duration": 45,
 	"id": 102,
 	"roomId": 4,
-	"speakersId": [81, 224],
+	"speakersId": [81, 225],
 	"startAt": "2016-04-21 13:55",
 	"title": "DevOps vu par un Hacker"
 }, {
@@ -839,7 +839,7 @@
 	"duration": 45,
 	"id": 107,
 	"roomId": 1,
-	"speakersId": [206],
+	"speakersId": [207],
 	"startAt": "2016-04-21 14:55",
 	"title": "100% Stateless avec JWT (JSON Web Token)"
 }, {
@@ -847,7 +847,7 @@
 	"duration": 45,
 	"id": 108,
 	"roomId": 2,
-	"speakersId": [237, 74],
+	"speakersId": [238, 74],
 	"startAt": "2016-04-21 14:55",
 	"title": "(Jenkins, Docker) -> { Orchestrons le Continuous Delivery }"
 }, {
@@ -941,7 +941,7 @@
 	"duration": 45,
 	"id": 120,
 	"roomId": 16,
-	"speakersId": [213, 65],
+	"speakersId": [214, 65],
 	"startAt": "2016-04-21 16:10",
 	"title": "Systèmes distribués, scotch, bouts de ficelle et doigts croisés : une histoire du Streaming à Criteo"
 }, {
@@ -1021,7 +1021,7 @@
 	"duration": 45,
 	"id": 133,
 	"roomId": 23,
-	"speakersId": [226],
+	"speakersId": [227],
 	"startAt": "2016-04-21 17:10",
 	"title": "Scaling with Kubernetes, Automatically!  Learn Kubernetes API through writing a visualizer to an autoscaler"
 }, {
@@ -1077,7 +1077,7 @@
 	"duration": 30,
 	"id": 140,
 	"roomId": 19,
-	"speakersId": [143, 228],
+	"speakersId": [143, 229],
 	"startAt": "2016-04-21 18:10",
 	"title": "Modulariser votre JavaScript avec JSPM et SystemJs"
 }, {
@@ -1117,7 +1117,7 @@
 	"duration": 30,
 	"id": 145,
 	"roomId": 3,
-	"speakersId": [89, 236],
+	"speakersId": [89, 237],
 	"startAt": "2016-04-21 18:55",
 	"title": "Rancher, le (petit) orchestrateur docker qui vous veut du bien"
 }, {
@@ -1189,7 +1189,7 @@
 	"duration": 50,
 	"id": 154,
 	"roomId": 3,
-	"speakersId": [206],
+	"speakersId": [207],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF speakers : Thérapie de groupe"
 }, {
@@ -1213,7 +1213,7 @@
 	"duration": 50,
 	"id": 157,
 	"roomId": 12,
-	"speakersId": [81, 224],
+	"speakersId": [81, 225],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF Sécurité et DevOps partie 1"
 }, {
@@ -1229,7 +1229,7 @@
 	"duration": 50,
 	"id": 159,
 	"roomId": 15,
-	"speakersId": [209],
+	"speakersId": [210],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF des Jugleaders"
 }, {
@@ -1277,7 +1277,7 @@
 	"duration": 50,
 	"id": 166,
 	"roomId": 12,
-	"speakersId": [81, 224],
+	"speakersId": [81, 225],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Sécurité et DevOps partie 2"
 }, {
@@ -1293,7 +1293,7 @@
 	"duration": 50,
 	"id": 169,
 	"roomId": 19,
-	"speakersId": [141, 237, 115, 74],
+	"speakersId": [141, 238, 115, 74],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF Jenkins"
 }, {
@@ -1371,7 +1371,7 @@
 	"duration": 20,
 	"id": 182,
 	"roomId": 1,
-	"speakersId": [212],
+	"speakersId": [213],
 	"startAt": "2016-04-22 10:15",
 	"title": "Le Service Public à l'heure d'internet"
 }, {
@@ -1393,7 +1393,7 @@
 	"duration": 160,
 	"id": 185,
 	"roomId": 14,
-	"speakersId": [230, 138],
+	"speakersId": [231, 138],
 	"startAt": "2016-04-22 11:00",
 	"title": "Baptême du feu avec Rx"
 }, {
@@ -1409,7 +1409,7 @@
 	"duration": 160,
 	"id": 188,
 	"roomId": 8,
-	"speakersId": [215, 198],
+	"speakersId": [216, 198],
 	"startAt": "2016-04-22 11:00",
 	"title": "Cassandra/Spark Lan Party"
 }, {
@@ -1417,7 +1417,7 @@
 	"duration": 160,
 	"id": 189,
 	"roomId": 9,
-	"speakersId": [205],
+	"speakersId": [206],
 	"startAt": "2016-04-22 11:00",
 	"title": "TinkerForge Live Hacking"
 }, {
@@ -1671,7 +1671,7 @@
 	"duration": 45,
 	"id": 221,
 	"roomId": 19,
-	"speakersId": [233],
+	"speakersId": [234],
 	"startAt": "2016-04-22 13:55",
 	"title": "Kill all the REST with the Falcor"
 }, {
@@ -1711,7 +1711,7 @@
 	"duration": 45,
 	"id": 226,
 	"roomId": 6,
-	"speakersId": [216],
+	"speakersId": [217],
 	"startAt": "2016-04-22 13:55",
 	"title": "Gérer les erreurs avec l'aide du système de types de Scala !"
 }, {
@@ -1743,7 +1743,7 @@
 	"duration": 45,
 	"id": 230,
 	"roomId": 4,
-	"speakersId": [208, 179],
+	"speakersId": [209, 179],
 	"startAt": "2016-04-22 14:55",
 	"title": "Les nouveautés de CDI 2.0"
 }, {
@@ -1751,7 +1751,7 @@
 	"duration": 45,
 	"id": 231,
 	"roomId": 16,
-	"speakersId": [155, 229, 166],
+	"speakersId": [155, 230, 166],
 	"startAt": "2016-04-22 14:55",
 	"title": "Combining stream processing and in-memory datagrids for near-real time aggregation & notifications"
 }, {
@@ -1759,7 +1759,7 @@
 	"duration": 45,
 	"id": 232,
 	"roomId": 3,
-	"speakersId": [207],
+	"speakersId": [208],
 	"startAt": "2016-04-22 14:55",
 	"title": "Scalez de 0 à 10 millions d'utilisateurs avec AWS"
 }, {
@@ -1813,7 +1813,7 @@
 	"duration": 45,
 	"id": 239,
 	"roomId": 4,
-	"speakersId": [210],
+	"speakersId": [211],
 	"startAt": "2016-04-22 16:10",
 	"title": "Java (8) eXperiments"
 }, {

@@ -588,7 +588,7 @@
 }, {
 	"bio": "Lead Developer chez Apside Top à Tours. Passionné et partageur, j'interviens principalement sur la plateforme Java mais j'explore d'autres contrées comme l’écosystème Javascript et la programmation fonctionnelle.",
 	"id": 77,
-	"name": "mickael Débonnaire",
+	"name": "Mickael Débonnaire",
 	"photo": "https://pbs.twimg.com/profile_images/704979714855800832/GYjWLpIg.jpg",
 	"title": "Apside",
 	"twitter": "mdebonnaire"
@@ -619,7 +619,7 @@
 }, {
 	"bio": "Fabrice Epelboin, 45 ans, est enseignant à Sciences Po. Paris où il s'interesse à l'impact des technologies sur les gouvernances et les organisations humaines, il a été journaliste et militant pour les libertés numérique et a créé des startups dès les années 90. Aujourd'hui, il est le cofondateur de Yogosha, une plateforme de Bug Bounty.",
 	"id": 81,
-	"name": "Fabrice Epelboin",
+	"name": "Fabrice Epelboin 2",
 	"photo": "https://media.licdn.com/mpr/mprx/0_YMl-NN6WlXTpoLiaNMWtxt_WqX4povmaqMWy-3UWv_wgo5GY-HFPJL_W-5UpE6Aij7Fy0LudJqUjWlBmtoNay8SLyqUyWlQGNoNABTZHBzmr_bgY4UGxcznJpTTuhlA1jWrOrPZv8t7",
 	"title": "Yogosha",
 	"twitter": "epelboin",
@@ -1448,7 +1448,7 @@
 	"twitter": "dadoonet",
 	"website": "http://dev.david.pilato.fr/"
 }, {
-	"bio": "IoT addict, sigfox evengelist, blogger",
+	"bio": "Porteur de projet dans l'incubateur Michelin, je suis un passionné d'IoT et en particulier des reseaux de communication LowPower. Ambassadeur SigFox, bloggeur sous le pseudo disk91.com je partage mes passions et mes experimentations personnelles.",
 	"id": 187,
 	"name": "Paul Pinault",
 	"photo": "https://scontent-cdg2-1.xx.fbcdn.net/hprofile-xtf1/v/t1.0-1/p160x160/1779799_10153033507024752_2717195082545862853_n.jpg?oh=a598c568f1d415de227a26008dc7a781&oe=5733FC89",
@@ -1582,8 +1582,14 @@
 	"title": "Google",
 	"twitter": "SRobTweets"
 }, {
-	"bio": "Sven Ruppert has been coding Java since 1996. He is a Fellow for reply based in Munich. \nIn his free time he is regularly speaking at Conferences like JavaOne/Jfokus/Devoxx/JavaZone/JavaLand and many more  and contributes to IT periodicals, as well as tech portals.\n\nBlog: www.rapidpm.org\nWeb: www.sven-ruppert.de\nTwitter: @SvenRuppert\nLandry: http://lanyrd.com/profile/svenruppert/\nPublications: http://www.rapidpm.org/publications/index.html\nTalks: http://www.rapidpm.org/conferences/index.html\nLinkedin: https://www.linkedin.com/in/svenruppert",
+	"bio": "Consultant DevOps chez OCTO Technology, Yann intervient dans les entreprises, du développement jusqu’à la production et l’infrastructure , pour les aider à améliorer leur cycle de déploiement applicatif. Il s’enthousiasme maintenant pour la Blockchain et est impliqué dans les 1er développements internes d’OCTO sur cette technologie.",
 	"id": 205,
+	"name": "Yann Rouillard",
+	"photo": "https://drive.google.com/open?id=0BwPyfoMV-1-Ucjk1dng1OEMzSWc",
+	"title": "Octo Technology"
+}, {
+	"bio": "Sven Ruppert has been coding Java since 1996. He is a Fellow for reply based in Munich. \nIn his free time he is regularly speaking at Conferences like JavaOne/Jfokus/Devoxx/JavaZone/JavaLand and many more  and contributes to IT periodicals, as well as tech portals.\n\nBlog: www.rapidpm.org\nWeb: www.sven-ruppert.de\nTwitter: @SvenRuppert\nLandry: http://lanyrd.com/profile/svenruppert/\nPublications: http://www.rapidpm.org/publications/index.html\nTalks: http://www.rapidpm.org/conferences/index.html\nLinkedin: https://www.linkedin.com/in/svenruppert",
+	"id": 206,
 	"name": "Sven Ruppert",
 	"photo": "https://lh6.googleusercontent.com/-jsBwHKafsOc/AAAAAAAAAAI/AAAAAAACJW8/6v0dRCp05H0/photo.jpg",
 	"title": "reply",
@@ -1591,7 +1597,7 @@
 	"website": "https://plus.google.com/+SvenRuppert"
 }, {
 	"bio": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et passe une bonne partie de sa semaine à développer sur des projets. Il intervient de temps en temps chez d'autres clients pour du conseil et de l'audit.\n\nIl a travaillé avec du PHP, du Java et beaucoup de JavaScript pour des sites et webapp Intranet/Internet, mobile/tablettes et desktop. Il a également une casquette CSS/intégration.\n\nSur son temps libre, il bidouille beaucoup avec les dernières technologies pour essayer de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
-	"id": 206,
+	"id": 207,
 	"name": "Hubert SABLONNIÈRE",
 	"photo": "http://www.gravatar.com/avatar/756896776ddf47e64c33a86120feb528.png?s=200",
 	"title": "INEAT Conseil",
@@ -1599,7 +1605,7 @@
 	"website": "http://hsablonniere.com"
 }, {
 	"bio": "Julien Simon, Principal Technical Evangelist at Amazon Web Services.\nBefore joining AWS, Julien served for 10 years as CTO/VP Engineering in top-tier web startups. Thus, he’s particularly interested in all things architecture, deployment, performance, scalability and data. As a Principal Technical Evangelist, Julien speaks very frequently at conferences and technical workshops, where he meets developers and enterprises to help them bring their ideas to life thanks to the Amazon Web Services infrastructure.",
-	"id": 207,
+	"id": 208,
 	"name": "Julien SIMON",
 	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUrAAAAJGI4NTU0Njk2LTZkNGQtNDJjYS04Mjc1LWNkYjQ5ZDA3MzkyYw.jpg",
 	"title": "Amazon Web Services",
@@ -1607,7 +1613,7 @@
 	"website": "aws.amazon.com"
 }, {
 	"bio": "Après avoir travaillé pendant plus de 15 ans dans différentes société de service en informatique, Antoine est aujourd’hui employé chez Red Hat ou il co-dirige la spécification CDI et est en charge du développement de l’éco-système CDI. Il est également tech lead sur le projet Agorava permettant de développer des applications clientes des principaux réseaux sociaux.",
-	"id": 208,
+	"id": 209,
 	"name": "Antoine Sabot-Durand",
 	"photo": "https://lh4.googleusercontent.com/-f9-tJsXMlQM/AAAAAAAAAAI/AAAAAAAAFX4/Ez89moeZYLM/photo.jpg",
 	"title": "Red Hat",
@@ -1615,7 +1621,7 @@
 	"website": "http://next-presso.com"
 }, {
 	"bio": "Je suis un schtroumpfs grognont",
-	"id": 209,
+	"id": 210,
 	"name": "Charles Sabourdin",
 	"photo": "https://lh6.googleusercontent.com/-xx50qEZRgxY/AAAAAAAAAAI/AAAAAAAAAAA/ghWCXJdw41A/photo.jpg",
 	"title": "IPPON",
@@ -1623,7 +1629,7 @@
 	"website": "https://plus.google.com/104120012995101816328"
 }, {
 	"bio": "Manager technique chez Ippon Technologies, co-créateur de BrownBagLunch France, je m'intéresse beaucoup au software craftsmanship et je m'investis à promouvoir la programmation fonctionnelle. Je gère aussi auprès d'Ippon Technologies les événements et autres communications techniques.",
-	"id": 210,
+	"id": 211,
 	"name": "François Sarradin",
 	"photo": "https://lh3.googleusercontent.com/-SNbY94O6MGY/AAAAAAAAAAI/AAAAAAAABOI/E5gvxksay4I/photo.jpg",
 	"title": "Ippon Technologies",
@@ -1631,7 +1637,7 @@
 	"website": "https://plus.google.com/+FrançoisSarradin"
 }, {
 	"bio": "Guillaume est développeur chez Expedia à Londres et a travaillé durant quelques années en France pour une grosse société de services. Il a également co-créé le JUG pour la région de Strasbourg (ElsassJUG) et contribue à 2 projets open-sources (Hibernate OGM et Infinispan). De temps en temps, il parle à différentes conférences (Soft-Shake, Devoxx FR et BE) ou JUGs.",
-	"id": 211,
+	"id": 212,
 	"name": "Guillaume Scheibel",
 	"photo": "http://www.gravatar.com/avatar/0d82c7c12dbc0a5f96e098d3e13b16c3.png",
 	"title": "Expedia",
@@ -1639,7 +1645,7 @@
 	"website": "www.gscheibel.net"
 }, {
 	"bio": "Ingénieur transdisciplinaire, Matti construit depuis deux ans des services publics numériques au sein de l'État.",
-	"id": 212,
+	"id": 213,
 	"name": "Matti Schneider",
 	"photo": "https://prismic-io.s3.amazonaws.com/dvxfrance/c9929debd34035ef108334f2f88b36af5da3809a_matti_schneider.jpg",
 	"title": "Secrétariat Général pour la Modernisation de l'Action Publique",
@@ -1647,7 +1653,7 @@
 	"website": "http://mattischneider.fr/"
 }, {
 	"bio": "Been around for a while, then back again.\nNow messing with fairly big data at Criteo.",
-	"id": 213,
+	"id": 214,
 	"name": "Yann Schwartz",
 	"photo": "https://lh5.googleusercontent.com/-MDwGRVfp1UI/AAAAAAAAAAI/AAAAAAAAAD8/ezJKxDjUdns/photo.jpg",
 	"title": "Criteo",
@@ -1655,7 +1661,7 @@
 	"website": "http://labs.criteo.com"
 }, {
 	"bio": "Mathias est le fondateur de la société Android2EE; Formation et Expertise Android. Il est l'auteur de plusieurs ouvrages sur le sujet et d’articles sur Developpez.com.     \nMathias est passionné par la technologie Android et donne des formations sur l'art et la manière d'effectuer des applications Android smooths, responsives et smarts.     \nIl est speaker régulier des DroidCon France, Londres, Grèce, Paug, Taug et autres rassemblements Android...    \nIl offre aussi tout un tas de ressources libres (tuto, support de conférences, vidéos, articles, ebooks) pour monter en compétence sur la technologie Android sur le site internet android2ee.com",
-	"id": 214,
+	"id": 215,
 	"name": "Mathias Seguy",
 	"photo": "http://2015.droidcon.gr/wp-content/uploads/2015/08/mathias.png",
 	"title": "Android2EE",
@@ -1663,7 +1669,7 @@
 	"website": "http://www.android2ee.com/"
 }, {
 	"bio": "Je suis freelance, développeur, ScrumMaster. Auteur de cassandra-unit. Co-leader du Ch'ti JUG",
-	"id": 215,
+	"id": 216,
 	"name": "Jérémy Sevellec",
 	"photo": "http://www.gravatar.com/avatar/1b8c23fe49fcca0b3d38f09ccb60d3f3",
 	"title": "Olisa Conseil",
@@ -1671,7 +1677,7 @@
 	"website": "http://www.unchticafe.fr/"
 }, {
 	"bio": "Jeune ingénieur généraliste Icam, je suis avant tout passionné par les nouvelles technologies, l'informatique, et le développement. Je m'occupe actuellement de la R&D chez Escale, une agence web nantaise innovante, et prépare une thèse doctorale. Ces derniers temps, j'aime passer du temps à apprendre la programmation fonctionnelle en développant des projets pro ou perso en Scala, en Haskell ou en Nix. J'ai envie de continuer à faire de belles rencontres autour de ces sujets, pour découvrir de nouvelles sources d'épanouissement !",
-	"id": 216,
+	"id": 217,
 	"name": "David Sferruzza",
 	"photo": "http://www.gravatar.com/avatar/19c5b252dbe5098258edf73d5fe22120",
 	"title": "Escale / Université de Nantes",
@@ -1679,7 +1685,7 @@
 	"website": "https://david.sferruzza.fr/"
 }, {
 	"bio": "Développeur Java depuis 17 ans, j'ai travaillé sur des applications en Java Core multithreadées, d'abord dans les telecoms, puis en tant que consultant dans le monde de la finance.\nJe travaille actuellement pour D2-SI en mission à la BNP.",
-	"id": 217,
+	"id": 218,
 	"name": "David Shay",
 	"photo": "https://lh5.googleusercontent.com/-ROtu6m_rs4I/AAAAAAAAAAI/AAAAAAAAACM/7TnDgiM55u8/photo.jpg",
 	"title": "D2-SI",
@@ -1687,7 +1693,7 @@
 	"website": "http://www.jroller.com/ethdsy"
 }, {
 	"bio": "Co-Fondateur et Architecte de JFrog - créateurs d'Artifactory et Bintray. Développeur depuis 1992 et expert Java depuis 1998 en tant que co-fondateur de AlphaCSP.",
-	"id": 218,
+	"id": 219,
 	"name": "Fred Simon",
 	"photo": "http://www.gravatar.com/avatar/d46b5d574a0552131966eb2a6ec39161",
 	"title": "JFrog",
@@ -1695,7 +1701,7 @@
 	"website": "http://www.jfrog.com/"
 }, {
 	"bio": "Ingénieur logiciel de formation, je suis un développeur java et javascript. Passionné par la sécurité et la cryptographie j'ai travaillé pendant 10 ans dans le domaine de signature électronique et de la PKI. Très intéressé également par les usines logicielles et le \"code propre\", j'occupe aujourd'hui le poste d'expert Java chez Weborama.\nJ'ai développé la bibliothèque open source digest.js (https://github.com/jcsirot/digest.js) et quelques plugins pour Jenkins (custom-job-icon, Ansible et Quay.io Trigger).",
-	"id": 219,
+	"id": 220,
 	"name": "Jean-Christophe Sirot",
 	"photo": "https://lh5.googleusercontent.com/-HJbXq_Z71z8/AAAAAAAAAAI/AAAAAAAABGc/QWuIzSzyfU8/photo.jpg",
 	"title": "Weborama",
@@ -1703,7 +1709,7 @@
 	"website": "http://www.coding-stories.com/"
 }, {
 	"bio": "Vincent est un consultant passionné. \nIl aime concevoir des projets innovants dans un cadre Agile. \nSon expérience tourne autour du monde Java(script) / Scala, WOA, et de la conduite du changement.",
-	"id": 220,
+	"id": 221,
 	"name": "Vincent Spiewak",
 	"photo": "https://lh3.googleusercontent.com/-vl-ftvpmlUE/AAAAAAAAAAI/AAAAAAAAAYc/1w7iqtAiaeA/photo.jpg",
 	"title": "DailyBrain",
@@ -1711,13 +1717,13 @@
 	"website": "http://github.com/vspiewak"
 }, {
 	"bio": "Joel Spolsky is the CEO and co-founder of Stack Overflow, the place where millions of developers go to learn, share their knowledge and advance their careers. Stack Overflow has become the most trusted developer resource on the Internet and currently serves more than 40 million programmers every month. Joel is also the founder of Fog Creek Software, Trello and previously worked at Microsoft - where he designed VBA as a member of the Excel team.\n\nJoel is also a world-­renowned speaker and has written four books, including User Interface Design for Programmers and Smart and Gets Things Done: Joel Spolsky’s Concise Guide to Finding the Best Technical Talent. His personal website, Joel on Software, has been popular with developers around the world since its inception in 2000 and has been translated into over 30 languages. Joel graduated from Yale University with a Computer Science degree.",
-	"id": 221,
+	"id": 222,
 	"name": "Joel Spolsky",
 	"photo": "https://prismic-io.s3.amazonaws.com/dvxfrance/d0112c3a1a3b74a0e3be9c78d2f41f2f4f4d8125_joel_spolsky.jpeg",
 	"title": "stackoverflow"
 }, {
 	"bio": "Paul Stack is a London based infrastructure engineer. Paul has spoken at various events throughout the world about his passion for continuous integration and continuous delivery and why they should be part of what developers do on a day to day basis. He believes that reliably delivering software is just as important as its development. Paul’s newest passion is the DevOps movement and how this helps not just development and operations but the entire business and it’s customers.",
-	"id": 222,
+	"id": 223,
 	"name": "Paul Stack",
 	"photo": "http://en.gravatar.com/userimage/10508384/a3036721dc34afa72ba312bd99deb09b.jpg?size=200",
 	"title": "DreamItGet IT",
@@ -1725,18 +1731,18 @@
 	"website": "http://www.paulstack.co.uk"
 }, {
 	"bio": "Marie-Laure est une craftswoman passionnée, persuadée que la création d'un logiciel de qualité nécessite l'écriture d'un code simple, propre et lisible. Elle est aussi une fervente défenseur des pratiques terminant en \"DD\" comme le BDD, DDD et le TDD. De nature curieuse, elle a eu l'opportunité de travailler sur différents types de projets, aussi bien back-end que web, le tout en maniant différents languages et architectures.",
-	"id": 223,
+	"id": 224,
 	"name": "Marie-Laure Thuret",
 	"title": "Xebia",
 	"twitter": "mlthuret",
 	"website": "blog.xebia.fr"
 }, {
 	"bio": "Hicham A. Tolimat, 29 ans, est enseignant dans une licence pro expériementale qui forme des dev fullstack à l'Université de Cergy Pontoise, il est l'ex porte parole de Hackerzvoice, la plus ancienne organisation de hacker française, et a travaillé comme ethical hacker dans un Big Four avant de rejoindre Yogosha, dont il est le CTO.",
-	"id": 224,
+	"id": 225,
 	"name": "Hicham Tolimat"
 }, {
 	"bio": "Dev chez Streamdata.io, Cédric participe à l'élaboration d'une plate-forme de push temps réel. Pendant son temps libre, il écume l'Alpes JUG, les meetups de Grenoble et quelques MOOC et il joue avec des technos Java / Scala et Web (Riot.js, AngularJS, EmberJS, etc). \nIl a également fait quelques présentations à BreizhCamp, Bdx.io et SoftShake et fait partie de l'organisation de SnowCamp.io, une conférence technique à Grenoble.",
-	"id": 225,
+	"id": 226,
 	"name": "Cédric Tran-Xuan",
 	"photo": "https://lh3.googleusercontent.com/-7OC4vJKKmWw/AAAAAAAAAAI/AAAAAAAAAD0/06S6qIYJBxg/photo.jpg?sz=100",
 	"title": "Streamdata.io",
@@ -1744,7 +1750,7 @@
 	"website": "http://www.streamdata.io"
 }, {
 	"bio": "Ray is a Developer Advocate for the Google Cloud Platform. Ray had extensive hands on cross-industry enterprise systems integration delivery and management experiences during his time at Accenture, managed full stack application development, DevOps, and ITOps. Ray specialized in middleware, big data, and PaaS products during his time at Red Hat while contributing to open source projects, such as Infinispan. Aside from technology, Ray enjoys traveling and adventures.",
-	"id": 226,
+	"id": 227,
 	"name": "Ray Tsang",
 	"photo": "https://farm2.staticflickr.com/1434/936509581_63a0e3c97f_b.jpg",
 	"title": "Google",
@@ -1752,7 +1758,7 @@
 	"website": "https://twitter.com/saturnism"
 }, {
 	"bio": "Emile is founder of Containous, the container delivery company. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested container orchestrators like Kubernetes, Mesos, Docker Swarm. Creator of traefik.io",
-	"id": 227,
+	"id": 228,
 	"name": "Emile VAUGE",
 	"photo": "http://www.gravatar.com/avatar/68e7fb947bb29dffbd46ac8aae45b6de?s=800",
 	"title": "Zenika",
@@ -1760,7 +1766,7 @@
 	"website": "https://github.com/emilevauge"
 }, {
 	"bio": "Développeur depuis maintenant 3 ans et passionné par le JavaScript, j'ai rejoint Captain Dash en tant que développeur front-end.",
-	"id": 228,
+	"id": 229,
 	"name": "Samuel Vaillant",
 	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/09a/012/2a62c89.jpg",
 	"title": "Captain Dash",
@@ -1768,7 +1774,7 @@
 	"website": "https://github.com/samouss"
 }, {
 	"bio": "Alexandre VASSEUR est responsable technique chez Pivotal et a en charge la région europe du sud.\n\nIl aide les clients et prospects à comprendre et adopter la stratégie de Pivotal sur les thèmes du Big Data et du PaaS sur les volets développement, déploiement, éxécution et scalabilité dans l'univers Pivotal: Java, Spring, Hadoop, in memory GemFire, bases massive GreenPlum et ainsi que Tomcat, Rabbit et CloudFoundry.",
-	"id": 229,
+	"id": 230,
 	"name": "Alexandre Vasseur",
 	"photo": "http://m.c.lnkd.licdn.com/media/p/2/000/11e/021/222b486.jpg",
 	"title": "Pivotal",
@@ -1776,7 +1782,7 @@
 	"website": "http://www.pivotal.io/fr"
 }, {
 	"bio": "Je suis un architecte \"qui code\" pour les salles de marchés d'une grande banque française.  \nPassionné par les challenges techniques de toutes sortes, je m'intéresse aux écosystèmes Java, .net et js. Fan de code propre, simple et efficace, je suis à l'origine de plusieurs plugins open source pour sonar",
-	"id": 230,
+	"id": 231,
 	"name": "Alexandre Victoor",
 	"photo": "https://avatars3.githubusercontent.com/u/437172?v=3&u=7d698210cb59ae85336eced78d95c8ac426a0af7",
 	"title": "Société Générale",
@@ -1784,21 +1790,21 @@
 	"website": "https://github.com/alexvictoor"
 }, {
 	"bio": "Julien is passionate about open source and development. He has been developing Open Source software for more than 10 years. He is currently employed by Red Hat as contributor of the Vert.x project.",
-	"id": 231,
+	"id": 232,
 	"name": "Julien Viet",
 	"photo": "http://www.gravatar.com/avatar/cb52062fbd7e159b54e3c298d622fe72",
 	"title": "Red Hat",
 	"twitter": "julienviet",
 	"website": "http://blog.julienviet.com"
 }, {
-	"bio": "Jonathan est ingénieur Data.\n \nIl a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données. \n\nIl présente régulièrement des sujets d’actualité lors de conférences.",
-	"id": 232,
+	"bio": "Jonathan est ingénieur Data.\n \nIl a travaillé dans différents contextes, MOA/MOE, développeur Java/Scala/Clojure pour des éditeurs/startups, architecte de plateformes distribuées.  Au cours de son expérience professionnelle, Jonathan s’est spécialisé dans l’analyse de sources de données pour faciliter la construction d’entrepôt de données. \n\nIl présente régulièrement des sujets d’actualité lors de conférences.",
+	"id": 233,
 	"name": "Jonathan Winandy",
 	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZwAAAAJGE5ZGVkNTQzLWE0ZGQtNDRkZi04NzgwLTcyZWQxNjQ2N2EwYQ.jpg",
 	"twitter": "ahoy_jon"
 }, {
 	"bio": "Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n'ai de cesse d'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m'accaparent: je suis consultant et formateur chez Zenika. Enfin, j'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c'est Python 3.",
-	"id": 233,
+	"id": 234,
 	"name": "Hugo Wood",
 	"photo": "http://www.gravatar.com/avatar/27bb339cd294f60f3392fd7e1f06c7da",
 	"title": "Zenika",
@@ -1806,13 +1812,13 @@
 	"website": "https://github.com/hgwood/blog"
 }, {
 	"bio": "Chris est consultant et formateur chez SERLI à Poitiers. Initialement spécialisé dans la conception et le développement Java. Il s'est intéressé, dans les dernières années aux problématiques liées à la volumétrie et à la haute disponibilité.",
-	"id": 234,
+	"id": 235,
 	"name": "Chris Woodrow",
 	"photo": "http://www.infoq.com/images/team/fr/ChrisWoodrow.jpg",
 	"title": "Serli"
 }, {
 	"bio": "David intervient chez différents clients au domaine fonctionnel varié, pour les aider à réaliser leurs projets.\nPour lui le développement logiciel n’est pas qu’une affaire de technique.\nSon rôle est d’aider ses clients à prendre en compte d’autres aspects, pour que leurs développements informatiques ne soient plus un frein à leur activité mais un atout.",
-	"id": 235,
+	"id": 236,
 	"name": "David Wursteisen",
 	"photo": "https://lh6.googleusercontent.com/-ik6pQvfCBVY/AAAAAAAAAAI/AAAAAAAAAL8/-Sfv4sKFObE/photo.jpg",
 	"title": "SOAT",
@@ -1820,7 +1826,7 @@
 	"website": "https://plus.google.com/118025745356901983994"
 }, {
 	"bio": "Consultant Architecture et DevOps chez Zenika,\nTravaillant depuis 1998 à presque tous les postes techniques de la création et maintenance logicielle, j'accompagne les entreprises dans la transformation de leur système d'information. Passionné par l'industrialisation, je pense que nous touchons la perfection dans la répétition. Je suis naturellement attiré par toute la mouvance DevOps et notamment ce qui touche à la mise en production continue. Je m'intéresse beaucoup à Docker, dont je suis formateur officiel, ainsi qu'à son écosystème qui sont de formidables accélérateurs dans la transformation de l'entreprise. J'aime manger des chips en buvant de la bière dans les habits de ma mère, mais sans les lunettes de soleil. C'est important.",
-	"id": 236,
+	"id": 237,
 	"name": "Youcef Yekhlef",
 	"photo": "https://lh4.googleusercontent.com/-UiwlW27hqEs/AAAAAAAAAAI/AAAAAAAAAAA/wJf3xTK4dsE/photo.jpg",
 	"title": "Zenika",
@@ -1828,7 +1834,7 @@
 	"website": "http://blog.zenika.com"
 }, {
 	"bio": "Hacker at CloudBees\nmais aussi agitateur de communautés, vidéaste amateur, et docker fanboy pasionnnné",
-	"id": 237,
+	"id": 238,
 	"name": "Nicolas de Loof",
 	"photo": "https://pbs.twimg.com/profile_images/1395881019/babychocobo2_400x400.png",
 	"title": "CloudBees, Inc.",
@@ -1836,7 +1842,7 @@
 	"website": "https://blog.loof.fr"
 }, {
 	"bio": "Software Engineer @ Docker working on docker-machine. I drink tests for breakfast, write java, coffee & go code.",
-	"id": 238,
+	"id": 239,
 	"name": "Jean-Laurent de Morlhon",
 	"photo": "https://lh5.googleusercontent.com/-7kBf_X9xF04/AAAAAAAAAAI/AAAAAAAAAUk/t5XnCOyo6vg/photo.jpg",
 	"title": "Docker",
@@ -1844,8 +1850,8 @@
 	"website": "https://plus.google.com/104208514956133087454"
 }, {
 	"bio": "Architecte Technique \"Data Management\", passionné des systèmes distribuées et de la gestion de la données.\nEx développeur .Net et ex participant de la communauté ALT.Net, passionné par l'OpenSource  (petites participations), développeur pluri-language.\nAdorateur des méthodes agiles, approche Lean Startup, TDD/BDD, DDD et autres trigrammes :)\nC'est en tant que passionné de Big Data que je me présente aujourd'hui.",
-	"id": 239,
-	"name": "mathias kluba",
+	"id": 240,
+	"name": "Mathias Kluba",
 	"photo": "https://lh6.googleusercontent.com/-09qEvyzMBdQ/AAAAAAAAAAI/AAAAAAAAIeI/tiCFbCuhldo/photo.jpg",
 	"title": "Société Générale",
 	"twitter": "mathiaskluba",
