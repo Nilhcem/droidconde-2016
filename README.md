@@ -2,8 +2,12 @@
 
 Sample app for the "2016 Android Developer Toolbox" talk at devoxx France
 
+[<img src="https://dply.me/bc1bx1/button/large" alt="Try it on your device via DeployGate">](https://dply.me/99u73s#install)
+
 
 ## Features
+
+![devoxxfr2016 Android screenshots][]
 
 * See all sessions
 * Manage your schedule
@@ -61,6 +65,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
+[devoxxfr2016 Android screenshots]: https://raw.githubusercontent.com/Nilhcem/devoxxfr-2016/master/assets/screenshots/screenshots.jpg
 [Droidcon PL 2015 mobile app]: https://github.com/droidconpl/droidcon-2015-mobile-app
 [Google I/O app]: https://github.com/google/iosched
 [DroidKaigi 2016 app]: https://github.com/konifar/droidkaigi2016/
