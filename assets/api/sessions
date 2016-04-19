@@ -9,7 +9,7 @@
 	"duration": 180,
 	"id": 2,
 	"roomId": 1,
-	"speakersId": [234, 76],
+	"speakersId": [235, 76],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture découplée grâce aux Reactive Extensions"
 }, {
@@ -17,7 +17,7 @@
 	"duration": 180,
 	"id": 3,
 	"roomId": 2,
-	"speakersId": [178],
+	"speakersId": [179],
 	"startAt": "2016-04-20 09:30",
 	"title": "ArrayList et LinkedList sont dans un bateau"
 }, {
@@ -25,7 +25,7 @@
 	"duration": 180,
 	"id": 4,
 	"roomId": 3,
-	"speakersId": [213],
+	"speakersId": [214],
 	"startAt": "2016-04-20 09:30",
 	"title": "Architecture Android et bonnes pratiques"
 }, {
@@ -41,7 +41,7 @@
 	"duration": 180,
 	"id": 6,
 	"roomId": 4,
-	"speakersId": [158, 151],
+	"speakersId": [159, 152],
 	"startAt": "2016-04-20 09:30",
 	"title": "Property-Based Testing, enfin pour tout le monde"
 }, {
@@ -57,7 +57,7 @@
 	"duration": 180,
 	"id": 8,
 	"roomId": 21,
-	"speakersId": [189],
+	"speakersId": [190],
 	"startAt": "2016-04-20 09:30",
 	"title": "Git ProTips (HoL)"
 }, {
@@ -65,7 +65,7 @@
 	"duration": 180,
 	"id": 9,
 	"roomId": 22,
-	"speakersId": [119, 141, 218],
+	"speakersId": [120, 142, 219],
 	"startAt": "2016-04-20 09:30",
 	"title": "Déployez vos applications sur un cluster Kubernetes avec Ansible"
 }, {
@@ -73,15 +73,15 @@
 	"duration": 180,
 	"id": 10,
 	"roomId": 5,
-	"speakersId": [131, 4],
+	"speakersId": [132, 4],
 	"startAt": "2016-04-20 09:30",
 	"title": "Web Real Time Communication par la pratique"
 }, {
-	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\n\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.",
+	"description": "Vert.x 3 est une librairie pour créer des applications réactives s’exécutant sur une machine virtuelle Java. Vert.x 3 offre un très bon niveau de performances et une API petite et simple. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuée non seulement en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon. Vert.x 3 permet également d’intégrer des applications _non-vert.x_ tel que node.js, .NET ou C.\n\nCet atelier vous propose une introduction au développement d’applications « micro-services » avec vert.x. Vous développerez une application polyglotte (utilisant différents langages de programmation) déployée dans un ensemble de conteneurs docker interconnectés.",
 	"duration": 180,
 	"id": 11,
 	"roomId": 12,
-	"speakersId": [82, 230],
+	"speakersId": [82, 231],
 	"startAt": "2016-04-20 09:30",
 	"title": "Vert.x - passez de 0 à (micro-) héros"
 }, {
@@ -89,7 +89,7 @@
 	"duration": 180,
 	"id": 12,
 	"roomId": 14,
-	"speakersId": [99, 233],
+	"speakersId": [99, 234],
 	"startAt": "2016-04-20 09:30",
 	"title": "Développez une application \"Time Series\" avec Apache Spark, HBase et l'API Kakfa"
 }, {
@@ -97,7 +97,7 @@
 	"duration": 180,
 	"id": 13,
 	"roomId": 15,
-	"speakersId": [202],
+	"speakersId": [203],
 	"startAt": "2016-04-20 09:30",
 	"title": "Playing with Pepper robot"
 }, {
@@ -105,7 +105,7 @@
 	"duration": 180,
 	"id": 14,
 	"roomId": 8,
-	"speakersId": [69, 153],
+	"speakersId": [69, 154],
 	"startAt": "2016-04-20 09:30",
 	"title": "A lite Rx API for the JVM"
 }, {
@@ -113,7 +113,7 @@
 	"duration": 180,
 	"id": 15,
 	"roomId": 9,
-	"speakersId": [231, 120, 42],
+	"speakersId": [232, 121, 42],
 	"startAt": "2016-04-20 09:30",
 	"title": "Introduction à Scala"
 }, {
@@ -127,7 +127,7 @@
 	"duration": 180,
 	"id": 17,
 	"roomId": 1,
-	"speakersId": [56, 169],
+	"speakersId": [56, 170],
 	"startAt": "2016-04-20 13:30",
 	"title": "Spring Boot 1.3 pour le web"
 }, {
@@ -135,7 +135,7 @@
 	"duration": 180,
 	"id": 18,
 	"roomId": 2,
-	"speakersId": [64, 149, 184],
+	"speakersId": [64, 150, 185],
 	"startAt": "2016-04-20 13:30",
 	"title": "Pourquoi il ne suffira pas de faire du HTTP 2.0 pour faire des applications performantes..."
 }, {
@@ -159,7 +159,7 @@
 	"duration": 180,
 	"id": 21,
 	"roomId": 4,
-	"speakersId": [134],
+	"speakersId": [135],
 	"startAt": "2016-04-20 13:30",
 	"title": "La Blockchain en détail"
 }, {
@@ -167,7 +167,7 @@
 	"duration": 180,
 	"id": 22,
 	"roomId": 20,
-	"speakersId": [18, 132],
+	"speakersId": [18, 133],
 	"startAt": "2016-04-20 13:30",
 	"title": "3 heures pour développer un microservice avec les micro frameworks Java"
 }, {
@@ -175,7 +175,7 @@
 	"duration": 180,
 	"id": 23,
 	"roomId": 21,
-	"speakersId": [145, 28],
+	"speakersId": [146, 28],
 	"startAt": "2016-04-20 13:30",
 	"title": "Apache Kafka - Stream Data Platform"
 }, {
@@ -183,7 +183,7 @@
 	"duration": 180,
 	"id": 24,
 	"roomId": 22,
-	"speakersId": [1, 174],
+	"speakersId": [1, 175],
 	"startAt": "2016-04-20 13:30",
 	"title": "Let's React : le lab !!!"
 }, {
@@ -191,7 +191,7 @@
 	"duration": 180,
 	"id": 25,
 	"roomId": 5,
-	"speakersId": [160, 70, 58],
+	"speakersId": [161, 70, 58],
 	"startAt": "2016-04-20 13:30",
 	"title": "Déploiement d'une app distribuée sur Mesos avec Docker, Marathon et MesosDNS"
 }, {
@@ -199,7 +199,7 @@
 	"duration": 180,
 	"id": 26,
 	"roomId": 12,
-	"speakersId": [180, 179, 33],
+	"speakersId": [181, 180, 33],
 	"startAt": "2016-04-20 13:30",
 	"title": "Event Storming : comprendre le métier autrement"
 }, {
@@ -207,7 +207,7 @@
 	"duration": 180,
 	"id": 27,
 	"roomId": 14,
-	"speakersId": [98, 168],
+	"speakersId": [98, 169],
 	"startAt": "2016-04-20 13:30",
 	"title": "Hand's on Web Components with Polymer"
 }, {
@@ -215,7 +215,7 @@
 	"duration": 180,
 	"id": 28,
 	"roomId": 15,
-	"speakersId": [128],
+	"speakersId": [129],
 	"startAt": "2016-04-20 13:30",
 	"title": "Bluemix en Pratique - Nouveautés 2016"
 }, {
@@ -223,7 +223,7 @@
 	"duration": 180,
 	"id": 29,
 	"roomId": 8,
-	"speakersId": [225],
+	"speakersId": [226],
 	"startAt": "2016-04-20 13:30",
 	"title": "Hands-on with Kubernetes - from basic to advanced features"
 }, {
@@ -231,7 +231,7 @@
 	"duration": 180,
 	"id": 30,
 	"roomId": 9,
-	"speakersId": [234, 182],
+	"speakersId": [235, 183],
 	"startAt": "2016-04-20 13:30",
 	"title": "À la découverte de la plateforme Android"
 }, {
@@ -245,7 +245,7 @@
 	"duration": 30,
 	"id": 32,
 	"roomId": 1,
-	"speakersId": [140],
+	"speakersId": [141],
 	"startAt": "2016-04-20 17:10",
 	"title": "De Jenkins Maven/Freestyle à Pipeline"
 }, {
@@ -253,7 +253,7 @@
 	"duration": 30,
 	"id": 33,
 	"roomId": 2,
-	"speakersId": [138],
+	"speakersId": [139],
 	"startAt": "2016-04-20 17:10",
 	"title": "Test Driven Infrastructure avec Docker "
 }, {
@@ -261,7 +261,7 @@
 	"duration": 30,
 	"id": 34,
 	"roomId": 3,
-	"speakersId": [200],
+	"speakersId": [201],
 	"startAt": "2016-04-20 17:10",
 	"title": "Bouchez vos fuites mémoires avec LeakCanary!"
 }, {
@@ -293,7 +293,7 @@
 	"duration": 30,
 	"id": 38,
 	"roomId": 18,
-	"speakersId": [108, 222],
+	"speakersId": [108, 223],
 	"startAt": "2016-04-20 17:10",
 	"title": "JGiven: enfin une réelle documentation vivante."
 }, {
@@ -301,7 +301,7 @@
 	"duration": 30,
 	"id": 39,
 	"roomId": 22,
-	"speakersId": [132],
+	"speakersId": [133],
 	"startAt": "2016-04-20 17:10",
 	"title": "Feign(ant) in Action"
 }, {
@@ -325,7 +325,7 @@
 	"duration": 30,
 	"id": 42,
 	"roomId": 2,
-	"speakersId": [205],
+	"speakersId": [206],
 	"startAt": "2016-04-20 17:55",
 	"title": "Flexbox, et le CSS redevient fun !"
 }, {
@@ -333,7 +333,7 @@
 	"duration": 30,
 	"id": 43,
 	"roomId": 3,
-	"speakersId": [125],
+	"speakersId": [126],
 	"startAt": "2016-04-20 17:55",
 	"title": "Toast Tk : l’automatisation de tests facile, collaborative et open source"
 }, {
@@ -365,7 +365,7 @@
 	"duration": 30,
 	"id": 47,
 	"roomId": 18,
-	"speakersId": [103, 172],
+	"speakersId": [103, 173],
 	"startAt": "2016-04-20 17:55",
 	"title": "SonarLint in action"
 }, {
@@ -373,7 +373,7 @@
 	"duration": 30,
 	"id": 48,
 	"roomId": 22,
-	"speakersId": [210],
+	"speakersId": [211],
 	"startAt": "2016-04-20 17:55",
 	"title": "Akka: découvrons les bases"
 }, {
@@ -397,7 +397,7 @@
 	"duration": 30,
 	"id": 51,
 	"roomId": 2,
-	"speakersId": [118, 77],
+	"speakersId": [119, 77],
 	"startAt": "2016-04-20 18:40",
 	"title": "Boucle de feedback pour le développeur"
 }, {
@@ -405,7 +405,7 @@
 	"duration": 30,
 	"id": 52,
 	"roomId": 3,
-	"speakersId": [219],
+	"speakersId": [220],
 	"startAt": "2016-04-20 18:40",
 	"title": "Continuous Delivery avec GoCD"
 }, {
@@ -413,7 +413,7 @@
 	"duration": 30,
 	"id": 53,
 	"roomId": 16,
-	"speakersId": [236, 133],
+	"speakersId": [237, 134],
 	"startAt": "2016-04-20 18:40",
 	"title": "Quoi d'neuf Docker - live : Docker sur ARM"
 }, {
@@ -449,7 +449,7 @@
 	"startAt": "2016-04-20 18:40",
 	"title": "Dropwizard : création de services REST \"production-ready\" en 25mn"
 }, {
-	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\n\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\n\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
+	"description": "De retour du QG de Google à San Francisco, je vous propose de découvrir un nouveau monstre technologique… Project Tango.\n\nUne tablette Android « augmentée », avec une panoplie de capteurs lui permettant, tel un humain, d'être complètement consciente de son environnement. Ajoutez à cela une API pour maîtriser la bête, le résultat est au rendez-vous:  Une vraie réalité virtuelle et augmentée, et une géolocalisation Indoor digne de ce nom.\nAmis développeurs, un simple HelloWord vous fera croire en la magie.\n\nSceptique? Comme je l'étais… Emballé comme je le suis, vous le serez !",
 	"duration": 30,
 	"id": 58,
 	"roomId": 5,
@@ -467,7 +467,7 @@
 	"duration": 15,
 	"id": 60,
 	"roomId": 1,
-	"speakersId": [97, 156, 44],
+	"speakersId": [97, 157, 44],
 	"startAt": "2016-04-21 09:00",
 	"title": "Keynote de l'équipe Devoxx France"
 }, {
@@ -483,7 +483,7 @@
 	"duration": 20,
 	"id": 62,
 	"roomId": 1,
-	"speakersId": [220],
+	"speakersId": [221],
 	"startAt": "2016-04-21 09:45",
 	"title": "The impact of code in society"
 }, {
@@ -491,7 +491,7 @@
 	"duration": 20,
 	"id": 63,
 	"roomId": 1,
-	"speakersId": [192],
+	"speakersId": [193],
 	"startAt": "2016-04-21 10:10",
 	"title": "L'entrepreunariat au feminin"
 }, {
@@ -505,7 +505,7 @@
 	"duration": 45,
 	"id": 65,
 	"roomId": 1,
-	"speakersId": [237],
+	"speakersId": [238],
 	"startAt": "2016-04-21 11:15",
 	"title": "Pourquoi Maurice ne doit surtout pas coder en go."
 }, {
@@ -513,7 +513,7 @@
 	"duration": 45,
 	"id": 66,
 	"roomId": 2,
-	"speakersId": [217],
+	"speakersId": [218],
 	"startAt": "2016-04-21 11:15",
 	"title": "Cycle de vie des images Docker : problèmes et solutions"
 }, {
@@ -521,7 +521,7 @@
 	"duration": 45,
 	"id": 67,
 	"roomId": 19,
-	"speakersId": [168],
+	"speakersId": [169],
 	"startAt": "2016-04-21 11:15",
 	"title": "Ionic, le framework mobile hybride carrément addictif"
 }, {
@@ -529,7 +529,7 @@
 	"duration": 45,
 	"id": 68,
 	"roomId": 4,
-	"speakersId": [178, 67],
+	"speakersId": [179, 67],
 	"startAt": "2016-04-21 11:15",
 	"title": "Java SE 8 pour les développeurs Java EE"
 }, {
@@ -537,7 +537,7 @@
 	"duration": 45,
 	"id": 69,
 	"roomId": 16,
-	"speakersId": [221],
+	"speakersId": [222],
 	"startAt": "2016-04-21 11:15",
 	"title": "The Quest for Infrastructure Management 2.0"
 }, {
@@ -545,15 +545,15 @@
 	"duration": 45,
 	"id": 70,
 	"roomId": 3,
-	"speakersId": [189],
+	"speakersId": [190],
 	"startAt": "2016-04-21 11:15",
 	"title": "ES6+ maintenant ! (conférence)"
 }, {
-	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+	"description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"?\n[Traefik](http://traefik.io) est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
 	"duration": 45,
 	"id": 71,
 	"roomId": 23,
-	"speakersId": [226],
+	"speakersId": [227],
 	"startAt": "2016-04-21 11:15",
 	"title": "Traefik, a modern reverse-proxy"
 }, {
@@ -561,7 +561,7 @@
 	"duration": 45,
 	"id": 72,
 	"roomId": 6,
-	"speakersId": [167, 51],
+	"speakersId": [168, 51],
 	"startAt": "2016-04-21 11:15",
 	"title": "Mise en oeuvre effective de l'IBM Bluemix Garage Method avec DevOps Toolchains"
 }, {
@@ -583,7 +583,7 @@
 	"duration": 15,
 	"id": 75,
 	"roomId": 4,
-	"speakersId": [229],
+	"speakersId": [230],
 	"startAt": "2016-04-21 12:05",
 	"title": "SSE : le Streaming Simple et Efficace, sans WebSocket"
 }, {
@@ -591,7 +591,7 @@
 	"duration": 15,
 	"id": 76,
 	"roomId": 16,
-	"speakersId": [224],
+	"speakersId": [225],
 	"startAt": "2016-04-21 12:05",
 	"title": "Devenez un King avec Kong"
 }, {
@@ -599,7 +599,7 @@
 	"duration": 15,
 	"id": 77,
 	"roomId": 3,
-	"speakersId": [216],
+	"speakersId": [217],
 	"startAt": "2016-04-21 12:05",
 	"title": "Le réveil de la Thread"
 }, {
@@ -615,7 +615,7 @@
 	"duration": 15,
 	"id": 79,
 	"roomId": 6,
-	"speakersId": [203],
+	"speakersId": [204],
 	"startAt": "2016-04-21 12:05",
 	"title": "Analyzing Images with Google's Cloud Vision API"
 }, {
@@ -623,7 +623,7 @@
 	"duration": 15,
 	"id": 80,
 	"roomId": 12,
-	"speakersId": [147],
+	"speakersId": [148],
 	"startAt": "2016-04-21 12:05",
 	"title": "Des compilations vraiment reproductibles avec Maven"
 }, {
@@ -631,7 +631,7 @@
 	"duration": 15,
 	"id": 81,
 	"roomId": 19,
-	"speakersId": [195],
+	"speakersId": [196],
 	"startAt": "2016-04-21 12:25",
 	"title": "La magie des structures d'Elasticsearch et de Lucene"
 }, {
@@ -639,7 +639,7 @@
 	"duration": 15,
 	"id": 82,
 	"roomId": 4,
-	"speakersId": [152],
+	"speakersId": [153],
 	"startAt": "2016-04-21 12:25",
 	"title": "Le pattern builder à l'heure de Java 8"
 }, {
@@ -647,7 +647,7 @@
 	"duration": 15,
 	"id": 83,
 	"roomId": 16,
-	"speakersId": [137],
+	"speakersId": [138],
 	"startAt": "2016-04-21 12:25",
 	"title": "L'architecture Redux en RxJS"
 }, {
@@ -655,7 +655,7 @@
 	"duration": 15,
 	"id": 84,
 	"roomId": 3,
-	"speakersId": [168],
+	"speakersId": [169],
 	"startAt": "2016-04-21 12:25",
 	"title": "L'ISS en temps réel sur mon mobile en 15 mn ? Pari tenu !"
 }, {
@@ -663,7 +663,7 @@
 	"duration": 15,
 	"id": 85,
 	"roomId": 23,
-	"speakersId": [225],
+	"speakersId": [226],
 	"startAt": "2016-04-21 12:25",
 	"title": "Building a unikernel Java Application"
 }, {
@@ -679,7 +679,7 @@
 	"duration": 15,
 	"id": 87,
 	"roomId": 12,
-	"speakersId": [157],
+	"speakersId": [158],
 	"startAt": "2016-04-21 12:25",
 	"title": "See the Truth"
 }, {
@@ -719,7 +719,7 @@
 	"duration": 45,
 	"id": 92,
 	"roomId": 16,
-	"speakersId": [162],
+	"speakersId": [163],
 	"startAt": "2016-04-21 12:55",
 	"title": "Ansible hors des sentiers battus"
 }, {
@@ -743,7 +743,7 @@
 	"duration": 45,
 	"id": 95,
 	"roomId": 6,
-	"speakersId": [238, 13],
+	"speakersId": [239, 13],
 	"startAt": "2016-04-21 12:55",
 	"title": "Analytics et Big Data, une histoire de cubes..."
 }, {
@@ -751,7 +751,7 @@
 	"duration": 180,
 	"id": 96,
 	"roomId": 12,
-	"speakersId": [237, 91],
+	"speakersId": [238, 91],
 	"startAt": "2016-04-21 12:55",
 	"title": "Exploiter les nouveautés de Docker pour déployer un jeu distribué. "
 }, {
@@ -767,7 +767,7 @@
 	"duration": 180,
 	"id": 98,
 	"roomId": 15,
-	"speakersId": [176],
+	"speakersId": [177],
 	"startAt": "2016-04-21 12:55",
 	"title": "Architecture Informatique...hands-on et en direct !"
 }, {
@@ -783,7 +783,7 @@
 	"duration": 45,
 	"id": 100,
 	"roomId": 2,
-	"speakersId": [16, 171],
+	"speakersId": [16, 172],
 	"startAt": "2016-04-21 13:55",
 	"title": "Progressive Web Apps"
 }, {
@@ -799,7 +799,7 @@
 	"duration": 45,
 	"id": 102,
 	"roomId": 4,
-	"speakersId": [81, 223],
+	"speakersId": [81, 224],
 	"startAt": "2016-04-21 13:55",
 	"title": "DevOps vu par un Hacker"
 }, {
@@ -823,7 +823,7 @@
 	"duration": 45,
 	"id": 105,
 	"roomId": 23,
-	"speakersId": [200],
+	"speakersId": [201],
 	"startAt": "2016-04-21 13:55",
 	"title": "Sharper Better Faster Dagger ‡"
 }, {
@@ -839,7 +839,7 @@
 	"duration": 45,
 	"id": 107,
 	"roomId": 1,
-	"speakersId": [205],
+	"speakersId": [206],
 	"startAt": "2016-04-21 14:55",
 	"title": "100% Stateless avec JWT (JSON Web Token)"
 }, {
@@ -847,7 +847,7 @@
 	"duration": 45,
 	"id": 108,
 	"roomId": 2,
-	"speakersId": [236, 74],
+	"speakersId": [237, 74],
 	"startAt": "2016-04-21 14:55",
 	"title": "(Jenkins, Docker) -> { Orchestrons le Continuous Delivery }"
 }, {
@@ -855,7 +855,7 @@
 	"duration": 45,
 	"id": 109,
 	"roomId": 19,
-	"speakersId": [134, 148],
+	"speakersId": [135, 149],
 	"startAt": "2016-04-21 14:55",
 	"title": "Ce que les stratégies de versioning nous disent des dynamiques d’équipe"
 }, {
@@ -863,7 +863,7 @@
 	"duration": 45,
 	"id": 110,
 	"roomId": 4,
-	"speakersId": [194],
+	"speakersId": [195],
 	"startAt": "2016-04-21 14:55",
 	"title": "Get Hip with JHipster: Spring Boot + AngularJS + Bootstrap"
 }, {
@@ -871,7 +871,7 @@
 	"duration": 45,
 	"id": 111,
 	"roomId": 16,
-	"speakersId": [163],
+	"speakersId": [164],
 	"startAt": "2016-04-21 14:55",
 	"title": "High-Performance Hibernate"
 }, {
@@ -879,7 +879,7 @@
 	"duration": 45,
 	"id": 112,
 	"roomId": 3,
-	"speakersId": [127],
+	"speakersId": [128],
 	"startAt": "2016-04-21 14:55",
 	"title": "De l'IOT, des timeseries et de la prédiction avec Android, Cassandra et Spark"
 }, {
@@ -887,7 +887,7 @@
 	"duration": 45,
 	"id": 113,
 	"roomId": 23,
-	"speakersId": [203, 111],
+	"speakersId": [204, 111],
 	"startAt": "2016-04-21 14:55",
 	"title": "Google Dataflow: The new open model for batch and stream processing"
 }, {
@@ -925,7 +925,7 @@
 	"duration": 45,
 	"id": 118,
 	"roomId": 19,
-	"speakersId": [80, 161],
+	"speakersId": [80, 162],
 	"startAt": "2016-04-21 16:10",
 	"title": "la-quête-du-graal.js"
 }, {
@@ -941,7 +941,7 @@
 	"duration": 45,
 	"id": 120,
 	"roomId": 16,
-	"speakersId": [212, 65],
+	"speakersId": [213, 65],
 	"startAt": "2016-04-21 16:10",
 	"title": "Systèmes distribués, scotch, bouts de ficelle et doigts croisés : une histoire du Streaming à Criteo"
 }, {
@@ -965,7 +965,7 @@
 	"duration": 45,
 	"id": 123,
 	"roomId": 6,
-	"speakersId": [188],
+	"speakersId": [189],
 	"startAt": "2016-04-21 16:10",
 	"title": "Redundancy for a 1117 node Hadoop cluster"
 }, {
@@ -1013,7 +1013,7 @@
 	"duration": 45,
 	"id": 132,
 	"roomId": 3,
-	"speakersId": [66, 168, 84, 35],
+	"speakersId": [66, 169, 84, 35],
 	"startAt": "2016-04-21 17:10",
 	"title": "Faire découvrir la programmation aux enfants, un atelier à la fois"
 }, {
@@ -1021,7 +1021,7 @@
 	"duration": 45,
 	"id": 133,
 	"roomId": 23,
-	"speakersId": [225],
+	"speakersId": [226],
 	"startAt": "2016-04-21 17:10",
 	"title": "Scaling with Kubernetes, Automatically!  Learn Kubernetes API through writing a visualizer to an autoscaler"
 }, {
@@ -1037,7 +1037,7 @@
 	"duration": 30,
 	"id": 135,
 	"roomId": 1,
-	"speakersId": [23, 185],
+	"speakersId": [23, 186],
 	"startAt": "2016-04-21 18:10",
 	"title": "Elasticsearch et Hibernate sont sur un bateau..."
 }, {
@@ -1045,7 +1045,7 @@
 	"duration": 30,
 	"id": 136,
 	"roomId": 2,
-	"speakersId": [32, 187],
+	"speakersId": [32, 188],
 	"startAt": "2016-04-21 18:10",
 	"title": "Mon appli est secure ! Enfin je crois..."
 }, {
@@ -1053,7 +1053,7 @@
 	"duration": 30,
 	"id": 137,
 	"roomId": 3,
-	"speakersId": [2, 155],
+	"speakersId": [2, 156],
 	"startAt": "2016-04-21 18:10",
 	"title": "Débridez les performances de vos applications avec Chronicle Queue"
 }, {
@@ -1069,7 +1069,7 @@
 	"duration": 30,
 	"id": 139,
 	"roomId": 4,
-	"speakersId": [201],
+	"speakersId": [202],
 	"startAt": "2016-04-21 18:10",
 	"title": "Dashing deux en un, pour un dashboard étincelant!"
 }, {
@@ -1077,7 +1077,7 @@
 	"duration": 30,
 	"id": 140,
 	"roomId": 19,
-	"speakersId": [142, 227],
+	"speakersId": [143, 228],
 	"startAt": "2016-04-21 18:10",
 	"title": "Modulariser votre JavaScript avec JSPM et SystemJs"
 }, {
@@ -1101,7 +1101,7 @@
 	"duration": 30,
 	"id": 143,
 	"roomId": 1,
-	"speakersId": [22, 181],
+	"speakersId": [22, 182],
 	"startAt": "2016-04-21 18:55",
 	"title": "Performance: Java vous déclare sa flamme"
 }, {
@@ -1109,7 +1109,7 @@
 	"duration": 30,
 	"id": 144,
 	"roomId": 2,
-	"speakersId": [139],
+	"speakersId": [140],
 	"startAt": "2016-04-21 18:55",
 	"title": "Sécurisez vos applications Web gratuitement en quelques minutes avec Let's Encrypt"
 }, {
@@ -1117,7 +1117,7 @@
 	"duration": 30,
 	"id": 145,
 	"roomId": 3,
-	"speakersId": [89, 235],
+	"speakersId": [89, 236],
 	"startAt": "2016-04-21 18:55",
 	"title": "Rancher, le (petit) orchestrateur docker qui vous veut du bien"
 }, {
@@ -1125,7 +1125,7 @@
 	"duration": 30,
 	"id": 146,
 	"roomId": 16,
-	"speakersId": [173, 186],
+	"speakersId": [174, 187],
 	"startAt": "2016-04-21 18:55",
 	"title": "Construire un Fitbit-like pour chien et chat"
 }, {
@@ -1133,7 +1133,7 @@
 	"duration": 30,
 	"id": 147,
 	"roomId": 4,
-	"speakersId": [129],
+	"speakersId": [130],
 	"startAt": "2016-04-21 18:55",
 	"title": "RAML une autre façon de concevoir vos APIs RESTful"
 }, {
@@ -1157,7 +1157,7 @@
 	"duration": 30,
 	"id": 150,
 	"roomId": 6,
-	"speakersId": [126],
+	"speakersId": [127],
 	"startAt": "2016-04-21 18:55",
 	"title": "Hackons une app AppleWatch"
 }, {
@@ -1173,7 +1173,7 @@
 	"duration": 50,
 	"id": 152,
 	"roomId": 4,
-	"speakersId": [56, 169, 26, 146, 95, 104],
+	"speakersId": [56, 170, 26, 147, 95, 104],
 	"startAt": "2016-04-21 19:45",
 	"title": "The Spring BOF"
 }, {
@@ -1189,7 +1189,7 @@
 	"duration": 50,
 	"id": 154,
 	"roomId": 3,
-	"speakersId": [205],
+	"speakersId": [206],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF speakers : Thérapie de groupe"
 }, {
@@ -1197,7 +1197,7 @@
 	"duration": 50,
 	"id": 155,
 	"roomId": 23,
-	"speakersId": [23, 115, 97, 135, 159],
+	"speakersId": [23, 115, 97, 136, 160],
 	"startAt": "2016-04-21 19:45",
 	"title": "La BoF des Cast Codeurs"
 }, {
@@ -1213,17 +1213,33 @@
 	"duration": 50,
 	"id": 157,
 	"roomId": 12,
-	"speakersId": [81, 223],
+	"speakersId": [81, 224],
 	"startAt": "2016-04-21 19:45",
 	"title": "BOF Sécurité et DevOps partie 1"
 }, {
 	"description": "BOF Devoxx4Kids pour permettre à tous de connaître le statut actuel de l'organisation et de venir poser des questions, rencontrer les différentes équipes.",
 	"duration": 50,
+	"id": 158,
+	"roomId": 14,
+	"speakersId": [66, 169, 84, 35],
+	"startAt": "2016-04-21 19:45",
+	"title": "Devoxx4Kids BOF: Qui, quoi, comment - partie 1"
+}, {
+	"description": "C'est l'occasion pour tout les JUG leader de se retrouver autour d'un verre et d'une passion commun pour la technologie JAVA",
+	"duration": 50,
+	"id": 159,
+	"roomId": 15,
+	"speakersId": [209],
+	"startAt": "2016-04-21 19:45",
+	"title": "BOF des Jugleaders"
+}, {
+	"description": "Vous êtes curieux de savoir comment se prépare un événement pour 2500 personnes sur 3 Jours ? Vous avez envie que Devoxx France soit encore meilleur l'année prochaine ?\nAlors venez échanger avec ceux qui préparent et gèrent l'événement.\n\nQuelques idées de sujets que nous pourrons aborder ensembles: \n\n* La préparation de l'événement \n* La préparation/selection du programme et l'expérience Golden Tickets \n* L'événement une fois sur place",
+	"duration": 50,
 	"id": 160,
 	"roomId": 19,
-	"speakersId": [66, 168, 84, 35],
+	"speakersId": [157, 97, 115, 44],
 	"startAt": "2016-04-21 20:40",
-	"title": "Devoxx4Kids BOF: Qui, quoi, comment"
+	"title": "DevoxxFR - Les coulisses"
 }, {
 	"description": "The subject of Machine Learning is getting more and more attention these days. Meetups around the subject enable that community to stay in touch technically with the latest information in the field. \n\nThis Paris Machine Learning and Data Science Bird of a Feather will provide an overview of the diverse meetups around Machine Learning and Data Science in Paris.  The presentation will be made by organizers of these meetups (Machine Learning, Deep Learning,...).",
 	"duration": 50,
@@ -1237,7 +1253,7 @@
 	"duration": 50,
 	"id": 162,
 	"roomId": 16,
-	"speakersId": [198, 191],
+	"speakersId": [199, 192],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF des Google Developer Group francais"
 }, {
@@ -1249,19 +1265,11 @@
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Apache Cassandra"
 }, {
-	"description": "Vous êtes curieux de savoir comment se prépare un événement pour 2500 personnes sur 3 Jours ? Vous avez envie que Devoxx France soit encore meilleur l'année prochaine ?\nAlors venez échanger avec ceux qui préparent et gèrent l'événement.\n\nQuelques idées de sujets que nous pourrons aborder ensembles: \n\n* La préparation de l'événement \n* La préparation/selection du programme et l'expérience Golden Tickets \n* L'événement une fois sur place",
-	"duration": 50,
-	"id": 164,
-	"roomId": 23,
-	"speakersId": [156, 97, 115, 44],
-	"startAt": "2016-04-21 20:40",
-	"title": "DevoxxFR - Les coulisses"
-}, {
 	"description": "Cette rencontre BOF sera l'occasion de découvrir ce qui se cache derrière le Software Craftsmanship, dans le cadre même de Devoxx. Dans un format de discussion libre, rejoignez-nous avec vos questions, retours et opinions sur les techniques de code et de tests, sur les façons de collaborer en pair programming ou en mob programming, ou encore sur l'attitude en entreprise et sur la notion de professionalisme dans notre métier.\n\nComme à notre habitude le choix des sujets de discussion et / ou d'exercice de code sera laissé librement aux participants en début de session.",
 	"duration": 50,
 	"id": 165,
 	"roomId": 6,
-	"speakersId": [158],
+	"speakersId": [159],
 	"startAt": "2016-04-21 20:40",
 	"title": "BoF Communautés Software Craftsmanship"
 }, {
@@ -1269,15 +1277,23 @@
 	"duration": 50,
 	"id": 166,
 	"roomId": 12,
-	"speakersId": [81, 223],
+	"speakersId": [81, 224],
 	"startAt": "2016-04-21 20:40",
 	"title": "BOF Sécurité et DevOps partie 2"
+}, {
+	"description": "BOF Devoxx4Kids pour permettre à tous de connaître le statut actuel de l'organisation et de venir poser des questions, rencontrer les différentes équipes.",
+	"duration": 50,
+	"id": 167,
+	"roomId": 14,
+	"speakersId": [66, 169, 84, 35],
+	"startAt": "2016-04-21 20:40",
+	"title": "Devoxx4Kids BOF: Qui, quoi, comment - partie 2"
 }, {
 	"description": "En 10 ans Jenkins est devenu la référence des serveurs d'intégration continue. Aujourd'hui, avec plus de 1300 plugins il adresse des besoins de plus en plus variés pour la livraison, le déploiement continue et tellement d'autres usages. Jenkins évolue avec la une version 2.0 prévue pour cette année et de nombreux plugins comme Pipeline, Docker, ...\n\nUtilisateur, contributeur ou simplement intéressé par Jenkins rejoignez-nous!\n\n![](http://mirrors.jenkins-ci.org/art/jenkins-logo/128x128/logo.png)",
 	"duration": 50,
 	"id": 169,
 	"roomId": 19,
-	"speakersId": [140, 236, 115, 74],
+	"speakersId": [141, 237, 115, 74],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF Jenkins"
 }, {
@@ -1285,7 +1301,7 @@
 	"duration": 50,
 	"id": 170,
 	"roomId": 4,
-	"speakersId": [185, 122, 11],
+	"speakersId": [186, 123, 11],
 	"startAt": "2016-04-21 21:35",
 	"title": "BOF Elasticsearch / Kibana"
 }, {
@@ -1301,7 +1317,7 @@
 	"duration": 50,
 	"id": 172,
 	"roomId": 3,
-	"speakersId": [88, 127, 144],
+	"speakersId": [88, 128, 145],
 	"startAt": "2016-04-21 21:35",
 	"title": "BoF Duchess France"
 }, {
@@ -1320,14 +1336,6 @@
 	"speakersId": [46],
 	"startAt": "2016-04-21 21:35",
 	"title": "Real Time Analytics on Time Series @ Scale with Riak / WarpScript / Spark "
-}, {
-	"description": "C'est l'occasion pour tout les JUG leader de se retrouver autour d'un verre et d'une passion commun pour la technologie JAVA",
-	"duration": 50,
-	"id": 175,
-	"roomId": 12,
-	"speakersId": [208],
-	"startAt": "2016-04-21 21:35",
-	"title": "BOF des Jugleaders"
 }, {
 	"duration": 60,
 	"id": 178,
@@ -1363,7 +1371,7 @@
 	"duration": 20,
 	"id": 182,
 	"roomId": 1,
-	"speakersId": [211],
+	"speakersId": [212],
 	"startAt": "2016-04-22 10:15",
 	"title": "Le Service Public à l'heure d'internet"
 }, {
@@ -1377,7 +1385,7 @@
 	"duration": 160,
 	"id": 184,
 	"roomId": 12,
-	"speakersId": [96, 193],
+	"speakersId": [96, 194],
 	"startAt": "2016-04-22 11:00",
 	"title": "Securiser son développement avec 10 outils open-source"
 }, {
@@ -1385,7 +1393,7 @@
 	"duration": 160,
 	"id": 185,
 	"roomId": 14,
-	"speakersId": [229, 137],
+	"speakersId": [230, 138],
 	"startAt": "2016-04-22 11:00",
 	"title": "Baptême du feu avec Rx"
 }, {
@@ -1401,15 +1409,15 @@
 	"duration": 160,
 	"id": 188,
 	"roomId": 8,
-	"speakersId": [214, 197],
+	"speakersId": [215, 198],
 	"startAt": "2016-04-22 11:00",
 	"title": "Cassandra/Spark Lan Party"
 }, {
-	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge.",
+	"description": "TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. \nAfter a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge.",
 	"duration": 160,
 	"id": 189,
 	"roomId": 9,
-	"speakersId": [204],
+	"speakersId": [205],
 	"startAt": "2016-04-22 11:00",
 	"title": "TinkerForge Live Hacking"
 }, {
@@ -1425,7 +1433,7 @@
 	"duration": 45,
 	"id": 191,
 	"roomId": 2,
-	"speakersId": [142],
+	"speakersId": [143],
 	"startAt": "2016-04-22 11:15",
 	"title": "D'Angular 1 à Angular 2 : Préparez vous dès maintenant à la migration"
 }, {
@@ -1465,7 +1473,7 @@
 	"duration": 45,
 	"id": 196,
 	"roomId": 23,
-	"speakersId": [166],
+	"speakersId": [167],
 	"startAt": "2016-04-22 11:15",
 	"title": "How to defeat feature gluttony?"
 }, {
@@ -1473,7 +1481,7 @@
 	"duration": 45,
 	"id": 197,
 	"roomId": 6,
-	"speakersId": [190],
+	"speakersId": [191],
 	"startAt": "2016-04-22 11:15",
 	"title": "Application Performance Management : facilitateur de DevOps. Etude du cas Groupama"
 }, {
@@ -1487,7 +1495,7 @@
 	"duration": 15,
 	"id": 199,
 	"roomId": 19,
-	"speakersId": [130],
+	"speakersId": [131],
 	"startAt": "2016-04-22 12:05",
 	"title": "La sécurité applicative pour les nuls (et les autres aussi)"
 }, {
@@ -1527,7 +1535,7 @@
 	"duration": 15,
 	"id": 204,
 	"roomId": 6,
-	"speakersId": [194],
+	"speakersId": [195],
 	"startAt": "2016-04-22 12:05",
 	"title": "Writing an InfoQ Mini Book with Asciidoctor"
 }, {
@@ -1583,7 +1591,7 @@
 	"duration": 45,
 	"id": 211,
 	"roomId": 1,
-	"speakersId": [135],
+	"speakersId": [136],
 	"startAt": "2016-04-22 12:55",
 	"title": "Le design d'API REST, un débat sans fin ?"
 }, {
@@ -1591,7 +1599,7 @@
 	"duration": 45,
 	"id": 212,
 	"roomId": 2,
-	"speakersId": [121],
+	"speakersId": [122],
 	"startAt": "2016-04-22 12:55",
 	"title": "How to stop wasting your time and start performing useful code reviews"
 }, {
@@ -1607,7 +1615,7 @@
 	"duration": 45,
 	"id": 214,
 	"roomId": 4,
-	"speakersId": [175],
+	"speakersId": [176],
 	"startAt": "2016-04-22 12:55",
 	"title": "Traiter 3 milliards de requêtes par jour. Qu'avons nous appris ?"
 }, {
@@ -1639,7 +1647,7 @@
 	"duration": 45,
 	"id": 218,
 	"roomId": 6,
-	"speakersId": [53, 164],
+	"speakersId": [53, 165],
 	"startAt": "2016-04-22 12:55",
 	"title": "Swift : nouvelles du front"
 }, {
@@ -1647,7 +1655,7 @@
 	"duration": 45,
 	"id": 219,
 	"roomId": 1,
-	"speakersId": [177],
+	"speakersId": [178],
 	"startAt": "2016-04-22 13:55",
 	"title": "HTTPS n’aura plus de secret pour vous"
 }, {
@@ -1655,7 +1663,7 @@
 	"duration": 45,
 	"id": 220,
 	"roomId": 2,
-	"speakersId": [146],
+	"speakersId": [147],
 	"startAt": "2016-04-22 13:55",
 	"title": "The Bootiful Microservice"
 }, {
@@ -1663,7 +1671,7 @@
 	"duration": 45,
 	"id": 221,
 	"roomId": 19,
-	"speakersId": [232],
+	"speakersId": [233],
 	"startAt": "2016-04-22 13:55",
 	"title": "Kill all the REST with the Falcor"
 }, {
@@ -1671,7 +1679,7 @@
 	"duration": 45,
 	"id": 222,
 	"roomId": 4,
-	"speakersId": [136, 199],
+	"speakersId": [137, 200],
 	"startAt": "2016-04-22 13:55",
 	"title": "Microservices IRL: ça fonctionne chez un client, on vous dit comment!"
 }, {
@@ -1703,7 +1711,7 @@
 	"duration": 45,
 	"id": 226,
 	"roomId": 6,
-	"speakersId": [215],
+	"speakersId": [216],
 	"startAt": "2016-04-22 13:55",
 	"title": "Gérer les erreurs avec l'aide du système de types de Scala !"
 }, {
@@ -1719,7 +1727,7 @@
 	"duration": 45,
 	"id": 228,
 	"roomId": 2,
-	"speakersId": [157],
+	"speakersId": [158],
 	"startAt": "2016-04-22 14:55",
 	"title": "DevOps sur Android : D'un git push à une release sur le Play Store"
 }, {
@@ -1727,7 +1735,7 @@
 	"duration": 45,
 	"id": 229,
 	"roomId": 19,
-	"speakersId": [124],
+	"speakersId": [125],
 	"startAt": "2016-04-22 14:55",
 	"title": "Dockerized system testing, with a dash of chaos"
 }, {
@@ -1735,7 +1743,7 @@
 	"duration": 45,
 	"id": 230,
 	"roomId": 4,
-	"speakersId": [207, 178],
+	"speakersId": [208, 179],
 	"startAt": "2016-04-22 14:55",
 	"title": "Les nouveautés de CDI 2.0"
 }, {
@@ -1743,7 +1751,7 @@
 	"duration": 45,
 	"id": 231,
 	"roomId": 16,
-	"speakersId": [154, 228, 165],
+	"speakersId": [155, 229, 166],
 	"startAt": "2016-04-22 14:55",
 	"title": "Combining stream processing and in-memory datagrids for near-real time aggregation & notifications"
 }, {
@@ -1751,7 +1759,7 @@
 	"duration": 45,
 	"id": 232,
 	"roomId": 3,
-	"speakersId": [206],
+	"speakersId": [207],
 	"startAt": "2016-04-22 14:55",
 	"title": "Scalez de 0 à 10 millions d'utilisateurs avec AWS"
 }, {
@@ -1767,7 +1775,7 @@
 	"duration": 45,
 	"id": 234,
 	"roomId": 6,
-	"speakersId": [122],
+	"speakersId": [123],
 	"startAt": "2016-04-22 14:55",
 	"title": "Rawr. Unified time series expressions with Timelion"
 }, {
@@ -1789,7 +1797,7 @@
 	"duration": 45,
 	"id": 237,
 	"roomId": 2,
-	"speakersId": [158],
+	"speakersId": [159],
 	"startAt": "2016-04-22 16:10",
 	"title": "Living Documentation : vous allez aimer la documentation !"
 }, {
@@ -1797,7 +1805,7 @@
 	"duration": 45,
 	"id": 238,
 	"roomId": 19,
-	"speakersId": [92],
+	"speakersId": [92, 118],
 	"startAt": "2016-04-22 16:10",
 	"title": "Blockchain as a Trust Machine ? Vers une économie programmable "
 }, {
@@ -1805,7 +1813,7 @@
 	"duration": 45,
 	"id": 239,
 	"roomId": 4,
-	"speakersId": [209],
+	"speakersId": [210],
 	"startAt": "2016-04-22 16:10",
 	"title": "Java (8) eXperiments"
 }, {
@@ -1821,7 +1829,7 @@
 	"duration": 45,
 	"id": 241,
 	"roomId": 3,
-	"speakersId": [150],
+	"speakersId": [151],
 	"startAt": "2016-04-22 16:10",
 	"title": "La boîte à outils du développeur Android de 2016"
 }, {
@@ -1829,7 +1837,7 @@
 	"duration": 45,
 	"id": 242,
 	"roomId": 23,
-	"speakersId": [170],
+	"speakersId": [171],
 	"startAt": "2016-04-22 16:10",
 	"title": "Terracotta Off-Heap pour les nuls"
 }, {
@@ -1837,7 +1845,7 @@
 	"duration": 45,
 	"id": 243,
 	"roomId": 6,
-	"speakersId": [183],
+	"speakersId": [184],
 	"startAt": "2016-04-22 16:10",
 	"title": "New Data Science: Functional, Distributed, JVM... and Agile"
 }, {
@@ -1845,7 +1853,7 @@
 	"duration": 45,
 	"id": 244,
 	"roomId": 1,
-	"speakersId": [194],
+	"speakersId": [195],
 	"startAt": "2016-04-22 17:10",
 	"title": "The Art of Angular in 2016"
 }, {
@@ -1861,7 +1869,7 @@
 	"duration": 45,
 	"id": 246,
 	"roomId": 19,
-	"speakersId": [143, 45, 34],
+	"speakersId": [144, 45, 34],
 	"startAt": "2016-04-22 17:10",
 	"title": "L'odyssée du Continuous Delivery"
 }, {
@@ -1869,7 +1877,7 @@
 	"duration": 45,
 	"id": 247,
 	"roomId": 4,
-	"speakersId": [184, 102],
+	"speakersId": [185, 102],
 	"startAt": "2016-04-22 17:10",
 	"title": "DDD: et si on reprenait l'histoire par le bon bout ?"
 }, {
@@ -1877,7 +1885,7 @@
 	"duration": 45,
 	"id": 248,
 	"roomId": 16,
-	"speakersId": [196, 9],
+	"speakersId": [197, 9],
 	"startAt": "2016-04-22 17:10",
 	"title": "Infra as Code, choisissez vous la pilule rouge ou la pilule bleue ?"
 }, {
@@ -1885,7 +1893,7 @@
 	"duration": 45,
 	"id": 249,
 	"roomId": 3,
-	"speakersId": [123],
+	"speakersId": [124],
 	"startAt": "2016-04-22 17:10",
 	"title": "La voiture connectée - un IoT au potentiel immense"
 }, {
@@ -1893,7 +1901,7 @@
 	"duration": 45,
 	"id": 250,
 	"roomId": 23,
-	"speakersId": [176],
+	"speakersId": [177],
 	"startAt": "2016-04-22 17:10",
 	"title": "Big Data : Compréhension et Cartographie avec Google BigQuery et CartoDB"
 }, {
@@ -1901,7 +1909,7 @@
 	"duration": 45,
 	"id": 251,
 	"roomId": 6,
-	"speakersId": [147],
+	"speakersId": [148],
 	"startAt": "2016-04-22 17:10",
 	"title": "La modularisation avant l'heure : compiler OpenJDK 8 en 10Mo !"
 }, {
@@ -1909,7 +1917,7 @@
 	"duration": 45,
 	"id": 252,
 	"roomId": 4,
-	"speakersId": [23, 115, 97, 135, 159],
+	"speakersId": [23, 115, 97, 136, 160],
 	"startAt": "2016-04-22 18:10",
 	"title": "Les Cast Codeurs font la fermeture"
 }]
