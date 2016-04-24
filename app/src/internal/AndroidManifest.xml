@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.nilhcem.devoxxfr"
+    package="com.nilhcem.droidconde"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-sdk tools:overrideLibrary="jp.wasabeef.takt"/>
 
     <application
-        android:name=".InternalDevoxxApp"
+        android:name=".InternalDroidconApp"
         tools:replace="android:name"/>
 </manifest>

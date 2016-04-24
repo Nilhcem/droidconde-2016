@@ -1,6 +1,6 @@
 {
-  "name": "devoxxfr2016-mock-server",
-  "description": "Devoxx France 2016 Mock Server",
+  "name": "droidconde2016-mock-server",
+  "description": "Droidcon Berlin 2016 Mock Server",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
