@@ -17,7 +17,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import se.emilsjolander.intentbuilder.Extra;
 import se.emilsjolander.intentbuilder.IntentBuilder;
 
@@ -29,7 +29,7 @@ public class SessionsListActivity extends BaseActivity<SessionsListPresenter> im
     @Inject Picasso picasso;
     @Inject SelectedSessionsMemory selectedSessionsMemory;
 
-    @Bind(R.id.sessions_list_recyclerview) RecyclerView recyclerView;
+    @BindView(R.id.sessions_list_recyclerview) RecyclerView recyclerView;
 
     @Override
     protected SessionsListPresenter newPresenter() {

@@ -16,12 +16,12 @@ import com.nilhcem.droidconde.ui.BaseFragmentPresenter;
 import com.nilhcem.droidconde.utils.Intents;
 import com.nilhcem.droidconde.utils.Views;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.OnClick;
 
 public class VenueFragment extends BaseFragment {
 
-    @Bind(R.id.venue_image) ImageView photo;
+    @BindView(R.id.venue_image) ImageView photo;
 
     private static final float PHOTO_RATIO = 0.413f;
     private static final String COORDINATES_URI = "geo:48.8781456,2.2831654?q=" + Uri.encode("Le Palais des Congrès de Paris");

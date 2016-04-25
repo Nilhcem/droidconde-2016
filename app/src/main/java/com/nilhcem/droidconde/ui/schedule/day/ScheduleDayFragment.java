@@ -25,7 +25,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 @FragmentWithArgs
 public class ScheduleDayFragment extends BaseFragment<ScheduleDayPresenter> implements ScheduleDayView, ScheduleDayEntry.OnSessionClickListener {
@@ -36,7 +36,7 @@ public class ScheduleDayFragment extends BaseFragment<ScheduleDayPresenter> impl
     @Inject Picasso picasso;
     @Inject SelectedSessionsMemory selectedSessionsMemory;
 
-    @Bind(R.id.schedule_day_recyclerview) RecyclerView recyclerView;
+    @BindView(R.id.schedule_day_recyclerview) RecyclerView recyclerView;
 
     private RecyclerView.Adapter<ScheduleDayEntry> adapter;
 

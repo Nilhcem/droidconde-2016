@@ -24,21 +24,24 @@ import com.squareup.picasso.Picasso;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 public class SpeakerDetailsDialogFragment extends AppCompatDialogFragment {
 
     @Inject Picasso picasso;
 
-    @Bind(R.id.speaker_details_name) TextView name;
-    @Bind(R.id.speaker_details_title) TextView title;
-    @Bind(R.id.speaker_details_bio) TextView bio;
-    @Bind(R.id.speaker_details_photo) ImageView photo;
-    @Bind(R.id.speaker_details_links_container) ViewGroup linksContainer;
-    @Bind(R.id.speaker_details_twitter) ImageView twitter;
-    @Bind(R.id.speaker_detail_github) ImageView github;
-    @Bind(R.id.speaker_details_website) ImageView website;
+    @BindView(R.id.speaker_details_name) TextView name;
+    @BindView(R.id.speaker_details_title) TextView title;
+    @BindView(R.id.speaker_details_bio) TextView bio;
+    @BindView(R.id.speaker_details_photo) ImageView photo;
+    @BindView(R.id.speaker_details_links_container) ViewGroup linksContainer;
+    @BindView(R.id.speaker_details_twitter) ImageView twitter;
+    @BindView(R.id.speaker_detail_github) ImageView github;
+    @BindView(R.id.speaker_details_website) ImageView website;
+
+    private Unbinder unbinder;
 
     private static final String EXTRA_SPEAKER = "speaker";
 
@@ -60,7 +63,7 @@ public class SpeakerDetailsDialogFragment extends AppCompatDialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         @SuppressLint("InflateParams")
         View view = LayoutInflater.from(getContext()).inflate(R.layout.speaker_details, null);
-        ButterKnife.bind(this, view);
+        unbinder = ButterKnife.bind(this, view);
         bindSpeaker(getArguments().getParcelable(EXTRA_SPEAKER));
         return new AlertDialog.Builder(getContext())
                 .setView(view)
@@ -70,7 +73,7 @@ public class SpeakerDetailsDialogFragment extends AppCompatDialogFragment {
 
     @Override
     public void onDestroyView() {
-        ButterKnife.unbind(this);
+        unbinder.unbind();
         super.onDestroyView();
     }
 

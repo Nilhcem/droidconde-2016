@@ -20,7 +20,7 @@ import com.nilhcem.droidconde.ui.drawer.DrawerActivity;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 @FragmentWithArgs
 public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> implements SchedulePagerView {
@@ -29,8 +29,8 @@ public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> 
 
     @Inject DataProvider dataProvider;
 
-    @Bind(R.id.schedule_loading) ProgressBar loading;
-    @Bind(R.id.schedule_viewpager) ViewPager viewPager;
+    @BindView(R.id.schedule_loading) ProgressBar loading;
+    @BindView(R.id.schedule_viewpager) ViewPager viewPager;
 
     private Snackbar errorSnackbar;
 

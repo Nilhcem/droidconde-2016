@@ -22,7 +22,7 @@ import org.threeten.bp.temporal.ChronoUnit;
 
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import java8.util.stream.StreamSupport;
 
 public class ScheduleDayEntry extends BaseViewHolder {
@@ -33,20 +33,20 @@ public class ScheduleDayEntry extends BaseViewHolder {
         void onSelectedSessionClicked(Session session);
     }
 
-    @Bind(R.id.schedule_day_entry_time) TextView time;
+    @BindView(R.id.schedule_day_entry_time) TextView time;
 
-    @Bind(R.id.schedule_day_entry_break_card) CardView breakCard;
-    @Bind(R.id.schedule_day_entry_break_text) TextView breakText;
-    @Bind(R.id.schedule_day_entry_break_time) TextView breakTime;
+    @BindView(R.id.schedule_day_entry_break_card) CardView breakCard;
+    @BindView(R.id.schedule_day_entry_break_text) TextView breakText;
+    @BindView(R.id.schedule_day_entry_break_time) TextView breakTime;
 
-    @Bind(R.id.schedule_day_entry_browse_card) CardView browseCard;
+    @BindView(R.id.schedule_day_entry_browse_card) CardView browseCard;
 
-    @Bind(R.id.schedule_day_entry_session_card) CardView sessionCard;
-    @Bind(R.id.schedule_day_entry_session_title) TextView sessionTitle;
-    @Bind(R.id.schedule_day_entry_session_time) TextView sessionTime;
-    @Bind(R.id.schedule_day_entry_session_room) TextView sessionRoom;
-    @Bind(R.id.schedule_day_entry_session_selected_state) ImageView sessionSelectedState;
-    @Bind(R.id.schedule_day_entry_slot_speakers) ViewGroup sessionSpeakers;
+    @BindView(R.id.schedule_day_entry_session_card) CardView sessionCard;
+    @BindView(R.id.schedule_day_entry_session_title) TextView sessionTitle;
+    @BindView(R.id.schedule_day_entry_session_time) TextView sessionTime;
+    @BindView(R.id.schedule_day_entry_session_room) TextView sessionRoom;
+    @BindView(R.id.schedule_day_entry_session_selected_state) ImageView sessionSelectedState;
+    @BindView(R.id.schedule_day_entry_slot_speakers) ViewGroup sessionSpeakers;
 
     private final Picasso picasso;
     private final OnSessionClickListener listener;

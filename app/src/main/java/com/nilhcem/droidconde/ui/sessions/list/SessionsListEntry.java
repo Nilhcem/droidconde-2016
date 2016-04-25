@@ -13,15 +13,15 @@ import com.nilhcem.droidconde.ui.core.recyclerview.BaseViewHolder;
 import com.nilhcem.droidconde.utils.App;
 import com.squareup.picasso.Picasso;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class SessionsListEntry extends BaseViewHolder {
 
-    @Bind(R.id.sessions_list_entry_photo) ImageView photo;
-    @Bind(R.id.sessions_list_entry_title) TextView title;
-    @Bind(R.id.sessions_list_entry_selected_state) ImageView selectedState;
-    @Bind(R.id.sessions_list_entry_room) TextView room;
-    @Bind(R.id.sessions_list_entry_description) TextView description;
+    @BindView(R.id.sessions_list_entry_photo) ImageView photo;
+    @BindView(R.id.sessions_list_entry_title) TextView title;
+    @BindView(R.id.sessions_list_entry_selected_state) ImageView selectedState;
+    @BindView(R.id.sessions_list_entry_room) TextView room;
+    @BindView(R.id.sessions_list_entry_description) TextView description;
 
     private final Picasso picasso;
 

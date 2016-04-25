@@ -34,7 +34,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import se.emilsjolander.intentbuilder.Extra;
 import se.emilsjolander.intentbuilder.IntentBuilder;
 
@@ -47,18 +47,18 @@ public class SessionDetailsActivity extends BaseActivity<SessionDetailsPresenter
     @Inject SessionsDao sessionsDao;
     @Inject SessionsReminder sessionsReminder;
 
-    @Bind(R.id.session_details_layout) View layout;
-    @Bind(R.id.session_details_toolbar) Toolbar toolbar;
-    @Bind(R.id.session_details_toolbar_layout) CollapsingToolbarLayout toolbarLayout;
-    @Bind(R.id.session_details_photo) ImageView photo;
-    @Bind(R.id.session_details_header) ViewGroup header;
-    @Bind(R.id.session_details_title) TextView title;
-    @Bind(R.id.session_details_info) TextView talkInfo;
-    @Bind(R.id.session_details_description_header) View descriptionHeader;
-    @Bind(R.id.session_details_description) TextView description;
-    @Bind(R.id.session_details_speakers_title) TextView speakersTitle;
-    @Bind(R.id.session_details_speakers_container) ViewGroup speakersContainer;
-    @Bind(R.id.session_details_fab) FloatingActionButton fab;
+    @BindView(R.id.session_details_layout) View layout;
+    @BindView(R.id.session_details_toolbar) Toolbar toolbar;
+    @BindView(R.id.session_details_toolbar_layout) CollapsingToolbarLayout toolbarLayout;
+    @BindView(R.id.session_details_photo) ImageView photo;
+    @BindView(R.id.session_details_header) ViewGroup header;
+    @BindView(R.id.session_details_title) TextView title;
+    @BindView(R.id.session_details_info) TextView talkInfo;
+    @BindView(R.id.session_details_description_header) View descriptionHeader;
+    @BindView(R.id.session_details_description) TextView description;
+    @BindView(R.id.session_details_speakers_title) TextView speakersTitle;
+    @BindView(R.id.session_details_speakers_container) ViewGroup speakersContainer;
+    @BindView(R.id.session_details_fab) FloatingActionButton fab;
 
     @Override
     protected SessionDetailsPresenter newPresenter() {

@@ -22,15 +22,15 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class SpeakersListFragment extends BaseFragment<SpeakersListPresenter> implements SpeakersListView {
 
     @Inject Picasso picasso;
     @Inject DataProvider dataProvider;
 
-    @Bind(R.id.speakers_list_loading) ProgressBar loading;
-    @Bind(R.id.speakers_list_recyclerview) RecyclerView recyclerView;
+    @BindView(R.id.speakers_list_loading) ProgressBar loading;
+    @BindView(R.id.speakers_list_recyclerview) RecyclerView recyclerView;
 
     private Snackbar errorSnackbar;
     private SpeakersListAdapter adapter;

@@ -13,13 +13,13 @@ import com.nilhcem.droidconde.data.app.model.Speaker;
 import com.nilhcem.droidconde.ui.core.picasso.CircleTransformation;
 import com.squareup.picasso.Picasso;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class ScheduleDayEntrySpeaker extends LinearLayout {
 
-    @Bind(R.id.schedule_day_entry_speaker_photo) ImageView photo;
-    @Bind(R.id.schedule_day_entry_speaker_name) TextView name;
+    @BindView(R.id.schedule_day_entry_speaker_photo) ImageView photo;
+    @BindView(R.id.schedule_day_entry_speaker_name) TextView name;
 
     public ScheduleDayEntrySpeaker(Context context, Speaker speaker, Picasso picasso) {
         super(context);

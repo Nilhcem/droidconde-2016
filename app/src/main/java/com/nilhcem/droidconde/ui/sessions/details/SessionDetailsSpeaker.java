@@ -13,14 +13,14 @@ import com.nilhcem.droidconde.data.app.model.Speaker;
 import com.nilhcem.droidconde.ui.core.picasso.CircleTransformation;
 import com.squareup.picasso.Picasso;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SessionDetailsSpeaker extends FrameLayout {
 
-    @Bind(R.id.session_details_speaker_photo) ImageView photo;
-    @Bind(R.id.session_details_speaker_name) TextView name;
-    @Bind(R.id.session_details_speaker_title) TextView title;
+    @BindView(R.id.session_details_speaker_photo) ImageView photo;
+    @BindView(R.id.session_details_speaker_name) TextView name;
+    @BindView(R.id.session_details_speaker_title) TextView title;
 
     public SessionDetailsSpeaker(Context context, Speaker speaker, Picasso picasso) {
         super(context);

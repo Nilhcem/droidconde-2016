@@ -16,14 +16,14 @@ import android.view.View;
 import com.nilhcem.droidconde.R;
 import com.nilhcem.droidconde.ui.BaseActivity;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class DrawerActivity extends BaseActivity<DrawerPresenter> implements DrawerActivityView {
 
-    @Bind(R.id.toolbar) Toolbar toolbar;
-    @Bind(R.id.tab_layout) TabLayout tabLayout;
-    @Bind(R.id.drawer_layout) DrawerLayout drawer;
-    @Bind(R.id.drawer_navigation) NavigationView navigationView;
+    @BindView(R.id.toolbar) Toolbar toolbar;
+    @BindView(R.id.tab_layout) TabLayout tabLayout;
+    @BindView(R.id.drawer_layout) DrawerLayout drawer;
+    @BindView(R.id.drawer_navigation) NavigationView navigationView;
 
     private ActionBarDrawerToggle actionBarDrawerToggle;
 

@@ -10,12 +10,12 @@ import com.nilhcem.droidconde.data.app.model.Speaker;
 import com.nilhcem.droidconde.ui.core.recyclerview.BaseViewHolder;
 import com.squareup.picasso.Picasso;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class SpeakersListEntry extends BaseViewHolder {
 
-    @Bind(R.id.speakers_list_entry_photo) ImageView photo;
-    @Bind(R.id.speakers_list_entry_name) TextView name;
+    @BindView(R.id.speakers_list_entry_photo) ImageView photo;
+    @BindView(R.id.speakers_list_entry_name) TextView name;
 
     private final Picasso picasso;
 

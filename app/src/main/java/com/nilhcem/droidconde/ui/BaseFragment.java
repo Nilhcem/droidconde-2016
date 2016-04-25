@@ -8,10 +8,12 @@ import android.view.View;
 import com.hannesdorfmann.fragmentargs.FragmentArgs;
 
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 public abstract class BaseFragment<P extends BaseFragmentPresenter> extends Fragment {
 
     protected P presenter;
+    private Unbinder unbinder;
 
     protected abstract P newPresenter();
 
@@ -28,7 +30,7 @@ public abstract class BaseFragment<P extends BaseFragmentPresenter> extends Frag
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        ButterKnife.bind(this, view);
+        unbinder = ButterKnife.bind(this, view);
         if (presenter != null) {
             presenter.onViewCreated(view, savedInstanceState);
         }
@@ -68,7 +70,7 @@ public abstract class BaseFragment<P extends BaseFragmentPresenter> extends Frag
 
     @Override
     public void onDestroyView() {
-        ButterKnife.unbind(this);
+        unbinder.unbind();
         super.onDestroyView();
     }
 }
