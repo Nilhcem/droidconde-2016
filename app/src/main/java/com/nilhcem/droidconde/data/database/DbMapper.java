@@ -42,7 +42,7 @@ public class DbMapper {
     public List<com.nilhcem.droidconde.data.app.model.Session> toAppSessions(@NonNull List<Session> from, @NonNull Map<Integer, com.nilhcem.droidconde.data.app.model.Speaker> speakersMap) {
         return stream(from).map(session -> {
             LocalDateTime fromTime = localDateTimeAdapter.fromText(session.startAt);
-            return new com.nilhcem.droidconde.data.app.model.Session(session.id, Room.getFromId(session.roomId).name,
+            return new com.nilhcem.droidconde.data.app.model.Session(session.id, Room.getFromId(session.roomId).label,
                     appMapper.toSpeakersList(deserialize(session.speakersIds), speakersMap),
                     session.title, session.description, fromTime, fromTime.plusMinutes(session.duration));
         }).collect(Collectors.toList());
@@ -55,7 +55,7 @@ public class DbMapper {
 
         return new Session(from.getId(), localDateTimeAdapter.toText(from.getFromTime()),
                 (int) ChronoUnit.MINUTES.between(from.getFromTime(), from.getToTime()),
-                Room.getFromName(from.getRoom()).id,
+                Room.getFromLabel(from.getRoom()).id,
                 serialize(appMapper.toSpeakersIds(from.getSpeakers())), from.getTitle(), from.getDescription());
     }
 

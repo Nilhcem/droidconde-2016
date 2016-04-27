@@ -75,7 +75,7 @@ public class NetworkMapperTest {
         assertThat(result.get(0).getId()).isEqualTo(1);
         assertThat(result.get(0).getFromTime()).isEqualTo(startAt);
         assertThat(result.get(0).getToTime()).isEqualTo(startAt.plusMinutes(20));
-        assertThat(result.get(0).getRoom()).isEqualTo(Room.EXHIBITION_FLOOR.name);
+        assertThat(result.get(0).getRoom()).isEqualTo(Room.EXHIBITION_FLOOR.label);
         assertThat(result.get(0).getSpeakers().get(0).getId()).isEqualTo(10);
         assertThat(result.get(0).getSpeakers().get(0).getName()).isEqualTo("ten");
         assertThat(result.get(0).getTitle()).isEqualTo("title");

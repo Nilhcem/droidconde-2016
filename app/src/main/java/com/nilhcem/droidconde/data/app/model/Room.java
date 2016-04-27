@@ -30,11 +30,11 @@ public enum Room {
     PARIS_243_T(23, "Paris 243");
 
     public final int id;
-    public final String name;
+    public final String label;
 
-    Room(int id, String name) {
+    Room(int id, String label) {
         this.id = id;
-        this.name = name;
+        this.label = label;
     }
 
     public static Room getFromId(int id) {
@@ -46,9 +46,9 @@ public enum Room {
         return EXHIBITION_FLOOR;
     }
 
-    public static Room getFromName(@NonNull String name) {
+    public static Room getFromLabel(@NonNull String label) {
         for (Room room : Room.values()) {
-            if (name.equals(room.name)) {
+            if (label.equals(room.label)) {
                 return room;
             }
         }

@@ -70,7 +70,7 @@ public class DbMapperTest {
     public void should_convert_app_session_to_db_session() {
         // Given
         List<Speaker> speakers = singletonList(new Speaker(7, null, null, null, null, null, null, null));
-        Session session = new Session(11, Room.EXHIBITION_FLOOR.name, speakers, "title", "description", now, now.plusMinutes(45));
+        Session session = new Session(11, Room.EXHIBITION_FLOOR.label, speakers, "title", "description", now, now.plusMinutes(45));
 
         // When
         com.nilhcem.droidconde.data.database.model.Session result = dbMapper.fromAppSession(session);

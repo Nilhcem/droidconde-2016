@@ -44,7 +44,7 @@ public class NetworkMapper {
         }
 
         return stream(from).map(session -> new com.nilhcem.droidconde.data.app.model.Session(session.getId(),
-                Room.getFromId(session.getRoomId()).name,
+                Room.getFromId(session.getRoomId()).label,
                 appMapper.toSpeakersList(session.getSpeakersId(), speakersMap),
                 session.getTitle(), session.getDescription(),
                 session.getStartAt(), session.getStartAt().plusMinutes(session.getDuration()))

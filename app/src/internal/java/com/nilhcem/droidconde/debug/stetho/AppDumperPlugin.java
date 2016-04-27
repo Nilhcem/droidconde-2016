@@ -172,8 +172,8 @@ public class AppDumperPlugin implements DumperPlugin {
                     } else {
                         String arg = args.get(1);
                         try {
-                            ApiEndpoint endpoint = ApiEndpoint.valueOf(arg.toUpperCase(Locale.US));
-                            ApiEndpoint.persist(context, endpoint);
+                            ApiEndpoint newEndpoint = ApiEndpoint.valueOf(arg.toUpperCase(Locale.US));
+                            ApiEndpoint.persist(context, newEndpoint);
                         } catch (IllegalArgumentException e) {
                             ApiEndpoint.persist(context, arg);
                         }

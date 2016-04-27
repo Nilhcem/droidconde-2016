@@ -33,10 +33,10 @@ public class RoomTest {
     @Test
     public void should_get_room_for_a_given_name() {
         // Given
-        String name = Room.MAILLOT.name;
+        String name = Room.MAILLOT.label;
 
         // When
-        Room result = Room.getFromName(name);
+        Room result = Room.getFromLabel(name);
 
         // Then
         assertThat(result).isEqualTo(Room.MAILLOT);
@@ -48,7 +48,7 @@ public class RoomTest {
         String name = "INVALID";
 
         // When
-        Room result = Room.getFromName(name);
+        Room result = Room.getFromLabel(name);
 
         // Then
         assertThat(result).isEqualTo(Room.EXHIBITION_FLOOR);
