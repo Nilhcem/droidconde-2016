@@ -16,6 +16,11 @@ import hugo.weaving.DebugLog;
 @DebugLog
 public class BootReceiver extends BroadcastReceiver {
 
+    @Inject SessionsReminder sessionsReminder;
+
+    public BootReceiver() {
+    }
+
     public static void enable(Context context) {
         setActivationState(context, PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
     }
@@ -28,11 +33,6 @@ public class BootReceiver extends BroadcastReceiver {
         ComponentName componentName = new ComponentName(context, BootReceiver.class);
         PackageManager pm = context.getPackageManager();
         pm.setComponentEnabledSetting(componentName, state, PackageManager.DONT_KILL_APP);
-    }
-
-    @Inject SessionsReminder sessionsReminder;
-
-    public BootReceiver() {
     }
 
     @Override

@@ -36,6 +36,8 @@ public class SpeakerDetailsLinkIcon extends ImageView {
                     setDefaultColor();
                 }
                 break;
+            default:
+                break;
         }
         return super.onTouchEvent(event);
     }

@@ -23,7 +23,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Settin
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        bindPreferences();
+        initPreferences();
         initPresenter();
         notifySessions.setOnPreferenceChangeListener((preference, newValue) ->
                 presenter.onNotifySessionsChange((Boolean) newValue));
@@ -39,19 +39,19 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Settin
         appVersion.setSummary(version);
     }
 
-    private void initPresenter() {
-        DroidconApp.get(getContext()).component().inject(this);
-        presenter = new SettingsPresenter(getContext(), this, sessionsReminder);
-        presenter.onCreate();
-    }
-
-    private void bindPreferences() {
+    private void initPreferences() {
         addPreferencesFromResource(R.xml.settings);
         notifySessions = findPreference(R.string.settings_notify_key);
         appVersion = findPreference(R.string.settings_version_key);
         initPreferenceLink(R.string.settings_conf_key);
         initPreferenceLink(R.string.settings_github_key);
         initPreferenceLink(R.string.settings_developer_key);
+    }
+
+    private void initPresenter() {
+        DroidconApp.get(getContext()).component().inject(this);
+        presenter = new SettingsPresenter(getContext(), this, sessionsReminder);
+        presenter.onCreate();
     }
 
     private <T extends Preference> T findPreference(@StringRes int resId) {

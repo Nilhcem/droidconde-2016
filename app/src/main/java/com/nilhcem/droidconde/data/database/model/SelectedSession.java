@@ -15,6 +15,12 @@ public class SelectedSession {
     public static final String SLOT_TIME = "slot_time";
     public static final String SESSION_ID = "session_id";
 
+    public static final Func1<Cursor, SelectedSession> MAPPER = cursor -> {
+        String slotTime = Database.getString(cursor, SLOT_TIME);
+        int sessionId = Database.getInt(cursor, SESSION_ID);
+        return new SelectedSession(slotTime, sessionId);
+    };
+
     public final String slotTime;
     public final int sessionId;
 
@@ -22,12 +28,6 @@ public class SelectedSession {
         this.slotTime = slotTime;
         this.sessionId = sessionId;
     }
-
-    public static final Func1<Cursor, SelectedSession> MAPPER = cursor -> {
-        String slotTime = Database.getString(cursor, SLOT_TIME);
-        int sessionId = Database.getInt(cursor, SESSION_ID);
-        return new SelectedSession(slotTime, sessionId);
-    };
 
     public static final class Builder {
 

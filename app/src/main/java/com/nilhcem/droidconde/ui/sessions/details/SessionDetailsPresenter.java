@@ -40,9 +40,9 @@ public class SessionDetailsPresenter extends BaseActivityPresenter<SessionDetail
         sessionsDao.getSelectedSessions(session.getFromTime())
                 .map(sessions -> {
                     boolean shouldInsert = true;
-                    for (Session session : sessions) {
-                        sessionsReminder.removeSessionReminder(session);
-                        if (session.getId() == this.session.getId()) {
+                    for (Session curSession : sessions) {
+                        sessionsReminder.removeSessionReminder(curSession);
+                        if (curSession.getId() == session.getId()) {
                             shouldInsert = false;
                         }
                     }
@@ -50,7 +50,7 @@ public class SessionDetailsPresenter extends BaseActivityPresenter<SessionDetail
                     if (shouldInsert) {
                         sessionsReminder.addSessionReminder(session);
                     }
-                    sessionsDao.toggleSelectedSessionState(this.session, shouldInsert);
+                    sessionsDao.toggleSelectedSessionState(session, shouldInsert);
                     return shouldInsert;
                 })
                 .subscribeOn(Schedulers.io())

@@ -20,6 +20,18 @@ public class Speaker {
     public static final String GITHUB = "github";
     public static final String PHOTO = "photo";
 
+    public static final Func1<Cursor, Speaker> MAPPER = cursor -> {
+        int id = Database.getInt(cursor, ID);
+        String name = Database.getString(cursor, NAME);
+        String title = Database.getString(cursor, TITLE);
+        String bio = Database.getString(cursor, BIO);
+        String website = Database.getString(cursor, WEBSITE);
+        String twitter = Database.getString(cursor, TWITTER);
+        String github = Database.getString(cursor, GITHUB);
+        String photo = Database.getString(cursor, PHOTO);
+        return new Speaker(id, name, title, bio, website, twitter, github, photo);
+    };
+
     public final int id;
     public final String name;
     public final String title;
@@ -39,18 +51,6 @@ public class Speaker {
         this.github = github;
         this.photo = photo;
     }
-
-    public static final Func1<Cursor, Speaker> MAPPER = cursor -> {
-        int id = Database.getInt(cursor, ID);
-        String name = Database.getString(cursor, NAME);
-        String title = Database.getString(cursor, TITLE);
-        String bio = Database.getString(cursor, BIO);
-        String website = Database.getString(cursor, WEBSITE);
-        String twitter = Database.getString(cursor, TWITTER);
-        String github = Database.getString(cursor, GITHUB);
-        String photo = Database.getString(cursor, PHOTO);
-        return new Speaker(id, name, title, bio, website, twitter, github, photo);
-    };
 
     public static ContentValues createContentValues(Speaker speaker) {
         ContentValues values = new ContentValues();

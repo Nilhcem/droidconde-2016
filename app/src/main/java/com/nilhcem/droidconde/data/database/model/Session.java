@@ -27,16 +27,6 @@ public class Session {
     public final String title;
     public final String description;
 
-    public Session(int id, String startAt, int duration, int roomId, String speakersIds, String title, String description) {
-        this.id = id;
-        this.startAt = startAt;
-        this.duration = duration;
-        this.roomId = roomId;
-        this.speakersIds = speakersIds;
-        this.title = title;
-        this.description = description;
-    }
-
     public static final Func1<Cursor, Session> MAPPER = cursor -> {
         int id = Database.getInt(cursor, ID);
         String startAt = Database.getString(cursor, START_AT);
@@ -47,6 +37,16 @@ public class Session {
         String description = Database.getString(cursor, DESCRIPTION);
         return new Session(id, startAt, duration, roomId, speakersIds, title, description);
     };
+
+    public Session(int id, String startAt, int duration, int roomId, String speakersIds, String title, String description) {
+        this.id = id;
+        this.startAt = startAt;
+        this.duration = duration;
+        this.roomId = roomId;
+        this.speakersIds = speakersIds;
+        this.title = title;
+        this.description = description;
+    }
 
     public static ContentValues createContentValues(Session session) {
         ContentValues values = new ContentValues();
