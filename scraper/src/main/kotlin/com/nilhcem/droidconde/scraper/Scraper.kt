@@ -26,7 +26,7 @@ class Scraper {
                     val speakerDoc = jsoup(url).select("#main-content")
 
                     val name = speakerDoc.select("#main-content-header h1").fmtText()
-                    val photo = speakerDoc.select(".image-style-profile-default").attr("src")
+                    val photo = speakerDoc.select(".image-style-profile-default").attr("src").replace(Regex("\\?itok=.*$"), "")
                     val bio = speakerDoc.select(".views-field-field-profile-vita div").fmtText()
                     val job = speakerDoc.select(".views-field-field-profile-job-title div").fmtText()
                     val company = speakerDoc.select(".views-field-field-profile-organization div a").fmtText()
@@ -74,10 +74,10 @@ class Scraper {
                     val title = sessionDoc.select(".node-header h1 a").fmtText()
                     val description = sessionDoc.select(".field-name-field-session-description .field-items").fmtText()
 
-                    val speakersIds = speakers
+                    val speakersId = speakers
                             .filter { it.sessions.contains(url) }
                             .map { it.id }
-                    Session(index, title, description, speakersIds)
+                    Session(index + 1, title, description, speakersId)
                 }
     }
 

@@ -3,7 +3,7 @@
 	"duration": 45,
 	"id": 1,
 	"roomId": 1,
-	"speakersIds": [1],
+	"speakersId": [1],
 	"startAt": "2016-06-15 17:42",
 	"title": "AOSP: Hack your own Android ROM"
 }, {
@@ -11,7 +11,7 @@
 	"duration": 45,
 	"id": 2,
 	"roomId": 1,
-	"speakersIds": [2],
+	"speakersId": [2],
 	"startAt": "2016-06-15 17:42",
 	"title": "Let it flow - Unidirectional data flow architecture on Android"
 }, {
@@ -19,7 +19,7 @@
 	"duration": 45,
 	"id": 3,
 	"roomId": 1,
-	"speakersIds": [3],
+	"speakersId": [3],
 	"startAt": "2016-06-15 17:42",
 	"title": "@style/Themes.And.Styles.Demystified"
 }, {
@@ -27,7 +27,7 @@
 	"duration": 45,
 	"id": 4,
 	"roomId": 1,
-	"speakersIds": [4],
+	"speakersId": [4],
 	"startAt": "2016-06-15 17:42",
 	"title": "How Android smartphones can help blind people’s mobility"
 }, {
@@ -35,7 +35,7 @@
 	"duration": 45,
 	"id": 5,
 	"roomId": 1,
-	"speakersIds": [5],
+	"speakersId": [5],
 	"startAt": "2016-06-15 17:42",
 	"title": "Android TV: Building apps with Google’s Leanback library"
 }, {
@@ -43,7 +43,7 @@
 	"duration": 45,
 	"id": 6,
 	"roomId": 1,
-	"speakersIds": [6],
+	"speakersId": [6],
 	"startAt": "2016-06-15 17:42",
 	"title": "Designing for Accessibility"
 }, {
@@ -51,7 +51,7 @@
 	"duration": 45,
 	"id": 7,
 	"roomId": 1,
-	"speakersIds": [7],
+	"speakersId": [7],
 	"startAt": "2016-06-15 17:42",
 	"title": "Optimizing and Profiling UI Performance"
 }, {
@@ -59,7 +59,7 @@
 	"duration": 45,
 	"id": 8,
 	"roomId": 1,
-	"speakersIds": [8],
+	"speakersId": [8],
 	"startAt": "2016-06-15 17:42",
 	"title": "Screenshot your Entire App"
 }, {
@@ -67,7 +67,7 @@
 	"duration": 45,
 	"id": 9,
 	"roomId": 1,
-	"speakersIds": [9],
+	"speakersId": [9],
 	"startAt": "2016-06-15 17:42",
 	"title": "Material Design Custom Views"
 }, {
@@ -75,7 +75,7 @@
 	"duration": 45,
 	"id": 10,
 	"roomId": 1,
-	"speakersIds": [10],
+	"speakersId": [10],
 	"startAt": "2016-06-15 17:42",
 	"title": "Loving Lean Layouts"
 }, {
@@ -83,7 +83,7 @@
 	"duration": 45,
 	"id": 11,
 	"roomId": 1,
-	"speakersIds": [11, 20],
+	"speakersId": [11, 20],
 	"startAt": "2016-06-15 17:42",
 	"title": "Professional Data Persistence and Synchronization"
 }, {
@@ -91,7 +91,7 @@
 	"duration": 45,
 	"id": 12,
 	"roomId": 1,
-	"speakersIds": [12],
+	"speakersId": [12],
 	"startAt": "2016-06-15 17:42",
 	"title": "Refactoring Plaid App - A reactive MVP approach"
 }, {
@@ -99,7 +99,7 @@
 	"duration": 45,
 	"id": 13,
 	"roomId": 1,
-	"speakersIds": [13],
+	"speakersId": [13],
 	"startAt": "2016-06-15 17:42",
 	"title": "10 ways to analyse runtime failures with ClassyShark"
 }, {
@@ -107,7 +107,7 @@
 	"duration": 45,
 	"id": 14,
 	"roomId": 1,
-	"speakersIds": [14],
+	"speakersId": [14],
 	"startAt": "2016-06-15 17:42",
 	"title": "Are you coordinating already?"
 }, {
@@ -115,7 +115,7 @@
 	"duration": 45,
 	"id": 15,
 	"roomId": 1,
-	"speakersIds": [15, 22],
+	"speakersId": [15, 22],
 	"startAt": "2016-06-15 17:42",
 	"title": "Modular Android Development"
 }, {
@@ -123,7 +123,7 @@
 	"duration": 45,
 	"id": 16,
 	"roomId": 1,
-	"speakersIds": [16],
+	"speakersId": [16],
 	"startAt": "2016-06-15 17:42",
 	"title": "Elegant?? Unit Testing"
 }, {
@@ -131,7 +131,7 @@
 	"duration": 45,
 	"id": 17,
 	"roomId": 1,
-	"speakersIds": [17],
+	"speakersId": [17],
 	"startAt": "2016-06-15 17:42",
 	"title": "Android industrial: Real-time data visualization"
 }, {
@@ -139,7 +139,7 @@
 	"duration": 45,
 	"id": 18,
 	"roomId": 1,
-	"speakersIds": [18],
+	"speakersId": [18],
 	"startAt": "2016-06-15 17:42",
 	"title": "Augmented Reality and VisualFX with Project Tango"
 }, {
@@ -147,7 +147,7 @@
 	"duration": 45,
 	"id": 19,
 	"roomId": 1,
-	"speakersIds": [19],
+	"speakersId": [19],
 	"startAt": "2016-06-15 17:42",
 	"title": "Practical Bluetooth LE on Android"
 }, {
@@ -155,7 +155,7 @@
 	"duration": 45,
 	"id": 20,
 	"roomId": 1,
-	"speakersIds": [21],
+	"speakersId": [21],
 	"startAt": "2016-06-15 17:42",
 	"title": "What's new in Android"
 }, {
@@ -163,7 +163,7 @@
 	"duration": 45,
 	"id": 21,
 	"roomId": 1,
-	"speakersIds": [23],
+	"speakersId": [23],
 	"startAt": "2016-06-15 17:42",
 	"title": "May I?"
 }, {
@@ -171,7 +171,7 @@
 	"duration": 45,
 	"id": 22,
 	"roomId": 1,
-	"speakersIds": [24],
+	"speakersId": [24],
 	"startAt": "2016-06-15 17:42",
 	"title": "Little helpers for Android development with Kotlin"
 }, {
@@ -179,7 +179,7 @@
 	"duration": 45,
 	"id": 23,
 	"roomId": 1,
-	"speakersIds": [25],
+	"speakersId": [25],
 	"startAt": "2016-06-15 17:42",
 	"title": "Android Wear Development Today"
 }, {
@@ -187,7 +187,7 @@
 	"duration": 45,
 	"id": 24,
 	"roomId": 1,
-	"speakersIds": [26],
+	"speakersId": [26],
 	"startAt": "2016-06-15 17:42",
 	"title": "Adoption of RxJava on the Airbnb Android app"
 }, {
@@ -195,7 +195,7 @@
 	"duration": 45,
 	"id": 25,
 	"roomId": 1,
-	"speakersIds": [27],
+	"speakersId": [27],
 	"startAt": "2016-06-15 17:42",
 	"title": "Scaling Android Apps or: How I learned to stop worrying and love the puzzle."
 }, {
@@ -203,7 +203,7 @@
 	"duration": 45,
 	"id": 26,
 	"roomId": 1,
-	"speakersIds": [28],
+	"speakersId": [28],
 	"startAt": "2016-06-15 17:42",
 	"title": "Life of Enterprise Android developers in the age of Android for Works"
 }, {
@@ -211,7 +211,7 @@
 	"duration": 45,
 	"id": 27,
 	"roomId": 1,
-	"speakersIds": [29],
+	"speakersId": [29],
 	"startAt": "2016-06-15 17:42",
 	"title": "The 2016 Android Developer Toolbox"
 }, {
@@ -219,7 +219,7 @@
 	"duration": 45,
 	"id": 28,
 	"roomId": 1,
-	"speakersIds": [30],
+	"speakersId": [30],
 	"startAt": "2016-06-15 17:42",
 	"title": "The beauty and the beast: WebRTC on Android"
 }, {
@@ -227,7 +227,7 @@
 	"duration": 45,
 	"id": 29,
 	"roomId": 1,
-	"speakersIds": [31],
+	"speakersId": [31],
 	"startAt": "2016-06-15 17:42",
 	"title": "Bluetooth LE - Building Block of the Internet of Things"
 }, {
@@ -235,7 +235,7 @@
 	"duration": 45,
 	"id": 30,
 	"roomId": 1,
-	"speakersIds": [32],
+	"speakersId": [32],
 	"startAt": "2016-06-15 17:42",
 	"title": "Testing made sweet with a Mockito"
 }, {
@@ -243,7 +243,7 @@
 	"duration": 45,
 	"id": 31,
 	"roomId": 1,
-	"speakersIds": [33, 53],
+	"speakersId": [33, 53],
 	"startAt": "2016-06-15 17:42",
 	"title": "\"Let's get physical\" with Nearby and Eddystone"
 }, {
@@ -251,7 +251,7 @@
 	"duration": 45,
 	"id": 32,
 	"roomId": 1,
-	"speakersIds": [34],
+	"speakersId": [34],
 	"startAt": "2016-06-15 17:42",
 	"title": "Redux on Android"
 }, {
@@ -259,7 +259,7 @@
 	"duration": 45,
 	"id": 33,
 	"roomId": 1,
-	"speakersIds": [35],
+	"speakersId": [35],
 	"startAt": "2016-06-15 17:42",
 	"title": "Deep dive into Android Data Binding"
 }, {
@@ -267,7 +267,7 @@
 	"duration": 45,
 	"id": 34,
 	"roomId": 1,
-	"speakersIds": [36],
+	"speakersId": [36],
 	"startAt": "2016-06-15 17:42",
 	"title": "Contextual communications and why you should care."
 }, {
@@ -275,7 +275,7 @@
 	"duration": 45,
 	"id": 35,
 	"roomId": 1,
-	"speakersIds": [37],
+	"speakersId": [37],
 	"startAt": "2016-06-15 17:42",
 	"title": "Testing: why, when and how?"
 }, {
@@ -283,7 +283,7 @@
 	"duration": 45,
 	"id": 36,
 	"roomId": 1,
-	"speakersIds": [38],
+	"speakersId": [38],
 	"startAt": "2016-06-15 17:42",
 	"title": "Unittesting without Robolectric"
 }, {
@@ -291,7 +291,7 @@
 	"duration": 45,
 	"id": 37,
 	"roomId": 1,
-	"speakersIds": [39, 51],
+	"speakersId": [39, 51],
 	"startAt": "2016-06-15 17:42",
 	"title": "Pushing The Boundaries Of The Layout System And Typography"
 }, {
@@ -299,7 +299,7 @@
 	"duration": 45,
 	"id": 38,
 	"roomId": 1,
-	"speakersIds": [40],
+	"speakersId": [40],
 	"startAt": "2016-06-15 17:42",
 	"title": "Reverse engineering is not just for hackers!"
 }, {
@@ -307,7 +307,7 @@
 	"duration": 45,
 	"id": 39,
 	"roomId": 1,
-	"speakersIds": [41],
+	"speakersId": [41],
 	"startAt": "2016-06-15 17:42",
 	"title": "Android in the world of IoT"
 }, {
@@ -315,7 +315,7 @@
 	"duration": 45,
 	"id": 40,
 	"roomId": 1,
-	"speakersIds": [42],
+	"speakersId": [42],
 	"startAt": "2016-06-15 17:42",
 	"title": "Add Human Features to your Software with Project Oxford"
 }, {
@@ -323,7 +323,7 @@
 	"duration": 45,
 	"id": 41,
 	"roomId": 1,
-	"speakersIds": [43],
+	"speakersId": [43],
 	"startAt": "2016-06-15 17:42",
 	"title": "Security at your Fingertips - A dive into Marshmallow’s new fingerprint and keystore APIs."
 }, {
@@ -331,7 +331,7 @@
 	"duration": 45,
 	"id": 42,
 	"roomId": 1,
-	"speakersIds": [44],
+	"speakersId": [44],
 	"startAt": "2016-06-15 17:42",
 	"title": "Recipes in RxJava for Android"
 }, {
@@ -339,7 +339,7 @@
 	"duration": 45,
 	"id": 43,
 	"roomId": 1,
-	"speakersIds": [45],
+	"speakersId": [45],
 	"startAt": "2016-06-15 17:42",
 	"title": "We are all UX"
 }, {
@@ -347,7 +347,7 @@
 	"duration": 45,
 	"id": 44,
 	"roomId": 1,
-	"speakersIds": [46],
+	"speakersId": [46],
 	"startAt": "2016-06-15 17:42",
 	"title": "KEYNOTE: Android Development Yesterday and Today (and maybe even Tomorrow)"
 }, {
@@ -355,7 +355,7 @@
 	"duration": 45,
 	"id": 45,
 	"roomId": 1,
-	"speakersIds": [47],
+	"speakersId": [47],
 	"startAt": "2016-06-15 17:42",
 	"title": "Building simple and secure account systems on Android"
 }, {
@@ -363,7 +363,7 @@
 	"duration": 45,
 	"id": 46,
 	"roomId": 1,
-	"speakersIds": [48],
+	"speakersId": [48],
 	"startAt": "2016-06-15 17:42",
 	"title": "What, Why, How: Successful Localization in Android"
 }, {
@@ -371,7 +371,7 @@
 	"duration": 45,
 	"id": 47,
 	"roomId": 1,
-	"speakersIds": [49],
+	"speakersId": [49],
 	"startAt": "2016-06-15 17:42",
 	"title": "Taming the NDK dragon for cross-platform development"
 }, {
@@ -379,7 +379,7 @@
 	"duration": 45,
 	"id": 48,
 	"roomId": 1,
-	"speakersIds": [50],
+	"speakersId": [50],
 	"startAt": "2016-06-15 17:42",
 	"title": "Half way to clean architecture"
 }, {
@@ -387,7 +387,7 @@
 	"duration": 45,
 	"id": 49,
 	"roomId": 1,
-	"speakersIds": [52],
+	"speakersId": [52],
 	"startAt": "2016-06-15 17:42",
 	"title": "Android in Transition"
 }, {
@@ -395,7 +395,7 @@
 	"duration": 45,
 	"id": 50,
 	"roomId": 1,
-	"speakersIds": [54],
+	"speakersId": [54],
 	"startAt": "2016-06-15 17:42",
 	"title": "Effective Android Development"
 }]
