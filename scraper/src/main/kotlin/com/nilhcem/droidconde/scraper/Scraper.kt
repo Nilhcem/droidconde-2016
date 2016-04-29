@@ -1,7 +1,7 @@
 package com.nilhcem.droidconde.scraper
 
-import com.nilhcem.droidconde.scraper.model.droidcon.Session
-import com.nilhcem.droidconde.scraper.model.droidcon.Speaker
+import com.nilhcem.droidconde.scraper.model.Session
+import com.nilhcem.droidconde.scraper.model.Speaker
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.safety.Whitelist
@@ -27,19 +27,38 @@ class Scraper {
 
                     val name = speakerDoc.select("#main-content-header h1").fmtText()
                     val photo = speakerDoc.select(".image-style-profile-default").attr("src")
+                    val bio = speakerDoc.select(".views-field-field-profile-vita div").fmtText()
                     val job = speakerDoc.select(".views-field-field-profile-job-title div").fmtText()
                     val company = speakerDoc.select(".views-field-field-profile-organization div a").fmtText()
-                    val bio = speakerDoc.select(".views-field-field-profile-vita div").fmtText()
-
                     val links = speakerDoc.select(".views-field-field-profile-links a").map { it.attr("href") }
+                    val sessions = speakerDoc.select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
+
+                    val title = getSpeakerTitle(job, company)
                     val twitter = links.filter { it.contains("twitter.com", true) }.firstOrNull()
                     val github = links.filter { it.contains("github.com", true) }.firstOrNull()
                     val website = links.filter { !it.equals(twitter) && !it.equals(github) }.firstOrNull()
 
-                    val sessions = speakerDoc.select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
-
-                    Speaker(index + 1, name, photo, job, company, bio, website, twitter, github, sessions)
+                    Speaker(index + 1, name, title, photo, bio, website, twitter, github, sessions)
                 }
+    }
+
+    private fun getSpeakerTitle(job: String, company: String): String? {
+        val sb = StringBuilder()
+        if (!job.isEmpty()) {
+            sb.append(job)
+        }
+        if (!company.isEmpty()) {
+            if (!sb.isEmpty()) {
+                sb.append(" @ ")
+            }
+            sb.append(company)
+        }
+
+        if (sb.isEmpty()) {
+            return null
+        } else {
+            return sb.toString()
+        }
     }
 
     fun getSessions(speakers: List<Speaker>): List<Session> {
@@ -58,7 +77,7 @@ class Scraper {
                     val speakersIds = speakers
                             .filter { it.sessions.contains(url) }
                             .map { it.id }
-                    Session(index, url, title, description, speakersIds)
+                    Session(index, title, description, speakersIds)
                 }
     }
 

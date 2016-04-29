@@ -1,7 +1,7 @@
 package com.nilhcem.droidconde.scraper
 
-import com.nilhcem.droidconde.scraper.model.droidcon.Session
-import com.nilhcem.droidconde.scraper.model.droidcon.Speaker
+import com.nilhcem.droidconde.scraper.model.Session
+import com.nilhcem.droidconde.scraper.model.Speaker
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
