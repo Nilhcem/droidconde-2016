@@ -1,5 +1,5 @@
 [{
-	"bio": "International technical speaker and full time software engineer. Current interest is Android and Mobile development, including cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices.&nbsp;http://www.amahdy.net/",
+	"bio": "International technical speaker and full time software engineer. Current interest is Android and Mobile development, including cross platform tools. Also interested in Android internals such as building custom ROMs and customize AOSP for embedded devices. http://www.amahdy.net/",
 	"id": 1,
 	"name": "AMahdy AbdElAziz",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/22790344670_58b91ce3a7_k.jpg",
@@ -14,7 +14,7 @@
 	"twitter": "https://twitter.com/Dorvaryn",
 	"website": "https://plus.google.com/u/0/+BenjaminAugustin-Dorvaryn"
 }, {
-	"bio": "Chris is an engineer working on the Android Support Libraries at Google, most notably AppCompat, Design lib and Palette. He has worked on Android things for over 6 years, from&nbsp;open source libraries to&nbsp;media apps, social networks and most stuff in between.",
+	"bio": "Chris is an engineer working on the Android Support Libraries at Google, most notably AppCompat, Design lib and Palette. He has worked on Android things for over 6 years, from open source libraries to media apps, social networks and most stuff in between.",
 	"id": 3,
 	"name": "Chris Banes",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/IMG_0199.JPG",
@@ -26,7 +26,7 @@
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/74880002b%20-%20Kopie_0.jpg",
 	"title": "Research Assistant @ DLR (German Aerospace Center)"
 }, {
-	"bio": "I'm Joe, a Brighton based Android Developer. I love learning,&nbsp;experimenting and sharing&nbsp;new technologies. Check out some of my projects at hitherejoe.com",
+	"bio": "I'm Joe, a Brighton based Android Developer. I love learning, experimenting and sharing new technologies. Check out some of my projects at hitherejoe.com",
 	"github": "https://github.com/hitherejoe",
 	"id": 5,
 	"name": "Joe Birch",
@@ -67,7 +67,7 @@
 	"twitter": "https://twitter.com/tasomaniac",
 	"website": "https://plus.google.com/+SaidTahsinDane/posts"
 }, {
-	"bio": "Huyen Tue Dao is an Android developer, a graduate with a B.S. and M.S. in Computer and Electrical Engineering from the University of Maryland, College Park, a member of the Android team at <strong>Trello</strong>, and co-creator of the <strong>Android Dialogs</strong>&nbsp;YouTube channel. She began working with Android in 2010.\nThe only other thing that keeps her up as late as development (and often longer) is gaming: PC, console, board, card, anything.",
+	"bio": "Huyen Tue Dao is an Android developer, a graduate with a B.S. and M.S. in Computer and Electrical Engineering from the University of Maryland, College Park, a member of the Android team at Trello, and co-creator of the Android Dialogs YouTube channel. She began working with Android in 2010.\nThe only other thing that keeps her up as late as development (and often longer) is gaming: PC, console, board, card, anything.",
 	"id": 10,
 	"name": "Huyen Dao",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/Avatar_DragonCon_600x600.png",
@@ -95,7 +95,7 @@
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/6%20%281%29.jpg",
 	"title": "Developer Advocate"
 }, {
-	"bio": "As Android user from the beginning, Matthias started to develop for the platform with version 1.6 in 2009. Since then he is following its progress very enthusiastically and worked on several applications, big and small, featured in the Play Store and as specialized customer solutions. During these years, he also co-founded the&nbsp;GDG Bremen&nbsp;and&nbsp;<strong>GDG Hamburg Android</strong>, gave several Android related talks and organized developer events around Google technologies in general. Right now he&nbsp;is a&nbsp;<strong>Android developer</strong>&nbsp;at the Hamburg based startup<strong>&nbsp;Jimdo</strong>.",
+	"bio": "As Android user from the beginning, Matthias started to develop for the platform with version 1.6 in 2009. Since then he is following its progress very enthusiastically and worked on several applications, big and small, featured in the Play Store and as specialized customer solutions. During these years, he also co-founded the GDG Bremen and GDG Hamburg Android, gave several Android related talks and organized developer events around Google technologies in general. Right now he is a Android developer at the Hamburg based startup Jimdo.",
 	"id": 14,
 	"name": "Matthias Friedrich",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/me.jpg",
@@ -109,7 +109,7 @@
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/Photo%20on%2025-02-16%20at%2017.35.jpg",
 	"title": "Android Engineer @ Babbel - Lesson Nine GmbH"
 }, {
-	"bio": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @devscola and @theEvnt facilitating coding dojos,&nbsp;katas and other stuff.",
+	"bio": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @devscola and @theEvnt facilitating coding dojos, katas and other stuff.",
 	"github": "https://github.com/Guardiola31337",
 	"id": 16,
 	"name": "Pablo Guardiola",
@@ -118,13 +118,13 @@
 	"twitter": "https://twitter.com/Guardiola31337",
 	"website": "http://pguardiola.com/"
 }, {
-	"bio": "Performance matters.&nbsp;Having a strong background in bare metal ARM programming, I am always looking for new challenges. My goal is&nbsp;to find elegant, slim and pragmatic solutions for any given problem.",
+	"bio": "Performance matters. Having a strong background in bare metal ARM programming, I am always looking for new challenges. My goal is to find elegant, slim and pragmatic solutions for any given problem.",
 	"id": 17,
 	"name": "Michael Guntli",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/ProfileMichael.png",
 	"title": "Project Leader / Software Engineer @ IMT AG"
 }, {
-	"bio": "Dominik worked at Vodafone on different mobile related products using android in it's early days. After that he joined inovex where he runs the mobile team, focussing on android apps and android embedded projects.&nbsp;",
+	"bio": "Dominik worked at Vodafone on different mobile related products using android in it's early days. After that he joined inovex where he runs the mobile team, focussing on android apps and android embedded projects.",
 	"github": "https://github.com/dhelleberg",
 	"id": 18,
 	"name": "Dominik Helleberg",
@@ -196,7 +196,7 @@
 	"twitter": "https://twitter.com/felipecsl",
 	"website": "http://felipecsl.com"
 }, {
-	"bio": "Serj is an Android Developer at XING, GDG Hamburg organizer and Clean Architecture geek. He is responsible for the&nbsp;framework part that drives the XING Main App, along side other mobile products. He is known for his passion for clean and sustainable code. DI is his middle name, Jenkins is his best friend and he eats Gradle for lunch. You will never hear him \"showing-of\" a feature, but he will not miss an opportunity to tell you about 'this cool new library' or 'this awesome design pattern'.",
+	"bio": "Serj is an Android Developer at XING, GDG Hamburg organizer and Clean Architecture geek. He is responsible for the framework part that drives the XING Main App, along side other mobile products. He is known for his passion for clean and sustainable code. DI is his middle name, Jenkins is his best friend and he eats Gradle for lunch. You will never hear him \"showing-of\" a feature, but he will not miss an opportunity to tell you about 'this cool new library' or 'this awesome design pattern'.",
 	"github": "https://github.com/serj-lotutovici",
 	"id": 27,
 	"name": "Serghei (Serj) Lotutovici",
@@ -221,14 +221,14 @@
 	"twitter": "https://twitter.com/Nilhcem",
 	"website": "https://plus.google.com/+GautierMechling"
 }, {
-	"bio": "Co-founded Viscopic and has years of experience in Android and general mobile development&nbsp;with special passion&nbsp;for&nbsp;collaboration,&nbsp;AR and wearable devices.",
+	"bio": "Co-founded Viscopic and has years of experience in Android and general mobile development with special passion for collaboration, AR and wearable devices.",
 	"id": 30,
 	"name": "Felix Meißgeier",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/12316535_1000790586644674_3388759052443270966_n_0.jpg",
 	"title": "Co-founder and Head of Mobile @ Viscopic",
 	"website": "http://www.viscopic.com"
 }, {
-	"bio": "Steven is focussing on Mobile Technologies and Android in particular since his work on a platform-independent framework for mobile healthcare device integration from 2010 to 2012 for the German Aerospace Center (DLR). After leaving the DLR and while finishing his Master’s degree in Computer Science in Berlin he started to work as a freelance Android developer both working in existing teams and creating apps from scratch on the behalf of customers. In 2014 he founded the company Smart As Apps UG. Starting initially alone he’s now on his way to expand the company in order to deliver full-service Mobile and Web applications.&nbsp;\nWhile his main interests are within connecting devices and Android phones in order to create apps that actually benefit the health and well-being of users he is also interested in automated testing, tool-based code quality improvements, and software development processes in general.",
+	"bio": "Steven is focussing on Mobile Technologies and Android in particular since his work on a platform-independent framework for mobile healthcare device integration from 2010 to 2012 for the German Aerospace Center (DLR). After leaving the DLR and while finishing his Master’s degree in Computer Science in Berlin he started to work as a freelance Android developer both working in existing teams and creating apps from scratch on the behalf of customers. In 2014 he founded the company Smart As Apps UG. Starting initially alone he’s now on his way to expand the company in order to deliver full-service Mobile and Web applications.\nWhile his main interests are within connecting devices and Android phones in order to create apps that actually benefit the health and well-being of users he is also interested in automated testing, tool-based code quality improvements, and software development processes in general.",
 	"id": 31,
 	"name": "Steven Mohr",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/_B8A6494.jpg",
@@ -244,7 +244,7 @@
 	"twitter": "https://twitter.com/molsjeroen",
 	"website": "http://jeroenmols.com/"
 }, {
-	"bio": "Self-taught passionate Android Developer, Interested in&nbsp;Android, IoT and Wearables",
+	"bio": "Self-taught passionate Android Developer, Interested in Android, IoT and Wearables",
 	"id": 33,
 	"name": "Albrecht Noll",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/profil%20droidcon.png",
@@ -252,7 +252,7 @@
 	"twitter": "https://twitter.com/UhrArt",
 	"website": "https://plus.google.com/+AlbrechtNoll"
 }, {
-	"bio": "Living in the beautiful city Bochum, I am currently part of the marvelous team responsible for&nbsp;crafting&nbsp;the trivago&nbsp;Android application.&nbsp;Besides developing&nbsp;I study IT-Security and&nbsp;enjoy&nbsp;going&nbsp;out and having&nbsp;fun with friends in games such as soccer and foosball.",
+	"bio": "Living in the beautiful city Bochum, I am currently part of the marvelous team responsible for crafting the trivago Android application. Besides developing I study IT-Security and enjoy going out and having fun with friends in games such as soccer and foosball.",
 	"github": "https://github.com/rheinfabrik",
 	"id": 34,
 	"name": "Giulio Petek",
@@ -278,13 +278,13 @@
 	"twitter": "https://twitter.com/marcos_placona",
 	"website": "http://lanyrd.com/profile/marcos_placona/"
 }, {
-	"bio": "I’ve been mobile software developer for over nine years and I’ve enjoied every second of it. I am passionate about learning new things every single day.\nChanging perception how developer is perceived is something that I would like to change, &nbsp;from geeky guy working in his place to a person with as much of soft skills as technical proficiency.",
+	"bio": "I’ve been mobile software developer for over nine years and I’ve enjoied every second of it. I am passionate about learning new things every single day.\nChanging perception how developer is perceived is something that I would like to change,  from geeky guy working in his place to a person with as much of soft skills as technical proficiency.",
 	"id": 37,
 	"name": "Tomasz Polanski",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/tomasz_polanski.png",
 	"title": "Software developer @ Futurice"
 }, {
-	"bio": "Danny is in charge of Android development at Groupon in Berlin. Before that he worked for companies like&nbsp;eBay&nbsp;and&nbsp;Alcatel.&nbsp;\nHis mobile career started long before any iPhone with Java ME and Blackberry applications.&nbsp;\nDanny writes and talks about mobile development and testing regularly.",
+	"bio": "Danny is in charge of Android development at Groupon in Berlin. Before that he worked for companies like eBay and Alcatel.\nHis mobile career started long before any iPhone with Java ME and Blackberry applications.\nDanny writes and talks about mobile development and testing regularly.",
 	"github": "http://github.com/dpreussler",
 	"id": 38,
 	"name": "Danny Preussler",
@@ -293,7 +293,7 @@
 	"twitter": "https://twitter.com/PreusslerBerlin",
 	"website": "https://www.linkedin.com/in/danny-preussler-557a3b79"
 }, {
-	"bio": "Software Engineer at Pinterest working towards making all product pins buyable.&nbsp;\nPrior to Pinterest, Thorben has worked on Android&nbsp;at Jelly, Facebook and Gowalla.&nbsp;",
+	"bio": "Software Engineer at Pinterest working towards making all product pins buyable.\nPrior to Pinterest, Thorben has worked on Android at Jelly, Facebook and Gowalla.",
 	"id": 39,
 	"name": "Thorben Primke",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/11813316_10103371101906677_2770008735135401535_n.jpg",
@@ -308,7 +308,7 @@
 	"twitter": "https://twitter.com/themightyjon",
 	"website": "https://plus.google.com/+JonReeve"
 }, {
-	"bio": "A diversified Software Engineer who started with Android since 2009. Selim has&nbsp;a wide spectrum of ICT knowledge with more than 7 years of professional experience in the IT industry within corporate, startups and academia. Selim&nbsp;has conducted presentations, workshops in Android, IoT and related fields in&nbsp;DevFest and other Android meetups.&nbsp;",
+	"bio": "A diversified Software Engineer who started with Android since 2009. Selim has a wide spectrum of ICT knowledge with more than 7 years of professional experience in the IT industry within corporate, startups and academia. Selim has conducted presentations, workshops in Android, IoT and related fields in DevFest and other Android meetups.",
 	"id": 41,
 	"name": "Selim Salman",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/SelimSalman1.png",
@@ -337,7 +337,7 @@
 	"title": "Co-founder @ Alter Ego Solutions",
 	"twitter": "https://twitter.com/sasa_sekulic"
 }, {
-	"bio": "Caroline is a UI/UX designer at Novoda in Berlin where she designs for Android. She is passionate about user-centric design and designer/developer pairing.&nbsp;",
+	"bio": "Caroline is a UI/UX designer at Novoda in Berlin where she designs for Android. She is passionate about user-centric design and designer/developer pairing.",
 	"id": 45,
 	"name": "Caroline Smith",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/10380222_10155038779505322_5215074194964757630_o.jpg",
@@ -396,7 +396,7 @@
 	"twitter": "https://twitter.com/keyboardsurfer",
 	"website": "https://google.com/+BenjaminWeiss"
 }, {
-	"bio": "Passionate about Andorid. I'm focused on a clean tested architecture, beautiful&nbsp;material design and useful libraries with great APIs.",
+	"bio": "Passionate about Andorid. I'm focused on a clean tested architecture, beautiful material design and useful libraries with great APIs.",
 	"id": 53,
 	"name": "Pascal Welsch",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/pascal_dev_fest_2014.jpg",
@@ -404,7 +404,7 @@
 	"twitter": "http://twitter.com/passsy",
 	"website": "http://google.com/+pascalwelsch"
 }, {
-	"bio": "A Software Engineer with 4 years of professional experience in the field of Java and Android applications development. Speaker at Java User Group Kyiv (jug.ua) and author of Android Digest for Ukrainian Software Developers community (dou.ua).\n&nbsp;",
+	"bio": "A Software Engineer with 4 years of professional experience in the field of Java and Android applications development. Speaker at Java User Group Kyiv (jug.ua) and author of Android Digest for Ukrainian Software Developers community (dou.ua).",
 	"id": 54,
 	"name": "Sergii Zhuk",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/ava_small.jpg",

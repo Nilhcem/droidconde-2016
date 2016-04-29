@@ -6,6 +6,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.safety.Whitelist
 import org.jsoup.select.Elements
+import kotlin.text.RegexOption.IGNORE_CASE
 
 class Scraper {
 
@@ -96,12 +97,16 @@ class Scraper {
     }
 
     private fun Elements.fmtText(): String {
-        var html = Jsoup.clean(html(), "", Whitelist.basic(), Document.OutputSettings().prettyPrint(false))
-        html = html.replace(Regex("<br[ /]*>", RegexOption.IGNORE_CASE), "\n")
-        html = html.replace("<p>", "").replace("</p>", "\n")
-        html = html.replace(Regex("\\s*\n\\s*"), "\n")
-        html = html.replace(Regex("^\n"), "")
-        html = html.replace(Regex("\n$"), "")
-        return html
+        return Jsoup.clean(html(), "", Whitelist.basic(),
+                Document.OutputSettings().prettyPrint(false))
+                .replace(Regex("&nbsp;", IGNORE_CASE), " ")
+                .replace(Regex("<br[\\s/]*>", IGNORE_CASE), "\n")
+                .replace(Regex("<p>", IGNORE_CASE), "").replace(Regex("</p>", IGNORE_CASE), "\n")
+                .replace(Regex("<[\\s/]*ul>", IGNORE_CASE), "")
+                .replace(Regex("<li>", IGNORE_CASE), "• ").replace(Regex("</li>", IGNORE_CASE), "")
+                .replace(Regex("\n\n• ", IGNORE_CASE), "\n• ")
+                .replace(Regex("<a\\s[^>]*>", IGNORE_CASE), "").replace(Regex("</a>", IGNORE_CASE), "")
+                .replace(Regex("<[\\s/]*strong>", IGNORE_CASE), "")
+                .replace(Regex("\\s*\n\\s*"), "\n").replace(Regex("^\n"), "").replace(Regex("\n$"), "")
     }
 }
