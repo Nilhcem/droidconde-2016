@@ -100,13 +100,16 @@ class Scraper {
         return Jsoup.clean(html(), "", Whitelist.basic(),
                 Document.OutputSettings().prettyPrint(false))
                 .replace(Regex("&nbsp;", IGNORE_CASE), " ")
+                .replace(Regex("&amp;", IGNORE_CASE), "&")
+                .replace(Regex("&gt;", IGNORE_CASE), ">").replace(Regex("&lt;", IGNORE_CASE), "<")
                 .replace(Regex("<br[\\s/]*>", IGNORE_CASE), "\n")
                 .replace(Regex("<p>", IGNORE_CASE), "").replace(Regex("</p>", IGNORE_CASE), "\n")
-                .replace(Regex("<[\\s/]*ul>", IGNORE_CASE), "")
-                .replace(Regex("<li>", IGNORE_CASE), "• ").replace(Regex("</li>", IGNORE_CASE), "")
+                .replace(Regex("</?ul>", IGNORE_CASE), "")
+                .replace(Regex("<li>", IGNORE_CASE), "• ").replace(Regex("</li>", IGNORE_CASE), "\n")
                 .replace(Regex("\n\n• ", IGNORE_CASE), "\n• ")
                 .replace(Regex("<a\\s[^>]*>", IGNORE_CASE), "").replace(Regex("</a>", IGNORE_CASE), "")
-                .replace(Regex("<[\\s/]*strong>", IGNORE_CASE), "")
+                .replace(Regex("</?strong>", IGNORE_CASE), "")
+                .replace(Regex("</?em>", IGNORE_CASE), "")
                 .replace(Regex("\\s*\n\\s*"), "\n").replace(Regex("^\n"), "").replace(Regex("\n$"), "")
     }
 }

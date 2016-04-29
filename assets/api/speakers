@@ -171,7 +171,7 @@
 	"title": "Senior Dev Lead @ Endava Belgrade",
 	"website": "https://rs.linkedin.com/in/sonjakesic"
 }, {
-	"bio": "I work as a Software Solutions Architect for Ventego Creative in Wellington, New Zealand. I co-founded the company with two partners and I'm also the CTO of Zen Ex Machina, a startup in the fields of digital &amp; user experience consultancy based out of Canberra in Australia.\nMy work really comprises a mix of consulting, training, mentoring and actual development work using a range of technologies, common themes being Java, CFML, JavaScript, Android etc. I'm well versed in Java and some other JVM-based languages like Clojure or Groovy and recently (re-)discovered the pleasure of writing software in Python and Go. Kotlin is my new language love though.\nBack in the day I was doing a lot of front end development work around Adobe Flex, too - that has now pretty much all changed and it's very much Javascript only. I find a lot of pleasure in using JS with frameworks such as jQueryMobile, KendoUI, Require.js or Angular and in building apps using those technologies.\nOther stuff I occasionally do: Write for magazines (currently mainly Heise's iX) or in my Blog, publish a podcast (2 Developers Down Under) with my friend Mark Mandel from Melbourne and since 2007 I fly small, single-engine airplanes around New Zealand and sometimes Australia, currently working on my Commercial Pilot License.",
+	"bio": "I work as a Software Solutions Architect for Ventego Creative in Wellington, New Zealand. I co-founded the company with two partners and I'm also the CTO of Zen Ex Machina, a startup in the fields of digital & user experience consultancy based out of Canberra in Australia.\nMy work really comprises a mix of consulting, training, mentoring and actual development work using a range of technologies, common themes being Java, CFML, JavaScript, Android etc. I'm well versed in Java and some other JVM-based languages like Clojure or Groovy and recently (re-)discovered the pleasure of writing software in Python and Go. Kotlin is my new language love though.\nBack in the day I was doing a lot of front end development work around Adobe Flex, too - that has now pretty much all changed and it's very much Javascript only. I find a lot of pleasure in using JS with frameworks such as jQueryMobile, KendoUI, Require.js or Angular and in building apps using those technologies.\nOther stuff I occasionally do: Write for magazines (currently mainly Heise's iX) or in my Blog, publish a podcast (2 Developers Down Under) with my friend Mark Mandel from Melbourne and since 2007 I fly small, single-engine airplanes around New Zealand and sometimes Australia, currently working on my Commercial Pilot License.",
 	"id": 24,
 	"name": "Kai Koenig",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/kai_bw.jpg",
@@ -261,7 +261,7 @@
 	"twitter": "https://twitter.com/GiloTM",
 	"website": "http://gi-lo.github.io/"
 }, {
-	"bio": "&lt;p&gt;Head of Mobile at Tango Agency and Android developer for the past 5 years. Big fan of reactive programming and design patterns. In his free time he is developing Scrobble FM application, which has been recognized in competitions conducted by the portals AntyApps.pl and Android.com.pl. Besides programming, his time is effectively fulfilled by the culinary experiments and photography.&lt;/p&gt;",
+	"bio": "Head of Mobile at Tango Agency and Android developer for the past 5 years. Big fan of reactive programming and design patterns. In his free time he is developing Scrobble FM application, which has been recognized in competitions conducted by the portals AntyApps.pl and Android.com.pl. Besides programming, his time is effectively fulfilled by the culinary experiments and photography.",
 	"github": "https://github.com/radzio",
 	"id": 35,
 	"name": "Radosław Piekarz",
@@ -300,7 +300,7 @@
 	"title": "Software Engineer @ Pinterest",
 	"website": "https://www.pinterest.com/tprimke/"
 }, {
-	"bio": "A freelance mobile developer and amateur coffee fanatic with more than 6 years experience in Android (still got that G1!), and over 10 years previous in everything from JEE and Swing to C &amp; C++. Passionate about clean code, tests and TDD, and taking things apart to see how they work.",
+	"bio": "A freelance mobile developer and amateur coffee fanatic with more than 6 years experience in Android (still got that G1!), and over 10 years previous in everything from JEE and Swing to C & C++. Passionate about clean code, tests and TDD, and taking things apart to see how they work.",
 	"id": 40,
 	"name": "Jon Reeve",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/001_20150818_170038.jpg",
