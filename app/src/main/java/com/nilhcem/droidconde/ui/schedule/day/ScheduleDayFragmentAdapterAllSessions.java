@@ -41,7 +41,7 @@ public class ScheduleDayFragmentAdapterAllSessions extends RecyclerView.Adapter<
         Session session = pair.first;
         ScheduleSlot slot = pair.second;
 
-        if (session.getRoom().equals(Room.EXHIBITION_FLOOR.label)) {
+        if (session.getRoom().equals(Room.NONE.label)) {
             holder.bindBreakSlot(slot, session, shouldShowTime(slot, position));
         } else {
             holder.bindSelectedSession(slot, session, shouldShowTime(slot, position), selectedSessionsMemory.isSelected(session));
