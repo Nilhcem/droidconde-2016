@@ -32,9 +32,13 @@ class Scraper {
                     val bio = speakerDoc.select(".views-field-field-profile-vita div").fmtText()
 
                     val links = speakerDoc.select(".views-field-field-profile-links a").map { it.attr("href") }
+                    val twitter = links.filter { it.contains("twitter.com", true) }.firstOrNull()
+                    val github = links.filter { it.contains("github.com", true) }.firstOrNull()
+                    val website = links.filter { !it.equals(twitter) && !it.equals(github) }.firstOrNull()
+
                     val sessions = speakerDoc.select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
 
-                    Speaker(index + 1, name, photo, job, company, bio, links, sessions)
+                    Speaker(index + 1, name, photo, job, company, bio, website, twitter, github, sessions)
                 }
     }
 
