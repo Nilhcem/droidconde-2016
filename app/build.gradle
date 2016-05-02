@@ -120,8 +120,6 @@ dependencies {
     compile "com.android.support:design:$supportVersion"
     compile "com.android.support:customtabs:$supportVersion"
 
-    retrolambdaConfig 'com.jakewharton.retrolambda:retrolambda:2.1.0-jake2'
-
     provided 'org.projectlombok:lombok:1.16.8'
 
     compile 'net.sourceforge.streamsupport:streamsupport:1.4.2'
