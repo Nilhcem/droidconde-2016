@@ -1,11 +1,13 @@
 package com.nilhcem.droidconde.scraper
 
+import com.nilhcem.droidconde.scraper.model.Room
 import com.nilhcem.droidconde.scraper.model.Session
 import com.nilhcem.droidconde.scraper.model.Speaker
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.safety.Whitelist
 import org.jsoup.select.Elements
+import java.util.concurrent.TimeUnit
 import kotlin.text.RegexOption.IGNORE_CASE
 
 class Scraper {
@@ -13,6 +15,7 @@ class Scraper {
     companion object {
         val BASE_URL = "http://droidcon.de"
         val SPEAKERS_URL = "$BASE_URL/en/program/speaker"
+        val SLOT_TIME_REGEX = """(\d{2})/(\d{2})/(\d{4}) - (\d{2}):(\d{2}) to (\d{2}):(\d{2})""".toRegex()
     }
 
     fun getSpeakers(): List<Speaker> {
@@ -74,12 +77,33 @@ class Scraper {
 
                     val title = sessionDoc.select(".node-header h1 a").fmtText()
                     val description = sessionDoc.select(".field-name-field-session-description .field-items").fmtText()
+                    val roomId = Room.getRoomId(sessionDoc.select(".field-name-field-session-room").text())
+                    val dateRange = sessionDoc.select(".field-name-field-session-datetime").text()
 
                     val speakersId = speakers
                             .filter { it.sessions.contains(url) }
                             .map { it.id }
-                    Session(index + 1, title, description, speakersId)
+                    val startAt = getStartAt(dateRange)
+                    val duration = getDuration(dateRange)
+
+                    Session(index + 1, title, description, speakersId, startAt, duration, roomId)
                 }
+    }
+
+    private fun getStartAt(dateRange: String): String? {
+        val values = SLOT_TIME_REGEX.matchEntire(dateRange)?.groupValues?.subList(1, 6)
+        if (values != null && values.size == 5) {
+            return "${values[2]}-${values[0]}-${values[1]} ${values[3]}:${values[4]}"
+        }
+        return null
+    }
+
+    private fun getDuration(dateRange: String): Int {
+        val values = SLOT_TIME_REGEX.matchEntire(dateRange)?.groupValues?.subList(4, 8)?.map { it.toLong() }
+        if (values != null && values.size == 4) {
+            return ((TimeUnit.HOURS.toMinutes(values[2]) + values[3]) - (TimeUnit.HOURS.toMinutes(values[0]) + values[1])).toInt()
+        }
+        return 0
     }
 
     private fun jsoup(url: String, nbRetries: Int = 3): Document {

@@ -1,3 +1,3 @@
 package com.nilhcem.droidconde.scraper.model
 
-data class Session(val id: Int, val title: String, val description: String, val speakersId: List<Int>, val startAt: String = "", val duration: Int = 0, val roomId: Int = 0)
+data class Session(val id: Int, val title: String, val description: String, val speakersId: List<Int>, val startAt: String?, val duration: Int, val roomId: Int)
