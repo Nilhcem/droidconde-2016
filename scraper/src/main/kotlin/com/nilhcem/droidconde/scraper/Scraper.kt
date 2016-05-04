@@ -27,22 +27,22 @@ class Scraper {
                 .distinct()
                 .mapIndexed { index, url ->
                     System.out.println("Get speaker: #" + Integer.toString(index) + " - url: " + url);
-                    val speakerDoc = jsoup(url).select("#main-content")
+                    with (jsoup(url).select("#main-content")) {
+                        val name = select("#main-content-header h1").fmtText()
+                        val photo = select(".image-style-profile-default").attr("src").replace(Regex("\\?itok=.*$"), "")
+                        val bio = select(".views-field-field-profile-vita div").fmtText()
+                        val job = select(".views-field-field-profile-job-title div").fmtText()
+                        val company = select(".views-field-field-profile-organization div a").fmtText()
+                        val links = select(".views-field-field-profile-links a").map { it.attr("href") }
+                        val sessions = select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
 
-                    val name = speakerDoc.select("#main-content-header h1").fmtText()
-                    val photo = speakerDoc.select(".image-style-profile-default").attr("src").replace(Regex("\\?itok=.*$"), "")
-                    val bio = speakerDoc.select(".views-field-field-profile-vita div").fmtText()
-                    val job = speakerDoc.select(".views-field-field-profile-job-title div").fmtText()
-                    val company = speakerDoc.select(".views-field-field-profile-organization div a").fmtText()
-                    val links = speakerDoc.select(".views-field-field-profile-links a").map { it.attr("href") }
-                    val sessions = speakerDoc.select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
+                        val title = getSpeakerTitle(job, company)
+                        val twitter = links.filter { it.contains("twitter.com", true) }.firstOrNull()
+                        val github = links.filter { it.contains("github.com", true) }.firstOrNull()
+                        val website = links.filter { !it.equals(twitter) && !it.equals(github) }.firstOrNull()
 
-                    val title = getSpeakerTitle(job, company)
-                    val twitter = links.filter { it.contains("twitter.com", true) }.firstOrNull()
-                    val github = links.filter { it.contains("github.com", true) }.firstOrNull()
-                    val website = links.filter { !it.equals(twitter) && !it.equals(github) }.firstOrNull()
-
-                    Speaker(index + 1, name, title, photo, bio, website, twitter, github, sessions)
+                        Speaker(index + 1, name, title, photo, bio, website, twitter, github, sessions)
+                    }
                 }
     }
 
@@ -73,20 +73,20 @@ class Scraper {
                 .mapIndexed { index, url ->
                     val fullUrl = "$BASE_URL$url"
                     System.out.println("Get session: #" + Integer.toString(index) + " - url: " + fullUrl);
-                    val sessionDoc = jsoup(fullUrl).select(".block-content")
+                    with(jsoup(fullUrl).select(".block-content")) {
+                        val title = select(".node-header h1 a").fmtText()
+                        val description = select(".field-name-field-session-description .field-items").fmtText()
+                        val roomId = Room.getRoomId(select(".field-name-field-session-room").text())
+                        val dateRange = select(".field-name-field-session-datetime").text()
 
-                    val title = sessionDoc.select(".node-header h1 a").fmtText()
-                    val description = sessionDoc.select(".field-name-field-session-description .field-items").fmtText()
-                    val roomId = Room.getRoomId(sessionDoc.select(".field-name-field-session-room").text())
-                    val dateRange = sessionDoc.select(".field-name-field-session-datetime").text()
+                        val speakersId = speakers
+                                .filter { it.sessions.contains(url) }
+                                .map { it.id }
+                        val startAt = getStartAt(dateRange)
+                        val duration = getDuration(dateRange)
 
-                    val speakersId = speakers
-                            .filter { it.sessions.contains(url) }
-                            .map { it.id }
-                    val startAt = getStartAt(dateRange)
-                    val duration = getDuration(dateRange)
-
-                    Session(index + 1, title, description, speakersId, startAt, duration, roomId)
+                        Session(index + 1, title, description, speakersId, startAt, duration, roomId)
+                    }
                 }
     }
 
