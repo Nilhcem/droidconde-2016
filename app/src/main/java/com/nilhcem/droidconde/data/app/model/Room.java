@@ -5,10 +5,10 @@ import android.support.annotation.NonNull;
 public enum Room {
 
     NONE(0, ""),
-    STAGE_1(1, "Stage1"),
-    STAGE_2(2, "Stage2"),
-    STAGE_3(3, "Stage3"),
-    STAGE_4(4, "Stage4"),
+    STAGE_1(1, "Stage 1"),
+    STAGE_2(2, "Stage 2"),
+    STAGE_3(3, "Stage 3"),
+    STAGE_4(4, "Stage 4"),
     WORKSPACE(5, "Workspace");
 
     public final int id;
