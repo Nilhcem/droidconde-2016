@@ -132,7 +132,7 @@
 	"id": 17,
 	"roomId": 1,
 	"speakersId": [17],
-	"startAt": "2016-06-17 16:45",
+	"startAt": "2016-06-17 11:00",
 	"title": "Android industrial: Real-time data visualization"
 }, {
 	"description": "Remembering all the promising augmented reality demos you've seen 2009 when smartphones got popular? Fluent indoor navigation, interactive games, repairing your washing machine with the help of your smartphone? Why have all those promising apps never made it into reality? To find the answer we'll look at the challenges of augmented reality applications like camera tracking, lightning models, 3D occlusion and shadows, and how professional VFX studios tackle these problems in their movie productions. And we'll check how Google's Project Tango helps us getting augmented reality apps to work as they have been promised for a long time.",
@@ -167,10 +167,10 @@
 	"startAt": "2016-06-16 14:45",
 	"title": "May I?"
 }, {
-	"description": "Kotlin is a new language for the JVM that aims to be a \"better Java\". Made in-house by Jetbrains, the company behind IntelliJ IDEA and also Android Studio, it's been in development for more than 5 years. Just a few weeks ago the final version of Kotlin 1.0 saw the light of day.\nStarting off with Kotlin for Java development and for Android is actually quite straight forward. There's a lot of well written documentation, there are the Kotlin Koans and blogs seem to pick up Kotlin-related topics more and more. What a lot of people are not aware of though is that there are a bunch of really useful libraries and tools for Kotlin developers, in particular on Android.\nThis session will dive into the Kotlin-Android-ecosystem and introduce a variety of libraries that can make one's life much easier - even to a level going beyond what core Kotlin already has to offer. Some examples are:\n- KAndroid\n- Anko and KBinding\n- Kovenant\n- KotliQuery and\n- Klaxon",
+	"description": "Kotlin is a new language for the JVM that aims to be a \"better Java\". Made in-house by Jetbrains, the company behind IntelliJ IDEA and also Android Studio, it's been in development for more than 5 years. Just a few months ago the final version of Kotlin 1.0 saw the light of day.\nStarting off with Kotlin for Java development and for Android is actually quite straight forward. There's a lot of well written documentation, there are the Kotlin Koans and blogs seem to pick up Kotlin-related topics more and more. What a lot of people are not aware of though is that there are a bunch of really useful libraries and tools for Kotlin developers, in particular on Android (the most common and well known one being Ando).\nThis session will start with a quick introduction into Kotlin and its benefits over Java. Then we'll dive into the Kotlin-Android-ecosystem and look at a variety of Kotlin tools and libraries that can make one's life much easier - even to a level going beyond what core Kotlin already has to offer.",
 	"duration": 45,
 	"id": 22,
-	"roomId": 4,
+	"roomId": 0,
 	"speakersId": [24],
 	"startAt": "2016-06-17 11:00",
 	"title": "Little helpers for Android development with Kotlin"
@@ -324,7 +324,7 @@
 	"id": 41,
 	"roomId": 1,
 	"speakersId": [43],
-	"startAt": "2016-06-17 11:00",
+	"startAt": "2016-06-17 16:45",
 	"title": "Security at your Fingertips - A dive into Marshmallow’s new fingerprint and keystore APIs."
 }, {
 	"description": "Lots of people have heard of RxJava and even started using it but are still unclear on how to do certain things. This talk will show some of the solutions to common Android problems.\nFor example, want to create an Observable (that works well with multithreading)? How to use a Subject? How to cache values? How to correctly observe the Android lifecycle? How to handle errors in Observable chains without breaking them? How to correctly use multithreading? And most importantly - how to log and debug in RxJava?",
@@ -383,10 +383,10 @@
 	"startAt": "2016-06-17 12:30",
 	"title": "Half way to clean architecture"
 }, {
-	"description": "This session is a deep dive in the Transitions and Animations frameworks which were introduced with Android Lollipop.",
+	"description": "This session will guide developers through Android's transition API. We'll get started with the basics and end at custom transitions and some deep insights.",
 	"duration": 45,
 	"id": 49,
-	"roomId": 1,
+	"roomId": 0,
 	"speakersId": [52],
 	"startAt": "2016-06-17 11:45",
 	"title": "Android in Transition"
