@@ -54,18 +54,6 @@
             app:backgroundTint="?attr/colorAccent"/>
 
         <android.support.v7.widget.AppCompatButton
-            android:id="@+id/venue_exhibitors"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin_fourth"
-            android:layout_marginLeft="@dimen/activity_margin"
-            android:layout_marginRight="@dimen/activity_margin"
-            android:layout_marginTop="@dimen/activity_margin_fourth"
-            android:text="@string/venue_see_exhibitors"
-            android:textColor="@android:color/white"
-            app:backgroundTint="?attr/colorAccent"/>
-
-        <android.support.v7.widget.AppCompatButton
             android:id="@+id/venue_locate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

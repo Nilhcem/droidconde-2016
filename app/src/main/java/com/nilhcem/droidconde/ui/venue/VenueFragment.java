@@ -1,5 +1,6 @@
 package com.nilhcem.droidconde.ui.venue;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -44,12 +45,7 @@ public class VenueFragment extends BaseFragment {
 
     @OnClick(R.id.venue_rooms)
     void openRoomsPlan() {
-        startActivity(new ZoomableImageActivityIntentBuilder(ZoomableImageActivity.TYPE_ROOMS).build(getContext()));
-    }
-
-    @OnClick(R.id.venue_exhibitors)
-    void openExhibitorsPlan() {
-        startActivity(new ZoomableImageActivityIntentBuilder(ZoomableImageActivity.TYPE_EXHIBITORS).build(getContext()));
+        startActivity(new Intent(getContext(), ZoomableImageActivity.class));
     }
 
     @OnClick(R.id.venue_locate)

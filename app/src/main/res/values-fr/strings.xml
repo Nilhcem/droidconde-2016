@@ -44,7 +44,6 @@
     <string name="venue_congres_title">Le Palais des Congrès de Paris</string>
     <string name="venue_congres_address">2 Place de la Porte Maillot\n75017 Paris</string>
     <string name="venue_see_rooms">Plan des Salles</string>
-    <string name="venue_see_exhibitors">Plan des Exposants</string>
 
     <!-- Settings -->
     <string name="settings_notifications">Notifications</string>
