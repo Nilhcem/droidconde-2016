@@ -41,8 +41,9 @@
     <!-- Venue -->
     <string name="venue_see_location">Voir sur la carte</string>
     <string name="venue_see_location_error">Erreur lors de l\'ouverture de la carte.\nAvez-vous bien Google Maps installé sur votre appareil ?</string>
-    <string name="venue_congres_title">Le Palais des Congrès de Paris</string>
-    <string name="venue_congres_address">2 Place de la Porte Maillot\n75017 Paris</string>
+    <string name="venue_postbahnhof_title">Postbahnhof Berlin</string>
+    <string name="venue_postbahnhof_address">Straße der Pariser Kommune 8\n10243 Berlin</string>
+    <string name="venue_postbahnhof_info">Getting there\nBy train:\nU-Bahn: U1 (Warschauer Straße)\nS-Bahn: S5, S7, S75 (Ostbahnhof)\nThe BVG website can be used to check all current train and bus connections: www.bvg.de/\n\nBy Taxi\nYou can call a taxi for a normal ride to the entry Straße der Pariser Kommune. There are also plenty of taxi cars at the Ostbahnhof.\nTip: If you just want to take a taxi for a short trip of 2km you can hail one off the street and tell the driver you would like a “short ride” or “Kurzstrecke”. Taxi service: 030 210101 or 030 443322\n\nBy Car\nParking is generally bad in that area, but you can take one of the parking blocks around the Ostbahnhof</string>
     <string name="venue_see_rooms">Plan des Salles</string>
 
     <!-- Settings -->
