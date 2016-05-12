@@ -25,7 +25,7 @@ public class VenueFragment extends BaseFragment {
     @BindView(R.id.venue_image) ImageView photo;
 
     private static final float PHOTO_RATIO = 0.413f;
-    private static final String COORDINATES_URI = "geo:48.8781456,2.2831654?q=" + Uri.encode("Le Palais des Congrès de Paris");
+    private static final String COORDINATES_URI = "geo:52.508725,13.4346053?q=" + Uri.encode("Postbahnhof");
 
     @Override
     protected BaseFragmentPresenter newPresenter() {
