@@ -9,7 +9,7 @@ mainClassName = 'com.nilhcem.droidconde.scraper.AppKt'
 defaultTasks 'run'
 
 buildscript {
-    ext.kotlinVersion = '1.0.1-2'
+    ext.kotlinVersion = '1.0.2'
     repositories {
         mavenCentral()
     }
