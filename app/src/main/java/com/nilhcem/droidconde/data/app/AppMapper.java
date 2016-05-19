@@ -3,6 +3,7 @@ package com.nilhcem.droidconde.data.app;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
+import com.nilhcem.droidconde.data.app.model.Room;
 import com.nilhcem.droidconde.data.app.model.Schedule;
 import com.nilhcem.droidconde.data.app.model.ScheduleDay;
 import com.nilhcem.droidconde.data.app.model.ScheduleSlot;
@@ -71,7 +72,7 @@ public class AppMapper {
                 if (currentTime.equals(previousTime)) {
                     previousSessionsList.add(currentSession);
                 } else {
-                    slots.add(new ScheduleSlot(previousTime, previousSessionsList));
+                    slots.add(new ScheduleSlot(previousTime, sortPerRoomId(previousSessionsList)));
                     previousSessionsList = null;
                 }
             }
@@ -84,7 +85,7 @@ public class AppMapper {
         }
 
         if (previousSessionsList != null) {
-            slots.add(new ScheduleSlot(previousTime, previousSessionsList));
+            slots.add(new ScheduleSlot(previousTime, sortPerRoomId(previousSessionsList)));
         }
         return slots;
     }
@@ -118,5 +119,10 @@ public class AppMapper {
             schedule.add(new ScheduleDay(previousDay, previousSlotList));
         }
         return schedule;
+    }
+
+    private List<Session> sortPerRoomId(@NonNull List<Session> list) {
+        Collections.sort(list, (lhs, rhs) -> Room.getFromLabel(lhs.getRoom()).id - Room.getFromLabel(rhs.getRoom()).id);
+        return list;
     }
 }
