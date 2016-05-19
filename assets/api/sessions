@@ -186,7 +186,7 @@
 	"description": "Kotlin is a new language for the JVM that aims to be a \"better Java\". Made in-house by Jetbrains, the company behind IntelliJ IDEA and also Android Studio, it's been in development for more than 5 years. Just a few months ago the final version of Kotlin 1.0 saw the light of day.\nStarting off with Kotlin for Java development and for Android is actually quite straight forward. There's a lot of well written documentation, there are the Kotlin Koans and blogs seem to pick up Kotlin-related topics more and more. What a lot of people are not aware of though is that there are a bunch of really useful libraries and tools for Kotlin developers, in particular on Android (the most common and well known one being Ando).\nThis session will start with a quick introduction into Kotlin and its benefits over Java. Then we'll dive into the Kotlin-Android-ecosystem and look at a variety of Kotlin tools and libraries that can make one's life much easier - even to a level going beyond what core Kotlin already has to offer.",
 	"duration": 45,
 	"id": 24,
-	"roomId": 0,
+	"roomId": 4,
 	"speakersId": [26],
 	"startAt": "2016-06-17 11:00",
 	"title": "Little helpers for Android development with Kotlin"
