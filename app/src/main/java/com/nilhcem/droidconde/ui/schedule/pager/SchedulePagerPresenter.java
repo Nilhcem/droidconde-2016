@@ -52,13 +52,14 @@ public class SchedulePagerPresenter extends BaseFragmentPresenter<SchedulePagerV
         scheduleSubscription = dataProvider.getSchedule()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(scheduleDays -> {
-                    schedule = scheduleDays;
-                    view.displaySchedule(schedule);
-                }, throwable -> Timber.e(throwable, "Error getting schedule"), () -> {
-                    if (schedule == null) {
-                        view.displayLoadingError();
-                    }
-                });
+                .subscribe(scheduleDays -> schedule = scheduleDays,
+                        throwable -> Timber.e(throwable, "Error getting schedule"),
+                        () -> {
+                            if (schedule == null) {
+                                view.displayLoadingError();
+                            } else {
+                                view.displaySchedule(schedule);
+                            }
+                        });
     }
 }
