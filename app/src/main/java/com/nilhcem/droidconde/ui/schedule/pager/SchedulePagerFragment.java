@@ -15,8 +15,11 @@ import com.nilhcem.droidconde.DroidconApp;
 import com.nilhcem.droidconde.R;
 import com.nilhcem.droidconde.data.app.DataProvider;
 import com.nilhcem.droidconde.data.app.model.Schedule;
+import com.nilhcem.droidconde.data.app.model.ScheduleDay;
 import com.nilhcem.droidconde.ui.BaseFragment;
 import com.nilhcem.droidconde.ui.drawer.DrawerActivity;
+
+import org.threeten.bp.LocalDate;
 
 import javax.inject.Inject;
 
@@ -63,6 +66,7 @@ public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> 
         viewPager.setAdapter(new SchedulePagerAdapter(getContext(), getChildFragmentManager(), schedule, allSessions));
         if (schedule.size() > 1) {
             ((DrawerActivity) getActivity()).setupTabLayoutWithViewPager(viewPager);
+            selectCurrentDay(schedule);
         }
 
         loading.setVisibility(View.GONE);
@@ -75,5 +79,17 @@ public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> 
         errorSnackbar = Snackbar.make(loading, R.string.connection_error, Snackbar.LENGTH_INDEFINITE)
                 .setAction(R.string.connection_error_retry, v -> presenter.reloadData());
         errorSnackbar.show();
+    }
+
+    private void selectCurrentDay(Schedule schedule) {
+        int idx = 0;
+        for (ScheduleDay day : schedule) {
+            if (day.getDay().equals(LocalDate.now())) {
+                final int index = idx;
+                viewPager.post(() -> viewPager.setCurrentItem(index, false));
+                return;
+            }
+            idx++;
+        }
     }
 }
