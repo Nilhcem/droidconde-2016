@@ -32,7 +32,7 @@ public class InternalDroidconApp extends DroidconApp {
         super.onCreate();
         AppComponent.Initializer.init(this).inject(this);
         displayFps(true);
-        initDagger2Metrics();
+        initAndroidDevMetrics();
         stetho.init();
         activityProvider.init(this);
     }
@@ -53,7 +53,7 @@ public class InternalDroidconApp extends DroidconApp {
         }
     }
 
-    private void initDagger2Metrics() {
+    private void initAndroidDevMetrics() {
         if (ENABLE_ANDROID_DEV_METRICS) {
             AndroidDevMetrics.initWith(this);
         }
