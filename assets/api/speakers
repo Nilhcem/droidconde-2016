@@ -338,15 +338,9 @@
 	"title": "Android Software Engineer",
 	"website": "http://linkedin.com/in/aselimsalman"
 }, {
-	"bio": "I'm a so called Chief Technical Advisor @ Microsoft. Which means that I can code a little bit, know a little bit about technology, but more important I can talk about cool things going on at this 40 year old startup from Redmond. I'm always looking for ways to learn new things and meet interesting people.",
-	"id": 45,
-	"name": "Oliver Scheer",
-	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/OliverScheerKlein.jpg",
-	"title": "Chief Technical Advisor @ Microsoft"
-}, {
 	"bio": "Hi, my name is Frederik Schweiger. I am a young full-time computer science student living in Germany who's chief interest is creating and inventing new stuff. I see myself as an enthusiastic developer and junior entrepreneur who likes to make the things we all like to dream about become reality. It is my dream to simplify life by making the most out of our immense technical progress and huge knowledge.\nBesides from engineering I like to go skydiving, skiing, scuba diving and sometimes I just go out, enjoy the nature and make some photographs with my camera.",
 	"github": "https://github.com/flschweiger",
-	"id": 46,
+	"id": 45,
 	"name": "Frederik Schweiger",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/frederik_schweiger.jpg",
 	"title": "Android Developer @ trivago",
@@ -354,21 +348,21 @@
 	"website": "https://de.linkedin.com/in/frederikschweiger"
 }, {
 	"bio": "Android developer for the past 5 years, I have been working for companies like the United Nations and Telecom Italia and working on projects like ShareTheMeal (Google Play Best of 2015) and the Sochi Winter Olympics app. I got bitten by the reactive programming bug a while ago and I am currently writing a book for Manning Publishing about it with other 2 colleagues. Previously worked as a web developer, database developer and project manager.",
-	"id": 47,
+	"id": 46,
 	"name": "Sasa Sekulic",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/sasa_portrait_gene_small.jpg",
 	"title": "Co-founder @ Alter Ego Solutions",
 	"twitter": "https://twitter.com/sasa_sekulic"
 }, {
 	"bio": "Lydia is a Senior Interaction Designer @Clue (Berlin) with 10 years of experience in design. Although she got her start in print/illustration, Lydia has since fallen in love with mobile and the opportunities that interaction design offers. Since then Lydia has focused on creating beautiful app experiences and developed an extensive knowledge of the design patterns and standards that underlie each platform. Lydia has a special thing for the green droid, gets overly excited about Material Design, and believes that every day is an opportunity to learn something new.",
-	"id": 48,
+	"id": 47,
 	"name": "Lydia Selimalhigazi",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/selimalhigazi.jpg",
 	"title": "Senior Interaction (UX/UI) Designer @ Clue",
 	"website": "http://droidcon.de/en/%40Lys_Lydia"
 }, {
 	"bio": "Caroline is a UI/UX designer at Novoda in Berlin where she designs for Android. She is passionate about user-centric design and designer/developer pairing.",
-	"id": 49,
+	"id": 48,
 	"name": "Caroline Smith",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/10380222_10155038779505322_5215074194964757630_o.jpg",
 	"title": "Designer @ UI/UX Designer @ Novoda",
@@ -376,7 +370,7 @@
 	"website": "https://dribbble.com/ihatepeas"
 }, {
 	"bio": "Joanna Smith is a Developer Advocate at Google, trying to spread the word about Android best practices. She’s got fierce Texas pride, a dog that is smaller than most cats, and a staunch dedication to helping developers create excellent Android apps.",
-	"id": 50,
+	"id": 49,
 	"name": "Joanna Smith",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/saopaoheadshot.JPG",
 	"title": "Developer Advocate",
@@ -384,14 +378,14 @@
 	"website": "https://medium.com/@dontmesswithjo"
 }, {
 	"bio": "Steven is product manager for Google's developer APIs for authentication on Android, including Google Sign-In and Smart Lock for Passwords. He previously worked as an engineer on Android apps at Google, did Android development at several several start-up companies, and wrote the original Facebook Android SDK launched in 2010.",
-	"id": 51,
+	"id": 50,
 	"name": "soneff",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/331_544247437815_1136_n.jpg",
 	"title": "Product Manager @ Google Identity Platform"
 }, {
 	"bio": "I'm a software engineer living in Tokyo. Lately, I've been working a service that needs to be localized.",
 	"github": "https://github.com/rejasupotaro",
-	"id": 52,
+	"id": 51,
 	"name": "Kentaro Takiguchi",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/9925106544_3c54466bbc1b1350917f_512.jpg",
 	"title": "Software Engineer @ Cookpad",
@@ -399,7 +393,7 @@
 	"website": "https://speakerdeck.com/rejasupotaro"
 }, {
 	"bio": "Jernej has been an Android developer from dark times of Android 1.x and has seen the platform grow from a tiny experiment to popular juggernaught. He's currently leading the Android team at PSPDFKit where they're bringing PDF editing goodness to all kinds of mobile devices.",
-	"id": 53,
+	"id": 52,
 	"name": "Jernej Virag",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/ZsoSE0w3_400x400.jpeg",
 	"title": "Android team lead @ PSPDFKit",
@@ -407,19 +401,19 @@
 	"website": "https://www.virag.si/"
 }, {
 	"bio": "Born in Ukraine. Programing since 2005. Androiding since 2.2",
-	"id": 54,
+	"id": 53,
 	"name": "Dmytro Voronkevych",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/10574487_828618000517026_3700819820648699840_n-2.jpg",
 	"title": "Android Platform Team Lead @ Badoo"
 }, {
 	"bio": "Software engineer in Pinterest",
-	"id": 55,
+	"id": 54,
 	"name": "linwang",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/Lin-Wang-shrinked.png",
 	"title": "Software Engineer"
 }, {
 	"bio": "Ben works in Developer Relations at Google located in London. Here he works to make Android Developer’s live better. Ben is involved with Android and Droidcon since their first public iteration.",
-	"id": 56,
+	"id": 55,
 	"name": "Ben Weiss",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/ben_greenbackground_0.png",
 	"title": "Developer Relations @ Google UK",
@@ -427,7 +421,7 @@
 	"website": "https://google.com/+BenjaminWeiss"
 }, {
 	"bio": "Passionate about Andorid. I'm focused on a clean tested architecture, beautiful material design and useful libraries with great APIs.",
-	"id": 57,
+	"id": 56,
 	"name": "Pascal Welsch",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/pascal_dev_fest_2014.jpg",
 	"title": "Android Developer @ grandcentrix GmbH",
@@ -435,13 +429,13 @@
 	"website": "http://google.com/+pascalwelsch"
 }, {
 	"bio": "Stefan is CIO at Mobisol GmbH.",
-	"id": 58,
+	"id": 57,
 	"name": "zelazny",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/zelazny_0.jpg",
 	"title": "CIO"
 }, {
 	"bio": "A Software Engineer with 4 years of professional experience in the field of Java and Android applications development. Speaker at Java User Group Kyiv (jug.ua) and author of Android Digest for Ukrainian Software Developers community (dou.ua).",
-	"id": 59,
+	"id": 58,
 	"name": "Sergii Zhuk",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/ava_small.jpg",
 	"title": "Android Software Engineer @ Zalando SE",

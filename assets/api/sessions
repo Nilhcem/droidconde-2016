@@ -179,7 +179,7 @@
 	"duration": 30,
 	"id": 23,
 	"roomId": 3,
-	"speakersId": [25, 58],
+	"speakersId": [25, 57],
 	"startAt": "2016-06-17 12:30",
 	"title": "Android and off-grid Smart Homes in rural Africa"
 }, {
@@ -242,7 +242,7 @@
 	"description": "When WebRTC was first published as open source project in 2011, Google started their mission of making audio and video available through a uniform standard set of APIs. Today, it’s more than an unknown IETF draft and many well-known video-calling tools such as Facebook Messenger, Google Hangouts are based on WebRTC. That is why it’s the perfect time to talk about the beauty of this amazing framework and how to use it natively on Android.\nAfter a short wrap up of the core principles, I will summarize the Pros and Cons of existing libs and approaches (such as Opentok, EasyRTC and OpenWebRTC) to integrate WebRTC into native Android applications. We at Viscopic chose the way of using the chromium library (published by webrtc.org) to realize a multi-platform collaboration solution. This approach is known as having a complex library build process, but it’s worth it. By walking through some code samples, I will show what the library is about and how to implement a basic Android WebRTC application. For all those who are interested in app architecture, I will describe our system design concept of encapsulating application logic (WebRTC signaling, room handling, etc.) into one native core. Maintaining just a single core code base constitutes a flexible solution for realizing scalable distribution on multiple mobile platforms.\nWhat’s next? Finally, I will briefly address latest achievements within the WebRTC world like ORTC and VP9.",
 	"duration": 30,
 	"id": 31,
-	"roomId": 0,
+	"roomId": 3,
 	"speakersId": [33],
 	"startAt": "2016-06-16 12:30",
 	"title": "Native Real-Time Communication: WebRTC on Android"
@@ -267,7 +267,7 @@
 	"duration": 45,
 	"id": 34,
 	"roomId": 3,
-	"speakersId": [36, 57],
+	"speakersId": [36, 56],
 	"startAt": "2016-06-17 16:45",
 	"title": "\"Let's get physical\" with Nearby and Eddystone"
 }, {
@@ -315,7 +315,7 @@
 	"duration": 45,
 	"id": 40,
 	"roomId": 1,
-	"speakersId": [42, 55],
+	"speakersId": [42, 54],
 	"startAt": "2016-06-17 16:00",
 	"title": "Pushing The Boundaries Of The Layout System And Typography"
 }, {
@@ -335,91 +335,83 @@
 	"startAt": "2016-06-16 12:30",
 	"title": "Android in the world of IoT"
 }, {
-	"description": "The Project Oxford is a research driven, but customer ready set of APIs to add features like Face, Emotion and Text-in-Image-Detection. And it is open to any platform. See how you can leverage your app with Cloud & Machine Learning Power made by Microsoft.",
-	"duration": 45,
-	"id": 43,
-	"roomId": 2,
-	"speakersId": [45],
-	"startAt": "2016-06-17 14:45",
-	"title": "Add Human Features to your Software with Project Oxford"
-}, {
 	"description": "Android Marshmallow has introduced a lot of fresh features and the new permission system is by far not the only new security enhancement. Most of you already use their finger to unlock the smartphone and may have heard about this new fingerprint API - but have you ever played with it? And once we’re there: Do you know about the newly introduced improvements in the keystore API? No? Then this talk is definitely for you!\nStill hesitating? Just remember that security and a good user experience is something we cannot know enough about. With just a few simple steps you can learn how to increase the security of your app, making authentication easier and your users happier - all at once.\nAnd to be honest: in the end that’s all we want, right?",
 	"duration": 45,
-	"id": 44,
+	"id": 43,
 	"roomId": 1,
-	"speakersId": [46],
+	"speakersId": [45],
 	"startAt": "2016-06-17 16:45",
 	"title": "Security at your Fingertips - A dive into Marshmallow’s new fingerprint and keystore APIs."
 }, {
 	"description": "Lots of people have heard of RxJava and even started using it but are still unclear on how to do certain things. This talk will show some of the solutions to common Android problems.\nFor example, want to create an Observable (that works well with multithreading)? How to use a Subject? How to cache values? How to correctly observe the Android lifecycle? How to handle errors in Observable chains without breaking them? How to correctly use multithreading? And most importantly - how to log and debug in RxJava?",
 	"duration": 45,
-	"id": 45,
+	"id": 44,
 	"roomId": 2,
-	"speakersId": [47],
+	"speakersId": [46],
 	"startAt": "2016-06-17 16:45",
 	"title": "Recipes in RxJava for Android"
 }, {
 	"description": "Does your team consist of developers and designers? Do you sometimes feel the two speak a different language? Do you feel like the overall user experience of your product could be improved with better communication? Yes? We’re here to help!  In our hands-on workshop aimed at designers and developers alike we will discuss the strengths and weaknesses of the two perspectives and provide you with practical methods to facilitate efficient designer/developer communication. Finally, we’ll talk about some tools and processes that have helped our teams overcome some common challenges.",
 	"duration": 45,
-	"id": 46,
+	"id": 45,
 	"roomId": 2,
-	"speakersId": [48, 49],
+	"speakersId": [47, 48],
 	"startAt": "2016-06-16 11:00",
 	"title": "We are all UX"
 }, {
 	"description": "Android has changed significantly year over year, and we all have our horror stories of updates and refactoring and code spaghetti. Despite that, we manage to build better apps, for better devices, for increasingly demanding users. So join me for a discussion of Android yesterday, today, and ~tomorrow~.",
 	"duration": 45,
-	"id": 47,
+	"id": 46,
 	"roomId": 1,
-	"speakersId": [50],
+	"speakersId": [49],
 	"startAt": "2016-06-17 10:15",
 	"title": "KEYNOTE: Android Development Yesterday and Today (and maybe even Tomorrow)"
 }, {
 	"description": "Do people have trouble with registration or sign-in for your app? How often do potential customers use the \"Forgot password?\" button or give up completely when trying to create an account? In user experience research at Google and throughout the industry, we've found that over half of people seeing a sign-in page will fail to authenticate, ranging from making typos to creating duplicate accounts. Building a secure and usable auth experience is complex and difficult.\nBut there are some simple principles of good authentication user experience design that can make things a lot easier. We'll discuss examples that you can apply in your app, from tips for effective UI to techniques for secure, password-less authentication built on open standards and APIs available on Android that make account creation as easy as one-tap, and keep users signed-in across devices automatically.\nMake the most of your app installs and never lose someone at the account screen again. Keep your users engaged when they come back on another device by showing them their content as soon as they open the app and resuming activities right away. And make it all a secure experience that protects user data.",
 	"duration": 45,
-	"id": 48,
+	"id": 47,
 	"roomId": 1,
-	"speakersId": [51],
+	"speakersId": [50],
 	"startAt": "2016-06-16 17:30",
 	"title": "Building simple and secure account systems on Android"
 }, {
 	"description": "Android is now used by 1.4 billion people in all over the world. There is a big opportunity to have them use your app by　localizing. However, localization is a little complicated. Just putting translated strings.xml files would not be enough. You may have to consider formats, grammars and layouts. Understanding their cultural background/user environment is also important. I'm working on localization of my app. I've stayed local countries such as Spain, Indonesia and Dubai while developing to study culture. I will share what I learn from my project and you will learn localization in Android.",
 	"duration": 45,
-	"id": 49,
+	"id": 48,
 	"roomId": 4,
-	"speakersId": [52],
+	"speakersId": [51],
 	"startAt": "2016-06-16 17:30",
 	"title": "What, Why, How: Successful Localization in Android"
 }, {
 	"description": "There are few companies these days that can get away with developing mobile applications for a single platform. At PSPDFKit we chose to use native C++ library as a shared layer between Android, iOS and desktop platforms. This talk will make a case for using C++ for shared code and then explain best practices for keeping your developers sane while using the NDK. We'll touch on NDK basics, useful tools for generating JNI bindings and common gotchas when dealing with NDK on Android.  We'll also take a look at approaches for unit testing and continuous integration for native code. Previous experience with NDK isn't required to follow.",
 	"duration": 45,
-	"id": 50,
+	"id": 49,
 	"roomId": 4,
-	"speakersId": [53],
+	"speakersId": [52],
 	"startAt": "2016-06-16 16:45",
 	"title": "Taming the NDK dragon for cross-platform development"
 }, {
 	"description": "There are many rumors surrounding Uncle Bob’s clean architecture. Many believe it’s a silver bullet that will solve every problem. This sounds great for anyone who wants to write a new application, but how do you safely transition a code base with ~100k lines of code and 5 years of history?\nThe story I am going to tell is about an Android application with over 100 million installs, used by millions of people everyday and is very profitable. The journey started with legacy code, then grew and transitioned into clean architecture. This was implemented all while working in a high pressure environment with tough deadlines, constant changes and a lot at stake.\nIt all started as a j2me application, which rapidly grew, becoming legacy. It then required changes overall for improvement and maintenance. On top of the complications we faced, we then had to split the application, creating several new ones. Through this process we managed to improve our code by experimenting a lot, having many discussions, internal tech talks and also restructuring our team. Overall we learned a great deal!\nI hope sharing these experiences will inspire other teams to start experimenting with architecture in a safe way.",
 	"duration": 30,
-	"id": 51,
+	"id": 50,
 	"roomId": 1,
-	"speakersId": [54],
+	"speakersId": [53],
 	"startAt": "2016-06-17 12:30",
 	"title": "Half way to clean architecture"
 }, {
 	"description": "This session will guide developers through Android's transition API. We'll get started with the basics and end at custom transitions and some deep insights.",
 	"duration": 45,
-	"id": 52,
+	"id": 51,
 	"roomId": 0,
-	"speakersId": [56],
+	"speakersId": [55],
 	"startAt": "2016-06-17 11:45",
 	"title": "Android in Transition"
 }, {
 	"description": "The efficiency of your software engineering work depends not only on your deep knowledge and expertise, but also on the toolset you select, and how well you use the tools.\nIn this talk, I will discuss some tools and approaches that will help you to increase your productivity as an Android developer and decrease the amount of “monkey work” being done day-to-day. My talk will show a collection of solutions used by our team to develop product with 10+ million downloads. Key points:\n• Android Studio: configuration tricks, little-known features and plugins\n• Test devices: emulators vs real gadgets, cloud test platforms\n• App performance: what and how to measure, how to make your app work faster\n• Gradle hacks: build your app faster and add more flexibility for different build types\nThe information and examples provided will be interesting and relevant for both beginner and experienced developers.",
 	"duration": 45,
-	"id": 53,
+	"id": 52,
 	"roomId": 3,
-	"speakersId": [59],
+	"speakersId": [58],
 	"startAt": "2016-06-16 17:30",
 	"title": "Effective Android Development"
 }]
