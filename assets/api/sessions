@@ -402,7 +402,7 @@
 	"description": "This session will guide developers through Android's transition API. We'll get started with the basics and end at custom transitions and some deep insights.",
 	"duration": 45,
 	"id": 51,
-	"roomId": 0,
+	"roomId": 1,
 	"speakersId": [55],
 	"startAt": "2016-06-17 11:45",
 	"title": "Android in Transition"
@@ -414,4 +414,40 @@
 	"speakersId": [58],
 	"startAt": "2016-06-16 17:30",
 	"title": "Effective Android Development"
+}, {
+	"duration": 90,
+	"id": 54,
+	"roomId": 0,
+	"startAt": "2016-06-16 08:30",
+	"title": "Accreditation"
+}, {
+	"duration": 15,
+	"id": 55,
+	"roomId": 1,
+	"startAt": "2016-06-16 10:00",
+	"title": "Welcome note"
+}, {
+	"duration": 60,
+	"id": 56,
+	"roomId": 0,
+	"startAt": "2016-06-16 13:00",
+	"title": "Lunch"
+}, {
+	"duration": 30,
+	"id": 57,
+	"roomId": 0,
+	"startAt": "2016-06-16 15:30",
+	"title": "Coffee break"
+}, {
+	"duration": 30,
+	"id": 59,
+	"roomId": 0,
+	"startAt": "2016-06-17 13:00",
+	"title": "Lunch"
+}, {
+	"duration": 30,
+	"id": 60,
+	"roomId": 0,
+	"startAt": "2016-06-17 15:30",
+	"title": "Coffee break"
 }]
