@@ -2,8 +2,12 @@
 
 Sample app for the "2016 Android Developer Toolbox" talk at droidconDE
 
+[<img src="https://dply.me/cq7ddn/button/large" alt="Try it on your device via DeployGate">](https://dply.me/cq7ddn#install)
+
 
 ## Features
+
+![droidconde2016 Android screenshots][]
 
 * See all sessions
 * Manage your schedule
@@ -61,6 +65,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
+[droidconde2016 Android screenshots]: https://raw.githubusercontent.com/Nilhcem/droidconde-2016/master/assets/screenshots/screenshots.jpg
 [Droidcon PL 2015 mobile app]: https://github.com/droidconpl/droidcon-2015-mobile-app
 [Google I/O app]: https://github.com/google/iosched
 [DroidKaigi 2016 app]: https://github.com/konifar/droidkaigi2016/
