@@ -14,14 +14,14 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import timber.log.Timber;
 
-public class SchedulePagerPresenter extends BaseFragmentPresenter<SchedulePagerView> {
+public class SchedulePagerPresenter extends BaseFragmentPresenter<SchedulePagerMvp.View> implements SchedulePagerMvp.Presenter {
 
     @State Schedule schedule;
 
     private final DataProvider dataProvider;
     private Subscription scheduleSubscription;
 
-    public SchedulePagerPresenter(SchedulePagerView view, DataProvider dataProvider) {
+    public SchedulePagerPresenter(SchedulePagerMvp.View view, DataProvider dataProvider) {
         super(view);
         this.dataProvider = dataProvider;
     }
@@ -36,6 +36,7 @@ public class SchedulePagerPresenter extends BaseFragmentPresenter<SchedulePagerV
         }
     }
 
+    @Override
     public void reloadData() {
         loadData();
     }

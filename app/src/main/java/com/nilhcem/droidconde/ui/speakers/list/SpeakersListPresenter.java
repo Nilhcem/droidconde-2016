@@ -13,14 +13,14 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import timber.log.Timber;
 
-public class SpeakersListPresenter extends BaseFragmentPresenter<SpeakersListView> {
+public class SpeakersListPresenter extends BaseFragmentPresenter<SpeakersListMvp.View> implements SpeakersListMvp.Presenter {
 
     @State ArrayList<Speaker> speakers;
 
     private final DataProvider dataProvider;
     private Subscription speakersSubscription;
 
-    public SpeakersListPresenter(SpeakersListView view, DataProvider dataProvider) {
+    public SpeakersListPresenter(SpeakersListMvp.View view, DataProvider dataProvider) {
         super(view);
         this.dataProvider = dataProvider;
     }
@@ -43,6 +43,7 @@ public class SpeakersListPresenter extends BaseFragmentPresenter<SpeakersListVie
         super.onStop();
     }
 
+    @Override
     public void reloadData() {
         loadData();
     }

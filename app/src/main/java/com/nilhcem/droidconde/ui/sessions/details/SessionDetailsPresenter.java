@@ -12,13 +12,13 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import timber.log.Timber;
 
-public class SessionDetailsPresenter extends BaseActivityPresenter<SessionDetailsView> {
+public class SessionDetailsPresenter extends BaseActivityPresenter<SessionDetailsMvp.View> implements SessionDetailsMvp.Presenter {
 
     private final Session session;
     private final SessionsDao sessionsDao;
     private final SessionsReminder sessionsReminder;
 
-    public SessionDetailsPresenter(SessionDetailsView view, Session session, SessionsDao sessionsDao, SessionsReminder sessionsReminder) {
+    public SessionDetailsPresenter(SessionDetailsMvp.View view, Session session, SessionsDao sessionsDao, SessionsReminder sessionsReminder) {
         super(view);
         this.session = session;
         this.sessionsDao = sessionsDao;
@@ -36,6 +36,7 @@ public class SessionDetailsPresenter extends BaseActivityPresenter<SessionDetail
                         throwable -> Timber.e(throwable, "Error getting selected session state"));
     }
 
+    @Override
     public void onFloatingActionButtonClicked() {
         sessionsDao.getSelectedSessions(session.getFromTime())
                 .map(sessions -> {

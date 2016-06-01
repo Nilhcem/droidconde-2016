@@ -18,7 +18,7 @@ import com.nilhcem.droidconde.ui.BaseActivity;
 
 import butterknife.BindView;
 
-public class DrawerActivity extends BaseActivity<DrawerPresenter> implements DrawerActivityView {
+public class DrawerActivity extends BaseActivity<DrawerPresenter> implements DrawerMvp.View {
 
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.tab_layout) TabLayout tabLayout;

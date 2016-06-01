@@ -28,7 +28,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 
 @FragmentWithArgs
-public class ScheduleDayFragment extends BaseFragment<ScheduleDayPresenter> implements ScheduleDayView, ScheduleDayEntry.OnSessionClickListener {
+public class ScheduleDayFragment extends BaseFragment<ScheduleDayPresenter> implements ScheduleDayMvp.View, ScheduleDayEntry.OnSessionClickListener {
 
     @Arg boolean allSessions;
     @Arg ScheduleDay scheduleDay;

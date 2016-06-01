@@ -16,11 +16,11 @@ import org.threeten.bp.format.FormatStyle;
 import java.util.List;
 import java.util.Locale;
 
-public class SessionsListPresenter extends BaseActivityPresenter<SessionsListView> {
+public class SessionsListPresenter extends BaseActivityPresenter<SessionsListMvp.View> {
 
     private final List<Session> sessions;
 
-    public SessionsListPresenter(Context context, SessionsListView view, ScheduleSlot slot) {
+    public SessionsListPresenter(Context context, SessionsListMvp.View view, ScheduleSlot slot) {
         super(view);
         this.view.initToobar(formatDateTime(context, slot.getTime()));
         sessions = slot.getSessions();

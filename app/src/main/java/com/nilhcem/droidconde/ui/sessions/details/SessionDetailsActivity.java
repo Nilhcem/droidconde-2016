@@ -39,7 +39,7 @@ import se.emilsjolander.intentbuilder.Extra;
 import se.emilsjolander.intentbuilder.IntentBuilder;
 
 @IntentBuilder
-public class SessionDetailsActivity extends BaseActivity<SessionDetailsPresenter> implements SessionDetailsView {
+public class SessionDetailsActivity extends BaseActivity<SessionDetailsPresenter> implements SessionDetailsMvp.View {
 
     @Extra Session session;
 

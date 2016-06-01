@@ -24,7 +24,7 @@ import static org.mockito.Mockito.verify;
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
 public class ScheduleDayPresenterTest {
 
-    @Mock ScheduleDayView view;
+    @Mock ScheduleDayMvp.View view;
 
     private ScheduleDayPresenter presenter;
     private final List<ScheduleSlot> slots = new ArrayList<>();

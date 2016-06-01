@@ -13,12 +13,12 @@ import com.nilhcem.droidconde.ui.venue.VenueFragment;
 
 import icepick.State;
 
-public class DrawerPresenter extends BaseActivityPresenter<DrawerActivityView> {
+public class DrawerPresenter extends BaseActivityPresenter<DrawerMvp.View> implements DrawerMvp.Presenter {
 
     @State @StringRes int toolbarTitle;
     @State @IdRes int selectedItemId;
 
-    public DrawerPresenter(DrawerActivityView view) {
+    public DrawerPresenter(DrawerMvp.View view) {
         super(view);
     }
 

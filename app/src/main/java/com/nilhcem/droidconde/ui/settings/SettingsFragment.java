@@ -13,7 +13,7 @@ import com.nilhcem.droidconde.utils.Intents;
 
 import javax.inject.Inject;
 
-public class SettingsFragment extends PreferenceFragmentCompat implements SettingsView {
+public class SettingsFragment extends PreferenceFragmentCompat implements SettingsMvp.View {
 
     @Inject SessionsReminder sessionsReminder;
 

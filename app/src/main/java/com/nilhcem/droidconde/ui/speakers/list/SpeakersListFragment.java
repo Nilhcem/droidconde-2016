@@ -24,7 +24,7 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 
-public class SpeakersListFragment extends BaseFragment<SpeakersListPresenter> implements SpeakersListView {
+public class SpeakersListFragment extends BaseFragment<SpeakersListPresenter> implements SpeakersListMvp.View {
 
     @Inject Picasso picasso;
     @Inject DataProvider dataProvider;

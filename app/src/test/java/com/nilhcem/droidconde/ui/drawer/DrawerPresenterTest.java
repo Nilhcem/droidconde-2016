@@ -26,7 +26,7 @@ import static org.mockito.Mockito.when;
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
 public class DrawerPresenterTest {
 
-    @Mock DrawerActivityView view;
+    @Mock DrawerMvp.View view;
     private DrawerPresenter presenter;
 
     @Before

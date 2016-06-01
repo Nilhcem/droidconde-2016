@@ -26,7 +26,7 @@ import javax.inject.Inject;
 import butterknife.BindView;
 
 @FragmentWithArgs
-public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> implements SchedulePagerView {
+public class SchedulePagerFragment extends BaseFragment<SchedulePagerPresenter> implements SchedulePagerMvp.View {
 
     @Arg boolean allSessions;
 

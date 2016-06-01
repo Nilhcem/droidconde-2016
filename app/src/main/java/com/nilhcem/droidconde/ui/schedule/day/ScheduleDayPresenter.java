@@ -7,11 +7,11 @@ import android.view.View;
 import com.nilhcem.droidconde.data.app.model.ScheduleDay;
 import com.nilhcem.droidconde.ui.BaseFragmentPresenter;
 
-public class ScheduleDayPresenter extends BaseFragmentPresenter<ScheduleDayView> {
+public class ScheduleDayPresenter extends BaseFragmentPresenter<ScheduleDayMvp.View> {
 
     private final ScheduleDay scheduleDay;
 
-    public ScheduleDayPresenter(ScheduleDayView view, ScheduleDay scheduleDay) {
+    public ScheduleDayPresenter(ScheduleDayMvp.View view, ScheduleDay scheduleDay) {
         super(view);
         this.scheduleDay = scheduleDay;
     }

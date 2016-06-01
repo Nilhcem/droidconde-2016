@@ -14,9 +14,9 @@ public class SessionsListAdapter extends RecyclerView.Adapter<SessionsListEntry>
     private final List<Session> sessions;
     private final Picasso picasso;
     private final SelectedSessionsMemory selectedSessionsMemory;
-    private final SessionsListView listener;
+    private final SessionsListMvp.View listener;
 
-    public SessionsListAdapter(List<Session> sessions, Picasso picasso, SelectedSessionsMemory selectedSessionsMemory, SessionsListView listener) {
+    public SessionsListAdapter(List<Session> sessions, Picasso picasso, SelectedSessionsMemory selectedSessionsMemory, SessionsListMvp.View listener) {
         this.sessions = sessions;
         this.picasso = picasso;
         this.selectedSessionsMemory = selectedSessionsMemory;

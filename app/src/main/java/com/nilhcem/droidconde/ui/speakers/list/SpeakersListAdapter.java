@@ -13,9 +13,9 @@ public class SpeakersListAdapter extends RecyclerView.Adapter<SpeakersListEntry>
 
     private final List<Speaker> speakers = new ArrayList<>();
     private final Picasso picasso;
-    private final SpeakersListView view;
+    private final SpeakersListMvp.View view;
 
-    public SpeakersListAdapter(Picasso picasso, SpeakersListView view) {
+    public SpeakersListAdapter(Picasso picasso, SpeakersListMvp.View view) {
         this.picasso = picasso;
         this.view = view;
     }

@@ -22,7 +22,7 @@ import se.emilsjolander.intentbuilder.Extra;
 import se.emilsjolander.intentbuilder.IntentBuilder;
 
 @IntentBuilder
-public class SessionsListActivity extends BaseActivity<SessionsListPresenter> implements SessionsListView {
+public class SessionsListActivity extends BaseActivity<SessionsListPresenter> implements SessionsListMvp.View {
 
     @Extra ScheduleSlot slot;
 

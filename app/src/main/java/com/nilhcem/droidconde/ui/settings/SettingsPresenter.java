@@ -7,21 +7,23 @@ import com.nilhcem.droidconde.receiver.reminder.SessionsReminder;
 import com.nilhcem.droidconde.ui.BasePresenter;
 import com.nilhcem.droidconde.utils.App;
 
-public class SettingsPresenter extends BasePresenter<SettingsView> {
+public class SettingsPresenter extends BasePresenter<SettingsMvp.View> implements SettingsMvp.Presenter {
 
     private final Context context;
     private final SessionsReminder sessionsReminder;
 
-    public SettingsPresenter(Context context, SettingsView view, SessionsReminder sessionsReminder) {
+    public SettingsPresenter(Context context, SettingsMvp.View view, SessionsReminder sessionsReminder) {
         super(view);
         this.context = context;
         this.sessionsReminder = sessionsReminder;
     }
 
+    @Override
     public void onCreate() {
         view.setAppVersion(App.getVersion());
     }
 
+    @Override
     public boolean onNotifySessionsChange(boolean checked) {
         view.setNotifySessionsCheckbox(checked);
 

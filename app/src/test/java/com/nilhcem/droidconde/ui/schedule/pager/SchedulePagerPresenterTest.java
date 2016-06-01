@@ -28,7 +28,7 @@ import static org.mockito.Mockito.when;
 @Config(constants = BuildConfig.class, sdk = Build.VERSION_CODES.LOLLIPOP)
 public class SchedulePagerPresenterTest {
 
-    @Mock SchedulePagerView view;
+    @Mock SchedulePagerMvp.View view;
     @Mock DataProvider dataProvider;
 
     private SchedulePagerPresenter presenter;
