@@ -24,6 +24,6 @@ sourceSets {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
-    compile 'com.squareup.moshi:moshi:1.1.0'
+    compile 'com.squareup.moshi:moshi:1.2.0'
     compile 'org.jsoup:jsoup:1.9.2'
 }
