@@ -335,14 +335,6 @@
 	"startAt": "2016-06-17 11:00",
 	"title": "Contextual communications and why you should care."
 }, {
-	"description": "Learn how to use Microsoft's vast array of online services to extend your application with magical capabilities.\nWith two different focused workshops - each 2,5 hours - we will give you the chance to get in-depth hands on experience with Microsoft Cognitive Services. Each workshop will cover a different set of services to get you familiar with the API usage and how you can enrich your apps with the possibilities they offer. After each workshop you will have coded a fully functional Android app and used different Cognitive Service APIs. Don't worry, we will guide you through the whole process and guarantee you'll have a lot of fun!",
-	"duration": 360,
-	"id": 43,
-	"roomId": 3,
-	"speakersId": [45],
-	"startAt": "2016-06-15 10:30",
-	"title": "Workshop: Make Your Apps Human - Get Hands On With Microsoft Cognitive Services"
-}, {
 	"description": "Unit testing on Android is still quite new - two years ago, projects with good tests were quite rare. Even today writing and maintaining tests seem like an unnecessary chore to some, but this doesn't need to be the case.\nI will present my point of view on how writing test code can be as fun as writing a shiny new feature!\nI would like to talk about how software tests are not an annoyance, but a way to improve oneself as a software development professional, by providing proof that your code does exactly what you’ve intended.\nA brief overview of the presentation content:\n•  Some of the reasons Android developers use to avoid testing\n•  When tests should and should not be used\n•  Why code coverage percentage is a meaningless indicator of code quality\n•  How testing can help improve your project's architecture\n•  How to use your tests as both the specification and the verification with TDD\n•  How testing can help with hard-to-debug code, such as when using declarative RxJava\nAfter the talk I would like to gather feedback and talk with the audience about their take on testing.",
 	"duration": 45,
 	"id": 44,
@@ -502,7 +494,7 @@
 	"title": "Lunch"
 }, {
 	"duration": 30,
-	"id": 65,
+	"id": 43,
 	"roomId": 0,
 	"startAt": "2016-06-17 15:30",
 	"title": "Coffee break"
