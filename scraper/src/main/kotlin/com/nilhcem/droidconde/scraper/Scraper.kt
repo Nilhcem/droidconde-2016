@@ -19,14 +19,14 @@ class Scraper {
     }
 
     fun getSpeakers(): List<Speaker> {
-        System.out.println("Get speakers");
+        println("Get speakers")
         return jsoup(SPEAKERS_URL).select("div.view-content .views-row")
                 .map {
                     it.select(".views-field-field-profile-last-name .field-content a").attr("href")
                 }
                 .distinct()
                 .mapIndexed { index, url ->
-                    System.out.println("Get speaker: #" + Integer.toString(index) + " - url: " + url);
+                    println("Get speaker: #" + Integer.toString(index) + " - url: " + url)
                     with (jsoup(url).select("#main-content")) {
                         val name = select("#main-content-header h1").fmtText()
                         val photo = select(".image-style-profile-default").attr("src").replace(Regex("\\?itok=.*$"), "")
@@ -66,13 +66,13 @@ class Scraper {
     }
 
     fun getSessions(speakers: List<Speaker>): List<Session> {
-        System.out.println("Get sessions");
+        println("Get sessions")
         return speakers
                 .flatMap { it.sessions }
                 .distinct()
                 .mapIndexed { index, url ->
                     val fullUrl = "$BASE_URL$url"
-                    System.out.println("Get session: #" + Integer.toString(index) + " - url: " + fullUrl);
+                    println("Get session: #" + Integer.toString(index) + " - url: " + fullUrl)
                     with(jsoup(fullUrl).select(".block-content")) {
                         val title = select(".node-header h1 a").fmtText()
                         val description = select(".field-name-field-session-description .field-items").fmtText()
@@ -111,7 +111,7 @@ class Scraper {
             try {
                 return Jsoup.connect(url).get()
             } catch (e: Exception) {
-                System.err.println("Error: ${e.message}. Retry");
+                System.err.println("Error: ${e.message}. Retry")
                 if (it == nbRetries - 1) {
                     throw e
                 }
