@@ -1,227 +1,227 @@
 [{
-	"description": "Enough with Android apps, now let's build our own custom ROM!\nEver wondered how to modify and compile the Android Open Source Project (AOSP)?\nWant to build you own custom app, or use it for an embedded device?\nHow to start, where to modify, how the work is done. This lecture will explain all the basics and how to continue on your own.",
-	"duration": 30,
-	"id": 1,
-	"roomId": 2,
-	"speakersId": [1],
-	"startAt": "2016-06-17 12:30",
-	"title": "AOSP: Hack your own Android ROM"
-}, {
 	"description": "Reactive Functional Programming becomes more and more recognised as a great way to build reliable and maintainable software. Functional programming paradigms such as Immutability and avoiding statefull objects are considered good practices and something to strive for.\nThat's great! However it is not always straightforward to apply those principles, let alone to create a whole architecture around them.\nRefactoring from an existing code base we will see how we can craft a great architecture and simplify our presentation layer by pushing more concerns as part of our domain.",
 	"duration": 45,
-	"id": 2,
+	"id": 1,
 	"roomId": 4,
-	"speakersId": [2],
+	"speakersId": [1],
 	"startAt": "2016-06-17 14:45",
 	"title": "Let it flow - Unidirectional data flow architecture on Android"
 }, {
 	"description": "In today's world, you can't just build a mobile app and call it done. You need to build a high-quality mobile app and react to your user's needs before they know them. This constant iteration, continuous delivery, is difficult for mobile today. What are the best developers doing today to overcome these limitations? How are the world's best companies implementing continuous delivery for mobile?",
 	"duration": 30,
-	"id": 3,
+	"id": 2,
 	"roomId": 1,
-	"speakersId": [3],
+	"speakersId": [2],
 	"startAt": "2016-06-16 18:30",
 	"title": "Sponsored Closing Keynote: Continuous Everything in Mobile"
 }, {
 	"description": "Themes and styles are the bedrock of your apps styling, yet most developers look at them with fear. What does X attribute do? How do I style Y? This talk will step through the important attributes in the system, and then look at how you can introduce your own custom attributes to make your styling sane.",
 	"duration": 45,
-	"id": 4,
+	"id": 3,
 	"roomId": 3,
-	"speakersId": [4],
+	"speakersId": [3],
 	"startAt": "2016-06-16 11:45",
 	"title": "@style/Themes.And.Styles.Demystified"
 }, {
 	"description": "The mobility of the blind and visually impaired is associated with many barriers and risks. A lot of information that we use without thinking about it is not available to them. This particularly applies to crossing intersections: How does the intersection look like? Is there a bicycle path next to me? Where is the waiting area? Is there an acoustic indicator for the walking signal? And if there isn't, can I walk now? This is made even more difficult by unfavorable environmental conditions such as traffic noise.\nSmartphones have the potential to assist blind and visually impaired people’s mobility. Not only are they literally mobile devices that can be carried around everywhere, they can also sense and connect to the environment and augment the user’s perception. Additionally, also the infrastructure is increasingly being equipped with sensors and communication devices. So why not leverage these factors by creating an app? Within the BMWi (German Federal Ministry of Economics and Technology) funded research project InMoBS (intra-urban-mobility support for the blind and visually impaired), an Android-based prototype of a route planning and navigation system specifically designed for blind and visually impaired users has been developed and evaluated in an exploratory manner.\nIn this talk, you’ll get answers to the following questions:\n• How do blind people use smartphones and how can you make your app more accessible?\n• What are specific challenges when developing a pedestrian navigation app (compared e.g. to vehicle navigation)?\n• How we used Car2X communication infrastructure to show the walking signal directly on the smartphone.\n• How we incorporated feedback from blind and visually impaired people into the development process and how the app performed in a field evaluation.\nAfter this talk you will have a good idea about some of the potential smartphones and smart cities have to make mobility easier and safer for everyone in the not-too-distant future.",
 	"duration": 45,
-	"id": 5,
+	"id": 4,
 	"roomId": 1,
-	"speakersId": [5],
+	"speakersId": [4],
 	"startAt": "2016-06-17 14:45",
 	"title": "How Android smartphones can help blind people’s mobility"
 }, {
 	"description": "Android TV is a growing platform which provides some great oppourtunities for developers to craft exciting applications users can enjoy from the comfort of their armchairs. However, documentation for the platform is sparse - so in this session we'll be looking at how we can create Android TV apps with the help of Google's leanback library, with the aim to educatte both developers AND designers on what is possible both out-of-the box and with our own crafting!\nAfter a brief introduction to the TV platform and an open-source Vine TV app I've built (Vineyard), we'll move straight into how you can begin building applications for yourself using the leanback library and the different components that it provides - ensuring that you're following best practices along the way. We'll take a look at the different components that are provided by the framework and how you can craft custom components of your own to enhance your applications UX.\nSeeing as Android TV applications are completely testable, we'll also take a bried look at how this can be done to ensure your app functions as expected!",
 	"duration": 45,
-	"id": 6,
+	"id": 5,
 	"roomId": 4,
-	"speakersId": [6],
+	"speakersId": [5],
 	"startAt": "2016-06-16 16:00",
 	"title": "Android TV: Building apps with Google’s Leanback library"
 }, {
 	"description": "In a world of patchy mobile internet connections, with mobile users dipping in and out of service areas, as an App developer, how can you guarantee that your users get a satisfying user experience when using your app? One technique is to take an \"offline-first\" approach; storing data locally on device and syncing to the cloud later. This talk shows how free, open-source technology can be used to achieve an \"always on\" app without vendor lock-in.",
 	"duration": 45,
-	"id": 7,
+	"id": 6,
 	"roomId": 2,
-	"speakersId": [7],
+	"speakersId": [6],
 	"startAt": "2016-06-16 11:45",
 	"title": "Offline-First Apps for an Always-On UX"
 }, {
 	"description": "When we speak about accessibility in design, we refer to the degree in which a product or service is available to every user, regardless of language, culture, location or physical or mental abilities.\nDesigning applications for such a diverse set of users can be a daunting task for any designer, so this talk will introduce a set of guidelines that can help us to integrate accessibility considerations into our everyday design process, without hindering creativity.",
 	"duration": 45,
-	"id": 8,
+	"id": 7,
 	"roomId": 1,
-	"speakersId": [8],
+	"speakersId": [7],
 	"startAt": "2016-06-17 14:00",
 	"title": "Designing for Accessibility"
 }, {
 	"description": "Performance matters if you want to be able to provide buttery smooth, exceptional user experiences. However, it can sometimes be difficult to track down and fix these issues. In this talk I’ll explain what causes jank (dropped frames) to occur while scrolling, tips on how to avoid it in the first place, and lastly how to profile for problem areas if it does happen to you.",
 	"duration": 45,
-	"id": 9,
+	"id": 8,
 	"roomId": 3,
-	"speakersId": [9],
+	"speakersId": [8],
 	"startAt": "2016-06-16 14:00",
 	"title": "Optimizing and Profiling UI Performance"
 }, {
 	"description": "Wouldn't it be great if your testing procedure was just a matter of looking through a folder of screenshots to see if everything looked as expected. No more manual testing or following complicated scripts to reproduce all the edge cases! It's possible, but it'll take some work.\nIn this presentation, I will give an overview of the steps necessary to implement this testing utopia:\n• Dependency injection\n• Mocked dependencies\n• Espresso testing\n• Fastlane Screengrab\nCome find out how to make your testing as easy as watching a slideshow.",
 	"duration": 45,
-	"id": 10,
+	"id": 9,
 	"roomId": 4,
-	"speakersId": [10],
+	"speakersId": [9],
 	"startAt": "2016-06-16 11:45",
 	"title": "Screenshot your Entire App"
 }, {
 	"description": "There are various widgets to create user interfaces in Android Framework. Using these widgets is a starting point but they are not enough to create awesome apps. Fortunately, alternative methods are here to rescue! I mean understanding and extending the View class.\nIn this presentation, I will give just one example Custom View which will have all the basic customness to show why we need one. Then, I will show how to apply Material Design principles in Custom Views while supporting the older platform versions. I will cover all the goodness coming from the latest versions of the support libraries including View theming and tinting support.\nIf you want to be beyond the limits of ordinary, open to innovation and surprise your users, this talk is for you.",
 	"duration": 45,
-	"id": 11,
+	"id": 10,
 	"roomId": 4,
-	"speakersId": [11],
+	"speakersId": [10],
 	"startAt": "2016-06-16 14:45",
 	"title": "Material Design Custom Views"
 }, {
 	"description": "XML layouts are the foundation of Android UI, and while they are seemingly straightforward, understanding how to develop efficient, “lean” layouts can be vital to both user experience and app performance.\nThis session examines the importance of lean layouts, tools for analyzing layouts and their performance, tips and techniques for making layouts leaner, common mistakes and misconceptions, and general good practices.",
 	"duration": 45,
-	"id": 12,
+	"id": 11,
 	"roomId": 1,
-	"speakersId": [12],
+	"speakersId": [11],
 	"startAt": "2016-06-16 11:45",
 	"title": "Loving Lean Layouts"
 }, {
 	"description": "Nick Butcher, developer advocate at Google, has open sourced an android app called Plaid with an outstanding UI, meaningful animations and a lot of others material design goodies.\nHowever, from the software architecture’s point of view, the architecture of this app more “traditional” so that both, beginners and expert developers, can understand the source code easily. Unfortunately, that means that there is a lack of separation of concerns that modern software architectures offers. This talk discusses how to improve the architecture of this app by applying Model-View-Presenter (MVP) to create modular and decoupled components that are easy to test. Furthermore, this talk shows how to improve the code quality by using well known libraries like RxJava (foreknowledge is not a strong requirement), dependency injection and how to test such an App by doing Test-Driven-Development (TDD) from the very beginning.\nThe aim of this talk is to showcase the importance of a well thought out software architecture and how to implement such an MVP based architecture and last but not least to clarify what the word “reactive” actually means in this context.",
 	"duration": 45,
-	"id": 13,
+	"id": 12,
 	"roomId": 1,
-	"speakersId": [13],
+	"speakersId": [12],
 	"startAt": "2016-06-16 11:00",
 	"title": "Refactoring Plaid App - A reactive MVP approach"
 }, {
 	"description": "ClassyShark - a handy Android executables viewer, https://github.com/google/android-classyshark. I am Boris Farber, Developer Advocate at Google, focusing on Android data intensive apps. I want to show how using ClassyShark you can analyse and troubleshoot the most painful problems around runtime failures.\n1. Obfuscation\n2. Native methods counts\n3. classes.dex break down\n3. Generating test stubs\n…",
 	"duration": 45,
-	"id": 14,
+	"id": 13,
 	"roomId": 3,
-	"speakersId": [14],
+	"speakersId": [13],
 	"startAt": "2016-06-17 16:00",
 	"title": "10 ways to analyse runtime failures with ClassyShark"
 }, {
 	"description": "The paper metaphor, bright colors and print like typography are what make Material design beautiful. What really lets it shine though is movement!\nWhile it’s not hard to animate single Android ui components, it becomes harder when these components and their animations shall depend on each other. With CoordinatorLayout the official Android Design Support Library provides a powerful, top-level ui component to make these highly dynamic dependencies easily manageable.\nThe first part of this session wants to cover what’s possible out of the box using CoordinatorLayout together with some other widgets and latest additions of the Design Support Library.\nThe second half then aims to provide deeper insights of how CoordinatorLayout actually works. The talk will explain the basic concepts it is build on as well as its apis that developers can use to build their own ui behaviors.\nAfter the talk you will be able to define complex dependencies between your ui components and make your app shine without losing your mind in animation listener hell.",
 	"duration": 45,
-	"id": 15,
+	"id": 14,
 	"roomId": 1,
-	"speakersId": [15],
+	"speakersId": [14],
 	"startAt": "2016-06-16 16:45",
 	"title": "Are you coordinating already?"
 }, {
 	"description": "Micro-service architecture is one of the most hyped topics in backend development the last few years.  However, when it comes to mobile projects, in most cases, we are stuck with big monoliths in our code bases.\nIn combination with agile environments, that causes problems not only in project scalability, but also team flexibility.\nAt Babbel, we work in full-stack product development  teams, implementing scrum and also set up Android projects, based on a fully modular architecture. This approach allowed us to reduce dependencies and achieve team autonomy, and also sustain a very flexible and highly maintainable code-base.\nThis session will be a showcase of our current project architecture, focusing on tools (Gradle, Git Subtrees , Dagger 2, CIs) and best implementation practices, including code examples and configuration snippets.\nWe will explore the flexibility that modular architecture provides for feature switches, versioning, demos, testing, quality gates and DCL, but also the overhead of the configuration, the build times and shared code ownership.\nWe will also provide migration guidelines from monolith to modular project set-up.",
 	"duration": 30,
-	"id": 16,
+	"id": 15,
 	"roomId": 1,
-	"speakersId": [16, 26],
+	"speakersId": [15, 25],
 	"startAt": "2016-06-16 12:30",
 	"title": "Modular Android Development"
 }, {
 	"description": "In this session we will learn the basics of Unit Testing and its importance. We will define what a Unit Test is, what type of Unit Tests there are and then talk about Test Doubles. Finally, we will focus on how to write new tests and improve existing ones by reviewing some Android Github projects.\nCan you sleep soundly without writing tests? Really???",
 	"duration": 45,
-	"id": 17,
+	"id": 16,
 	"roomId": 2,
-	"speakersId": [17],
+	"speakersId": [16],
 	"startAt": "2016-06-17 16:00",
 	"title": "Elegant?? Unit Testing"
 }, {
 	"description": "Join our journey! We are sharing our hands-on experience of building an industrial device based on a customized Android platform with you.\nThis talk is targeting system architects, software architects and software engineers having a distinct sense for performance-aware programming on Android.\n• Create your own hardware platform\n• Customize the Android BSP\n• Key concepts of application architecture\nA traditional programming approach quickly reached its performance limit when processing sensor data with a high sampling frequency. How can we avoid frequent garbage collections? How can we offload as much as possible from the UI thread?\nThe key concepts of the chosen application architecture will be discussed in detail:\n• simple concurrency with actor model\n• data flow & event driven design\n• performance aware programming on low-end hardware\n• lockless & heapless queue for single producer / single consumer\n• real-time data visualization of sensors with 200Hz sampling rate",
 	"duration": 45,
-	"id": 18,
+	"id": 17,
 	"roomId": 1,
-	"speakersId": [18],
+	"speakersId": [17],
 	"startAt": "2016-06-17 11:00",
 	"title": "Android industrial: Real-time data visualization"
 }, {
 	"description": "Docker as an open platform for building, shipping and running distributed applications is gaining a lot of momentum. Especially a part building can be very interesting for Android developers. By dealing with various IDEs, build systems, build tools, libraries, Android APIs and so on, Docker can be a quite handy helper in a developer's toolbox. Also closing of parse.com has given a new meaning to a Docker's running part too. We will have a short look what Docker is, will show some use cases related to Android development and share experiences from our daily developer's life.",
 	"duration": 45,
-	"id": 19,
+	"id": 18,
 	"roomId": 3,
-	"speakersId": [19],
+	"speakersId": [18],
 	"startAt": "2016-06-17 14:00",
 	"title": "Docker for Android Developer"
 }, {
 	"description": "Remembering all the promising augmented reality demos you've seen 2009 when smartphones got popular? Fluent indoor navigation, interactive games, repairing your washing machine with the help of your smartphone? Why have all those promising apps never made it into reality? To find the answer we'll look at the challenges of augmented reality applications like camera tracking, lightning models, 3D occlusion and shadows, and how professional VFX studios tackle these problems in their movie productions. And we'll check how Google's Project Tango helps us getting augmented reality apps to work as they have been promised for a long time.",
 	"duration": 45,
-	"id": 20,
+	"id": 19,
 	"roomId": 3,
-	"speakersId": [20],
+	"speakersId": [19],
 	"startAt": "2016-06-16 14:45",
 	"title": "Augmented Reality and VisualFX with Project Tango"
 }, {
 	"description": "Bluetooth Low Energy was announced for Android 4.3 (Jelly Bean MR2, API level 18) and the API has received some updates with each new version since then. Unfortunately, the way the API works and the number of undocumented \"features\" in the Bluetooth stack on Android has made it very difficult to work with. Regardless if you're doing something simple like scanning for beacons or doing two-way communciation with another device, you're bound to run into problems that can be both hard to identify and difficult to fix.\nIn this session we will go through the most common pitfalls regarding Bluetooth LE on Android and how to deal with them. You'll learn how to properly scan for devices, connect to them, and exchange data. An introduction to Bluetooth LE concepts, such as GATT, services, characteristics and descriptors will also be included. After this session, you'll be better prepared to implement Bluetooth LE in your own applications.",
 	"duration": 45,
-	"id": 21,
+	"id": 20,
 	"roomId": 3,
-	"speakersId": [21],
+	"speakersId": [20],
 	"startAt": "2016-06-17 11:00",
 	"title": "Practical Bluetooth LE on Android"
 }, {
 	"description": "The slogan '#PERFMATTERS' by Colt McAnlis is one of the most important statements, which an Android developer should follow. A well performing application makes the difference between a nice looking application and one, which gets successful. You, as an Android developer, have the responsibility to delight your users, so they don't feel how much work your application has to burden to fulfill the user's needs. This session will show you some easy optimizations and how to avoid glitches in the application. A lot of developers would shout, that this is premature optimization. In contrary it is preventive. With a small amount of work while developing you can avoid a lot of pitfalls. You will hopefully have a better understanding of the underlying system afterwards. During the session some tools and frameworks will be presented for helping you to fulfill your mission.",
 	"duration": 45,
-	"id": 22,
+	"id": 21,
 	"roomId": 2,
-	"speakersId": [22],
+	"speakersId": [21],
 	"startAt": "2016-06-17 11:45",
 	"title": "#PERFMATTERS for Android"
 }, {
 	"description": "Sony’s Open Devices program allows every developer, from novice to advanced, to build and customize 2014+ devices with open source software using minimal pre-compiled binaries, while using as much open source code as possible. This kind of approach enables any developer to implement new customizations, security enhancements, and power or speed optimizations, since everything is built from open source code. With Open Devices, you can easily port any Custom (Android or Android Based) ROM to all supported devices, since all devices use the same 3.10 kernel tree and same prebuilt libraries. To recognize open source developers who are actively contributing, we have initiated the Hero Developer reward program. Want know more about it and our Open Devices Project? Join us at this session and talk with our developers!",
 	"duration": 45,
-	"id": 23,
+	"id": 22,
 	"roomId": 4,
-	"speakersId": [23],
+	"speakersId": [22],
 	"startAt": "2016-06-16 14:00",
 	"title": "Open Devices Project – Open Source on Sony Devices"
 }, {
 	"description": "SQLite is a great mobile database, but often interacting painful to interact with. That’s why Object/Relational Mappers (ORMs) exist: they provide a convenient object-oriented API. This session will review recent advancements of popular ORM options, and how they relate to SQLite, ContentProviders, and alternative databases.\nBecause few apps use data isolated on a single device, this session also covers data synchronization options. Synchronization frameworks like Firebase from Google makes synchronization easy and gained lots of traction lately. But many developers still rely on hand-made custom solutions around REST and JSON. Making the right choice here and being aware of the up- and downsides is central for successful app development. That’s why the session gives an overview and discusses the pros and cons of each solution.",
 	"duration": 45,
-	"id": 24,
+	"id": 23,
 	"roomId": 4,
-	"speakersId": [24],
+	"speakersId": [23],
 	"startAt": "2016-06-17 14:00",
 	"title": "Professional Data Persistence and Synchronization"
 }, {
 	"description": "The Developer Preview of the next release of Android is here early this year, with a host of new features and APIs such as multi-window mode, notification enhancements and many behavior changes targeting battery life and system health. It's the best time to start testing your apps to make sure you're ready for the final release later this year. We are also eager to hear feedback on the N Developer Preview so that we can make sure we deliver the best possible product for developers to build upon.",
 	"duration": 45,
-	"id": 25,
+	"id": 24,
 	"roomId": 1,
-	"speakersId": [25],
+	"speakersId": [24],
 	"startAt": "2016-06-16 14:00",
 	"title": "What's new in Android"
 }, {
 	"description": "Android 6.0 introduces a new permissions model that gives more control to users. It's a completely new spin on application permissions and there are some caveats to watch out for. Even if you don't want to update your app to API level 23, there is a potential danger that your app will crash or misbehave on device running Marshmallow.\nBy adapting a large codebase to runtime permissions model we gained some experience which I would like to share. First of all we will compare it with original model to understand what has changed. Then we will dig into the core of the new model implementation to see how it actually works. We'll check new APIs and I'll show the good, the bad and the ugly it did to our code. Last but not least we'll talk about changes needed in tests and difficulties we had with automation.",
 	"duration": 45,
-	"id": 26,
+	"id": 25,
 	"roomId": 2,
-	"speakersId": [27],
+	"speakersId": [26],
 	"startAt": "2016-06-16 14:45",
 	"title": "May I?"
 }, {
 	"description": "More than 75% of the population of The Sub-Saharan Africa is without access to the power grid.  Solar Home Systems are providing  clean, reliable and affordable access to energy to these people. Smart Phone penetration is rising rapidly even in rural areas of East Africa. More than 30% of Mobisol’s new  customer own a Smartphone - almost 100% driven by Android. Using this phone as a functional extension to a Solar Home System is tempting.\nConnecting a Solar Home System with an Android Phone is technically challenging as the variety of low end Android phones and frequent model changes will not allow you to trust on standards.\nDuring the talk we will explain how we developed an Android based solution to communicate and collect data  from our solar home systems and how we use this data in an app that we offer to our customers to provide smart functionality. We'll tell about our experiences with communication over USB using an Android Open Accessory as well as over Bluetooth, how we created a prototype using IOIO OTG and how we later built a custom made USB Accessory embedded in our solar home systems, as well as difficulties we experienced while doing these.",
 	"duration": 30,
-	"id": 27,
+	"id": 26,
 	"roomId": 3,
-	"speakersId": [28, 64],
+	"speakersId": [27, 64],
 	"startAt": "2016-06-17 12:30",
 	"title": "Android and off-grid Smart Homes in rural Africa"
 }, {
 	"description": "Kotlin is a new language for the JVM that aims to be a \"better Java\". Made in-house by Jetbrains, the company behind IntelliJ IDEA and also Android Studio, it's been in development for more than 5 years. Just a few months ago the final version of Kotlin 1.0 saw the light of day.\nStarting off with Kotlin for Java development and for Android is actually quite straight forward. There's a lot of well written documentation, there are the Kotlin Koans and blogs seem to pick up Kotlin-related topics more and more. What a lot of people are not aware of though is that there are a bunch of really useful libraries and tools for Kotlin developers, in particular on Android (the most common and well known one being Ando).\nThis session will start with a quick introduction into Kotlin and its benefits over Java. Then we'll dive into the Kotlin-Android-ecosystem and look at a variety of Kotlin tools and libraries that can make one's life much easier - even to a level going beyond what core Kotlin already has to offer.",
 	"duration": 45,
+	"id": 27,
+	"roomId": 4,
+	"speakersId": [28],
+	"startAt": "2016-06-17 11:00",
+	"title": "Little helpers for Android development with Kotlin"
+}, {
+	"description": "Hardware for building sensor networks is becoming much more affordable and easier to use for everyday applications.  Sensor networks are being utilised for everything from HVAC systems to tracking and monitoring the mechanical health of train cars. For the purpose of this talk we have chosen to demonstrate the power of sensor networks by building a pet monitoring system for the future. Our pets are near and dear to us; we want them protected and healthy. The goal is to give an overview of sensor networks and how they can be applied in various industries, and in particular, as in this case study, pet protection. How do we build the network, what technology is available and architecture design issues will be addressed.  Android plays a critical part and will be the glue for the system (control and data visualisation).  We hope you will gain insight into the potential of sensor networks when combined with the Android OS.",
+	"duration": 45,
 	"id": 28,
 	"roomId": 4,
 	"speakersId": [29],
-	"startAt": "2016-06-17 11:00",
-	"title": "Little helpers for Android development with Kotlin"
+	"startAt": "2016-06-17 16:45",
+	"title": "Network your pet: Adventures in Sensor Networking"
 }, {
 	"description": "In this session, we will talk about the past, the present and the future of Android Wear. Come and find out the new developer features in Android Wear 2.0 and what developers / designers should do to get ready!",
 	"duration": 45,
@@ -487,39 +487,39 @@
 	"startAt": "2016-06-16 17:30",
 	"title": "Effective Android Development"
 }, {
-       "duration": 90,
-       "id": 63,
-       "roomId": 0,
-       "startAt": "2016-06-16 08:30",
-       "title": "Accreditation"
+	"duration": 90,
+	"id": 63,
+	"roomId": 0,
+	"startAt": "2016-06-16 08:30",
+	"title": "Accreditation"
 }, {
-       "duration": 15,
-       "id": 64,
-       "roomId": 1,
-       "startAt": "2016-06-16 10:00",
-       "title": "Welcome note"
+	"duration": 15,
+	"id": 64,
+	"roomId": 1,
+	"startAt": "2016-06-16 10:00",
+	"title": "Welcome note"
 }, {
-       "duration": 60,
-       "id": 65,
-       "roomId": 0,
-       "startAt": "2016-06-16 13:00",
-       "title": "Lunch"
+	"duration": 60,
+	"id": 65,
+	"roomId": 0,
+	"startAt": "2016-06-16 13:00",
+	"title": "Lunch"
 }, {
-       "duration": 30,
-       "id": 66,
-       "roomId": 0,
-       "startAt": "2016-06-16 15:30",
-       "title": "Coffee break"
+	"duration": 30,
+	"id": 66,
+	"roomId": 0,
+	"startAt": "2016-06-16 15:30",
+	"title": "Coffee break"
 }, {
-       "duration": 30,
-       "id": 67,
-       "roomId": 0,
-       "startAt": "2016-06-17 13:00",
-       "title": "Lunch"
+	"duration": 30,
+	"id": 67,
+	"roomId": 0,
+	"startAt": "2016-06-17 13:00",
+	"title": "Lunch"
 }, {
-       "duration": 30,
-       "id": 45,
-       "roomId": 0,
-       "startAt": "2016-06-17 15:30",
-       "title": "Coffee break"
+	"duration": 30,
+	"id": 45,
+	"roomId": 0,
+	"startAt": "2016-06-17 15:30",
+	"title": "Coffee break"
 }]
