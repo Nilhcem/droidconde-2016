@@ -495,9 +495,9 @@
 }, {
 	"duration": 15,
 	"id": 64,
-	"roomId": 1,
+	"roomId": 0,
 	"startAt": "2016-06-16 10:00",
-	"title": "Welcome note"
+	"title": "Welcome note (Stage 1)"
 }, {
 	"duration": 60,
 	"id": 65,
@@ -511,15 +511,27 @@
 	"startAt": "2016-06-16 15:30",
 	"title": "Coffee break"
 }, {
-	"duration": 30,
+	"duration": 90,
 	"id": 67,
+	"roomId": 0,
+	"startAt": "2016-06-17 08:30",
+	"title": "Accreditation"
+}, {
+	"duration": 60,
+	"id": 68,
 	"roomId": 0,
 	"startAt": "2016-06-17 13:00",
 	"title": "Lunch"
 }, {
 	"duration": 30,
-	"id": 45,
+	"id": 69,
 	"roomId": 0,
 	"startAt": "2016-06-17 15:30",
 	"title": "Coffee break"
+}, {
+	"duration": 30,
+	"id": 45,
+	"roomId": 0,
+	"startAt": "2016-06-17 17:30",
+	"title": "Closing (Stage 1)"
 }]
