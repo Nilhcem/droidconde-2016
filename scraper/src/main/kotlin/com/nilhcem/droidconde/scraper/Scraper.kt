@@ -37,11 +37,13 @@ class Scraper {
                         val sessions = select(".view-ncms-speaker-sessions-current a").map { it.attr("href") }
 
                         val title = getSpeakerTitle(job, company)
-                        val twitter = links.filter { it.contains("twitter.com", true) }.firstOrNull()
-                        val github = links.filter { it.contains("github.com", true) }.firstOrNull()
-                        val website = links.filter { !it.equals(twitter) && !it.equals(github) }.firstOrNull()
+                        val twitterUrl = links.filter { it.contains("twitter.com/", true) }.firstOrNull()
+                        val twitterHandle = getHandleFromUrl(twitterUrl)
+                        val githubUrl = links.filter { it.contains("github.com/", true) }.firstOrNull()
+                        val githubHandle = getHandleFromUrl(githubUrl)
+                        val website = links.filter { !it.equals(twitterUrl) && !it.equals(githubUrl) }.firstOrNull()
 
-                        Speaker(index + 1, name, title, photo, bio, website, twitter, github, sessions)
+                        Speaker(index + 1, name, title, photo, bio, website, twitterHandle, githubHandle, sessions)
                     }
                 }
     }
@@ -135,5 +137,14 @@ class Scraper {
                 .replace(Regex("</?strong>", IGNORE_CASE), "")
                 .replace(Regex("</?em>", IGNORE_CASE), "")
                 .replace(Regex("\\s*\n\\s*"), "\n").replace(Regex("^\n"), "").replace(Regex("\n$"), "")
+    }
+
+    private fun getHandleFromUrl(url: String?): String? {
+        if (url == null) {
+            return null
+        }
+
+        val urlWithoutLastSlash = if (url.last() == '/') url.substring(0, url.length - 1) else url
+        return urlWithoutLastSlash.substring(urlWithoutLastSlash.lastIndexOf("/") + 1)
     }
 }
