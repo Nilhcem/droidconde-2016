@@ -197,7 +197,7 @@
 	"bio": "I'm Tal, a Berlin based Android Developer at Mobisol. Prior to this position I was working on developing a cloud based mobile testing service at TestObject. In a \"previous\" life I was a full time musician and nowadays I stay connected to that arty side by doing freelance work for site specific stage arts projects and well as some open source work for the Android port of the \"Pure Data\" programming environment.",
 	"github": "tkirshboim",
 	"id": 27,
-	"name": "Tal",
+	"name": "Tal Kirshboim",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/tal-portrait.jpg",
 	"title": "Android Developer @ Mobisol",
 	"twitter": "kirsh300"
@@ -334,7 +334,7 @@
 	"bio": "Bernard Pletikosa has started playing with Android as a student in Zagreb few years ago.\nCurrently, he is working as an Android engineer at Relayr in Berlin bringing things to life by building Relayr IoT SDKs and manager apps.\nIn his free time, he likes to hit the rowing machine while watching TV shows.",
 	"github": "bernardpletikosa",
 	"id": 44,
-	"name": "bpletikosa",
+	"name": "Bernard Pletikosa",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/IMG_8081.jpg",
 	"title": "Android engineer @ Relayr",
 	"twitter": "bpletikosa",
@@ -426,7 +426,7 @@
 }, {
 	"bio": "Steven is product manager for Google's developer APIs for authentication on Android, including Google Sign-In and Smart Lock for Passwords. He previously worked as an engineer on Android apps at Google, did Android development at several several start-up companies, and wrote the original Facebook Android SDK launched in 2010.",
 	"id": 56,
-	"name": "soneff",
+	"name": "Steven Soneff",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/331_544247437815_1136_n.jpg",
 	"title": "Product Manager @ Google Identity Platform"
 }, {
@@ -461,7 +461,7 @@
 }, {
 	"bio": "Software engineer in Pinterest",
 	"id": 61,
-	"name": "linwang",
+	"name": "Lin Wang",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/Lin-Wang-shrinked.png",
 	"title": "Software Engineer"
 }, {
@@ -483,7 +483,7 @@
 }, {
 	"bio": "Stefan is CIO at Mobisol GmbH.",
 	"id": 64,
-	"name": "zelazny",
+	"name": "Stefan Zelazny",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/zelazny_0.jpg",
 	"title": "CIO"
 }, {
