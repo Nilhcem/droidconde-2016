@@ -2,7 +2,7 @@
 
 Sample app for the "2016 Android Developer Toolbox" talk at droidconDE
 
-[<img src="https://dply.me/cq7ddn/button/large" alt="Try it on your device via DeployGate">](https://dply.me/cq7ddn#install)
+[<img src="https://dply.me/by7ouh/button/large" alt="Try it on your device via DeployGate">](https://dply.me/by7ouh#install)
 
 
 ## Features
