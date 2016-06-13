@@ -1,5 +1,6 @@
 package com.nilhcem.droidconde.ui.venue;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -21,6 +22,7 @@ public class ZoomableImageActivity extends BaseActivity<ZoomableImageActivity.Zo
         PhotoView view = new PhotoView(this);
 
         view.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.venue_rooms));
+        view.setBackgroundColor(ContextCompat.getColor(this, android.R.color.white));
         getSupportActionBar().setTitle(R.string.venue_see_rooms);
         setContentView(view);
     }
