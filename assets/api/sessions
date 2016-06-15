@@ -309,7 +309,7 @@
 	"roomId": 3,
 	"speakersId": [40, 63],
 	"startAt": "2016-06-17 16:45",
-	"title": "\"Let's get physical\" with Nearby and Eddystone"
+	"title": "Let's get physical - with Nearby and Eddystone"
 }, {
 	"description": "You have probably heard of ModelViewController, ModelViewPresenter and ModelViewViewModel. But what about Redux? „The predictable state container for JavaScript apps.“? Well, it's not only for JavaScript...\nRedux helps you to write applications that behave consistently; where state is managed in a single store and data flows properly to and from your Activities, Fragments, Presenters, ViewModels, … your entire app!\nStop worrying about duplicated states and  unpredictable mutations!\nLearn how a design pattern derived from Facebook's Flux application architecture can simplify the features of your Android application and improve their testability at the same time. It also provides you new ways to debug your application and take control of your application’s data flow!",
 	"duration": 45,
@@ -319,7 +319,7 @@
 	"startAt": "2016-06-17 11:45",
 	"title": "Redux on Android"
 }, {
-	"description": "During last Google IO conference Google presented Android Data Binding Library. I would like to show how to use it with Model-View-ViewModel (MVVM) design pattern.\nData Binding Library is currently in beta but definitely it will become the new standard for Android developers, the sooner we start to learn it the better for us and our projects!\nIn this talk I will explain how MVVM works, why we really need it and how this design pattern can make UI code easier to read, test and maintain.",
+	"description": "During last year Google IO conference Google presented Android Data Binding Library.\nData Binding Library is currently in beta but definitely, it will become the new standard for Android developers, the sooner we start to learn it the better for us and our projects!\nIn this talk, I show new features announced during Google IO 2016, explain how to implement two-way data binding properly (demo and example project included) and how to use it with MVVM pattern.\nFinally, I will share hints and possible problems you may encounter.",
 	"duration": 45,
 	"id": 41,
 	"roomId": 4,

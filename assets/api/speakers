@@ -105,10 +105,10 @@
 	"twitter": "mtthsfrdrch",
 	"website": "https://google.com/+MatthiasFriedrich"
 }, {
-	"bio": "I've been working with Android for almost 5 years now. Currently I'm working at Babbel developing our new Android app.\nAlong my developer carreer I've become more and more interesting in test driven development and started building my software mostly targetting testability. With Android this is no different. I always try to have a clean and understandable architecture which welcomes testing as much as possible.",
+	"bio": "I've been working with Android for almost 5 years now. Currently I'm working at Babbel developing our new Android app.\nAlong my developer carreer I've become more and more interested in test driven development and started building my software mostly targetting testability. With Android this is no different. I always try to have a clean and understandable architecture which welcomes testing as much as possible.",
 	"id": 15,
 	"name": "Frederico Gonçalves",
-	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/Photo%20on%2025-02-16%20at%2017.35.jpg",
+	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/IMG-20160613-WA0003.jpg",
 	"title": "Android Engineer @ Babbel - Lesson Nine GmbH"
 }, {
 	"bio": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @devscola and @theEvnt facilitating coding dojos, katas and other stuff.",
@@ -272,7 +272,8 @@
 	"id": 36,
 	"name": "Felix Meißgeier",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/memyselfandi2_0.png",
-	"title": "Co-founder and Head of Mobile @ Viscopic",
+	"title": "Co-founder and Head of Technology @ Viscopic GmbH",
+	"twitter": "felixmeissgeier",
 	"website": "http://www.viscopic.com"
 }, {
 	"bio": "Nicoleta Mihali is working as a Technical Evangelist for Microsoft Germany with a focus on natural user interface technologies, like Kinect and Cortana.   She works with developers and students to help them learn how to design and build more personal and user-friendly apps.",
@@ -406,7 +407,8 @@
 	"name": "Lydia Selimalhigazi",
 	"photo": "http://droidcon.de/sites/global.droidcon.cod.newthinking.net/files/styles/profile_default/public/media/pictures/selimalhigazi.jpg",
 	"title": "Senior Interaction (UX/UI) Designer @ Clue",
-	"website": "http://droidcon.de/en/%40Lys_Lydia"
+	"twitter": "lys_lydia",
+	"website": "https://dribbble.com/lyslydia"
 }, {
 	"bio": "Caroline is a UI/UX designer at Novoda in Berlin where she designs for Android. She is passionate about user-centric design and designer/developer pairing.",
 	"id": 54,
