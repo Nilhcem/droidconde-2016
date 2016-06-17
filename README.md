@@ -2,6 +2,9 @@
 
 Sample app for the "2016 Android Developer Toolbox" talk at droidconDE
 
+[Install via Aptoide](http://m.nilhcem.store.aptoide.com/app/market/com.nilhcem.droidconde/1/19359129/droidcon+Berlin+2016)
+
+
 [<img src="https://dply.me/by7ouh/button/large" alt="Try it on your device via DeployGate">](https://dply.me/by7ouh#install)
 
 
