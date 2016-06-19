@@ -4,6 +4,7 @@ import android.os.Build;
 
 import com.frogermcs.androiddevmetrics.AndroidDevMetrics;
 import com.nilhcem.droidconde.core.dagger.AppComponent;
+import com.nilhcem.droidconde.core.log.CrashFsPersister;
 import com.nilhcem.droidconde.debug.lifecycle.ActivityProvider;
 import com.nilhcem.droidconde.debug.stetho.StethoInitializer;
 
@@ -24,6 +25,11 @@ public class InternalDroidconApp extends DroidconApp {
      */
     private static final boolean ENABLE_ANDROID_DEV_METRICS = false;
 
+    /**
+     * Change it manually if you want crashes to be persisted on the external app cache directory
+     */
+    private static final boolean ENABLE_UNCAUGHT_EXCEPTION_PERSISTER = false;
+
     @Inject StethoInitializer stetho;
     @Inject ActivityProvider activityProvider;
 
@@ -33,6 +39,7 @@ public class InternalDroidconApp extends DroidconApp {
         AppComponent.Initializer.init(this).inject(this);
         displayFps(true);
         initAndroidDevMetrics();
+        initUncaughtExceptionHandler();
         stetho.init();
         activityProvider.init(this);
     }
@@ -56,6 +63,12 @@ public class InternalDroidconApp extends DroidconApp {
     private void initAndroidDevMetrics() {
         if (ENABLE_ANDROID_DEV_METRICS) {
             AndroidDevMetrics.initWith(this);
+        }
+    }
+
+    private void initUncaughtExceptionHandler() {
+        if (ENABLE_UNCAUGHT_EXCEPTION_PERSISTER) {
+            Thread.setDefaultUncaughtExceptionHandler(new CrashFsPersister(this));
         }
     }
 }
